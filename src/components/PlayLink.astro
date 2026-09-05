@@ -1,0 +1,9 @@
+---
+import { PLAY_URL } from '../config';
+interface Props { compact?: boolean; light?: boolean }
+const { compact = false, light = false } = Astro.props;
+---
+<a class:list={['play-link', { compact, light }]} href={PLAY_URL}>
+  <span>{compact ? 'Get the Android app' : 'Get CatchID on Google Play'}</span>
+  <span aria-hidden="true">↗</span>
+</a>
