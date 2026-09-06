@@ -352,6 +352,17 @@ strong {
 .screen-link img {
   width: 100%;
 }
+.journal-explore {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  margin-top: 14px;
+  color: var(--teal);
+  font-size: 13px;
+  line-height: 1.6;
+  text-underline-offset: 4px;
+}
 .image-note {
   font-size: 11px;
   color: var(--muted);

@@ -7,8 +7,8 @@ import identify from '../assets/identify.jpg';
 import journal from '../assets/journal.jpg';
 import insights from '../assets/insights.jpg';
 import '../styles/global.css';
-const title = 'CatchID — Identify your catch. Build your fishing story.';
-const description = 'Help identify your catch, keep a personal fishing journal and explore patterns in your records. CatchID is currently free on Android, with no adverts or subscription.';
+const title = 'CatchID – Fish Identification & Fishing Journal App for Android';
+const description = 'Identify a likely fish species, record catches in a personal fishing journal and explore Catch Insights. CatchID is currently free on Android.';
 const canonical = Astro.site ? new URL('/', Astro.site) : undefined;
 const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png' });
 ---
@@ -85,6 +85,7 @@ const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png'
               <a class="screen-link" href={journal.src} aria-label="View larger CatchID journal screenshot">
                 <Image src={journal} alt="CatchID Catch Journal showing a fishing history with saved photographs and structured details." widths={[360, 540, 720]} sizes="(max-width: 600px) 270px, 320px" width={320} height={569} format="webp" quality={85} loading="lazy" />
               </a>
+              <a class="journal-explore" href="/fishing-journal-app/">Explore CatchID as a fishing journal <span aria-hidden="true">→</span></a>
             </li>
             <li id="insights">
               <div class="step-heading"><span class="step-number">03</span><span class="step-line last" aria-hidden="true">↗</span></div>

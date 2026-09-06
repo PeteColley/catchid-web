@@ -17,12 +17,17 @@ The preview binds to the local computer. The site contains no client-side JavaSc
 ## Structure
 
 - `src/pages/index.astro`: homepage and SEO metadata.
+- `src/pages/fishing-journal-app.astro`: fishing journal acquisition page and its metadata.
 - `src/components/PlayLink.astro`: acquisition button.
-- `src/config.ts`: Play Store, privacy, and support destinations.
+- `src/config.ts`: typed Play Store campaigns, privacy, and support destinations.
 - `src/styles/global.css`: responsive styles.
 - `src/assets/`: product artwork, optimized by Astro at build time.
 - `src/pages/robots.txt.ts`, `src/pages/sitemap.xml.ts`: static SEO endpoints.
 - `scripts/verify.mjs`: generated-output checks.
+
+The homepage uses the `website_launch` Play campaign (`referral`); the fishing journal page uses `fishing_journal_app` (`organic`). Both use `catchid_website` as the source. Pass the campaign to `PlayLink`, or use `getPlayUrl` for plain links.
+
+Verification covers both pages, their metadata and internal links, Play attribution, image assets, content guardrails, and the static output contract. For visual review, run `npm run preview` and inspect `/` and `/fishing-journal-app/` at 360, 390, 430, 768, 1024 and 1440 px. Confirm early access to the Play CTA, readable screenshots and FAQs, and no horizontal overflow.
 
 ## Deployment
 

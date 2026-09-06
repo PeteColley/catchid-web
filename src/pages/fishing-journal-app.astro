@@ -1,0 +1,176 @@
+---
+import { Image, getImage } from 'astro:assets';
+import PlayLink from '../components/PlayLink.astro';
+import { getPlayUrl, PRIVACY_URL, SUPPORT_URL } from '../config';
+import icon from '../assets/catchid-icon.png';
+import journal from '../assets/journal.jpg';
+import insights from '../assets/insights.jpg';
+import '../styles/global.css';
+
+const title = 'Fishing Journal App for Android | CatchID';
+const description = 'Keep catches, photos and fishing details together. CatchID is a free Android fishing journal with manual recording, optional fish identification and Catch Insights.';
+const canonical = new URL('/fishing-journal-app/', Astro.site);
+const campaign = 'fishing_journal_app';
+const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png' });
+const faqs = [
+  { question: 'Can I record a catch without a photo?', answer: 'Yes. You can manually record a catch without a photo. Save the species and the details you want to remember.' },
+  { question: 'Do I have to use fish identification?', answer: 'No. Identification is optional. Enter the species yourself, or use a photo for a likely species suggestion that you can correct.' },
+  { question: 'What information can I save with a catch?', answer: 'Your catch record brings together the species, date and time, location, weight, fishing method and bait, lure or fly detail. You can include a photo, too.' },
+  { question: 'Is CatchID free?', answer: 'CatchID is currently free, with no adverts or subscription.' },
+  { question: 'Is CatchID available on Android?', answer: 'Yes. CatchID is available now for Android from Google Play.' },
+];
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173e39" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="CatchID" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <link rel="icon" type="image/png" href={favicon.src} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="brand" href="/" aria-label="CatchID home">
+        <Image src={icon} width={42} height={42} alt="" format="webp" loading="lazy" />
+        <span>Catch<span class="brand-id">ID</span></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#record">Your journal</a>
+        <a href="#insights">Insights</a>
+        <a href="#faq">FAQs</a>
+      </nav>
+      <PlayLink compact campaign={campaign} />
+    </header>
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>Your fishing. Remembered.</p>
+          <h1 id="hero-title">A fishing journal that grows <em>with every catch</em></h1>
+          <p class="hero-description">Keep your fishing history in one place. Record catches, add the details that matter and revisit the fish you want to remember — with or without a photo.</p>
+          <PlayLink campaign={campaign} />
+          <p class="availability">Currently free on Android <span aria-hidden="true">·</span> No&nbsp;adverts <span aria-hidden="true">·</span> No&nbsp;subscription</p>
+          <a class="journey-link" href="#record">Inside your fishing journal <span aria-hidden="true">↓</span></a>
+        </div>
+        <figure class="hero-evidence journal-visual">
+          <div class="water-lines" aria-hidden="true"></div>
+          <p class="evidence-label">Every catch has a story.</p>
+          <a class="journal-screen" href={journal.src} aria-label="View larger CatchID journal screenshot">
+            <Image src={journal} alt="CatchID Catch Journal with saved catch photos, species, dates, times, locations and fishing method details." widths={[360, 540, 720]} sizes="(max-width: 600px) 220px, (max-width: 800px) 235px, (max-width: 1050px) 270px, 310px" width={310} height={551} format="webp" quality={85} loading="eager" fetchpriority="high" />
+          </a>
+          <figcaption>Your catch log. Tap for a closer look.</figcaption>
+        </figure>
+      </section>
+
+      <section id="record" class="journal-details" aria-labelledby="record-title">
+        <div class="wrap">
+          <div class="section-heading">
+            <div><p class="eyebrow">The details, together</p><h2 id="record-title">Record the catches<br /><em>you want to remember</em></h2></div>
+            <p>A fishing logbook is more useful when the details sit beside the fish. Catch Journal keeps them together, ready to look back on.</p>
+          </div>
+          <dl class="record-fields">
+            <div><dt>The fish</dt><dd>Species and weight, with a catch photo if you have one.</dd></div>
+            <div><dt>The occasion</dt><dd>Date, time and location give each catch its place in your fishing history.</dd></div>
+            <div><dt>The method</dt><dd>Fishing method and bait, lure or fly detail help you remember what you used.</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="memory-section wrap journal-options" aria-labelledby="manual-title">
+        <div>
+          <p class="eyebrow">Record it your way</p>
+          <h2 id="manual-title">No photo or<br /><em>identification required</em></h2>
+          <p class="memory-intro">Already know the species? Manually record your catch and add the details. No identification or photo needed. A fish can be part of your journal even when the camera stays in your pocket.</p>
+        </div>
+        <div class="memory-reasons">
+          <article><span aria-hidden="true">01 /</span><div><h3>Identify when you want to</h3><p>Take or choose a photo for a <strong>likely species suggestion</strong>. You can correct or change the species before recording your catch. <strong>A suggestion, never a guarantee.</strong></p></div></article>
+          <article><span aria-hidden="true">02 /</span><div><h3>Build your fishing history</h3><p>Return to the fish you have saved and the details alongside them. Each new entry adds another memory to your personal fishing diary, from a familiar species to a catch you rarely see.</p></div></article>
+        </div>
+      </section>
+
+      <section id="insights" class="journal-insights" aria-labelledby="insights-title">
+        <div class="wrap insights-layout">
+          <div>
+            <p class="eyebrow">From records to perspective</p>
+            <h2 id="insights-title">See what your records<br /><em>start to reveal</em></h2>
+            <p class="memory-intro">Catch Insights brings your saved fishing history into view: how many catches you have recorded, the species in your journal, your most recorded species and your heaviest catch.</p>
+            <p class="memory-intro">It is a way to see the story in your records as they grow, with summaries grounded in the catches you have actually saved.</p>
+            <p class="evidence-note">Insights reflect saved catches. They do not measure fishing effort, blank sessions or success rates.</p>
+          </div>
+          <figure>
+            <a class="screen-link" href={insights.src} aria-label="View larger CatchID Insights screenshot">
+              <Image src={insights} alt="CatchID Catch Insights showing saved catches, species recorded, most recorded species and heaviest catch." widths={[360, 540, 720]} sizes="(max-width: 600px) 200px, 280px" width={280} height={498} format="webp" quality={85} loading="lazy" />
+            </a>
+            <figcaption class="image-note">Catch Insights. Tap for a closer look.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="faq" class="wrap journal-faq" aria-labelledby="faq-title">
+        <div><p class="eyebrow">Before your first entry</p><h2 id="faq-title">A few useful answers</h2></div>
+        <div class="faq-list">
+          {faqs.map(({ question, answer }) => <article><h3>{question}</h3><p>{answer}</p></article>)}
+        </div>
+      </section>
+      <section class="final-cta" aria-labelledby="cta-title">
+        <div class="wrap cta-inner">
+          <div><p class="eyebrow">Ready for your next catch</p><h2 id="cta-title">Start building<br /><em>your fishing journal</em></h2></div>
+          <div class="cta-action"><PlayLink light campaign={campaign} /><p>Available now on Android.<br />Currently free. No adverts. No subscription.</p></div>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap site-footer">
+      <a class="brand footer-brand" href="/">Catch<span class="brand-id">ID</span></a>
+      <p>Identify. Journal. Insights.</p>
+      <nav aria-label="Footer"><a href={PRIVACY_URL}>Privacy</a><a href={SUPPORT_URL}>Support</a><a href={getPlayUrl(campaign)}>Google Play <span aria-hidden="true">↗</span></a></nav>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .journal-screen { border-radius: 9px; }
+  .journal-visual img { width: 310px; }
+  .journal-details, .journal-insights { background: #edf0e7; border-block: 1px solid #dde2d6; padding-block: 60px; }
+  .record-fields { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 42px; margin: 0; }
+  .record-fields > div { border-top: 1px solid var(--line); padding-top: 22px; }
+  dt { font-size: 18px; font-weight: 600; margin-bottom: 10px; }
+  dd, .faq-list p { margin: 0; font-size: 15px; line-height: 1.75; color: var(--muted); }
+  .insights-layout { display: grid; grid-template-columns: 1.2fr 1fr; align-items: center; gap: 80px; }
+  .journal-insights .memory-intro { max-width: 510px; }
+  .journal-insights .screen-link { max-width: 280px; }
+  .evidence-note { border-left: 3px solid var(--teal); padding-left: 18px; margin-top: 26px; font-size: 14px; line-height: 1.75; color: var(--muted); max-width: 510px; }
+  .journal-faq { display: grid; grid-template-columns: 1fr 1.2fr; gap: 80px; padding-block: 72px; }
+  .faq-list article { padding-block: 22px; border-bottom: 1px solid var(--line); }
+  .faq-list article:first-child { padding-top: 0; }
+  .faq-list h3 { font-size: 18px; line-height: 1.4; margin-bottom: 8px; }
+  @media (max-width: 1050px) {
+    .journal-visual img { width: 270px; }
+    .insights-layout, .journal-faq { gap: 38px; }
+    .record-fields { gap: 25px; }
+  }
+  @media (max-width: 800px) {
+    .journal-visual img { width: 235px; }
+    .journal-options { grid-template-columns: 1fr; }
+    .journal-options .memory-intro { max-width: 580px; }
+    .journal-faq { grid-template-columns: 1fr; gap: 30px; }
+  }
+  @media (max-width: 600px) {
+    .journal-visual img { width: 220px; }
+    .journal-details, .journal-insights { padding-block: 38px; }
+    .record-fields, .insights-layout { grid-template-columns: 1fr; gap: 24px; }
+    .record-fields > div { padding-top: 16px; }
+    .journal-insights .screen-link { max-width: 200px; }
+    .journal-insights .image-note { text-align: center; margin-top: 14px; }
+    .journal-faq { padding-block: 40px; }
+    .faq-list article { padding-block: 18px; }
+  }
+</style>
