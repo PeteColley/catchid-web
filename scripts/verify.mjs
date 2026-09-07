@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import { resolve, relative } from "node:path";
+import { createHash } from "node:crypto";
 
 const origin = "https://catchid.app";
 const dist = resolve("dist");
@@ -23,6 +24,12 @@ const pageFile = (path) => resolve(dist, `.${path}`, "index.html");
 assert.deepEqual(files.filter((file) => file.endsWith(".html")).sort(), pages.map(({ path }) => pageFile(path)).sort(), "Exactly the two intended HTML pages");
 const documents = new Map(pages.map(({ path }) => [path, readFileSync(pageFile(path), "utf8")]));
 const idsIn = (html) => [...html.matchAll(/\sid="([^"]+)"/g)].map(([, id]) => id);
+const badgePath = "/assets/google-play-badge.svg";
+// Fingerprint of the unchanged official English web SVG; see docs/ASSETS.md.
+const badgeHash = "4ffa4c7edd2f10b297ca4de2131eddaa00d03b2278d1e178fe512920d824ca34";
+for (const file of [`public${badgePath}`, `dist${badgePath}`]) {
+  assert.equal(createHash("sha256").update(readFileSync(file)).digest("hex"), badgeHash, "Official badge artwork is unchanged");
+}
 
 function checkLocal(value, from, requireLocal = false) {
   const url = new URL(value, `${origin}${from}`);
@@ -73,6 +80,27 @@ for (const page of pages) {
 
   const play = links.filter(({ href }) => new URL(href, origin).hostname === "play.google.com");
   assert.equal(play.length, 4, `${page.path}: header, hero, final and footer Play CTAs`);
+  const anchorMarkup = [...html.matchAll(/<a\b[^>]*>[\s\S]*?<\/a>/gi)].map(([markup]) => markup);
+  const badges = anchorMarkup.filter((markup) => attrs(tags(markup, "a")[0]).class?.split(/\s+/).includes("play-badge"));
+  assert.equal(badges.length, 2, "Official badges at the two primary download moments");
+  for (const markup of badges) {
+    const link = attrs(tags(markup, "a")[0]);
+    assert.ok(play.some(({ href }) => href === link.href), "Badge uses the tracked Play destination");
+    const images = tags(markup, "img").map(attrs);
+    assert.equal(images.length, 1);
+    assert.equal(images[0].src, badgePath);
+    assert.equal(images[0].alt, "Get CatchID on Google Play", "Badge link has an accessible name");
+    assert.equal(images[0].width, "239");
+    assert.equal(images[0].height, "71");
+    assert.equal(visibleText(markup), "", "No custom text or artwork added inside the badge link");
+  }
+  for (const name of ["hero", "final-cta"]) {
+    const section = [...html.matchAll(/<section\b[^>]*>[\s\S]*?<\/section>/gi)].map(([markup]) => markup)
+      .find((markup) => attrs(tags(markup, "section")[0]).class?.split(/\s+/).includes(name));
+    assert.ok(section && badges.some((badge) => section.includes(badge)), `${name} contains an official badge`);
+  }
+  assert.equal(tags(html, "img").map(attrs).filter(({ src }) => src === badgePath).length, 2, "No extra store badges in navigation");
+  assert.equal((text.match(/Google Play and the Google Play logo are trademarks of Google LLC\./g) || []).length, 1, "One narrow Google trademark attribution");
   for (const { href } of play) {
     const url = new URL(href);
     assert.equal(url.origin, "https://play.google.com");
@@ -94,7 +122,7 @@ for (const page of pages) {
     if (page.path !== "/") {
       assert.ok(["lazy", "eager"].includes(img.loading), "Explicit image loading strategy");
       if (img.loading === "eager") assert.equal(img.fetchpriority, "high", "Only the hero warrants eager loading");
-      if (img.width !== "42") assert.ok(img.alt.trim().length > 20, "Descriptive screenshot alt");
+      if (img.width !== "42" && img.src !== badgePath) assert.ok(img.alt.trim().length > 20, "Descriptive screenshot alt");
     }
   }
   assert.match(text, /manual(?:ly)? (?:entry|record)/i, "Manual recording is explicit");
@@ -116,7 +144,7 @@ for (const page of pages) {
     for (const field of ["species", "date", "time", "location", "weight", "fishing method", "bait", "lure", "fly", "photo"]) assert.ok(text.toLowerCase().includes(field), `Catch field: ${field}`);
     assert.ok(ids.includes("faq"), "Visible FAQ section exists");
   }
-  console.log(`PASS: ${page.path} — metadata, semantics, links, images, honest copy; ${play.length} Play CTAs (${page.medium}/${page.campaign}).`);
+  console.log(`PASS: ${page.path} — metadata, semantics, links, images, honest copy; ${play.length} Play CTAs (${page.medium}/${page.campaign}), including ${badges.length} accessible official badges.`);
 }
 
 assert.equal(readFileSync("dist/robots.txt", "utf8"), `User-agent: *\nAllow: /\nSitemap: ${origin}/sitemap.xml\n`);

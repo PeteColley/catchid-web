@@ -1,0 +1,2 @@
+# Preserve the official badge bytes, including on Windows checkouts.
+public/assets/google-play-badge.svg -text
