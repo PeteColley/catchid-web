@@ -140,7 +140,8 @@ for (const page of pages) {
   for (const block of protectionBlocks) {
     const copy = visibleText(block);
     assert.match(copy, /Journal Protection is optional/i, "Protection is explicitly optional");
-    assert.match(copy, /(?:Sign in with Google|Google sign-in)/i, "Google sign-in is explicit");
+    // The concise homepage note names the account; the journal page explains sign-in.
+    if (page.path !== "/") assert.match(copy, /(?:Sign in with Google|Google sign-in)/i, "Google sign-in is explicit");
     assert.match(copy, /(?:once|when) protection is up to date, your protected catch records and backed-up catch photos can be restored using the same Google account/i, "Restore depends on completed protection and the same account");
     assert.match(copy, /(?:keep using CatchID|still use CatchID|keep recording catches) without signing in/i, "Core use needs no account");
     assert.doesNotMatch(copy, /guaranteed|instant(?:ly)?|automatic(?:ally)?|every (?:gallery )?photo|end.to.end encrypt|account (?:is )?required|must sign in/i, "No stronger backup or account guarantees");

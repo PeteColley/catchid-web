@@ -728,14 +728,15 @@ strong {
 }
 
 /* Journal Protection stays within the journal story. */
-.protection-note, .protection-summary {
+.protection-summary {
   border-top: 1px solid var(--line);
   padding-top: 20px;
   margin-top: 24px;
 }
+.protection-note { margin-top: 12px; }
 .protection-note h4 {
-  margin: 0 0 8px;
-  font-size: 17px;
+  margin: 0 0 4px;
+  font-size: 15px;
   line-height: 1.4;
   font-weight: 600;
 }
@@ -744,6 +745,7 @@ strong {
   line-height: 1.75;
   color: var(--muted);
 }
+.protection-note p { line-height: 1.6; }
 .protection-summary {
   display: grid;
   grid-template-columns: 1fr 2fr;
