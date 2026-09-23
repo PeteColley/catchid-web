@@ -16,6 +16,7 @@ const faqs = [
   { question: 'Can I record a catch without a photo?', answer: 'Yes. You can manually record a catch without a photo. Save the species and the details you want to remember.' },
   { question: 'Do I have to use fish identification?', answer: 'No. Identification is optional. Enter the species yourself, or use a photo for a likely species suggestion that you can correct.' },
   { question: 'What information can I save with a catch?', answer: 'Your catch record brings together the species, date and time, location, weight, fishing method and bait, lure or fly detail. You can include a photo, too.' },
+  { id: 'journal-protection-faq', question: 'Can I back up and restore my CatchID journal?', answer: 'Yes. Journal Protection is optional. Sign in with Google and, once protection is up to date, your protected catch records and backed-up catch photos can be restored using the same Google account. You can still use CatchID without signing in.' },
   { question: 'Is CatchID free?', answer: 'CatchID is currently free, with no adverts or subscription.' },
   { question: 'Is CatchID available on Android?', answer: 'Yes. CatchID is available now for Android from Google Play.' },
 ];
@@ -82,6 +83,10 @@ const faqs = [
             <div><dt>The occasion</dt><dd>Date, time and location give each catch its place in your fishing history.</dd></div>
             <div><dt>The method</dt><dd>Fishing method and bait, lure or fly detail help you remember what you used.</dd></div>
           </dl>
+          <section class="protection-summary" data-journal-protection aria-labelledby="protection-title">
+            <h3 id="protection-title">Protect the fishing history you build</h3>
+            <p>Journal Protection is optional and uses Google sign-in. When protection is up to date, your protected catch records and backed-up catch photos can be restored using the same Google account. You can keep recording catches without signing in.</p>
+          </section>
         </div>
       </section>
 
@@ -118,7 +123,7 @@ const faqs = [
       <section id="faq" class="wrap journal-faq" aria-labelledby="faq-title">
         <div><p class="eyebrow">Before your first entry</p><h2 id="faq-title">A few useful answers</h2></div>
         <div class="faq-list">
-          {faqs.map(({ question, answer }) => <article><h3>{question}</h3><p>{answer}</p></article>)}
+          {faqs.map(({ question, answer, id }) => <article id={id} data-journal-protection={id ? true : undefined}><h3>{question}</h3><p>{answer}</p></article>)}
         </div>
       </section>
       <section class="final-cta" aria-labelledby="cta-title">

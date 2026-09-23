@@ -726,3 +726,33 @@ strong {
     scroll-behavior: auto !important;
   }
 }
+
+/* Journal Protection stays within the journal story. */
+.protection-note, .protection-summary {
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+  margin-top: 24px;
+}
+.protection-note h4 {
+  margin: 0 0 8px;
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+.protection-note p, .protection-summary p {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--muted);
+}
+.protection-summary {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 42px;
+  margin-top: 32px;
+  padding-top: 28px;
+}
+.protection-summary h3 { font-size: 22px; line-height: 1.4; margin: 0; }
+.protection-summary p { font-size: 15px; max-width: 660px; }
+@media (max-width: 600px) {
+  .protection-summary { grid-template-columns: 1fr; gap: 12px; }
+}

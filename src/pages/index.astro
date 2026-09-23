@@ -85,6 +85,10 @@ const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png'
               <a class="screen-link" href={journal.src} aria-label="View larger CatchID journal screenshot">
                 <Image src={journal} alt="CatchID Catch Journal showing a fishing history with saved photographs and structured details." widths={[360, 540, 720]} sizes="(max-width: 600px) 270px, 320px" width={320} height={569} format="webp" quality={85} loading="lazy" />
               </a>
+              <aside class="protection-note" data-journal-protection aria-labelledby="protection-title">
+                <h4 id="protection-title">Protect your fishing history</h4>
+                <p>Journal Protection is optional. Sign in with Google and, once protection is up to date, your protected catch records and backed-up catch photos can be restored using the same Google account. You can keep using CatchID without signing in.</p>
+              </aside>
               <a class="journal-explore" href="/fishing-journal-app/">Explore CatchID as a fishing journal <span aria-hidden="true">→</span></a>
             </li>
             <li id="insights">

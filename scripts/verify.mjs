@@ -134,7 +134,22 @@ for (const page of pages) {
   // Allow the evidence limitation, but reject success claims elsewhere in visible copy.
   const claims = text.replace(/They (?:do not|don[’']t) measure fishing effort\W+blank sessions or success rates/gi, "");
   assert.doesNotMatch(claims, /\b(?:success(?:ful|\s+rates?)?|productiv\w*|best\s+(?:bait|venue|location|method)|catch\s+rates?)\b/i);
-  assert.doesNotMatch(text, /\b(?:cloud|backups?|sync(?:ing|hronisation)?|multi[ -]device|imports?|CatchID Pro|ML|machine learning|Ask My Journal|Evidence Engine|journal protection)\b/i);
+  // Live protection claims are allowed only in the bounded journal copy blocks.
+  const protectionBlocks = [...html.matchAll(/<(aside|section|article)\b[^>]*\bdata-journal-protection(?:="[^"]*")?[^>]*>[\s\S]*?<\/\1>/gi)].map(([markup]) => markup);
+  assert.equal(protectionBlocks.length, page.path === "/" ? 1 : 2, "One journal treatment, plus one journal-page FAQ");
+  for (const block of protectionBlocks) {
+    const copy = visibleText(block);
+    assert.match(copy, /Journal Protection is optional/i, "Protection is explicitly optional");
+    assert.match(copy, /(?:Sign in with Google|Google sign-in)/i, "Google sign-in is explicit");
+    assert.match(copy, /(?:once|when) protection is up to date, your protected catch records and backed-up catch photos can be restored using the same Google account/i, "Restore depends on completed protection and the same account");
+    assert.match(copy, /(?:keep using CatchID|still use CatchID|keep recording catches) without signing in/i, "Core use needs no account");
+    assert.doesNotMatch(copy, /guaranteed|instant(?:ly)?|automatic(?:ally)?|every (?:gallery )?photo|end.to.end encrypt|account (?:is )?required|must sign in/i, "No stronger backup or account guarantees");
+  }
+  const outsideProtection = visibleText(protectionBlocks.reduce((remaining, block) => remaining.replace(block, ""), html));
+  assert.doesNotMatch(outsideProtection, /\b(?:cloud|backups?|sync(?:ing|hronisation)?|multi[ -]device|imports?|CatchID Pro|ML|machine learning|Ask My Journal|Evidence Engine|journal protection)\b/i);
+  assert.doesNotMatch(text, /\b(?:multi[ -]device|imports?|CatchID Pro|ML|machine learning|Ask My Journal|Evidence Engine)\b/i, "Unimplemented features remain prohibited everywhere");
+  assert.doesNotMatch(text, /planned for CatchID|not yet available|currently released CatchID 1\.2\.1|CatchID 1\.2\.1|Journal Protection[^.!?]*(?:planned|coming soon|not available|future|will be available)/i, "No stale release or pre-launch protection claims");
+
   if (page.path === "/") {
     assert.ok(links.some(({ href }) => href === "/fishing-journal-app/"), "Homepage links to journal page");
   } else {
@@ -143,6 +158,11 @@ for (const page of pages) {
     assert.ok(links.some(({ href }) => href === "/"), "Journal links home");
     for (const field of ["species", "date", "time", "location", "weight", "fishing method", "bait", "lure", "fly", "photo"]) assert.ok(text.toLowerCase().includes(field), `Catch field: ${field}`);
     assert.ok(ids.includes("faq"), "Visible FAQ section exists");
+    assert.equal(description, "Keep catches, photos and fishing details together. CatchID is a free Android fishing journal with manual recording, optional fish identification and Catch Insights.");
+    const faq = html.match(/<div class="faq-list"[^>]*>([\s\S]*?)<\/div>/i)[1];
+    assert.equal(tags(faq, "article").length, 6, "Five original FAQs and exactly one protection FAQ");
+    assert.equal((visibleText(faq).match(/Can I back up and restore my CatchID journal\?/g) || []).length, 1);
+
   }
   console.log(`PASS: ${page.path} — metadata, semantics, links, images, honest copy; ${play.length} Play CTAs (${page.medium}/${page.campaign}), including ${badges.length} accessible official badges.`);
 }
