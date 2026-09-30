@@ -5,7 +5,9 @@ import { PLAY_URL, PRIVACY_URL, SUPPORT_URL } from '../config';
 import icon from '../assets/catchid-icon.png';
 import identify from '../assets/identify.jpg';
 import journal from '../assets/journal.jpg';
-import insights from '../assets/insights.jpg';
+import insights from '../assets/insights-overview.jpg';
+import personalRecords from '../assets/personal-records.jpg';
+import fishingLocations from '../assets/fishing-locations.jpg';
 import '../styles/global.css';
 const title = 'CatchID – Fish Identification & Fishing Journal App for Android';
 const description = 'Identify a likely fish species, record catches in a personal fishing journal and explore Catch Insights. CatchID is currently free on Android.';
@@ -94,13 +96,27 @@ const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png'
             <li id="insights">
               <div class="step-heading"><span class="step-number">03</span><span class="step-line last" aria-hidden="true">↗</span></div>
               <h3>Insights</h3>
-              <p>As your journal grows, explore patterns in <strong>what you’ve recorded</strong>, including the species that appear most often.</p>
+              <p>Each saved catch adds to your fishing history. Explore <strong>what you’ve recorded</strong> through species, recent activity, Personal Records and Fishing Locations.</p>
               <p class="step-note">Your recorded catches tell the story.</p>
               <a class="screen-link" href={insights.src} aria-label="View larger CatchID Insights screenshot">
-                <Image src={insights} alt="CatchID Catch Insights screen with a catch summary and most recorded species." widths={[360, 540, 720]} sizes="(max-width: 600px) 270px, 320px" width={320} height={569} format="webp" quality={85} loading="lazy" />
+                <Image src={insights} alt="CatchID Catch Insights overview with saved catches, species recorded and recent journal activity." widths={[360, 540, 720]} sizes="(max-width: 600px) 200px, (max-width: 1050px) calc((100vw - 114px) / 3), 320px" width={320} height={693} format="webp" quality={85} loading="lazy" />
               </a>
             </li>
           </ol>
+          <div class="insights-proof" aria-label="Explore your recorded fishing history">
+            <figure>
+              <figcaption><h3>Personal Records</h3><p>See your top recorded catches by species.</p></figcaption>
+              <a class="screen-link" href={personalRecords.src} aria-label="View larger CatchID Personal Records screenshot">
+                <Image src={personalRecords} alt="CatchID Personal Records showing top recorded catches by species with PB labels and catch details." widths={[360, 540, 720]} sizes="200px" width={200} height={433} format="webp" quality={85} loading="lazy" />
+              </a>
+            </figure>
+            <figure>
+              <figcaption><h3>Fishing Locations</h3><p>Explore the catches you’ve saved at each water.</p></figcaption>
+              <a class="screen-link" href={fishingLocations.src} aria-label="View larger CatchID Fishing Locations screenshot">
+                <Image src={fishingLocations} alt="CatchID Fishing Locations showing saved catches and recorded species grouped by water." widths={[360, 540, 720]} sizes="200px" width={200} height={433} format="webp" quality={85} loading="lazy" />
+              </a>
+            </figure>
+          </div>
           <p class="image-note">Explore CatchID. Tap a screenshot for a closer look.</p>
           <p class="insights-note">Insights reflect saved catches. They don’t measure fishing effort, blank sessions or success rates.</p>
         </div>

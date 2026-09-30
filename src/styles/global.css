@@ -758,3 +758,21 @@ strong {
 @media (max-width: 600px) {
   .protection-summary { grid-template-columns: 1fr; gap: 12px; }
 }
+
+/* Supporting product evidence stays smaller than the three journey steps. */
+.insights-proof {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 32px;
+  max-width: 760px;
+  margin: 32px auto 0;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+.insights-proof figcaption { margin-bottom: 18px; }
+.insights-proof h3 { font-size: 18px; margin-bottom: 8px; }
+.insights-proof p { font-size: 14px; line-height: 1.75; color: var(--muted); }
+.insights-proof .screen-link { max-width: 200px; }
+@media (max-width: 600px) {
+  .insights-proof { grid-template-columns: 1fr; gap: 28px; }
+}

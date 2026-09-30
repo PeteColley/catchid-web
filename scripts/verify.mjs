@@ -130,10 +130,26 @@ for (const page of pages) {
   assert.match(text, /likely species suggestion/i);
   assert.match(text, /A suggestion\W+never a guarantee/i);
   assert.match(text, /Currently free/i);
+  assert.match(text, /No adverts/i);
+  assert.match(text, /No subscription/i);
+  for (const concept of ["Personal Records", "Fishing Locations", "recent activity"]) {
+    assert.ok(text.toLowerCase().includes(concept.toLowerCase()), `${page.path}: current Insights concept: ${concept}`);
+  }
+  const screenshots = tags(html, "img").map(attrs);
+  assert.ok(screenshots.some(({ src }) => src.includes("insights-overview")), "Current Insights overview is rendered");
+  if (page.path === "/") {
+    for (const asset of ["personal-records", "fishing-locations"]) {
+      assert.ok(screenshots.some(({ src }) => src.includes(asset)), `Supporting product evidence: ${asset}`);
+    }
+  } else {
+    assert.match(text, /Your year so far/);
+    assert.match(text, /enough information/);
+  }
+  assert.doesNotMatch(html, /static\.metricool\.com/i, "Screenshot sources are never hotlinked");
   assert.match(text, /Insights reflect saved catches\W+They (?:do not|don[’']t) measure fishing effort\W+blank sessions or success rates/i);
   // Allow the evidence limitation, but reject success claims elsewhere in visible copy.
   const claims = text.replace(/They (?:do not|don[’']t) measure fishing effort\W+blank sessions or success rates/gi, "");
-  assert.doesNotMatch(claims, /\b(?:success(?:ful|\s+rates?)?|productiv\w*|best\s+(?:bait|venue|location|method)|catch\s+rates?)\b/i);
+  assert.doesNotMatch(claims, /\b(?:success(?:ful|\s+rates?)?|productiv\w*|best\s+(?:bait|venue|location|water|method)|catch\s+rates?)\b/i);
   // Live protection claims are allowed only in the bounded journal copy blocks.
   const protectionBlocks = [...html.matchAll(/<(aside|section|article)\b[^>]*\bdata-journal-protection(?:="[^"]*")?[^>]*>[\s\S]*?<\/\1>/gi)].map(([markup]) => markup);
   assert.equal(protectionBlocks.length, page.path === "/" ? 1 : 2, "One journal treatment, plus one journal-page FAQ");

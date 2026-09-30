@@ -5,7 +5,7 @@ The CatchID icon and three product screenshots are supplied CatchID marketing ar
 - `src/assets/catchid-icon.png`: app identity and favicon source.
 - `src/assets/identify.jpg`: catch identification artwork.
 - `src/assets/journal.jpg`: catch journal artwork.
-- `src/assets/insights.jpg`: catch insights artwork.
+- `src/assets/insights.jpg`: earlier Catch Insights artwork, retained but no longer used on either page.
 
 Astro generates responsive image renditions at build time. The original screenshots remain available through the homepage's larger-image links.
 
@@ -25,3 +25,15 @@ The [Partner Marketing Hub FAQ](https://partnermarketinghub.withgoogle.com/suppo
 ## Web palette
 
 White is the primary canvas. Deep aquatic navy (`#03111D`), ink (`#071C2A`) and turquoise (`#26C7C9`) connect the site to CatchID's fish-and-scanner icon and product colour system. The turquoise is reserved for small accents and emphasis on navy. A darker aquatic teal (`#006A75`) provides readable accent text on white; cool neutral (`#F3F7F8`) surfaces distinguish selected sections. Original screenshot colours are unchanged.
+
+## Catch Insights 2.0 production screenshots
+
+Downloaded unchanged on 30 September 2026 from the three sources specified in [issue #1](https://github.com/PeteColley/catchid-web/issues/1). Each was visually checked against its named production screen before use. No screen contents, catches or records were generated or altered.
+
+| Local file under `src/assets/` | Source URL | SHA-256 |
+| --- | --- | --- |
+| `insights-overview.jpg` | https://static.metricool.com/planner/202609/7157367-file-16498964407747998319.jpeg | AC2884C9FA34510B257C2FBCDC40B2EAC50316925D89C837A7D4E7707E09EE36 |
+| `personal-records.jpg` | https://static.metricool.com/planner/202609/7157367-file-8483491877648427285.jpeg | 4B20CD52CBD4A65718E35F13AC5B2764ECE429E64BD92CA8829439A1BB03669C |
+| `fishing-locations.jpg` | https://static.metricool.com/planner/202609/7157367-file-12363935092292429902.jpeg | 6BD7DF483FCE43D0D1E4B1989635D58F440AF1873B8051C6F743312528250F42 |
+
+The overview appears on both pages; Personal Records and Fishing Locations form a smaller supporting pair on the homepage only. Astro generates local WebP renditions. Larger-image links serve the original local JPEGs; production HTML does not reference Metricool.

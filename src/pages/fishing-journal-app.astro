@@ -4,7 +4,7 @@ import PlayLink from '../components/PlayLink.astro';
 import { getPlayUrl, PRIVACY_URL, SUPPORT_URL } from '../config';
 import icon from '../assets/catchid-icon.png';
 import journal from '../assets/journal.jpg';
-import insights from '../assets/insights.jpg';
+import insights from '../assets/insights-overview.jpg';
 import '../styles/global.css';
 
 const title = 'Fishing Journal App for Android | CatchID';
@@ -107,13 +107,13 @@ const faqs = [
           <div>
             <p class="eyebrow">From records to perspective</p>
             <h2 id="insights-title">See what your records<br /><em>start to reveal</em></h2>
-            <p class="memory-intro">Catch Insights brings your saved fishing history into view: how many catches you have recorded, the species in your journal, your most recorded species and your heaviest catch.</p>
-            <p class="memory-intro">It is a way to see the story in your records as they grow, with summaries grounded in the catches you have actually saved.</p>
+            <p class="memory-intro">Turn your catch log into a personal record book. Catch Insights brings together your species history, recent activity and Personal Records — your top recorded catches by species.</p>
+            <p class="memory-intro">Explore Fishing Locations and Your year so far. As your journal grows, notice early personal patterns where your saved catches contain enough information — always grounded in what you have recorded.</p>
             <p class="evidence-note">Insights reflect saved catches. They do not measure fishing effort, blank sessions or success rates.</p>
           </div>
           <figure>
             <a class="screen-link" href={insights.src} aria-label="View larger CatchID Insights screenshot">
-              <Image src={insights} alt="CatchID Catch Insights showing saved catches, species recorded, most recorded species and heaviest catch." widths={[360, 540, 720]} sizes="(max-width: 600px) 200px, 280px" width={280} height={498} format="webp" quality={85} loading="lazy" />
+              <Image src={insights} alt="CatchID Catch Insights overview showing the catch summary, species recorded and recent activity in the saved journal." widths={[360, 540, 720]} sizes="(max-width: 600px) 200px, 280px" width={280} height={607} format="webp" quality={85} loading="lazy" />
             </a>
             <figcaption class="image-note">Catch Insights. Tap for a closer look.</figcaption>
           </figure>
