@@ -776,3 +776,21 @@ strong {
 @media (max-width: 600px) {
   .insights-proof { grid-template-columns: 1fr; gap: 28px; }
 }
+
+/* Keep the journey introduction together and balance the taller Insights screen. */
+@media (min-width: 601px) {
+  .journey-section .section-heading {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    max-width: 900px;
+    gap: 48px;
+    align-items: center;
+  }
+  .journey #insights .screen-link { width: 82%; max-width: 263px; }
+}
+@media (min-width: 1200px) {
+  .journey-section > .wrap { width: min(1320px, calc(100% - 96px)); }
+  .journey { gap: 56px; }
+  .journey-section .section-heading { margin-bottom: 52px; }
+}
+.insights-proof > .eyebrow { grid-column: 1 / -1; margin-bottom: -16px; font-size: 11px; color: var(--teal); }
