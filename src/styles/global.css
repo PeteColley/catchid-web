@@ -786,7 +786,6 @@ strong {
     gap: 48px;
     align-items: center;
   }
-  .journey #insights .screen-link { width: 82%; max-width: 263px; }
 }
 @media (min-width: 1200px) {
   .journey-section > .wrap { width: min(1320px, calc(100% - 96px)); }
@@ -794,3 +793,50 @@ strong {
   .journey-section .section-heading { margin-bottom: 52px; }
 }
 .insights-proof > .eyebrow { grid-column: 1 / -1; margin-bottom: -16px; font-size: 11px; color: var(--teal); }
+
+/* Match the existing baked-in Identify / Journal frames without altering assets. */
+.journey-visual { background: #f8f7f3; }
+.insights-frame { padding: 18px; text-decoration: none; }
+.frame-heading {
+  display: block;
+  margin-bottom: 18px;
+  text-align: center;
+  color: #202a24;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.insights-frame img { border-radius: 8px; box-shadow: 0 2px 9px #03111d12; }
+.journey .protection-note {
+  max-width: 300px;
+  margin: 16px auto 0;
+  padding: 16px;
+  border-left: 2px solid var(--teal);
+  background: #e9f0f2;
+}
+.protection-note .journal-explore { margin-top: 8px; }
+.insights-proof {
+  max-width: 1100px;
+  grid-template-columns: .65fr 1fr 1fr;
+  gap: 48px;
+  margin-top: 44px;
+  padding-top: 36px;
+}
+.insights-proof > .eyebrow { grid-column: auto; margin: 0; }
+.insights-proof .screen-link { max-width: 280px; }
+@media (max-width: 1050px) {
+  .insights-proof { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+  .insights-proof > .eyebrow { grid-column: 1 / -1; }
+}
+@media (max-width: 600px) {
+  .journey-visual { max-width: 220px; }
+  .insights-frame { padding: 14px; }
+  .frame-heading { font-size: 13px; margin-bottom: 14px; }
+  .insights-proof { grid-template-columns: 1fr; gap: 28px; margin-top: 32px; padding-top: 28px; }
+  .insights-proof .screen-link { max-width: 220px; }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+  .insights-frame { padding: 12px; }
+  .frame-heading { font-size: 13px; margin-bottom: 12px; }
+  .insights-proof .screen-link { max-width: 220px; }
+}
