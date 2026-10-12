@@ -1,0 +1,144 @@
+<section id="analytics-consent" class="analytics-consent wrap" aria-labelledby="analytics-title" hidden>
+  <div>
+    <h2 id="analytics-title" tabindex="-1">Optional website analytics</h2>
+    <p>We use optional analytics to understand how people find and use the CatchID website. You can accept or reject analytics.</p>
+    <p id="analytics-status" role="status"></p>
+  </div>
+  <div class="analytics-actions">
+    <button type="button" id="analytics-accept">Accept analytics</button>
+    <button type="button" id="analytics-reject">Reject analytics</button>
+  </div>
+</section>
+
+<script is:inline id="catchid-web-analytics">
+  document.addEventListener('DOMContentLoaded', () => {
+    const measurementId = 'G-LPXGL5VTB1';
+    const preferenceKey = 'catchid.website.analytics';
+    const disableKey = `ga-disable-${measurementId}`;
+    const panel = document.getElementById('analytics-consent');
+    const opener = document.getElementById('analytics-choices');
+    const status = document.getElementById('analytics-status');
+    let started = false;
+    let loaded = false;
+    let initialised = false;
+    let returnFocus = null;
+
+    function readChoice() {
+      try {
+        const value = localStorage.getItem(preferenceKey);
+        return value === 'granted' || value === 'denied' ? value : null;
+      } catch {
+        return null;
+      }
+    }
+
+    let choice = readChoice();
+    window[disableKey] = true;
+
+    function clearAnalyticsCookies() {
+      // GA uses root-path first-party cookies. Try host-only and domain cookies,
+      // including parent domains; the browser ignores invalid domain attempts.
+      const domains = [''];
+      const parts = location.hostname.split('.');
+      while (parts.length > 1) {
+        domains.push(`; Domain=${parts.join('.')}`, `; Domain=.${parts.join('.')}`);
+        parts.shift();
+      }
+      for (const cookie of document.cookie.split(';')) {
+        const name = cookie.split('=')[0].trim();
+        if (name !== '_ga' && !name.startsWith('_ga_')) continue;
+        for (const domain of domains) {
+          document.cookie = `${name}=; Max-Age=0; Path=/${domain}; SameSite=Lax`;
+        }
+      }
+    }
+
+    function initialiseAnalytics() {
+      if (choice !== 'granted' || initialised) return;
+      initialised = true;
+      window.gtag('js', new Date());
+      // Keep normal page views and enhanced measurement; no advertising features.
+      window.gtag('config', measurementId, {
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false,
+      });
+    }
+
+    function applyChoice() {
+      window[disableKey] = choice !== 'granted';
+      if (choice !== 'granted') {
+        clearAnalyticsCookies();
+        return;
+      }
+      if (loaded) {
+        initialiseAnalytics();
+        return;
+      }
+      if (started) return;
+      started = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+      script.addEventListener('load', () => {
+        loaded = true;
+        initialiseAnalytics();
+      });
+      script.addEventListener('error', () => {
+        started = false;
+        script.remove();
+      });
+      document.head.appendChild(script);
+    }
+
+    function showChoices(show) {
+      panel.hidden = !show;
+      opener.setAttribute('aria-expanded', String(show));
+    }
+
+    function choose(value) {
+      choice = value;
+      try {
+        localStorage.setItem(preferenceKey, value);
+      } catch {
+        // Fail closed if consent cannot be saved. Also try to discard any old
+        // grant, so a failed rejection cannot silently retain it in storage.
+        choice = null;
+        try { localStorage.removeItem(preferenceKey); } catch { /* Storage is unavailable. */ }
+        applyChoice();
+        status.textContent = 'Analytics are off on this page. Your browser could not save your choice. Please allow site storage to remember it.';
+        showChoices(true);
+        return;
+      }
+      applyChoice();
+      showChoices(false);
+      if (returnFocus) returnFocus.focus();
+      else document.querySelector('.site-header .brand').focus({ preventScroll: true });
+      returnFocus = null;
+    }
+
+    opener.hidden = false;
+    opener.addEventListener('click', () => {
+      returnFocus = opener;
+      status.textContent = choice === 'granted' ? 'Analytics are currently on.' : 'Analytics are currently off.';
+      showChoices(true);
+      document.getElementById('analytics-title').focus();
+    });
+    document.getElementById('analytics-accept').addEventListener('click', () => choose('granted'));
+    document.getElementById('analytics-reject').addEventListener('click', () => choose('denied'));
+
+    function syncChoice() {
+      choice = readChoice();
+      applyChoice();
+      showChoices(choice === null);
+    }
+    // Honour changes in another tab and when a page returns from the back cache.
+    window.addEventListener('storage', (event) => {
+      if (event.key === preferenceKey || event.key === null) syncChoice();
+    });
+    window.addEventListener('pageshow', syncChoice);
+    applyChoice();
+    showChoices(choice === null);
+  }, { once: true });
+</script>

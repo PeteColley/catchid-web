@@ -1,6 +1,7 @@
 ---
 import { Image, getImage } from 'astro:assets';
 import PlayLink from '../components/PlayLink.astro';
+import WebAnalyticsConsent from '../components/WebAnalyticsConsent.astro';
 import { getPlayUrl, PRIVACY_URL, SUPPORT_URL } from '../config';
 import icon from '../assets/catchid-icon.png';
 import journal from '../assets/journal.jpg';
@@ -52,6 +53,7 @@ const faqs = [
       </nav>
       <PlayLink compact campaign={campaign} />
     </header>
+    <WebAnalyticsConsent />
     <main id="main">
       <section class="hero wrap" aria-labelledby="hero-title">
         <div class="hero-copy">
@@ -136,7 +138,7 @@ const faqs = [
     <footer class="wrap site-footer">
       <a class="brand footer-brand" href="/">Catch<span class="brand-id">ID</span></a>
       <p>Identify. Journal. Insights.</p>
-      <nav aria-label="Footer"><a href={PRIVACY_URL}>Privacy</a><a href={SUPPORT_URL}>Support</a><a href={getPlayUrl(campaign)}>Google Play <span aria-hidden="true">↗</span></a></nav>
+      <nav aria-label="Footer"><a href={PRIVACY_URL}>Privacy</a><a href={SUPPORT_URL}>Support</a><a href={getPlayUrl(campaign)}>Google Play <span aria-hidden="true">↗</span></a><button type="button" id="analytics-choices" aria-controls="analytics-consent" aria-expanded="false" hidden>Analytics choices</button></nav>
     </footer>
     <p class="wrap store-attribution">Google Play and the Google Play logo are trademarks of Google LLC.</p>
   </body>

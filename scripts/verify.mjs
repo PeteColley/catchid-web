@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import { resolve, relative } from "node:path";
 import { createHash } from "node:crypto";
+import { verifyAnalytics } from "./verify-analytics.mjs";
 
 const origin = "https://catchid.app";
 const dist = resolve("dist");
@@ -10,7 +11,7 @@ const decode = (value) => value.replace(/&(?:amp|quot|apos|lt|gt|#39|#x27);/g, (
 })[entity]);
 const tags = (html, tag) => [...html.matchAll(new RegExp(`<${tag}\\b[^>]*>`, "gi"))].map(([value]) => value);
 const attrs = (tag) => Object.fromEntries([...tag.matchAll(/([\w:-]+)(?:="([^"]*)")?/g)].map(([, key, value]) => [key, decode(value ?? "")]));
-const visibleText = (html) => decode(html.replace(/<head\b[^>]*>[\s\S]*?<\/head>/i, " ").replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
+const visibleText = (html) => decode(html.replace(/<head\b[^>]*>[\s\S]*?<\/head>/i, " ").replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ").replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
 const walk = (dir) => readdirSync(dir).flatMap((name) => {
   const path = resolve(dir, name);
   return statSync(path).isDirectory() ? walk(path) : [path];
@@ -23,6 +24,12 @@ const pages = [
 const pageFile = (path) => resolve(dist, `.${path}`, "index.html");
 assert.deepEqual(files.filter((file) => file.endsWith(".html")).sort(), pages.map(({ path }) => pageFile(path)).sort(), "Exactly the two intended HTML pages");
 const documents = new Map(pages.map(({ path }) => [path, readFileSync(pageFile(path), "utf8")]));
+const consentSource = readFileSync("src/components/WebAnalyticsConsent.astro", "utf8").match(/<script\b[^>]*>([\s\S]*?)<\/script>/)[1].trim();
+const manifest = JSON.parse(readFileSync("package.json", "utf8"));
+assert.deepEqual(Object.keys(manifest.dependencies).sort(), ["@astrojs/check", "astro", "typescript"], "No added runtime dependencies");
+for (const group of ["devDependencies", "optionalDependencies", "peerDependencies"]) {
+  assert.deepEqual(Object.keys(manifest[group] ?? {}), [], "No added JavaScript dependencies");
+}
 const idsIn = (html) => [...html.matchAll(/\sid="([^"]+)"/g)].map(([, id]) => id);
 const badgePath = "/assets/google-play-badge.svg";
 // Fingerprint of the unchanged official English web SVG; see docs/ASSETS.md.
@@ -75,7 +82,26 @@ for (const page of pages) {
   assert.equal(metaValue("og:site_name"), "CatchID");
   assert.equal(metaValue("og:title"), page.title);
   assert.equal(metaValue("og:description"), description);
-  assert.equal(tags(html, "script").length, 0, "No client scripts or unnecessary schema");
+  const scripts = [...html.matchAll(/(<script\b[^>]*>)([\s\S]*?)<\/script>/gi)];
+  assert.equal(tags(html, "script").length, 1, "Only the bounded consent script is allowed");
+  assert.equal(scripts.length, 1);
+  assert.deepEqual(attrs(scripts[0][1]), { script: "", id: "catchid-web-analytics" }, "One inline script, with no static src or other script attributes");
+  assert.equal(scripts[0][2].trim(), consentSource, "Both pages contain the exact shared implementation");
+  assert.deepEqual([...new Set(html.match(/G-[A-Z0-9]{10}\b/g))], ["G-LPXGL5VTB1"], "Exact website measurement ID only");
+  assert.doesNotMatch(html, /<\s*(?:iframe|object|embed)\b|\bGTM-[A-Z0-9]+\b/i, "No other tag manager/tracker embedding");
+  assert.doesNotMatch(html, /<link\b[^>]*rel="(?:preconnect|dns-prefetch|preload|modulepreload)"/i, "No speculative third-party connections");
+  const controls = tags(html, "button").map(attrs);
+  assert.deepEqual(controls.map(({ id }) => id).sort(), ["analytics-accept", "analytics-choices", "analytics-reject"]);
+  assert.ok(controls.every(({ type }) => type === "button"), "Native keyboard-accessible buttons");
+  const opener = controls.find(({ id }) => id === "analytics-choices");
+  assert.equal(opener["aria-controls"], "analytics-consent");
+  assert.equal(opener["aria-expanded"], "false");
+  assert.match(html, /<footer\b[\s\S]*?id="analytics-choices"[\s\S]*?>Analytics choices<\/button>[\s\S]*?<\/footer>/);
+  assert.match(html, /<section\b[^>]*id="analytics-consent"[^>]*aria-labelledby="analytics-title"[^>]*hidden/);
+  assert.match(html, /id="analytics-title" tabindex="-1"/);
+  assert.match(html, /id="analytics-accept">Accept analytics<\/button>/);
+  assert.match(html, /id="analytics-reject">Reject analytics<\/button>/);
+  verifyAnalytics(scripts[0][2], page.path);
   assert.doesNotMatch(html, /\son\w+\s*=|javascript:|<form\b/i, "No script handlers or forms");
 
   const play = links.filter(({ href }) => new URL(href, origin).hostname === "play.google.com");
@@ -198,5 +224,5 @@ for (const file of files.filter((file) => /\.(?:html|css|xml|txt)$/i.test(file))
     assert.doesNotMatch(contents, /@import/i, "No external stylesheets or fonts");
   }
 }
-console.log(`PASS: ${pages.length} pages, ${totalPlay} tracked CTAs; exact sitemap, robots, CNAME; local assets; no development origins or JavaScript.`);
+console.log(`PASS: ${pages.length} pages, ${totalPlay} tracked CTAs; exact sitemap, robots, CNAME; local assets; one shared inline consent script per page, no JavaScript artifacts or added dependencies.`);
 console.log(`Static output: ${files.length} files, ${files.reduce((sum, file) => sum + statSync(file).size, 0)} bytes including full-size screenshot links.`);
