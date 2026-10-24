@@ -27,7 +27,7 @@ The preview binds to the local computer. The site has one shared inline analytic
 - `scripts/verify.mjs`: generated-output checks.
 - `scripts/verify-analytics.mjs`: deterministic behaviour checks against the generated consent script, run by `npm run verify`.
 
-The homepage uses the `website_launch` Play campaign (`referral`); the fishing journal page uses `fishing_journal_app` (`organic`). Both use `catchid_website` as the source. Pass the campaign to `PlayLink`, or use `getPlayUrl` for plain links.
+The homepage uses the `website_launch` Play campaign (`referral`); the fishing journal page uses `fishing_journal_app` (`organic`). Both use `catchid_website` as the source. Play destinations include the same values inside Google's `referrer` parameter for install attribution. Pass the campaign to `PlayLink`, or use `getPlayUrl` for plain links.
 
 Verification covers both pages, their metadata and internal links, Play attribution, image assets, content guardrails, and the static output contract. For visual review, run `npm run preview` and inspect `/` and `/fishing-journal-app/` at 360, 390, 430, 768, 1024 and 1440 px. Confirm early access to the Play CTA, readable screenshots and FAQs, and no horizontal overflow.
 
@@ -35,7 +35,7 @@ Verification covers both pages, their metadata and internal links, Play attribut
 
 The only measurement ID is `G-LPXGL5VTB1`. The origin-scoped localStorage key `catchid.website.analytics` stores `granted` or `denied`. Missing, invalid or unreadable preferences leave analytics off. Before acceptance there is no Google script request, gtag initialisation, or analytics cookie creation. Both choices are equally prominent, and the footer's **Analytics choices** button reopens the prompt.
 
-Acceptance loads the standard `gtag.js` once per document and configures its normal page view and enhanced measurement. Google signals and advertising personalisation signals are disabled; no custom events or user IDs are added. The site's navigation remains ordinary static page navigation.
+Acceptance loads the standard `gtag.js` once per document and configures its normal page view and enhanced measurement. Google signals and advertising personalisation signals are disabled and no user IDs are added. The only custom website event is `play_store_click`, emitted when a consenting visitor selects a CatchID Google Play link. If that consenting visit arrived with complete campaign UTMs, the Play link's install referrer is replaced at click time with the inbound campaign values (plus supported `gclid` / `gbraid` values when present), so the Firebase Analytics SDK can receive Play install-referrer attribution after install/open. Without consent, the website does not emit the custom event or dynamically copy inbound campaign parameters. The site's navigation remains ordinary static page navigation.
 
 Rejection sets Google's `ga-disable-G-LPXGL5VTB1` flag, saves the preference and attempts to expire `_ga` / `_ga_*` root-path first-party cookies for the host and parent domains. It cannot recall measurements already sent, queued or in flight while consent was granted; a previously queued request can finish after rejection. Subsequent rejected page loads do not load GA. Open tabs and pages restored from the back cache recheck the saved choice. If storage cannot be written, analytics stays off on that page and the prompt explains that the choice could not be saved; a stale saved grant is removed if storage permits. With JavaScript disabled, analytics and its inactive controls remain off/hidden.
 
