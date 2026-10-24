@@ -8,7 +8,7 @@ const loader = `https://www.googletagmanager.com/gtag/js?id=${id}`;
 // Execute the actual generated inline script with a deliberately small browser
 // boundary. Unexpected network APIs or injected nodes fail rather than being
 // silently stubbed. Real-browser/network checks complement this deterministic suite.
-function browser(script, initial = null, { readFails = false, writeFails = false, removeFails = false, pending = false } = {}) {
+function browser(script, initial = null, { readFails = false, writeFails = false, removeFails = false, pending = false, pageHref = 'https://catchid.app/' } = {}) {
   const values = new Map(initial === null ? [] : [[key, initial]]);
   const requests = [];
   const cookieWrites = [];
@@ -58,7 +58,11 @@ function browser(script, initial = null, { readFails = false, writeFails = false
     setItem(name, value) { if (writeFails) throw new Error('Storage full'); values.set(name, value); },
     removeItem(name) { if (removeFails) throw new Error('Storage blocked'); values.delete(name); },
   };
-  runInNewContext(script, { document, window, localStorage, location: { hostname: 'catchid.app' } }, { timeout: 1000 });
+  const pageUrl = new URL(pageHref);
+  runInNewContext(script, {
+    document, window, localStorage, URL, URLSearchParams,
+    location: { hostname: pageUrl.hostname, href: pageUrl.href, search: pageUrl.search },
+  }, { timeout: 1000 });
   events.get('document:DOMContentLoaded')();
   const node = (name) => document.getElementById(`analytics-${name}`);
   const click = (name) => node(name).listeners.click();
@@ -193,11 +197,43 @@ export function verifyAnalytics(script, page) {
       assert.match(b.node('status').textContent, /could not save your choice/);
     }
   }
+  const paid = browser(script, 'granted', {
+    pageHref: 'https://catchid.app/?utm_source=google&utm_medium=cpc&utm_campaign=guk1&gclid=test-click-id',
+  });
+  const paidLink = {
+    href: 'https://play.google.com/store/apps/details?id=com.catchid.app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch',
+    closest(selector) { assert.equal(selector, 'a[href]'); return this; },
+  };
+  paid.dispatch('document:click', { target: paidLink });
+  const paidUrl = new URL(paidLink.href);
+  const paidReferrer = new URLSearchParams(paidUrl.searchParams.get('referrer'));
+  assert.deepEqual(Object.fromEntries(paidReferrer), {
+    utm_source: 'google', utm_medium: 'cpc', utm_campaign: 'guk1', gclid: 'test-click-id',
+  }, 'Consented paid traffic is handed to Google Play through the install referrer');
+  const paidEvent = paid.calls().at(-1);
+  assert.equal(paidEvent[0], 'event');
+  assert.equal(paidEvent[1], 'play_store_click');
+  assert.deepEqual(JSON.parse(JSON.stringify(paidEvent[2])), {
+    destination: 'google_play', handoff_attribution: 'inbound_campaign',
+  }, 'Play click event is minimal and does not duplicate the click id');
+
+  const denied = browser(script, 'denied', {
+    pageHref: 'https://catchid.app/?utm_source=google&utm_medium=cpc&utm_campaign=guk1&gclid=test-click-id',
+  });
+  const deniedLink = {
+    href: 'https://play.google.com/store/apps/details?id=com.catchid.app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch',
+    closest() { return this; },
+  };
+  const deniedHref = deniedLink.href;
+  denied.dispatch('document:click', { target: deniedLink });
+  assert.equal(deniedLink.href, deniedHref, 'Rejected analytics does not copy inbound campaign data into the Play link');
+  assertOff(denied);
+
   const fullStorage = browser(script, 'granted', { writeFails: true });
   fullStorage.click('choices');
   fullStorage.click('reject');
   assert.equal(fullStorage.window[`ga-disable-${id}`], true);
   assert.equal(fullStorage.values.has(key), false, 'Discard a stale grant if saving rejection fails');
   assertOff(browser(script, fullStorage.values.get(key)));
-  console.log(`PASS: ${page} — generated consent runtime: default off, exact GA ID, accept/reject/reopen, persistence, deduplication, cookies, storage failures, cross-tab and back navigation.`);
+  console.log(`PASS: ${page} — generated consent runtime: default off, exact GA ID, accept/reject/reopen, persistence, deduplication, cookies, storage failures, consent-gated Play handoff, cross-tab and back navigation.`);
 }
