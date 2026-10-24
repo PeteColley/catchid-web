@@ -102,6 +102,8 @@ for (const page of pages) {
   assert.match(html, /id="analytics-accept">Accept analytics<\/button>/);
   assert.match(html, /id="analytics-reject">Reject analytics<\/button>/);
   verifyAnalytics(scripts[0][2], page.path);
+  assert.match(consentSource, /play_store_click/, "Shared consent runtime includes the consent-gated Play Store click event");
+  assert.match(consentSource, /gclid.*gbraid/s, "Shared consent runtime preserves supported inbound paid-attribution keys");
   assert.doesNotMatch(html, /\son\w+\s*=|javascript:|<form\b/i, "No script handlers or forms");
 
   const play = links.filter(({ href }) => new URL(href, origin).hostname === "play.google.com");
@@ -131,9 +133,12 @@ for (const page of pages) {
     const url = new URL(href);
     assert.equal(url.origin, "https://play.google.com");
     assert.equal(url.pathname, "/store/apps/details");
+    const referrer = new URLSearchParams({
+      utm_source: "catchid_website", utm_medium: page.medium, utm_campaign: page.campaign,
+    }).toString();
     assert.deepEqual([...url.searchParams].sort(), Object.entries({
-      id: "com.catchid.app", utm_source: "catchid_website", utm_medium: page.medium, utm_campaign: page.campaign,
-    }).sort(), `${page.path}: exact Play attribution, with no duplicate parameters`);
+      id: "com.catchid.app", utm_source: "catchid_website", utm_medium: page.medium, utm_campaign: page.campaign, referrer,
+    }).sort(), `${page.path}: exact Play attribution and install referrer, with no duplicate parameters`);
     assert.equal(url.hash, "");
   }
   totalPlay += play.length;

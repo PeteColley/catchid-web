@@ -22,6 +22,10 @@
     let loaded = false;
     let initialised = false;
     let returnFocus = null;
+    const installAttributionKeys = [
+      'utm_source', 'utm_medium', 'utm_campaign', 'utm_id',
+      'utm_source_platform', 'utm_term', 'utm_content', 'gclid', 'gbraid',
+    ];
 
     function readChoice() {
       try {
@@ -117,6 +121,52 @@
       else document.querySelector('.site-header .brand').focus({ preventScroll: true });
       returnFocus = null;
     }
+
+    function pageInstallReferrer() {
+      const incoming = new URLSearchParams(location.search);
+      const referrer = new URLSearchParams();
+      for (const key of installAttributionKeys) {
+        const value = incoming.get(key);
+        if (value) referrer.set(key, value.slice(0, 512));
+      }
+      return referrer.has('utm_source') && referrer.has('utm_medium') && referrer.has('utm_campaign')
+        ? referrer.toString()
+        : null;
+    }
+
+    function handlePlayStoreClick(event) {
+      const link = event.target?.closest?.('a[href]');
+      if (!link) return;
+
+      let url;
+      try {
+        url = new URL(link.href, location.href);
+      } catch {
+        return;
+      }
+      if (
+        url.hostname !== 'play.google.com'
+        || url.pathname !== '/store/apps/details'
+        || url.searchParams.get('id') !== 'com.catchid.app'
+      ) return;
+
+      if (choice !== 'granted') return;
+
+      const referrer = pageInstallReferrer();
+      if (referrer) {
+        url.searchParams.set('referrer', referrer);
+        link.href = url.href;
+      }
+
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'play_store_click', {
+          destination: 'google_play',
+          handoff_attribution: referrer ? 'inbound_campaign' : 'website_campaign',
+        });
+      }
+    }
+
+    document.addEventListener('click', handlePlayStoreClick);
 
     opener.hidden = false;
     opener.addEventListener('click', () => {
