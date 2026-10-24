@@ -6,12 +6,16 @@ const PLAY_CAMPAIGNS = {
 export type PlayCampaign = keyof typeof PLAY_CAMPAIGNS;
 
 export function getPlayUrl(campaign: PlayCampaign = "website_launch"): string {
-  const url = new URL("https://play.google.com/store/apps/details");
-  url.search = new URLSearchParams({
-    id: "com.catchid.app",
+  const attribution = {
     utm_source: "catchid_website",
     utm_medium: PLAY_CAMPAIGNS[campaign],
     utm_campaign: campaign,
+  };
+  const url = new URL("https://play.google.com/store/apps/details");
+  url.search = new URLSearchParams({
+    id: "com.catchid.app",
+    ...attribution,
+    referrer: new URLSearchParams(attribution).toString(),
   }).toString();
   return url.href;
 }
