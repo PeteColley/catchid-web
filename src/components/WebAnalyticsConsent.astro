@@ -160,8 +160,8 @@
 
       if (typeof window.gtag === 'function') {
         window.gtag('event', 'play_store_click', {
-          link_url: link.href,
-          outbound: true,
+          destination: 'google_play',
+          handoff_attribution: referrer ? 'inbound_campaign' : 'website_campaign',
         });
       }
     }
