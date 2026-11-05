@@ -52,7 +52,7 @@ Self-review found and fixed a large-text caption clipped by the curved hero fram
 
 ## Visual review pack
 
-Screenshots are actual browser captures of this build; browser system scrollbar widths can reduce content width inside the stated viewport. Journey captures use a taller viewport to show the whole section at the required width. First-visit and saved-choice states are explicitly distinguished. All lazy product images were loaded before final journey captures.
+Screenshots are actual browser captures of this build; browser system scrollbar widths can reduce content width inside the stated viewport. Journey images are full-page captures clipped to include the complete section and new CTA at the required width. First-visit and saved-choice states are explicitly distinguished. All lazy product images were loaded before final journey captures. An initial viewport-only export was too short; the final evidence replaces it with the complete journey, without changing the tested website.
 
 ### 1440px desktop hero — saved consent choice
 
