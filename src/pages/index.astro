@@ -1,9 +1,11 @@
 ---
 import { Image, getImage } from 'astro:assets';
 import PlayLink from '../components/PlayLink.astro';
+import ProductScreenshot from '../components/ProductScreenshot.astro';
 import WebAnalyticsConsent from '../components/WebAnalyticsConsent.astro';
 import { PLAY_URL, PRIVACY_URL, SUPPORT_URL } from '../config';
 import icon from '../assets/catchid-icon.png';
+import home from '../assets/home-1.2.12.png';
 import identify from '../assets/identify.jpg';
 import journal from '../assets/journal.jpg';
 import insights from '../assets/insights-overview.jpg';
@@ -48,20 +50,20 @@ const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png'
     </header>
     <WebAnalyticsConsent />
     <main id="main">
-      <section class="hero wrap" aria-labelledby="hero-title">
+      <section class="hero home-hero wrap" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Your fishing. Remembered.</p>
-          <h1 id="hero-title">Identify your catch.<br /><em>Build your<br class="desktop-break" /> fishing story.</em></h1>
-          <p class="hero-description">From a likely species suggestion to a lasting catch journal. Discover patterns in your records as your fishing story grows.</p>
-          <PlayLink />
+          <h1 id="hero-title">Record your catches.<br /><em>Build your<br class="desktop-break" /> fishing story.</em></h1>
+          <p class="hero-description">Keep a personal fishing journal, explore insights from what you’ve recorded, and get a likely fish identification from a photo when you need help.</p>
+          <PlayLink priority />
           <p class="availability">Currently free on Android <span aria-hidden="true">·</span> No&nbsp;adverts <span aria-hidden="true">·</span> No&nbsp;subscription</p>
-          <a class="journey-link" href="#how-it-works">Identify <span aria-hidden="true">→</span> Journal <span aria-hidden="true">→</span> Insights <span class="down" aria-hidden="true">↓</span></a>
+          <a class="journey-link" href="#how-it-works">Add a catch <span aria-hidden="true">→</span> Journal <span aria-hidden="true">→</span> Insights <span class="down" aria-hidden="true">↓</span></a>
         </div>
         <figure class="hero-evidence">
           <div class="water-lines" aria-hidden="true"></div>
           <p class="evidence-label">A catch today. A story to keep.</p>
-          <Image src={journal} alt="CatchID Catch Journal screen with saved catches, photographs, dates and catch details." widths={[360, 540, 720]} sizes="(max-width: 600px) 290px, 340px" width={340} height={604} format="webp" quality={85} loading="eager" fetchpriority="high" />
-          <figcaption>Your catches, together in CatchID.</figcaption>
+          <Image src={home} alt="CatchID Home: add a catch with or without a photo, open your journal or Insights, and explore the clearly labelled example guidance." widths={[360, 540, 720]} sizes="(max-width: 600px) 270px, (max-width: 800px) 235px, 270px" width={390} height={844} format="webp" quality={85} loading="eager" fetchpriority="high" />
+          <figcaption>CatchID Home · First-catch guidance with example content.</figcaption>
         </figure>
       </section>
 
@@ -79,9 +81,7 @@ const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png'
                 <p>Take or choose a photo for a <strong>likely species suggestion</strong>. You can correct it, or skip identification and enter the catch yourself.</p>
                 <p class="step-note">A suggestion, never a guarantee.</p>
               </div>
-              <a class="screen-link journey-stage" href={identify.src} aria-label="View larger CatchID identification screenshot">
-                <Image src={identify} alt="CatchID identification result showing a likely species and the option to change species." widths={[360, 540, 720]} sizes="(max-width: 599px) 192px, (max-width: 1100px) 212px, 272px" width={320} height={569} format="webp" quality={85} loading="lazy" />
-              </a>
+              <ProductScreenshot src={identify} alt="CatchID identification result showing a likely species and the option to change species." label="View larger CatchID identification screenshot" sizes="(max-width: 599px) 192px, (max-width: 1100px) 212px, 272px" width={320} height={569} stage />
             </li>
             <li id="journal">
               <div class="journey-copy">
@@ -90,9 +90,7 @@ const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png'
                 <p>Keep your catches, photos and details together in a personal fishing journal. <strong>Manual entry is always an option.</strong></p>
                 <p class="step-note">No identification or photo needed.</p>
               </div>
-              <a class="screen-link journey-stage" href={journal.src} aria-label="View larger CatchID journal screenshot">
-                <Image src={journal} alt="CatchID Catch Journal showing a fishing history with saved photographs and structured details." widths={[360, 540, 720]} sizes="(max-width: 599px) 192px, (max-width: 1100px) 212px, 272px" width={320} height={569} format="webp" quality={85} loading="lazy" />
-              </a>
+              <ProductScreenshot src={journal} alt="CatchID Catch Journal showing a fishing history with saved photographs and structured details." label="View larger CatchID journal screenshot" sizes="(max-width: 599px) 192px, (max-width: 1100px) 212px, 272px" width={320} height={569} stage />
             </li>
             <li id="insights">
               <div class="journey-copy">
@@ -101,9 +99,7 @@ const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png'
                 <p>Each saved catch adds to your fishing history. Explore <strong>what you’ve recorded</strong> through species, recent activity, Personal Records and Fishing Locations.</p>
                 <p class="step-note">Your recorded catches tell the story.</p>
               </div>
-              <a class="screen-link journey-stage" href={insights.src} aria-label="View larger CatchID Insights screenshot">
-                <Image src={insights} alt="CatchID Catch Insights overview with saved catches, species recorded and recent journal activity." widths={[360, 540, 720]} sizes="(max-width: 599px) 160px, (max-width: 1100px) 175px, 225px" width={320} height={693} format="webp" quality={85} loading="lazy" />
-              </a>
+              <ProductScreenshot src={insights} alt="CatchID Catch Insights overview with saved catches, species recorded and recent journal activity." label="View larger CatchID Insights screenshot" sizes="(max-width: 599px) 160px, (max-width: 1100px) 175px, 225px" width={320} height={693} stage />
             </li>
           </ol>
           <section class="insights-proof" aria-labelledby="inside-insights-title">
@@ -111,19 +107,15 @@ const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png'
             <div class="insights-features">
               <figure>
                 <figcaption><h4>Personal Records</h4><p>See your top recorded catches by species.</p></figcaption>
-                <a class="screen-link" href={personalRecords.src} aria-label="View larger CatchID Personal Records screenshot">
-                  <Image src={personalRecords} alt="CatchID Personal Records showing top recorded catches by species with PB labels and catch details." widths={[360, 540, 720]} sizes="(max-width: 599px) 160px, (max-width: 1100px) 180px, 220px" width={280} height={607} format="webp" quality={85} loading="lazy" />
-                </a>
+                <ProductScreenshot src={personalRecords} alt="CatchID Personal Records showing top recorded catches by species with PB labels and catch details." label="View larger CatchID Personal Records screenshot" sizes="(max-width: 599px) 160px, (max-width: 1100px) 180px, 220px" width={280} height={607} />
               </figure>
               <figure>
                 <figcaption><h4>Fishing Locations</h4><p>Explore the catches you’ve saved at each water.</p></figcaption>
-                <a class="screen-link" href={fishingLocations.src} aria-label="View larger CatchID Fishing Locations screenshot">
-                  <Image src={fishingLocations} alt="CatchID Fishing Locations showing saved catches and recorded species grouped by water." widths={[360, 540, 720]} sizes="(max-width: 599px) 160px, (max-width: 1100px) 180px, 220px" width={280} height={607} format="webp" quality={85} loading="lazy" />
-                </a>
+                <ProductScreenshot src={fishingLocations} alt="CatchID Fishing Locations showing saved catches and recorded species grouped by water." label="View larger CatchID Fishing Locations screenshot" sizes="(max-width: 599px) 160px, (max-width: 1100px) 180px, 220px" width={280} height={607} />
               </figure>
             </div>
           </section>
-          <p class="image-note">Explore CatchID. Tap a screenshot for a closer look.</p>
+          <p class="image-note desktop-image-note">Select a screenshot for a closer look.</p>
           <p class="insights-note">Insights reflect saved catches. They don’t measure fishing effort, blank sessions or success rates.</p>
           <aside class="journal-trust" data-journal-protection aria-labelledby="protection-title">
             <h3 id="protection-title">Protect your fishing history</h3>
@@ -132,6 +124,14 @@ const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png'
             </div>
           </aside>
         </div>
+      </section>
+
+      <section class="journey-cta wrap" aria-labelledby="journey-cta-title">
+        <div>
+          <h2 id="journey-cta-title">Ready to start your fishing story?</h2>
+          <p>Record your next catch in CatchID. Currently free on Android, with no adverts or subscription.</p>
+        </div>
+        <PlayLink />
       </section>
 
       <section class="memory-section wrap" aria-labelledby="memory-title">

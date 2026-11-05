@@ -7,7 +7,17 @@ The CatchID icon and three product screenshots are supplied CatchID marketing ar
 - `src/assets/journal.jpg`: catch journal artwork.
 - `src/assets/insights.jpg`: earlier Catch Insights artwork, retained but no longer used on either page.
 
-Astro generates responsive image renditions at build time. The original screenshots remain available through the homepage's larger-image links.
+Astro generates responsive image renditions at build time. The original journey screenshots remain available through the homepage's desktop larger-image links; at widths up to 600px the homepage renders non-navigating screenshots instead. Both presentations use the same optimized assets and alt text, with only one exposed to layout and accessibility at a time.
+
+## Current Home evidence — CID-WEB-CRO-01
+
+`src/assets/home-1.2.12.png` is an unchanged 780 × 1688 capture from the dedicated API 36 emulator, displaying the actual current Home UI with an empty, isolated test journal and the app's own clearly labelled EXAMPLE first-catch guidance. No personal catches, private locations or user photos are present. No device was modified for this website task. We chose this real first-use experience over the personalised test captures, whose photo slots contain geometric fixture images.
+
+- Source: `catchid-android/docs/design/CID-DELIGHT-HOME-04/evidence/07-zero-catch.png`, read at Android main `a7f8b6e7f9a7ab13ba454db1634d9e8b884c93e3` on 5 November 2026.
+- SHA-256: `7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349`, matching the original HOME-04 verification manifest.
+- Provenance: [HOME-04 handover](https://github.com/PeteColley/catchid-android/blob/a7f8b6e7f9a7ab13ba454db1634d9e8b884c93e3/docs/design/CID-DELIGHT-HOME-04/HANDOVER.md) and [capture manifest](https://github.com/PeteColley/catchid-android/blob/a7f8b6e7f9a7ab13ba454db1634d9e8b884c93e3/docs/design/CID-DELIGHT-HOME-04/evidence/verification.json).
+- The Home rendering source matches the 1.2.12 Production build-source `e50e7a2c518c26346b44fa3ed35b3a6454de7a1a`; Android main also contains an unrelated banked What's new feature. This is an emulator UI capture, not a new Play-device capture.
+- No compositing, retouching, cropping or invented UI. Astro emits WebP sizes at 360/540/720px (approximately 24/43/62 KB), reserves the genuine aspect ratio, and the website caption identifies first-catch example content.
 
 ## Google Play download badge
 

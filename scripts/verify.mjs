@@ -6,8 +6,8 @@ import { verifyAnalytics } from "./verify-analytics.mjs";
 
 const origin = "https://catchid.app";
 const dist = resolve("dist");
-const decode = (value) => value.replace(/&(?:amp|quot|apos|lt|gt|#39|#x27);/g, (entity) => ({
-  "&amp;": "&", "&quot;": '"', "&apos;": "'", "&#39;": "'", "&#x27;": "'", "&lt;": "<", "&gt;": ">",
+const decode = (value) => value.replace(/&(?:amp|quot|apos|lt|gt|nbsp|#39|#x27);/g, (entity) => ({
+  "&amp;": "&", "&quot;": '"', "&apos;": "'", "&#39;": "'", "&#x27;": "'", "&lt;": "<", "&gt;": ">", "&nbsp;": " ",
 })[entity]);
 const tags = (html, tag) => [...html.matchAll(new RegExp(`<${tag}\\b[^>]*>`, "gi"))].map(([value]) => value);
 const attrs = (tag) => Object.fromEntries([...tag.matchAll(/([\w:-]+)(?:="([^"]*)")?/g)].map(([, key, value]) => [key, decode(value ?? "")]));
@@ -24,7 +24,7 @@ const pages = [
 const pageFile = (path) => resolve(dist, `.${path}`, "index.html");
 assert.deepEqual(files.filter((file) => file.endsWith(".html")).sort(), pages.map(({ path }) => pageFile(path)).sort(), "Exactly the two intended HTML pages");
 const documents = new Map(pages.map(({ path }) => [path, readFileSync(pageFile(path), "utf8")]));
-const consentSource = readFileSync("src/components/WebAnalyticsConsent.astro", "utf8").match(/<script\b[^>]*>([\s\S]*?)<\/script>/)[1].trim();
+const consentSource = readFileSync("src/components/WebAnalyticsConsent.astro", "utf8").replaceAll('\r\n', '\n').match(/<script\b[^>]*>([\s\S]*?)<\/script>/)[1].trim();
 const manifest = JSON.parse(readFileSync("package.json", "utf8"));
 assert.deepEqual(Object.keys(manifest.dependencies).sort(), ["@astrojs/check", "astro", "typescript"], "No added runtime dependencies");
 for (const group of ["devDependencies", "optionalDependencies", "peerDependencies"]) {
@@ -101,17 +101,20 @@ for (const page of pages) {
   assert.match(html, /id="analytics-title" tabindex="-1"/);
   assert.match(html, /id="analytics-accept">Accept analytics<\/button>/);
   assert.match(html, /id="analytics-reject">Reject analytics<\/button>/);
-  verifyAnalytics(scripts[0][2], page.path);
+  verifyAnalytics(scripts[0][2], page.path, links.filter(({ href }) => new URL(href, origin).hostname === 'play.google.com').map(({ href }) => href));
   assert.match(consentSource, /play_store_click/, "Shared consent runtime includes the consent-gated Play Store click event");
   assert.match(consentSource, /gclid.*gbraid/s, "Shared consent runtime preserves supported inbound paid-attribution keys");
   assert.doesNotMatch(html, /\son\w+\s*=|javascript:|<form\b/i, "No script handlers or forms");
 
   const play = links.filter(({ href }) => new URL(href, origin).hostname === "play.google.com");
-  assert.equal(play.length, 4, `${page.path}: header, hero, final and footer Play CTAs`);
+  const homepage = page.path === "/";
+  const badgeCount = homepage ? 3 : 2;
+  assert.equal(play.length, homepage ? 5 : 4, `${page.path}: header, hero, final, footer and homepage journey CTA`);
+  assert.match(html, /class="play-link compact"[^>]*>\s*<span>Get CatchID free<\/span>/);
   const anchorMarkup = [...html.matchAll(/<a\b[^>]*>[\s\S]*?<\/a>/gi)].map(([markup]) => markup);
   const badges = anchorMarkup.filter((markup) => attrs(tags(markup, "a")[0]).class?.split(/\s+/).includes("play-badge"));
-  assert.equal(badges.length, 2, "Official badges at the two primary download moments");
-  for (const markup of badges) {
+  assert.equal(badges.length, badgeCount, "Official badges at the intended acquisition moments");
+  for (const [index, markup] of badges.entries()) {
     const link = attrs(tags(markup, "a")[0]);
     assert.ok(play.some(({ href }) => href === link.href), "Badge uses the tracked Play destination");
     const images = tags(markup, "img").map(attrs);
@@ -120,14 +123,16 @@ for (const page of pages) {
     assert.equal(images[0].alt, "Get CatchID on Google Play", "Badge link has an accessible name");
     assert.equal(images[0].width, "239");
     assert.equal(images[0].height, "71");
+    assert.equal(images[0].loading, index === 0 ? "eager" : "lazy", "Only the above-fold badge loads eagerly");
+    assert.equal(images[0].fetchpriority, index === 0 ? "high" : undefined);
     assert.equal(visibleText(markup), "", "No custom text or artwork added inside the badge link");
   }
-  for (const name of ["hero", "final-cta"]) {
+  for (const name of ["hero", ...(homepage ? ["journey-cta"] : []), "final-cta"]) {
     const section = [...html.matchAll(/<section\b[^>]*>[\s\S]*?<\/section>/gi)].map(([markup]) => markup)
       .find((markup) => attrs(tags(markup, "section")[0]).class?.split(/\s+/).includes(name));
     assert.ok(section && badges.some((badge) => section.includes(badge)), `${name} contains an official badge`);
   }
-  assert.equal(tags(html, "img").map(attrs).filter(({ src }) => src === badgePath).length, 2, "No extra store badges in navigation");
+  assert.equal(tags(html, "img").map(attrs).filter(({ src }) => src === badgePath).length, badgeCount, "No extra store badges in navigation");
   assert.equal((text.match(/Google Play and the Google Play logo are trademarks of Google LLC\./g) || []).length, 1, "One narrow Google trademark attribution");
   for (const { href } of play) {
     const url = new URL(href);
@@ -200,6 +205,27 @@ for (const page of pages) {
 
   if (page.path === "/") {
     assert.ok(links.some(({ href }) => href === "/fishing-journal-app/"), "Homepage links to journal page");
+    assert.equal(visibleText(html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)[1]), "Record your catches. Build your fishing story.");
+    assert.match(text, /Keep a personal fishing journal, explore insights from what you’ve recorded, and get a likely fish identification from a photo when you need help\./);
+    assert.match(text, /Currently free on Android · No\s*adverts · No\s*subscription/);
+    assert.equal((html.match(/id="journey-cta-title"/g) || []).length, 1);
+    assert.ok(html.indexOf('id="journey-cta-title"') > html.indexOf('class="journal-trust"'));
+    assert.ok(html.indexOf('id="journey-cta-title"') < html.indexOf('class="memory-section wrap"'));
+    const homeImage = screenshots.find(({ src }) => src.includes('home-1.2.12'));
+    assert.ok(homeImage, "Verified current Home capture replaces the hero Journal screenshot");
+    assert.equal(homeImage.loading, "eager");
+    assert.equal(Number(homeImage.width) / Number(homeImage.height), 390 / 844, "Home reserves its genuine screenshot proportions");
+    assert.match(text, /CatchID Home · First-catch guidance with example content\./);
+    assert.equal(createHash('sha256').update(readFileSync('src/assets/home-1.2.12.png')).digest('hex'), '7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349', "Unaltered verified non-personal Home capture");
+    const desktopScreens = anchorMarkup.filter(markup => attrs(tags(markup, 'a')[0]).class?.includes('screen-desktop'));
+    const mobileScreens = [...html.matchAll(/<div class="screen-link screen-mobile[^\"]*">[\s\S]*?<\/div>/g)].map(([markup]) => markup);
+    assert.equal(desktopScreens.length, 5, "Desktop keeps five larger-image links");
+    assert.equal(mobileScreens.length, 5, "Mobile gets five static screenshots without navigation");
+    mobileScreens.forEach((markup, index) => {
+      assert.equal(tags(markup, 'a').length, 0);
+      assert.deepEqual(attrs(tags(markup, 'img')[0]), attrs(tags(desktopScreens[index], 'img')[0]), "Responsive presentations reuse identical optimized assets and alt text");
+    });
+    assert.doesNotMatch(text, /Tap (?:a screenshot|for a closer look)/);
   } else {
     const h1 = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)[1];
     assert.equal(visibleText(h1), "A fishing journal that grows with every catch");

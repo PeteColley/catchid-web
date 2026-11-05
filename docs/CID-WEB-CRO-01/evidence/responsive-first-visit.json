@@ -1,0 +1,104 @@
+[
+  {
+    "client": 345,
+    "headerHeight": 46,
+    "heroBadge": {
+      "bottom": 836.8500366210938,
+      "height": 92,
+      "left": 55.25,
+      "right": 289.5500030517578,
+      "top": 744.8500366210938,
+      "width": 234.3000030517578,
+      "x": 55.25,
+      "y": 744.8500366210938
+    },
+    "scroll": 345,
+    "visibleRawLinks": 0,
+    "width": 360
+  },
+  {
+    "client": 375,
+    "headerHeight": 46,
+    "heroBadge": {
+      "bottom": 770.75,
+      "height": 92,
+      "left": 70.45000457763672,
+      "right": 304.75000762939453,
+      "top": 678.75,
+      "width": 234.3000030517578,
+      "x": 70.45000457763672,
+      "y": 678.75
+    },
+    "scroll": 375,
+    "visibleRawLinks": 0,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "headerHeight": 46,
+    "heroBadge": {
+      "bottom": 761.9000244140625,
+      "height": 92,
+      "left": 90.45000457763672,
+      "right": 324.75000762939453,
+      "top": 669.9000244140625,
+      "width": 234.3000030517578,
+      "x": 90.45000457763672,
+      "y": 669.9000244140625
+    },
+    "scroll": 415,
+    "visibleRawLinks": 0,
+    "width": 430
+  },
+  {
+    "client": 753,
+    "headerHeight": 46,
+    "heroBadge": {
+      "bottom": 800.6625366210938,
+      "height": 92,
+      "left": 16,
+      "right": 250.3000030517578,
+      "top": 708.6625366210938,
+      "width": 234.3000030517578,
+      "x": 16,
+      "y": 708.6625366210938
+    },
+    "scroll": 753,
+    "visibleRawLinks": 5,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "headerHeight": 46,
+    "heroBadge": {
+      "bottom": 784.9750366210938,
+      "height": 92,
+      "left": 16,
+      "right": 250.3000030517578,
+      "top": 692.9750366210938,
+      "width": 234.3000030517578,
+      "x": 16,
+      "y": 692.9750366210938
+    },
+    "scroll": 1009,
+    "visibleRawLinks": 5,
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "headerHeight": 46,
+    "heroBadge": {
+      "bottom": 790.1124877929688,
+      "height": 92,
+      "left": 96.4000015258789,
+      "right": 330.7000045776367,
+      "top": 698.1124877929688,
+      "width": 234.3000030517578,
+      "x": 96.4000015258789,
+      "y": 698.1124877929688
+    },
+    "scroll": 1425,
+    "visibleRawLinks": 5,
+    "width": 1440
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "clientWidth": 345,
+    "headlineFont": "62.4px",
+    "overflow": [],
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "clientWidth": 375,
+    "headlineFont": "66.2118px",
+    "overflow": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "clientWidth": 415,
+    "headlineFont": "72.9958px",
+    "overflow": [],
+    "scrollWidth": 415,
+    "width": 430
+  },
+  {
+    "clientWidth": 753,
+    "headlineFont": "65.6px",
+    "overflow": [],
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "clientWidth": 1009,
+    "headlineFont": "75.2px",
+    "overflow": [],
+    "scrollWidth": 1009,
+    "width": 1024
+  },
+  {
+    "clientWidth": 1425,
+    "headlineFont": "102.4px",
+    "overflow": [],
+    "scrollWidth": 1425,
+    "width": 1440
+  }
+]

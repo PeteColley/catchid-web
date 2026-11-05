@@ -1,0 +1,86 @@
+[
+  {
+    "client": 345,
+    "ctaHeight": 46,
+    "headlineFont": "39px",
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "client": 375,
+    "ctaHeight": 46,
+    "headlineFont": "41.3824px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "ctaHeight": 46,
+    "headlineFont": "45.6224px",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 753,
+    "ctaHeight": 46,
+    "headlineFont": "41px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "ctaHeight": 46,
+    "headlineFont": "47px",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "ctaHeight": 46,
+    "headlineFont": "64px",
+    "scroll": 1425,
+    "width": 1440
+  },
+  {
+    "client": 345,
+    "ctaHeight": 52.47500228881836,
+    "headlineFont": "62.4px",
+    "scroll": 345,
+    "width": 360
+  },
+  {
+    "client": 375,
+    "ctaHeight": 52.47500228881836,
+    "headlineFont": "66.2118px",
+    "scroll": 375,
+    "width": 390
+  },
+  {
+    "client": 415,
+    "ctaHeight": 52.47500228881836,
+    "headlineFont": "72.9958px",
+    "scroll": 415,
+    "width": 430
+  },
+  {
+    "client": 753,
+    "ctaHeight": 54.712501525878906,
+    "headlineFont": "65.6px",
+    "scroll": 753,
+    "width": 768
+  },
+  {
+    "client": 1009,
+    "ctaHeight": 54.712501525878906,
+    "headlineFont": "75.2px",
+    "scroll": 1009,
+    "width": 1024
+  },
+  {
+    "client": 1425,
+    "ctaHeight": 54.712501525878906,
+    "headlineFont": "102.4px",
+    "scroll": 1425,
+    "width": 1440
+  }
+]

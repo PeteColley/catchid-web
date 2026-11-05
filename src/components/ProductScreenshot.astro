@@ -1,0 +1,24 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  src: ImageMetadata;
+  alt: string;
+  label: string;
+  sizes: string;
+  width: number;
+  height: number;
+  stage?: boolean;
+}
+const { src, alt, label, sizes, width, height, stage = false } = Astro.props;
+const imageProps = { src, alt, sizes, width, height, widths: [360, 540, 720], format: 'webp' as const, quality: 85, loading: 'lazy' as const };
+---
+<!-- CSS exposes only one presentation to layout, focus and the accessibility tree.
+     Both share the same optimized assets; no mobile script or raw-image navigation. -->
+<a class:list={['screen-link', 'screen-desktop', { 'journey-stage': stage }]} href={src.src} aria-label={label}>
+  <Image {...imageProps} />
+</a>
+<div class:list={['screen-link', 'screen-mobile', { 'journey-stage': stage }]}>
+  <Image {...imageProps} />
+</div>

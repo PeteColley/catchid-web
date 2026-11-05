@@ -1,15 +1,15 @@
 ---
 import { getPlayUrl, type PlayCampaign } from '../config';
-interface Props { compact?: boolean; campaign?: PlayCampaign }
-const { compact = false, campaign = 'website_launch' } = Astro.props;
+interface Props { compact?: boolean; campaign?: PlayCampaign; priority?: boolean }
+const { compact = false, campaign = 'website_launch', priority = false } = Astro.props;
 ---
 {compact ? (
   <a class="play-link compact" href={getPlayUrl(campaign)}>
-    <span>Get the Android app</span>
+    <span>Get CatchID free</span>
     <span aria-hidden="true">↗</span>
   </a>
 ) : (
   <a class="play-link play-badge" href={getPlayUrl(campaign)}>
-    <img src="/assets/google-play-badge.svg" width="239" height="71" alt="Get CatchID on Google Play" loading="lazy" decoding="async" />
+    <img src="/assets/google-play-badge.svg" width="239" height="71" alt="Get CatchID on Google Play" loading={priority ? 'eager' : 'lazy'} fetchpriority={priority ? 'high' : undefined} decoding="async" />
   </a>
 )}

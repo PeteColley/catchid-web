@@ -71,7 +71,7 @@ function browser(script, initial = null, { readFails = false, writeFails = false
   return { values, requests, cookies, cookieWrites, window, document, node, click, dispatch, calls, loaders };
 }
 
-export function verifyAnalytics(script, page) {
+export function verifyAnalytics(script, page, playHrefs) {
   const assertOff = (b) => {
     assert.equal(b.requests.length, 0, 'No Google requests while unset/rejected');
     assert.equal(b.window.gtag, undefined, 'No gtag initialisation while unset/rejected');
@@ -228,6 +228,56 @@ export function verifyAnalytics(script, page) {
   denied.dispatch('document:click', { target: deniedLink });
   assert.equal(deniedLink.href, deniedHref, 'Rejected analytics does not copy inbound campaign data into the Play link');
   assertOff(denied);
+
+  // Exercise every generated CTA, including the new journey badge, with the
+  // actual default URL and the same delegated click target used by badge images.
+  const incoming = {
+    utm_source: 'google', utm_medium: 'cpc', utm_campaign: 'story & journal',
+    utm_id: 'campaign-id', utm_source_platform: 'ads', utm_term: 'fishing journal',
+    utm_content: 'mobile/hero', gclid: 'test-click-id', gbraid: 'test-braid',
+  };
+  for (const href of playHrefs) {
+    for (const initial of [null, 'denied', 'granted']) {
+      const b = browser(script, initial, {
+        pageHref: `https://catchid.app${page}?${new URLSearchParams(incoming)}&utm_source=duplicate&unknown=discard`,
+      });
+      const link = { href };
+      const event = { target: { closest(selector) { assert.equal(selector, 'a[href]'); return link; } } };
+      b.dispatch('document:click', event);
+      if (initial !== 'granted') {
+        assert.equal(link.href, href);
+        assertOff(b);
+        continue;
+      }
+      const url = new URL(link.href);
+      const original = new URL(href);
+      assert.equal(url.searchParams.getAll('referrer').length, 1);
+      assert.deepEqual([...new URLSearchParams(url.searchParams.get('referrer'))].sort(), Object.entries(incoming).sort(), 'Exactly the allowed attribution keys, with no duplicate/over-encoded referrer');
+      for (const [key, value] of original.searchParams) {
+        if (key !== 'referrer') assert.deepEqual(url.searchParams.getAll(key), [value], 'Static campaign and package parameters stay unchanged');
+      }
+      b.dispatch('document:click', event);
+      assert.equal(link.href, url.href, 'Repeated activation does not nest or duplicate attribution');
+      const events = b.calls().filter(([command]) => command === 'event');
+      assert.equal(events.length, 2, 'Exactly one event per consented activation');
+      for (const call of events) {
+        assert.equal(call[1], 'play_store_click');
+        assert.deepEqual(JSON.parse(JSON.stringify(call[2])), { destination: 'google_play', handoff_attribution: 'inbound_campaign' });
+      }
+      b.click('reject');
+      const freshLink = { href };
+      b.dispatch('document:click', { target: { closest() { return freshLink; } } });
+      assert.equal(freshLink.href, href);
+      assert.equal(b.calls().filter(([command]) => command === 'event').length, 2, 'Withdrawal blocks further click events');
+    }
+    for (const query of ['', '?utm_source=google&gclid=partial']) {
+      const b = browser(script, 'granted', { pageHref: `https://catchid.app${page}${query}` });
+      const link = { href, closest() { return this; } };
+      b.dispatch('document:click', { target: link });
+      assert.equal(link.href, href, 'Incomplete inbound attribution preserves the complete website campaign');
+      assert.equal(b.calls().at(-1)[2].handoff_attribution, 'website_campaign');
+    }
+  }
 
   const fullStorage = browser(script, 'granted', { writeFails: true });
   fullStorage.click('choices');
