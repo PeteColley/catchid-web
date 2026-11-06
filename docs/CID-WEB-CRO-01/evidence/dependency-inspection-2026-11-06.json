@@ -1,0 +1,88 @@
+{
+  "reviewDate": "2026-11-06 Europe/London",
+  "node": "v24.21.0",
+  "npm": "11.19.0",
+  "bundledUndici": "7.29.1",
+  "lockSha256": "5529401d204589b1871006d74497ecff840889ed2dbd71fa0d6ef5302343e891",
+  "packages": [
+    {
+      "name": "astro",
+      "locked": "7.3.1",
+      "installed": "7.3.1"
+    },
+    {
+      "name": "devalue",
+      "locked": "5.9.2",
+      "installed": "5.9.2"
+    },
+    {
+      "name": "fast-uri",
+      "locked": "3.1.7",
+      "installed": "3.1.7"
+    },
+    {
+      "name": "sharp",
+      "locked": "0.35.4",
+      "installed": "0.35.4"
+    },
+    {
+      "name": "smol-toml",
+      "locked": "1.8.0",
+      "installed": "1.8.0"
+    },
+    {
+      "name": "source-map-js",
+      "locked": "1.2.1",
+      "installed": "1.2.1"
+    },
+    {
+      "name": "undici",
+      "locked": "8.10.2",
+      "installed": "8.10.2"
+    },
+    {
+      "name": "vite",
+      "locked": "8.2.2",
+      "installed": "8.2.2"
+    },
+    {
+      "name": "zod",
+      "locked": "4.5.4",
+      "installed": "4.5.4"
+    }
+  ],
+  "assets": [
+    {
+      "name": "catchid-icon.png",
+      "magic": "89504e470d0a1a0a0000000d"
+    },
+    {
+      "name": "fishing-locations.jpg",
+      "magic": "ffd8ffe000104a4649460001"
+    },
+    {
+      "name": "home-1.2.12.png",
+      "magic": "89504e470d0a1a0a0000000d"
+    },
+    {
+      "name": "identify.jpg",
+      "magic": "ffd8ffe000104a4649460001"
+    },
+    {
+      "name": "insights-overview.jpg",
+      "magic": "ffd8ffe000104a4649460001"
+    },
+    {
+      "name": "insights.jpg",
+      "magic": "ffd8ffe000104a4649460001"
+    },
+    {
+      "name": "journal.jpg",
+      "magic": "ffd8ffe000104a4649460001"
+    },
+    {
+      "name": "personal-records.jpg",
+      "magic": "ffd8ffe000104a4649460001"
+    }
+  ]
+}

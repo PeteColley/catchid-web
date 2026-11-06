@@ -1,6 +1,20 @@
 # CID-WEB-CRO-01 — Play Store conversion pass
 
-5 November 2026 · **Implemented on `codex/cid-web-cro-01`; NOT live.** Pete's visual approval is required before any website merge or publication. No Android release is part of this work.
+5 November 2026 implementation · **Approved implementation on `codex/cid-web-cro-01`. Publication authorised 6 November; live outcome must be established by the deployment receipt.**
+
+**6 November 2026 — approval and security-review record:** Pete reviewed the screenshots and approved their appearance (“look ok”), as recorded in his CID-WEB-CRO-01A instruction. The visual gate is closed for unchanged checkpoint `51f44045edea137fa31a69a7df2011e2da83c102`; do not request visual approval again. The [dependency review](DEPENDENCY_REVIEW.md) concludes **NO IDENTIFIED PUBLICATION BLOCKER** for the inspected static candidate, with vulnerable local tooling and dependency-maintenance follow-ups documented. The security review itself was not publication permission; the explicit authorisation below supplies that permission. No Android release is part of this work.
+
+## CID-WEB-CRO-01B — authorised publication
+
+Pete's 6 November instruction explicitly authorises committing the review evidence, fast-forwarding website main from `727b990c974a996f97012d55ac3cb14b83870fe4` to the approved implementation plus documentation, and publishing through the existing main-push GitHub Pages workflow. No duplicate manual dispatch is authorised or needed. The pre-publication SHA above is the rollback baseline.
+
+All non-documentation tracked files must remain identical to `51f44045edea137fa31a69a7df2011e2da83c102`, including source, assets, verification scripts, package/lock files, configuration and workflows. A separate read-only reviewer checked that equality, the report and all six JSON evidence files: no implementation blocker, secret, private catch data or sensitive local path was found; no redaction was required. This separate review applies to B's publication preparation, not a retrospective independent re-run of A's advisory investigation.
+
+The 6 November audit still reports nine affected packages / 32 advisories; it is not clean and no dependency is fixed by publication. Preserve the documented Vite/Sharp and other maintenance follow-ups. Do not expose or use affected dev servers with untrusted browsing/inputs, or add untrusted image processing. This publication task uses no Vite development/preview server.
+
+Pre-publication checks on 6 November passed: `npm ci` (262 locked packages; the existing 9-vulnerability warning remains), `npm run check` (0 errors/warnings/hints), `npm run build` (2 static pages), `npm run verify` (all nine Play links, consent/attribution, HTML/SEO and screenshot-provenance checks), and `git diff --check`. The 1.2.12 Home source hash remains verified. No non-documentation differences from the approved checkpoint were found.
+
+Deployment source SHA and run, served-page/asset identity, analytics-isolated live smoke and final status are recorded in the subsequent Android continuity receipt. A commit or successful build alone does not establish LIVE. No further UI, dependency, workflow, DNS, Android, Play, backend or growth change is included.
 
 ## Baseline and boundaries
 
@@ -48,7 +62,7 @@ Manual checks: visible keyboard focus on the header CTA, accessible badge names,
 
 Delayed-image browser tests at 390px and 1440px measured the badge and Home before/after real image load: no recorded layout shifts, badge dimensions unchanged; Home rendition rounding was below 0.1px. Static dimensions reserve the image space. No new font/network dependency was introduced.
 
-Self-review found and fixed a large-text caption clipped by the curved hero frame, then rechecked that view and rebuilt/reverified. It also reduced the taller Home capture's desktop size and retained real first-use guidance instead of a personalised fixture containing geometric photos. This was **self-review**, not an independent reviewer. No outstanding implementation defect was found. Conversion lift, physical-device/browser coverage beyond Chromium and Pete's visual approval remain unverified.
+Self-review found and fixed a large-text caption clipped by the curved hero frame, then rechecked that view and rebuilt/reverified. It also reduced the taller Home capture's desktop size and retained real first-use guidance instead of a personalised fixture containing geometric photos. This was **self-review**, not an independent reviewer. No outstanding implementation defect was found. Conversion lift and physical-device/browser coverage beyond Chromium remain unverified. Pete's visual approval was subsequently received on 6 November, as recorded above.
 
 ## Visual review pack
 
@@ -80,4 +94,4 @@ Screenshots are actual browser captures of this build; browser system scrollbar 
 
 [Mobile footer](evidence/05b-mobile-final-footer.jpg) · [1.6× text caption check](evidence/text-scale-768.jpg)
 
-**Next action:** Pete reviews this pack and either approves publication or requests changes. Website main remains at `727b990`; no merge, workflow dispatch, deployment, DNS change or Play action was performed.
+**Authorised next action (CID-WEB-CRO-01B):** complete pre-publication checks, fast-forward/push main through the existing workflow, then verify the hosted pages before recording LIVE in Android continuity. Appearance and publication are already approved. Keep dependency maintenance separate. This pre-publication handover does not pre-empt the final deployment outcome.

@@ -1,0 +1,38 @@
+[
+  {
+    "requested": "astro@7.3.3",
+    "version": "7.3.3"
+  },
+  {
+    "requested": "devalue@5.9.3",
+    "version": "5.9.3"
+  },
+  {
+    "requested": "fast-uri@3.1.9",
+    "version": "3.1.9"
+  },
+  {
+    "requested": "sharp@0.35.5",
+    "version": "0.35.5"
+  },
+  {
+    "requested": "smol-toml@1.9.0",
+    "version": "1.9.0"
+  },
+  {
+    "requested": "source-map-js@1.2.2",
+    "version": "1.2.2"
+  },
+  {
+    "requested": "undici@8.12.2",
+    "version": "8.12.2"
+  },
+  {
+    "requested": "vite@8.2.4",
+    "version": "8.2.4"
+  },
+  {
+    "requested": "zod@4.6.6",
+    "version": "4.6.6"
+  }
+]
