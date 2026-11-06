@@ -1,0 +1,46 @@
+{
+  "node": "v24.21.0",
+  "npm": "11.19.0",
+  "embeddedUndici": "7.29.1",
+  "lockBefore": "CC5348A1851E4E2CC10C7128EE4CB898D16C18C12143BEC0D15459F051FA10BE",
+  "lockAfter": "CC5348A1851E4E2CC10C7128EE4CB898D16C18C12143BEC0D15459F051FA10BE",
+  "unchanged": true,
+  "commands": [
+    {
+      "command": "npm ci",
+      "exitCode": 0,
+      "utc": "2026-11-06T22:02:22.7889703Z",
+      "log": "docs/CID-WEB-DEPS-01/evidence/after-ci.log"
+    },
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "utc": "2026-11-06T22:02:30.6773749Z",
+      "log": "docs/CID-WEB-DEPS-01/evidence/after-run-check.log"
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "utc": "2026-11-06T22:02:37.1520466Z",
+      "log": "docs/CID-WEB-DEPS-01/evidence/after-run-build.log"
+    },
+    {
+      "command": "npm run verify",
+      "exitCode": 0,
+      "utc": "2026-11-06T22:02:37.8480349Z",
+      "log": "docs/CID-WEB-DEPS-01/evidence/after-run-verify.log"
+    },
+    {
+      "command": "npm audit --json",
+      "exitCode": 0,
+      "utc": "2026-11-06T22:02:38.8378165Z",
+      "log": "docs/CID-WEB-DEPS-01/evidence/audit-after.json"
+    },
+    {
+      "command": "npm ls --all --json",
+      "exitCode": 0,
+      "utc": "2026-11-06T22:02:39.4621222Z",
+      "log": "docs/CID-WEB-DEPS-01/evidence/tree-after.json"
+    }
+  ]
+}

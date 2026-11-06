@@ -1,0 +1,940 @@
+{
+  "checkedAt": "2026-11-06T22:07:23.393Z",
+  "baselineSource": "9fbef55613daded6e0d1c23bc616d8a91dca9f52",
+  "baselineRun": 42276387618,
+  "files": [
+    {
+      "path": "assets/google-play-badge.svg",
+      "baselineBytes": 5078,
+      "candidateBytes": 5078,
+      "baselineSha256": "4ffa4c7edd2f10b297ca4de2131eddaa00d03b2278d1e178fe512920d824ca34",
+      "candidateSha256": "4ffa4c7edd2f10b297ca4de2131eddaa00d03b2278d1e178fe512920d824ca34"
+    },
+    {
+      "path": "CNAME",
+      "baselineBytes": 12,
+      "candidateBytes": 13,
+      "baselineSha256": "1044cdd2b8a8555ff5ac175cc03d62a84994727fd5ad853b744b15485af2e849",
+      "candidateSha256": "350a879c1d724ea8f505625c93e29bee09185171a3e6c9e15437e6a640e4f23c"
+    },
+    {
+      "path": "fishing-journal-app/index.html",
+      "baselineBytes": 23912,
+      "candidateBytes": 23912,
+      "baselineSha256": "611657ae47fcf0fbde9ebc59827eeda58631995bf249e96918ad98ccc6785215",
+      "candidateSha256": "611657ae47fcf0fbde9ebc59827eeda58631995bf249e96918ad98ccc6785215"
+    },
+    {
+      "path": "index.html",
+      "baselineBytes": 23081,
+      "candidateBytes": 23081,
+      "baselineSha256": "f4210c9e19dde164fe8abc098a842dd3c8705fa9d563fbd80ba246fdfd798dc2",
+      "candidateSha256": "f4210c9e19dde164fe8abc098a842dd3c8705fa9d563fbd80ba246fdfd798dc2"
+    },
+    {
+      "path": "robots.txt",
+      "baselineBytes": 64,
+      "candidateBytes": 64,
+      "baselineSha256": "360551b7e23c2d74edf3c637529e1675006ab9053659f03967c8be9d999bd7b7",
+      "candidateSha256": "360551b7e23c2d74edf3c637529e1675006ab9053659f03967c8be9d999bd7b7"
+    },
+    {
+      "path": "sitemap.xml",
+      "baselineBytes": 211,
+      "candidateBytes": 211,
+      "baselineSha256": "8766b8303172b9a641cd7d7180841670027e3a35a897dc23c87a75bf61a6fb27",
+      "candidateSha256": "8766b8303172b9a641cd7d7180841670027e3a35a897dc23c87a75bf61a6fb27"
+    },
+    {
+      "path": "_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+      "baselineBytes": 5737,
+      "candidateBytes": 5737,
+      "baselineSha256": "7372b039d41a5d88c45a23614ebb90613b73dbb88bc54f49169e781703221b20",
+      "candidateSha256": "7372b039d41a5d88c45a23614ebb90613b73dbb88bc54f49169e781703221b20"
+    },
+    {
+      "path": "_astro/catchid-icon.CDgxPLyC_ZYBnje.webp",
+      "baselineBytes": 806,
+      "candidateBytes": 806,
+      "baselineSha256": "c609168c50f90afefb3e7638da7c577ce441fa7efc090b1714883c89cb4b8695",
+      "candidateSha256": "c609168c50f90afefb3e7638da7c577ce441fa7efc090b1714883c89cb4b8695"
+    },
+    {
+      "path": "_astro/fishing-locations.yPJTB-Q5.jpg",
+      "baselineBytes": 87262,
+      "candidateBytes": 87262,
+      "baselineSha256": "6bd7df483fce43d0d1e4b1989635d58f440af1873b8051c6f743312528250f42",
+      "candidateSha256": "6bd7df483fce43d0d1e4b1989635d58f440af1873b8051c6f743312528250f42"
+    },
+    {
+      "path": "_astro/fishing-locations.yPJTB-Q5_1H9Tv5.webp",
+      "baselineBytes": 17088,
+      "candidateBytes": 17088,
+      "baselineSha256": "8a9cb4fdc406d1fe6a0d4f104810afa126412b8c82b3db12008a55f0116e1869",
+      "candidateSha256": "8a9cb4fdc406d1fe6a0d4f104810afa126412b8c82b3db12008a55f0116e1869"
+    },
+    {
+      "path": "_astro/fishing-locations.yPJTB-Q5_1rlufQ.webp",
+      "baselineBytes": 40528,
+      "candidateBytes": 40528,
+      "baselineSha256": "a1c0c53ee1d1bd55e59fed64d686db5eee24ccb3db879e672c4ed1cb12c40a64",
+      "candidateSha256": "a1c0c53ee1d1bd55e59fed64d686db5eee24ccb3db879e672c4ed1cb12c40a64"
+    },
+    {
+      "path": "_astro/fishing-locations.yPJTB-Q5_1tOlKe.webp",
+      "baselineBytes": 28074,
+      "candidateBytes": 28074,
+      "baselineSha256": "65996daa60b422e2ffffd514af6f21d3b46370308221f08a10d500d9c98bac64",
+      "candidateSha256": "65996daa60b422e2ffffd514af6f21d3b46370308221f08a10d500d9c98bac64"
+    },
+    {
+      "path": "_astro/fishing-locations.yPJTB-Q5_Z1F6ypW.webp",
+      "baselineBytes": 12380,
+      "candidateBytes": 12380,
+      "baselineSha256": "a7427a6adec8979f96c3def0ac99eaea8d3133febdbece572dc5b01fdc549282",
+      "candidateSha256": "a7427a6adec8979f96c3def0ac99eaea8d3133febdbece572dc5b01fdc549282"
+    },
+    {
+      "path": "_astro/global.vlaxNHua.css",
+      "baselineBytes": 13818,
+      "candidateBytes": 13818,
+      "baselineSha256": "05021692e5f0f930357b1de0020355f88427166eea52ca06f91f72e6d931cb5c",
+      "candidateSha256": "05021692e5f0f930357b1de0020355f88427166eea52ca06f91f72e6d931cb5c"
+    },
+    {
+      "path": "_astro/home-1.2.12.C6mDn6gx_1ivGXa.webp",
+      "baselineBytes": 24338,
+      "candidateBytes": 24338,
+      "baselineSha256": "f77989891c004a26310be2f8aaf9bb06f15968aeccb2655624c0dac4fbc16eb0",
+      "candidateSha256": "f77989891c004a26310be2f8aaf9bb06f15968aeccb2655624c0dac4fbc16eb0"
+    },
+    {
+      "path": "_astro/home-1.2.12.C6mDn6gx_Z1qI2kM.webp",
+      "baselineBytes": 42686,
+      "candidateBytes": 42686,
+      "baselineSha256": "872fc0c10f02cf842404ef79b22ccf89b3a48511630ed61abb8f6644510326fe",
+      "candidateSha256": "872fc0c10f02cf842404ef79b22ccf89b3a48511630ed61abb8f6644510326fe"
+    },
+    {
+      "path": "_astro/home-1.2.12.C6mDn6gx_Z1uRNNL.webp",
+      "baselineBytes": 61698,
+      "candidateBytes": 61698,
+      "baselineSha256": "1b706e87cfef654e72ea1707af95cf7056dc7e15deea5e397a2a328c5e21a776",
+      "candidateSha256": "1b706e87cfef654e72ea1707af95cf7056dc7e15deea5e397a2a328c5e21a776"
+    },
+    {
+      "path": "_astro/home-1.2.12.C6mDn6gx_ZPcFJc.webp",
+      "baselineBytes": 26900,
+      "candidateBytes": 26900,
+      "baselineSha256": "83f0feff89e3fecaec1c4abfef6ca4b0e6f3c5b1d7fb6badaa9aa95c77499fe9",
+      "candidateSha256": "83f0feff89e3fecaec1c4abfef6ca4b0e6f3c5b1d7fb6badaa9aa95c77499fe9"
+    },
+    {
+      "path": "_astro/identify.DwSz2tOT.jpg",
+      "baselineBytes": 497255,
+      "candidateBytes": 497255,
+      "baselineSha256": "53a372f4d20e15dcd722544b89c436c7ce251ede0323aef153ea4bc7245d75c0",
+      "candidateSha256": "53a372f4d20e15dcd722544b89c436c7ce251ede0323aef153ea4bc7245d75c0"
+    },
+    {
+      "path": "_astro/identify.DwSz2tOT_2oN59z.webp",
+      "baselineBytes": 100254,
+      "candidateBytes": 100254,
+      "baselineSha256": "b90afcf92ca953e1c7db650eead49e82b944b057095106d94184e5d2e1b9b1ca",
+      "candidateSha256": "b90afcf92ca953e1c7db650eead49e82b944b057095106d94184e5d2e1b9b1ca"
+    },
+    {
+      "path": "_astro/identify.DwSz2tOT_reBHN.webp",
+      "baselineBytes": 66664,
+      "candidateBytes": 66664,
+      "baselineSha256": "c1b9aaa51569ad0017c26daba0ea2e786fa187a8328f558011ffedd448342658",
+      "candidateSha256": "c1b9aaa51569ad0017c26daba0ea2e786fa187a8328f558011ffedd448342658"
+    },
+    {
+      "path": "_astro/identify.DwSz2tOT_Z9uCwM.webp",
+      "baselineBytes": 34726,
+      "candidateBytes": 34726,
+      "baselineSha256": "2b98184acbc9a6056dd6ad75c1a9cbd0f4142d421d9e311ca8d593a4b6241633",
+      "candidateSha256": "2b98184acbc9a6056dd6ad75c1a9cbd0f4142d421d9e311ca8d593a4b6241633"
+    },
+    {
+      "path": "_astro/identify.DwSz2tOT_ZQt1Q5.webp",
+      "baselineBytes": 28374,
+      "candidateBytes": 28374,
+      "baselineSha256": "c656cbe6b150c066573bee04602bd78a84ddb651c928d97c5530690c8f67f82c",
+      "candidateSha256": "c656cbe6b150c066573bee04602bd78a84ddb651c928d97c5530690c8f67f82c"
+    },
+    {
+      "path": "_astro/insights-overview.DpZraCKL.jpg",
+      "baselineBytes": 104186,
+      "candidateBytes": 104186,
+      "baselineSha256": "ac2884c9fa34510b257c2fbcdc40b2eac50316925d89c837a7d4e7707e09ee36",
+      "candidateSha256": "ac2884c9fa34510b257c2fbcdc40b2eac50316925d89c837a7d4e7707e09ee36"
+    },
+    {
+      "path": "_astro/insights-overview.DpZraCKL_14cfJU.webp",
+      "baselineBytes": 23010,
+      "candidateBytes": 23010,
+      "baselineSha256": "30711b4cd78513495e5d8672bccb9bc879043cb5c5722c118e776dd923e92829",
+      "candidateSha256": "30711b4cd78513495e5d8672bccb9bc879043cb5c5722c118e776dd923e92829"
+    },
+    {
+      "path": "_astro/insights-overview.DpZraCKL_NnPuG.webp",
+      "baselineBytes": 54108,
+      "candidateBytes": 54108,
+      "baselineSha256": "b53f9889a089b1a94ba1e361f270a4a44f9b1938c85a07cc3aaac9fbcd2999cb",
+      "candidateSha256": "b53f9889a089b1a94ba1e361f270a4a44f9b1938c85a07cc3aaac9fbcd2999cb"
+    },
+    {
+      "path": "_astro/insights-overview.DpZraCKL_PQH04.webp",
+      "baselineBytes": 37980,
+      "candidateBytes": 37980,
+      "baselineSha256": "121ab03af7862d1ec2cbc85c7d7bfb57559a21fd3bb187b59f54bb2167c565dc",
+      "candidateSha256": "121ab03af7862d1ec2cbc85c7d7bfb57559a21fd3bb187b59f54bb2167c565dc"
+    },
+    {
+      "path": "_astro/insights-overview.DpZraCKL_Z2aww5q.webp",
+      "baselineBytes": 54136,
+      "candidateBytes": 54136,
+      "baselineSha256": "aac80365a5c411072f1cf91655ee4a4ccef9c771a59a9b3d7e94af69113645ea",
+      "candidateSha256": "aac80365a5c411072f1cf91655ee4a4ccef9c771a59a9b3d7e94af69113645ea"
+    },
+    {
+      "path": "_astro/insights-overview.DpZraCKL_Z2j4db7.webp",
+      "baselineBytes": 16258,
+      "candidateBytes": 16258,
+      "baselineSha256": "db6e17157804625c24a7cee01c92fa28d0c71e1bec81bf3d3b5dd2baa1a8f41c",
+      "candidateSha256": "db6e17157804625c24a7cee01c92fa28d0c71e1bec81bf3d3b5dd2baa1a8f41c"
+    },
+    {
+      "path": "_astro/insights-overview.DpZraCKL_ZJPaEW.webp",
+      "baselineBytes": 19540,
+      "candidateBytes": 19540,
+      "baselineSha256": "324bebfcd3bafbe03db6c5fb8059be07d3e55d4a4c542cdd9c072c56df38389b",
+      "candidateSha256": "324bebfcd3bafbe03db6c5fb8059be07d3e55d4a4c542cdd9c072c56df38389b"
+    },
+    {
+      "path": "_astro/insights-overview.DpZraCKL_ZnX6Yb.webp",
+      "baselineBytes": 37340,
+      "candidateBytes": 37340,
+      "baselineSha256": "28223f7c19542346ef83d8fe8c0977faffbd35622664322ec7b8ba5baf0da92e",
+      "candidateSha256": "28223f7c19542346ef83d8fe8c0977faffbd35622664322ec7b8ba5baf0da92e"
+    },
+    {
+      "path": "_astro/journal.BXx_c0T3.jpg",
+      "baselineBytes": 317462,
+      "candidateBytes": 317462,
+      "baselineSha256": "088899d963d12973db1032df2fd4605cc08c708305b3885702a3e9717cb4bbd9",
+      "candidateSha256": "088899d963d12973db1032df2fd4605cc08c708305b3885702a3e9717cb4bbd9"
+    },
+    {
+      "path": "_astro/journal.BXx_c0T3_1oFpAT.webp",
+      "baselineBytes": 19478,
+      "candidateBytes": 19478,
+      "baselineSha256": "48b52c2dbfaf0c59e81c041fe590ea213e4fa3ae359ca7466edb1d85cdf09882",
+      "candidateSha256": "48b52c2dbfaf0c59e81c041fe590ea213e4fa3ae359ca7466edb1d85cdf09882"
+    },
+    {
+      "path": "_astro/journal.BXx_c0T3_Z12MRbt.webp",
+      "baselineBytes": 16412,
+      "candidateBytes": 16412,
+      "baselineSha256": "101cb89e0353dfbdadb3fa4d176b690b55f19a6c2eb82060d6cd7867c73c5c6b",
+      "candidateSha256": "101cb89e0353dfbdadb3fa4d176b690b55f19a6c2eb82060d6cd7867c73c5c6b"
+    },
+    {
+      "path": "_astro/journal.BXx_c0T3_Z1wECvg.webp",
+      "baselineBytes": 15694,
+      "candidateBytes": 15694,
+      "baselineSha256": "6fcbeaeef99bc08dd1a9ed260c7530a237ecec8ad0bc59d1e58504915eeadccf",
+      "candidateSha256": "6fcbeaeef99bc08dd1a9ed260c7530a237ecec8ad0bc59d1e58504915eeadccf"
+    },
+    {
+      "path": "_astro/journal.BXx_c0T3_Z1wglcD.webp",
+      "baselineBytes": 34114,
+      "candidateBytes": 34114,
+      "baselineSha256": "d4acb2bc7a5742883c13bf615a04b605d8ed332bbbd6bef3c806dfe617377bc2",
+      "candidateSha256": "d4acb2bc7a5742883c13bf615a04b605d8ed332bbbd6bef3c806dfe617377bc2"
+    },
+    {
+      "path": "_astro/journal.BXx_c0T3_Z2rsqMo.webp",
+      "baselineBytes": 48774,
+      "candidateBytes": 48774,
+      "baselineSha256": "6ea470607b688adbe5c4f4134bbf08fb0c094b6608ac424596ecb393c7b4b83e",
+      "candidateSha256": "6ea470607b688adbe5c4f4134bbf08fb0c094b6608ac424596ecb393c7b4b83e"
+    },
+    {
+      "path": "_astro/personal-records.FMzRFCFP.jpg",
+      "baselineBytes": 118736,
+      "candidateBytes": 118736,
+      "baselineSha256": "4b20cd52cbd4a65718e35f13ac5b2764ece429e64bd92ca8829439a1bb03669c",
+      "candidateSha256": "4b20cd52cbd4a65718e35f13ac5b2764ece429e64bd92ca8829439a1bb03669c"
+    },
+    {
+      "path": "_astro/personal-records.FMzRFCFP_29NgEd.webp",
+      "baselineBytes": 17060,
+      "candidateBytes": 17060,
+      "baselineSha256": "d8e52258af93bbe765507b355a6f1348da122ea5e54b0fd771f365311c25230e",
+      "candidateSha256": "d8e52258af93bbe765507b355a6f1348da122ea5e54b0fd771f365311c25230e"
+    },
+    {
+      "path": "_astro/personal-records.FMzRFCFP_2o0Ida.webp",
+      "baselineBytes": 41542,
+      "candidateBytes": 41542,
+      "baselineSha256": "1fd4092cb7c3f62f3ff3d6d283d2c4ad047a2fcbfec2146f2d1b15e554e02552",
+      "candidateSha256": "1fd4092cb7c3f62f3ff3d6d283d2c4ad047a2fcbfec2146f2d1b15e554e02552"
+    },
+    {
+      "path": "_astro/personal-records.FMzRFCFP_Z1gDs4i.webp",
+      "baselineBytes": 62466,
+      "candidateBytes": 62466,
+      "baselineSha256": "28f63a1f0bea30ff4752ed3afdd8ad05e6f8f14e27d9a0422558b5d693cf1f3d",
+      "candidateSha256": "28f63a1f0bea30ff4752ed3afdd8ad05e6f8f14e27d9a0422558b5d693cf1f3d"
+    },
+    {
+      "path": "_astro/personal-records.FMzRFCFP_Z2bHYbn.webp",
+      "baselineBytes": 24096,
+      "candidateBytes": 24096,
+      "baselineSha256": "a963207a6c4ba207ed3c54b8fea0e0cc754ad2e6a0e8093347923d9f9838aadd",
+      "candidateSha256": "a963207a6c4ba207ed3c54b8fea0e0cc754ad2e6a0e8093347923d9f9838aadd"
+    }
+  ],
+  "changedFiles": [
+    "CNAME"
+  ],
+  "baselineBytes": 2203338,
+  "candidateBytes": 2203339,
+  "browser": [
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "path": "/",
+      "fullPagePixelEquality": true,
+      "builds": [
+        {
+          "build": "published artifact",
+          "overflow": false,
+          "headline": "Record your catches.\nBuild your fishing story.",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 233.171875,
+            "y": 16.5,
+            "width": 136.828125,
+            "height": 46
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+          ],
+          "canonical": "https://catchid.app/",
+          "journeyCount": 1,
+          "clippedText": [],
+          "fullPagePngSha256": "de27b4fa6001e6f347fca2a0f5659689c189c164b5cab1e64e92b3c7725ace3c",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "mobile non-navigating",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        },
+        {
+          "build": "candidate",
+          "overflow": false,
+          "headline": "Record your catches.\nBuild your fishing story.",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 233.171875,
+            "y": 16.5,
+            "width": 136.828125,
+            "height": 46
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+          ],
+          "canonical": "https://catchid.app/",
+          "journeyCount": 1,
+          "clippedText": [],
+          "fullPagePngSha256": "de27b4fa6001e6f347fca2a0f5659689c189c164b5cab1e64e92b3c7725ace3c",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "mobile non-navigating",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scale": 1,
+      "path": "/fishing-journal-app/",
+      "fullPagePixelEquality": true,
+      "builds": [
+        {
+          "build": "published artifact",
+          "overflow": false,
+          "headline": "A fishing journal that grows with every catch",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 233.171875,
+            "y": 16.5,
+            "width": 136.828125,
+            "height": 46
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app"
+          ],
+          "canonical": "https://catchid.app/fishing-journal-app/",
+          "journeyCount": 0,
+          "clippedText": [],
+          "fullPagePngSha256": "396b778ec5a8a222b5e055bfe3f5825664d04bfe38f6c8e8b798a2c006b9db02",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "unchanged",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        },
+        {
+          "build": "candidate",
+          "overflow": false,
+          "headline": "A fishing journal that grows with every catch",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 233.171875,
+            "y": 16.5,
+            "width": 136.828125,
+            "height": 46
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app"
+          ],
+          "canonical": "https://catchid.app/fishing-journal-app/",
+          "journeyCount": 0,
+          "clippedText": [],
+          "fullPagePngSha256": "396b778ec5a8a222b5e055bfe3f5825664d04bfe38f6c8e8b798a2c006b9db02",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "unchanged",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "scale": 1,
+      "path": "/",
+      "fullPagePixelEquality": true,
+      "builds": [
+        {
+          "build": "published artifact",
+          "overflow": false,
+          "headline": "Record your catches.\nBuild your\nfishing story.",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 1164.609375,
+            "y": 26.5,
+            "width": 155.390625,
+            "height": 46
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+          ],
+          "canonical": "https://catchid.app/",
+          "journeyCount": 1,
+          "clippedText": [],
+          "fullPagePngSha256": "6f5a0bcd3c990e4e0fb12330cff6739fbc5fdd066b751d442711d8d2c17060ca",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "desktop image and back",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        },
+        {
+          "build": "candidate",
+          "overflow": false,
+          "headline": "Record your catches.\nBuild your\nfishing story.",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 1164.609375,
+            "y": 26.5,
+            "width": 155.390625,
+            "height": 46
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+          ],
+          "canonical": "https://catchid.app/",
+          "journeyCount": 1,
+          "clippedText": [],
+          "fullPagePngSha256": "6f5a0bcd3c990e4e0fb12330cff6739fbc5fdd066b751d442711d8d2c17060ca",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "desktop image and back",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "scale": 1,
+      "path": "/fishing-journal-app/",
+      "fullPagePixelEquality": true,
+      "builds": [
+        {
+          "build": "published artifact",
+          "overflow": false,
+          "headline": "A fishing journal that grows with every catch",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 1164.609375,
+            "y": 26.5,
+            "width": 155.390625,
+            "height": 46
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app"
+          ],
+          "canonical": "https://catchid.app/fishing-journal-app/",
+          "journeyCount": 0,
+          "clippedText": [],
+          "fullPagePngSha256": "0492b8b557a409f1c4da416c6b3a45d10d9127b50bd306dfe2a18d26642f0e3a",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "unchanged",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        },
+        {
+          "build": "candidate",
+          "overflow": false,
+          "headline": "A fishing journal that grows with every catch",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 1164.609375,
+            "y": 26.5,
+            "width": 155.390625,
+            "height": 46
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app"
+          ],
+          "canonical": "https://catchid.app/fishing-journal-app/",
+          "journeyCount": 0,
+          "clippedText": [],
+          "fullPagePngSha256": "0492b8b557a409f1c4da416c6b3a45d10d9127b50bd306dfe2a18d26642f0e3a",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "unchanged",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "scale": 1.6,
+      "path": "/",
+      "fullPagePixelEquality": true,
+      "builds": [
+        {
+          "build": "published artifact",
+          "overflow": false,
+          "headline": "Record your catches.\nBuild your fishing story.",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 20,
+            "y": 68,
+            "width": 198.515625,
+            "height": 52.875
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+          ],
+          "canonical": "https://catchid.app/",
+          "journeyCount": 1,
+          "clippedText": [],
+          "fullPagePngSha256": "95f1fcc356705f39008a0bc716dd112f7e35f7f2cef266c9d072350844a7931d",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "mobile non-navigating",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        },
+        {
+          "build": "candidate",
+          "overflow": false,
+          "headline": "Record your catches.\nBuild your fishing story.",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 20,
+            "y": 68,
+            "width": 198.515625,
+            "height": 52.875
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+          ],
+          "canonical": "https://catchid.app/",
+          "journeyCount": 1,
+          "clippedText": [],
+          "fullPagePngSha256": "95f1fcc356705f39008a0bc716dd112f7e35f7f2cef266c9d072350844a7931d",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "mobile non-navigating",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "scale": 1.6,
+      "path": "/fishing-journal-app/",
+      "fullPagePixelEquality": true,
+      "builds": [
+        {
+          "build": "published artifact",
+          "overflow": false,
+          "headline": "A fishing journal that grows with every catch",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 20,
+            "y": 68,
+            "width": 198.515625,
+            "height": 52.875
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app"
+          ],
+          "canonical": "https://catchid.app/fishing-journal-app/",
+          "journeyCount": 0,
+          "clippedText": [],
+          "fullPagePngSha256": "288b2fdfaef563c7a6efc2cbdc784fcf9c38a3f384551c2a56ae0a067c37ddb1",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "unchanged",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        },
+        {
+          "build": "candidate",
+          "overflow": false,
+          "headline": "A fishing journal that grows with every catch",
+          "headerText": "Get CatchID free\n↗",
+          "headerBox": {
+            "x": 20,
+            "y": 68,
+            "width": 198.515625,
+            "height": 52.875
+          },
+          "badges": [
+            {
+              "loading": "eager",
+              "priority": "high",
+              "width": 202,
+              "height": 60,
+              "complete": true
+            },
+            {
+              "loading": "lazy",
+              "priority": null,
+              "width": 202,
+              "height": 60,
+              "complete": true
+            }
+          ],
+          "plays": [
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+            "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app"
+          ],
+          "canonical": "https://catchid.app/fishing-journal-app/",
+          "journeyCount": 0,
+          "clippedText": [],
+          "fullPagePngSha256": "288b2fdfaef563c7a6efc2cbdc784fcf9c38a3f384551c2a56ae0a067c37ddb1",
+          "consent": "first visit / saved denied / accepted / revoked passed",
+          "screenshotNavigation": "unchanged",
+          "externalAttempts": [
+            "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1"
+          ],
+          "pageErrors": []
+        }
+      ]
+    }
+  ],
+  "completedAt": "2026-11-06T22:07:45.344Z",
+  "result": "PASS"
+}

@@ -1,0 +1,10 @@
+
+> catchid-web@1.0.0 check
+> astro check
+
+22:02:26 [types] Generated 211ms
+22:02:26 [check] Getting diagnostics for Astro files in <worktree>...
+Result (12 files):
+- 0 errors
+- 0 warnings
+- 0 hints

@@ -1,0 +1,52 @@
+{
+  "purpose": "Temporary resolution constraints only; removed before final installation",
+  "targetPins": {
+    "vite": "8.2.4",
+    "sharp": "0.35.5",
+    "devalue": "5.9.3",
+    "fast-uri": "3.1.9",
+    "smol-toml": "1.9.0",
+    "source-map-js": "1.2.2",
+    "undici": "8.12.2",
+    "zod": "4.6.6"
+  },
+  "retainBaseline": {
+    "@oxc-project/types": "0.148.0",
+    "@rolldown/binding-android-arm-eabi": "1.2.7",
+    "@rolldown/binding-android-arm64": "1.2.7",
+    "@rolldown/binding-darwin-arm64": "1.2.7",
+    "@rolldown/binding-darwin-x64": "1.2.7",
+    "@rolldown/binding-freebsd-x64": "1.2.7",
+    "@rolldown/binding-linux-arm-gnueabihf": "1.2.7",
+    "@rolldown/binding-linux-arm64-gnu": "1.2.7",
+    "@rolldown/binding-linux-arm64-musl": "1.2.7",
+    "@rolldown/binding-linux-ppc64-gnu": "1.2.7",
+    "@rolldown/binding-linux-s390x-gnu": "1.2.7",
+    "@rolldown/binding-linux-x64-gnu": "1.2.7",
+    "@rolldown/binding-linux-x64-musl": "1.2.7",
+    "@rolldown/binding-openharmony-arm64": "1.2.7",
+    "@rolldown/binding-win32-arm64-msvc": "1.2.7",
+    "@rolldown/binding-win32-x64-msvc": "1.2.7",
+    "@shikijs/core": "4.4.3",
+    "@shikijs/engine-javascript": "4.4.3",
+    "@shikijs/engine-oniguruma": "4.4.3",
+    "@shikijs/langs": "4.4.3",
+    "@shikijs/primitive": "4.4.3",
+    "@shikijs/themes": "4.4.3",
+    "@shikijs/types": "4.4.3",
+    "@shikijs/vscode-textmate": "10.0.2",
+    "@types/estree": "1.0.9",
+    "hast-util-to-html": "9.0.5",
+    "micromark-util-types": "2.0.2",
+    "nanoid": "3.3.18",
+    "postcss": "8.5.28",
+    "rolldown": "1.2.7",
+    "shiki": "4.4.3",
+    "unist-util-visit": "5.1.0",
+    "unist-util-visit-parents": "6.0.2",
+    "vfile-message": "4.0.3"
+  },
+  "minimumNewDependency": {
+    "verkit": "0.4.0"
+  }
+}

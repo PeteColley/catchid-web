@@ -1,0 +1,10 @@
+
+> catchid-web@1.0.0 verify
+> node scripts/verify.mjs
+
+PASS: / — generated consent runtime: default off, exact GA ID, accept/reject/reopen, persistence, deduplication, cookies, storage failures, consent-gated Play handoff, cross-tab and back navigation.
+PASS: / — metadata, semantics, links, images, honest copy; 5 Play CTAs (referral/website_launch), including 3 accessible official badges.
+PASS: /fishing-journal-app/ — generated consent runtime: default off, exact GA ID, accept/reject/reopen, persistence, deduplication, cookies, storage failures, consent-gated Play handoff, cross-tab and back navigation.
+PASS: /fishing-journal-app/ — metadata, semantics, links, images, honest copy; 4 Play CTAs (organic/fishing_journal_app), including 2 accessible official badges.
+PASS: 2 pages, 9 tracked CTAs; exact sitemap, robots, CNAME; local assets; one shared inline consent script per page, no JavaScript artifacts or added dependencies.
+Static output: 42 files, 2203339 bytes including full-size screenshot links.

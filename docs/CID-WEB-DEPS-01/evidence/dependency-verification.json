@@ -1,0 +1,986 @@
+{
+  "checkedAt": "2026-11-06T22:08:06.879Z",
+  "node": "v24.21.0",
+  "embeddedUndici": "7.29.1",
+  "embeddedUndiciAffected": [
+    "GHSA-2m5v-pch6-74hx",
+    "GHSA-4qv8-2p9j-2685",
+    "GHSA-4w7w-5xrc-9h26",
+    "GHSA-55wc-3pg8-jfw6",
+    "GHSA-9fm3-97px-rjf6",
+    "GHSA-f72v-6w45-q472",
+    "GHSA-qrxm-fqhp-jwvm",
+    "GHSA-xjj6-f33q-929c"
+  ],
+  "platform": "win32",
+  "arch": "x64",
+  "lockSha256": "cc5348a1851e4e2cc10c7128ee4cb898d16c18c12143bec0d15459f051fa10be",
+  "packages": [
+    {
+      "name": "astro",
+      "path": "node_modules/astro",
+      "locked": "7.3.3",
+      "installed": "7.3.3"
+    },
+    {
+      "name": "vite",
+      "path": "node_modules/vite",
+      "locked": "8.2.4",
+      "installed": "8.2.4"
+    },
+    {
+      "name": "sharp",
+      "path": "node_modules/sharp",
+      "locked": "0.35.5",
+      "installed": "0.35.5"
+    },
+    {
+      "name": "devalue",
+      "path": "node_modules/devalue",
+      "locked": "5.9.3",
+      "installed": "5.9.3"
+    },
+    {
+      "name": "fast-uri",
+      "path": "node_modules/fast-uri",
+      "locked": "3.1.9",
+      "installed": "3.1.9"
+    },
+    {
+      "name": "smol-toml",
+      "path": "node_modules/smol-toml",
+      "locked": "1.9.0",
+      "installed": "1.9.0"
+    },
+    {
+      "name": "source-map-js",
+      "path": "node_modules/source-map-js",
+      "locked": "1.2.2",
+      "installed": "1.2.2"
+    },
+    {
+      "name": "undici",
+      "path": "node_modules/undici",
+      "locked": "8.12.2",
+      "installed": "8.12.2"
+    },
+    {
+      "name": "zod",
+      "path": "node_modules/zod",
+      "locked": "4.6.6",
+      "installed": "4.6.6"
+    }
+  ],
+  "parentEdges": [
+    {
+      "parent": "(root)",
+      "name": "astro",
+      "range": "^7.3.3",
+      "resolvedPath": "node_modules/astro",
+      "version": "7.3.3"
+    },
+    {
+      "parent": "node_modules/@astrojs/internal-helpers",
+      "name": "smol-toml",
+      "range": "^1.6.0",
+      "resolvedPath": "node_modules/smol-toml",
+      "version": "1.9.0"
+    },
+    {
+      "parent": "node_modules/ajv",
+      "name": "fast-uri",
+      "range": "^3.0.1",
+      "resolvedPath": "node_modules/fast-uri",
+      "version": "3.1.9"
+    },
+    {
+      "parent": "node_modules/astro",
+      "name": "devalue",
+      "range": "^5.8.1",
+      "resolvedPath": "node_modules/devalue",
+      "version": "5.9.3"
+    },
+    {
+      "parent": "node_modules/astro",
+      "name": "smol-toml",
+      "range": "^1.6.0",
+      "resolvedPath": "node_modules/smol-toml",
+      "version": "1.9.0"
+    },
+    {
+      "parent": "node_modules/astro",
+      "name": "vite",
+      "range": "^8.0.13",
+      "resolvedPath": "node_modules/vite",
+      "version": "8.2.4"
+    },
+    {
+      "parent": "node_modules/astro",
+      "name": "zod",
+      "range": "^4.5.4",
+      "resolvedPath": "node_modules/zod",
+      "version": "4.6.6"
+    },
+    {
+      "parent": "node_modules/astro",
+      "name": "sharp",
+      "range": "^0.35.4",
+      "resolvedPath": "node_modules/sharp",
+      "version": "0.35.5"
+    },
+    {
+      "parent": "node_modules/css-tree",
+      "name": "source-map-js",
+      "range": "^1.2.1",
+      "resolvedPath": "node_modules/source-map-js",
+      "version": "1.2.2"
+    },
+    {
+      "parent": "node_modules/csso/node_modules/css-tree",
+      "name": "source-map-js",
+      "range": "^1.0.1",
+      "resolvedPath": "node_modules/source-map-js",
+      "version": "1.2.2"
+    },
+    {
+      "parent": "node_modules/magicast",
+      "name": "source-map-js",
+      "range": "^1.2.1",
+      "resolvedPath": "node_modules/source-map-js",
+      "version": "1.2.2"
+    },
+    {
+      "parent": "node_modules/postcss",
+      "name": "source-map-js",
+      "range": "^1.2.1",
+      "resolvedPath": "node_modules/source-map-js",
+      "version": "1.2.2"
+    },
+    {
+      "parent": "node_modules/unifont",
+      "name": "undici",
+      "range": "^8.0.0",
+      "resolvedPath": "node_modules/undici",
+      "version": "8.12.2"
+    },
+    {
+      "parent": "node_modules/vitefu",
+      "name": "vite",
+      "range": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0",
+      "resolvedPath": "node_modules/vite",
+      "version": "8.2.4"
+    }
+  ],
+  "advisoryResolution": [
+    {
+      "id": "GHSA-2m5v-pch6-74hx",
+      "url": "https://github.com/advisories/GHSA-2m5v-pch6-74hx",
+      "resolvedPackages": [
+        "undici"
+      ],
+      "originalUpdatedAt": "2026-10-27T19:02:27Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/undici",
+          "version": "8.12.2"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-333x-w4r6-6crp",
+      "url": "https://github.com/advisories/GHSA-333x-w4r6-6crp",
+      "resolvedPackages": [
+        "fast-uri"
+      ],
+      "originalUpdatedAt": "2026-10-23T21:36:41Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/fast-uri",
+          "version": "3.1.9"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-4q55-j62x-fr9h",
+      "url": "https://github.com/advisories/GHSA-4q55-j62x-fr9h",
+      "resolvedPackages": [
+        "devalue"
+      ],
+      "originalUpdatedAt": "2026-10-01T15:13:25Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/devalue",
+          "version": "5.9.3"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-4qv8-2p9j-2685",
+      "url": "https://github.com/advisories/GHSA-4qv8-2p9j-2685",
+      "resolvedPackages": [
+        "undici"
+      ],
+      "originalUpdatedAt": "2026-10-23T22:13:31Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/undici",
+          "version": "8.12.2"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-4w7w-5xrc-9h26",
+      "url": "https://github.com/advisories/GHSA-4w7w-5xrc-9h26",
+      "resolvedPackages": [
+        "undici"
+      ],
+      "originalUpdatedAt": "2026-10-27T19:02:32Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/undici",
+          "version": "8.12.2"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-55wc-3pg8-jfw6",
+      "url": "https://github.com/advisories/GHSA-55wc-3pg8-jfw6",
+      "resolvedPackages": [
+        "undici"
+      ],
+      "originalUpdatedAt": "2026-10-27T19:02:12Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/undici",
+          "version": "8.12.2"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-587h-7wmj-h5pm",
+      "url": "https://github.com/advisories/GHSA-587h-7wmj-h5pm",
+      "resolvedPackages": [
+        "vite"
+      ],
+      "originalUpdatedAt": "2026-10-20T19:48:26Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/vite",
+          "version": "8.2.4"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-68fv-2mgg-jv7q",
+      "url": "https://github.com/advisories/GHSA-68fv-2mgg-jv7q",
+      "resolvedPackages": [
+        "source-map-js"
+      ],
+      "originalUpdatedAt": "2026-10-05T23:31:22Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/source-map-js",
+          "version": "1.2.2"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-698v-4r3x-3vcv",
+      "url": "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
+      "resolvedPackages": [
+        "vite"
+      ],
+      "originalUpdatedAt": "2026-10-20T18:30:25Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/vite",
+          "version": "8.2.4"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-98hj-9722-w3j8",
+      "url": "https://github.com/advisories/GHSA-98hj-9722-w3j8",
+      "resolvedPackages": [
+        "astro"
+      ],
+      "originalUpdatedAt": "2026-10-22T16:30:27Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.3.3"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-9fm3-97px-rjf6",
+      "url": "https://github.com/advisories/GHSA-9fm3-97px-rjf6",
+      "resolvedPackages": [
+        "undici"
+      ],
+      "originalUpdatedAt": "2026-10-27T19:02:17Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/undici",
+          "version": "8.12.2"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-9jrq-w75r-8gcw",
+      "url": "https://github.com/advisories/GHSA-9jrq-w75r-8gcw",
+      "resolvedPackages": [
+        "vite"
+      ],
+      "originalUpdatedAt": "2026-10-21T16:48:15Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/vite",
+          "version": "8.2.4"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-f72v-6w45-q472",
+      "url": "https://github.com/advisories/GHSA-f72v-6w45-q472",
+      "resolvedPackages": [
+        "undici"
+      ],
+      "originalUpdatedAt": "2026-10-23T22:13:18Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/undici",
+          "version": "8.12.2"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-hrr3-gc8f-f4qj",
+      "url": "https://github.com/advisories/GHSA-hrr3-gc8f-f4qj",
+      "resolvedPackages": [
+        "fast-uri"
+      ],
+      "originalUpdatedAt": "2026-09-29T23:54:26Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/fast-uri",
+          "version": "3.1.9"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-hx4r-w6wj-j8fg",
+      "url": "https://github.com/advisories/GHSA-hx4r-w6wj-j8fg",
+      "resolvedPackages": [
+        "devalue"
+      ],
+      "originalUpdatedAt": "2026-10-01T15:17:43Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/devalue",
+          "version": "5.9.3"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-j22f-vq7h-c4qm",
+      "url": "https://github.com/advisories/GHSA-j22f-vq7h-c4qm",
+      "resolvedPackages": [
+        "devalue"
+      ],
+      "originalUpdatedAt": "2026-10-01T15:18:07Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/devalue",
+          "version": "5.9.3"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-mcm9-63f2-9j32",
+      "url": "https://github.com/advisories/GHSA-mcm9-63f2-9j32",
+      "resolvedPackages": [
+        "devalue"
+      ],
+      "originalUpdatedAt": "2026-10-01T15:17:30Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/devalue",
+          "version": "5.9.3"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-mpr7-6m5w-76rw",
+      "url": "https://github.com/advisories/GHSA-mpr7-6m5w-76rw",
+      "resolvedPackages": [
+        "astro"
+      ],
+      "originalUpdatedAt": "2026-10-22T16:29:29Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/astro",
+          "version": "7.3.3"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-mrhx-c7xc-m3w5",
+      "url": "https://github.com/advisories/GHSA-mrhx-c7xc-m3w5",
+      "resolvedPackages": [
+        "zod"
+      ],
+      "originalUpdatedAt": "2026-10-23T18:26:52Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/zod",
+          "version": "4.6.6"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-qrxm-fqhp-jwvm",
+      "url": "https://github.com/advisories/GHSA-qrxm-fqhp-jwvm",
+      "resolvedPackages": [
+        "undici"
+      ],
+      "originalUpdatedAt": "2026-10-27T19:02:22Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/undici",
+          "version": "8.12.2"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-r4xh-jqrq-34v2",
+      "url": "https://github.com/advisories/GHSA-r4xh-jqrq-34v2",
+      "resolvedPackages": [
+        "smol-toml"
+      ],
+      "originalUpdatedAt": "2026-10-05T23:41:15Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/smol-toml",
+          "version": "1.9.0"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-r825-w8mm-5pxw",
+      "url": "https://github.com/advisories/GHSA-r825-w8mm-5pxw",
+      "resolvedPackages": [
+        "vite"
+      ],
+      "originalUpdatedAt": "2026-10-20T19:51:54Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/vite",
+          "version": "8.2.4"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-r9w8-h9r3-54w4",
+      "url": "https://github.com/advisories/GHSA-r9w8-h9r3-54w4",
+      "resolvedPackages": [
+        "devalue"
+      ],
+      "originalUpdatedAt": "2026-10-17T05:04:12Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/devalue",
+          "version": "5.9.3"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-rq7h-c2jc-7f22",
+      "url": "https://github.com/advisories/GHSA-rq7h-c2jc-7f22",
+      "resolvedPackages": [
+        "vite"
+      ],
+      "originalUpdatedAt": "2026-10-21T16:47:43Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/vite",
+          "version": "8.2.4"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-vfpm-58rq-9qcg",
+      "url": "https://github.com/advisories/GHSA-vfpm-58rq-9qcg",
+      "resolvedPackages": [
+        "vite"
+      ],
+      "originalUpdatedAt": "2026-10-21T16:47:16Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/vite",
+          "version": "8.2.4"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-w74x-v6f9-j3xg",
+      "url": "https://github.com/advisories/GHSA-w74x-v6f9-j3xg",
+      "resolvedPackages": [
+        "fast-uri"
+      ],
+      "originalUpdatedAt": "2026-10-23T21:41:38Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/fast-uri",
+          "version": "3.1.9"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-wf3x-273g-mvxv",
+      "url": "https://github.com/advisories/GHSA-wf3x-273g-mvxv",
+      "resolvedPackages": [
+        "devalue"
+      ],
+      "originalUpdatedAt": "2026-10-01T15:17:16Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/devalue",
+          "version": "5.9.3"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-wjr9-j795-jxcr",
+      "url": "https://github.com/advisories/GHSA-wjr9-j795-jxcr",
+      "resolvedPackages": [
+        "fast-uri"
+      ],
+      "originalUpdatedAt": "2026-10-23T21:38:02Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/fast-uri",
+          "version": "3.1.9"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-wq5f-xc86-pv6w",
+      "url": "https://github.com/advisories/GHSA-wq5f-xc86-pv6w",
+      "resolvedPackages": [
+        "sharp"
+      ],
+      "originalUpdatedAt": "2026-10-06T13:43:58Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/sharp",
+          "version": "0.35.5"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-x5rw-q4pp-hg5g",
+      "url": "https://github.com/advisories/GHSA-x5rw-q4pp-hg5g",
+      "resolvedPackages": [
+        "devalue"
+      ],
+      "originalUpdatedAt": "2026-10-01T15:15:15Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/devalue",
+          "version": "5.9.3"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-xhq7-xmqj-769h",
+      "url": "https://github.com/advisories/GHSA-xhq7-xmqj-769h",
+      "resolvedPackages": [
+        "fast-uri"
+      ],
+      "originalUpdatedAt": "2026-10-23T21:39:38Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/fast-uri",
+          "version": "3.1.9"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    },
+    {
+      "id": "GHSA-xjj6-f33q-929c",
+      "url": "https://github.com/advisories/GHSA-xjj6-f33q-929c",
+      "resolvedPackages": [
+        "undici"
+      ],
+      "originalUpdatedAt": "2026-10-23T22:14:32Z",
+      "resolvedPaths": [
+        {
+          "path": "node_modules/undici",
+          "version": "8.12.2"
+        }
+      ],
+      "result": "resolved in npm tree (Vite includes its editor bundle)"
+    }
+  ],
+  "sharpRuntimeVersions": {
+    "aom": "3.15.1",
+    "archive": "3.8.9",
+    "cairo": "1.18.6",
+    "cgif": "0.5.4",
+    "exif": "0.6.26",
+    "expat": "2.8.5",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.17",
+    "glib": "2.90.0",
+    "harfbuzz": "14.5.0",
+    "heif": "1.23.5",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.63.2",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.7",
+    "webp": "1.6.0",
+    "xml2": "2.15.4",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.5"
+  },
+  "nativeLockEntries": [
+    {
+      "path": "node_modules/@img/sharp-darwin-arm64",
+      "version": "0.35.5",
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "arm64"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-darwin-x64",
+      "version": "0.35.5",
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "x64"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-freebsd-wasm32",
+      "version": "0.35.5",
+      "os": [
+        "freebsd"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-darwin-arm64",
+      "version": "1.3.4",
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "arm64"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-darwin-x64",
+      "version": "1.3.4",
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "x64"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-arm",
+      "version": "1.3.4",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-arm64",
+      "version": "1.3.4",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-ppc64",
+      "version": "1.3.4",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "ppc64"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-riscv64",
+      "version": "1.3.4",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "riscv64"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-s390x",
+      "version": "1.3.4",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "s390x"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-x64",
+      "version": "1.3.4",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linuxmusl-arm64",
+      "version": "1.3.4",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": [
+        "musl"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linuxmusl-x64",
+      "version": "1.3.4",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": [
+        "musl"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-arm",
+      "version": "0.35.5",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-arm64",
+      "version": "0.35.5",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-ppc64",
+      "version": "0.35.5",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "ppc64"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-riscv64",
+      "version": "0.35.5",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "riscv64"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-s390x",
+      "version": "0.35.5",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "s390x"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-x64",
+      "version": "0.35.5",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": [
+        "glibc"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-linuxmusl-arm64",
+      "version": "0.35.5",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": [
+        "musl"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-linuxmusl-x64",
+      "version": "0.35.5",
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": [
+        "musl"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-wasm32",
+      "version": "0.35.5"
+    },
+    {
+      "path": "node_modules/@img/sharp-webcontainers-wasm32",
+      "version": "0.35.5",
+      "cpu": [
+        "wasm32"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-win32-arm64",
+      "version": "0.35.5",
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "arm64"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-win32-ia32",
+      "version": "0.35.5",
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "ia32"
+      ]
+    },
+    {
+      "path": "node_modules/@img/sharp-win32-x64",
+      "version": "0.35.5",
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ]
+    }
+  ],
+  "result": "PASS; embedded Node tooling assessed separately"
+}
