@@ -1,0 +1,77 @@
+{
+  "label": "DESIGN CONCEPT — NOT LIVE",
+  "browser": "Chrome/157.0.8103.79",
+  "results": [
+    {
+      "file": "index.html",
+      "width": 1440,
+      "height": 1440,
+      "mode": "http",
+      "url": "http://127.0.0.1:4178/index.html",
+      "overflow": false,
+      "allImagesLoaded": true,
+      "title": "CatchID visual review · DESIGN CONCEPT — NOT LIVE",
+      "bodyFont": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "height": 844,
+      "mode": "http",
+      "url": "http://127.0.0.1:4178/index.html",
+      "overflow": false,
+      "allImagesLoaded": true,
+      "title": "CatchID visual review · DESIGN CONCEPT — NOT LIVE",
+      "bodyFont": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "file": "responsive.html",
+      "width": 1440,
+      "height": 1000,
+      "mode": "http",
+      "url": "http://127.0.0.1:4178/responsive.html",
+      "overflow": false,
+      "allImagesLoaded": true,
+      "title": "Responsive evidence · DESIGN CONCEPT — NOT LIVE",
+      "bodyFont": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "height": 1000,
+      "mode": "file",
+      "url": "file://local-file/index.html",
+      "overflow": false,
+      "allImagesLoaded": true,
+      "title": "CatchID visual review · DESIGN CONCEPT — NOT LIVE",
+      "bodyFont": "Arial, Helvetica, sans-serif"
+    },
+    {
+      "file": "concept-a.html?consent=saved",
+      "width": 390,
+      "height": 844,
+      "mode": "file",
+      "url": "file://local-file/concept-a.html",
+      "overflow": false,
+      "allImagesLoaded": true,
+      "title": "Concept A · CatchID · DESIGN CONCEPT — NOT LIVE",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "consentHidden": true
+    },
+    {
+      "file": "concept-b.html?consent=first",
+      "width": 390,
+      "height": 844,
+      "mode": "file",
+      "url": "file://local-file/concept-b.html",
+      "overflow": false,
+      "allImagesLoaded": true,
+      "title": "Concept B · CatchID · DESIGN CONCEPT — NOT LIVE",
+      "bodyFont": "Arial, Helvetica, sans-serif",
+      "consentHidden": false,
+      "fileInteractionWorks": true
+    }
+  ],
+  "externalRequests": [],
+  "pageExceptions": []
+}

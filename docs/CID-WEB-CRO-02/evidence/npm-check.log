@@ -1,0 +1,15 @@
+
+> catchid-web@1.0.0 check
+> astro check
+
+19:59:59 [types] Generated 92ms
+19:59:59 [check] Getting diagnostics for Astro files in <workspace>\cid-web-cro-02...
+[96mscripts/verify-dependencies.mjs[0m:[93m8[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m8[0m const require = createRequire(import.meta.url);
+[7m [0m [93m      ~~~~~~~[0m
+
+Result (19 files):
+- 0 errors
+- 0 warnings
+- 1 hint

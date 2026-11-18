@@ -1,0 +1,1108 @@
+{
+  "label": "DESIGN CONCEPT — NOT LIVE",
+  "date": "2026-11-18",
+  "browser": "Chrome/157.0.8103.79",
+  "viewportMethod": "CSS pixels / desktop Chromium responsive emulation, DPR 1; not physical Android",
+  "cases": [
+    {
+      "concept": "a",
+      "width": 390,
+      "height": 844,
+      "state": "first",
+      "scale": 1,
+      "screenshot": "a-390x844-first.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "overflow": false,
+      "primary": {
+        "x": 5,
+        "y": 465.140625,
+        "width": 218.8125,
+        "height": 86,
+        "bottom": 551.140625
+      },
+      "headerCTA": {
+        "x": 242.125,
+        "y": 49.5,
+        "width": 127.875,
+        "height": 44,
+        "bottom": 93.5
+      },
+      "consent": {
+        "x": 20,
+        "y": 675.328125,
+        "width": 350,
+        "height": 151,
+        "bottom": 826.328125
+      },
+      "consentButtons": [
+        {
+          "x": 36,
+          "y": 767.328125,
+          "width": 155,
+          "height": 44,
+          "bottom": 811.328125
+        },
+        {
+          "x": 199,
+          "y": 767.328125,
+          "width": 155,
+          "height": 44,
+          "bottom": 811.328125
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "complete": true,
+          "naturalWidth": 512,
+          "rect": {
+            "x": 20,
+            "y": 53.5,
+            "width": 36,
+            "height": 36,
+            "bottom": 89.5
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 20,
+            "y": 480.140625,
+            "width": 188.8125,
+            "height": 56,
+            "bottom": 536.140625
+          }
+        },
+        {
+          "src": "assets/journal.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 36,
+            "y": 935.125,
+            "width": 318,
+            "height": 565.328125,
+            "bottom": 1500.453125
+          }
+        },
+        {
+          "src": "assets/identify.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 50,
+            "y": 2130.09375,
+            "width": 290,
+            "height": 515.546875,
+            "bottom": 2645.640625
+          }
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "complete": true,
+          "naturalWidth": 709,
+          "rect": {
+            "x": 50,
+            "y": 2996.484375,
+            "width": 290,
+            "height": 628.25,
+            "bottom": 3624.734375
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": false,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 20,
+            "y": 3915.03125,
+            "width": 188.8125,
+            "height": 56,
+            "bottom": 3971.03125
+          }
+        }
+      ],
+      "horizontalOutliers": [],
+      "clippedText": [],
+      "cookies": "",
+      "storage": [],
+      "requests": [
+        "http://127.0.0.1:4178/concept-a.html?consent=first",
+        "http://127.0.0.1:4178/concepts.css",
+        "http://127.0.0.1:4178/preview.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg",
+        "http://127.0.0.1:4178/favicon.ico"
+      ],
+      "exceptions": []
+    },
+    {
+      "concept": "a",
+      "width": 390,
+      "height": 844,
+      "state": "saved",
+      "scale": 1,
+      "screenshot": "a-390x844-saved.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "overflow": false,
+      "primary": {
+        "x": 5,
+        "y": 465.140625,
+        "width": 218.8125,
+        "height": 86,
+        "bottom": 551.140625
+      },
+      "headerCTA": {
+        "x": 242.125,
+        "y": 49.5,
+        "width": 127.875,
+        "height": 44,
+        "bottom": 93.5
+      },
+      "consent": null,
+      "consentButtons": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "complete": true,
+          "naturalWidth": 512,
+          "rect": {
+            "x": 20,
+            "y": 53.5,
+            "width": 36,
+            "height": 36,
+            "bottom": 89.5
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 20,
+            "y": 480.140625,
+            "width": 188.8125,
+            "height": 56,
+            "bottom": 536.140625
+          }
+        },
+        {
+          "src": "assets/journal.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 36,
+            "y": 784.125,
+            "width": 318,
+            "height": 565.328125,
+            "bottom": 1349.453125
+          }
+        },
+        {
+          "src": "assets/identify.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 50,
+            "y": 1979.09375,
+            "width": 290,
+            "height": 515.546875,
+            "bottom": 2494.640625
+          }
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "complete": true,
+          "naturalWidth": 709,
+          "rect": {
+            "x": 50,
+            "y": 2845.484375,
+            "width": 290,
+            "height": 628.25,
+            "bottom": 3473.734375
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": false,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 20,
+            "y": 3764.03125,
+            "width": 188.8125,
+            "height": 56,
+            "bottom": 3820.03125
+          }
+        }
+      ],
+      "horizontalOutliers": [],
+      "clippedText": [],
+      "cookies": "",
+      "storage": [],
+      "requests": [
+        "http://127.0.0.1:4178/concept-a.html?consent=saved",
+        "http://127.0.0.1:4178/concepts.css",
+        "http://127.0.0.1:4178/preview.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg"
+      ],
+      "exceptions": []
+    },
+    {
+      "concept": "a",
+      "width": 1440,
+      "height": 1000,
+      "state": "first",
+      "scale": 1,
+      "screenshot": "a-1440x1000-first.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollWidth": 1440,
+      "overflow": false,
+      "primary": {
+        "x": 80,
+        "y": 568.203125,
+        "width": 234.296875,
+        "height": 92,
+        "bottom": 660.203125
+      },
+      "headerCTA": {
+        "x": 1198.296875,
+        "y": 58.5,
+        "width": 145.703125,
+        "height": 46,
+        "bottom": 104.5
+      },
+      "consent": {
+        "x": 96,
+        "y": 753.0625,
+        "width": 592,
+        "height": 161,
+        "bottom": 914.0625
+      },
+      "consentButtons": [
+        {
+          "x": 117,
+          "y": 851.0625,
+          "width": 270,
+          "height": 44,
+          "bottom": 895.0625
+        },
+        {
+          "x": 397,
+          "y": 851.0625,
+          "width": 270,
+          "height": 44,
+          "bottom": 895.0625
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "complete": true,
+          "naturalWidth": 512,
+          "rect": {
+            "x": 96,
+            "y": 60.5,
+            "width": 42,
+            "height": 42,
+            "bottom": 102.5
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 96,
+            "y": 584.203125,
+            "width": 202.296875,
+            "height": 60,
+            "bottom": 644.203125
+          }
+        },
+        {
+          "src": "assets/journal.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 776,
+            "y": 250.1875,
+            "width": 340,
+            "height": 604.4375,
+            "bottom": 854.625
+          }
+        },
+        {
+          "src": "assets/identify.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 498,
+            "y": 1220.390625,
+            "width": 190,
+            "height": 337.765625,
+            "bottom": 1558.15625
+          }
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "complete": true,
+          "naturalWidth": 709,
+          "rect": {
+            "x": 1154,
+            "y": 1220.390625,
+            "width": 190,
+            "height": 411.609375,
+            "bottom": 1632
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 1101.703125,
+            "y": 1859.078125,
+            "width": 202.296875,
+            "height": 60,
+            "bottom": 1919.078125
+          }
+        }
+      ],
+      "horizontalOutliers": [],
+      "clippedText": [],
+      "cookies": "",
+      "storage": [],
+      "requests": [
+        "http://127.0.0.1:4178/concept-a.html?consent=first",
+        "http://127.0.0.1:4178/concepts.css",
+        "http://127.0.0.1:4178/preview.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg"
+      ],
+      "exceptions": []
+    },
+    {
+      "concept": "a",
+      "width": 1440,
+      "height": 1000,
+      "state": "saved",
+      "scale": 1,
+      "screenshot": "a-1440x1000-saved.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollWidth": 1440,
+      "overflow": false,
+      "primary": {
+        "x": 80,
+        "y": 568.203125,
+        "width": 234.296875,
+        "height": 92,
+        "bottom": 660.203125
+      },
+      "headerCTA": {
+        "x": 1198.296875,
+        "y": 58.5,
+        "width": 145.703125,
+        "height": 46,
+        "bottom": 104.5
+      },
+      "consent": null,
+      "consentButtons": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "complete": true,
+          "naturalWidth": 512,
+          "rect": {
+            "x": 96,
+            "y": 60.5,
+            "width": 42,
+            "height": 42,
+            "bottom": 102.5
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 96,
+            "y": 584.203125,
+            "width": 202.296875,
+            "height": 60,
+            "bottom": 644.203125
+          }
+        },
+        {
+          "src": "assets/journal.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 776,
+            "y": 250.1875,
+            "width": 340,
+            "height": 604.4375,
+            "bottom": 854.625
+          }
+        },
+        {
+          "src": "assets/identify.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 498,
+            "y": 1220.390625,
+            "width": 190,
+            "height": 337.765625,
+            "bottom": 1558.15625
+          }
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "complete": true,
+          "naturalWidth": 709,
+          "rect": {
+            "x": 1154,
+            "y": 1220.390625,
+            "width": 190,
+            "height": 411.609375,
+            "bottom": 1632
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 1101.703125,
+            "y": 1859.078125,
+            "width": 202.296875,
+            "height": 60,
+            "bottom": 1919.078125
+          }
+        }
+      ],
+      "horizontalOutliers": [],
+      "clippedText": [],
+      "cookies": "",
+      "storage": [],
+      "requests": [
+        "http://127.0.0.1:4178/concept-a.html?consent=saved",
+        "http://127.0.0.1:4178/concepts.css",
+        "http://127.0.0.1:4178/preview.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg"
+      ],
+      "exceptions": []
+    },
+    {
+      "concept": "b",
+      "width": 390,
+      "height": 844,
+      "state": "first",
+      "scale": 1,
+      "screenshot": "b-390x844-first.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "overflow": false,
+      "primary": {
+        "x": 20,
+        "y": 423.25,
+        "width": 218.8125,
+        "height": 86,
+        "bottom": 509.25
+      },
+      "headerCTA": {
+        "x": 242.125,
+        "y": 49.5,
+        "width": 127.875,
+        "height": 44,
+        "bottom": 93.5
+      },
+      "consent": {
+        "x": 20,
+        "y": 668.53125,
+        "width": 350,
+        "height": 151,
+        "bottom": 819.53125
+      },
+      "consentButtons": [
+        {
+          "x": 36,
+          "y": 760.53125,
+          "width": 155,
+          "height": 44,
+          "bottom": 804.53125
+        },
+        {
+          "x": 199,
+          "y": 760.53125,
+          "width": 155,
+          "height": 44,
+          "bottom": 804.53125
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "complete": true,
+          "naturalWidth": 512,
+          "rect": {
+            "x": 20,
+            "y": 53.5,
+            "width": 36,
+            "height": 36,
+            "bottom": 89.5
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 35,
+            "y": 438.25,
+            "width": 188.8125,
+            "height": 56,
+            "bottom": 494.25
+          }
+        },
+        {
+          "src": "assets/identify.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 36,
+            "y": 925.328125,
+            "width": 318,
+            "height": 565.328125,
+            "bottom": 1490.65625
+          }
+        },
+        {
+          "src": "assets/journal.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 50,
+            "y": 2120.296875,
+            "width": 290,
+            "height": 515.546875,
+            "bottom": 2635.84375
+          }
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "complete": true,
+          "naturalWidth": 709,
+          "rect": {
+            "x": 50,
+            "y": 2986.6875,
+            "width": 290,
+            "height": 628.25,
+            "bottom": 3614.9375
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": false,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 35,
+            "y": 3907.234375,
+            "width": 188.8125,
+            "height": 56,
+            "bottom": 3963.234375
+          }
+        }
+      ],
+      "horizontalOutliers": [],
+      "clippedText": [],
+      "cookies": "",
+      "storage": [],
+      "requests": [
+        "http://127.0.0.1:4178/concept-b.html?consent=first",
+        "http://127.0.0.1:4178/concepts.css",
+        "http://127.0.0.1:4178/preview.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg"
+      ],
+      "exceptions": []
+    },
+    {
+      "concept": "b",
+      "width": 390,
+      "height": 844,
+      "state": "saved",
+      "scale": 1,
+      "screenshot": "b-390x844-saved.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "overflow": false,
+      "primary": {
+        "x": 20,
+        "y": 423.25,
+        "width": 218.8125,
+        "height": 86,
+        "bottom": 509.25
+      },
+      "headerCTA": {
+        "x": 242.125,
+        "y": 49.5,
+        "width": 127.875,
+        "height": 44,
+        "bottom": 93.5
+      },
+      "consent": null,
+      "consentButtons": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "complete": true,
+          "naturalWidth": 512,
+          "rect": {
+            "x": 20,
+            "y": 53.5,
+            "width": 36,
+            "height": 36,
+            "bottom": 89.5
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 35,
+            "y": 438.25,
+            "width": 188.8125,
+            "height": 56,
+            "bottom": 494.25
+          }
+        },
+        {
+          "src": "assets/identify.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 36,
+            "y": 774.328125,
+            "width": 318,
+            "height": 565.328125,
+            "bottom": 1339.65625
+          }
+        },
+        {
+          "src": "assets/journal.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 50,
+            "y": 1969.296875,
+            "width": 290,
+            "height": 515.546875,
+            "bottom": 2484.84375
+          }
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "complete": true,
+          "naturalWidth": 709,
+          "rect": {
+            "x": 50,
+            "y": 2835.6875,
+            "width": 290,
+            "height": 628.25,
+            "bottom": 3463.9375
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": false,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 35,
+            "y": 3756.234375,
+            "width": 188.8125,
+            "height": 56,
+            "bottom": 3812.234375
+          }
+        }
+      ],
+      "horizontalOutliers": [],
+      "clippedText": [],
+      "cookies": "",
+      "storage": [],
+      "requests": [
+        "http://127.0.0.1:4178/concept-b.html?consent=saved",
+        "http://127.0.0.1:4178/concepts.css",
+        "http://127.0.0.1:4178/preview.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg"
+      ],
+      "exceptions": []
+    },
+    {
+      "concept": "b",
+      "width": 1440,
+      "height": 1000,
+      "state": "first",
+      "scale": 1,
+      "screenshot": "b-1440x1000-first.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollWidth": 1440,
+      "overflow": false,
+      "primary": {
+        "x": 735,
+        "y": 553.8125,
+        "width": 234.296875,
+        "height": 92,
+        "bottom": 645.8125
+      },
+      "headerCTA": {
+        "x": 1198.296875,
+        "y": 58.5,
+        "width": 145.703125,
+        "height": 46,
+        "bottom": 104.5
+      },
+      "consent": {
+        "x": 735,
+        "y": 753.953125,
+        "width": 609,
+        "height": 140,
+        "bottom": 893.953125
+      },
+      "consentButtons": [
+        {
+          "x": 756,
+          "y": 830.953125,
+          "width": 278.5,
+          "height": 44,
+          "bottom": 874.953125
+        },
+        {
+          "x": 1044.5,
+          "y": 830.953125,
+          "width": 278.5,
+          "height": 44,
+          "bottom": 874.953125
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "complete": true,
+          "naturalWidth": 512,
+          "rect": {
+            "x": 96,
+            "y": 60.5,
+            "width": 42,
+            "height": 42,
+            "bottom": 102.5
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 751,
+            "y": 569.8125,
+            "width": 202.296875,
+            "height": 60,
+            "bottom": 629.8125
+          }
+        },
+        {
+          "src": "assets/identify.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 203.5,
+            "y": 233.1875,
+            "width": 336,
+            "height": 597.328125,
+            "bottom": 830.515625
+          }
+        },
+        {
+          "src": "assets/journal.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 468,
+            "y": 1204.28125,
+            "width": 220,
+            "height": 391.109375,
+            "bottom": 1595.390625
+          }
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "complete": true,
+          "naturalWidth": 709,
+          "rect": {
+            "x": 1124,
+            "y": 1204.28125,
+            "width": 220,
+            "height": 476.609375,
+            "bottom": 1680.890625
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 1101.703125,
+            "y": 1907.96875,
+            "width": 202.296875,
+            "height": 60,
+            "bottom": 1967.96875
+          }
+        }
+      ],
+      "horizontalOutliers": [],
+      "clippedText": [],
+      "cookies": "",
+      "storage": [],
+      "requests": [
+        "http://127.0.0.1:4178/concept-b.html?consent=first",
+        "http://127.0.0.1:4178/concepts.css",
+        "http://127.0.0.1:4178/preview.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg"
+      ],
+      "exceptions": []
+    },
+    {
+      "concept": "b",
+      "width": 1440,
+      "height": 1000,
+      "state": "saved",
+      "scale": 1,
+      "screenshot": "b-1440x1000-saved.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "scrollWidth": 1440,
+      "overflow": false,
+      "primary": {
+        "x": 735,
+        "y": 553.8125,
+        "width": 234.296875,
+        "height": 92,
+        "bottom": 645.8125
+      },
+      "headerCTA": {
+        "x": 1198.296875,
+        "y": 58.5,
+        "width": 145.703125,
+        "height": 46,
+        "bottom": 104.5
+      },
+      "consent": null,
+      "consentButtons": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "complete": true,
+          "naturalWidth": 512,
+          "rect": {
+            "x": 96,
+            "y": 60.5,
+            "width": 42,
+            "height": 42,
+            "bottom": 102.5
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 751,
+            "y": 569.8125,
+            "width": 202.296875,
+            "height": 60,
+            "bottom": 629.8125
+          }
+        },
+        {
+          "src": "assets/identify.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 203.5,
+            "y": 233.1875,
+            "width": 336,
+            "height": 597.328125,
+            "bottom": 830.515625
+          }
+        },
+        {
+          "src": "assets/journal.jpg",
+          "complete": true,
+          "naturalWidth": 1080,
+          "rect": {
+            "x": 468,
+            "y": 1204.28125,
+            "width": 220,
+            "height": 391.109375,
+            "bottom": 1595.390625
+          }
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "complete": true,
+          "naturalWidth": 709,
+          "rect": {
+            "x": 1124,
+            "y": 1204.28125,
+            "width": 220,
+            "height": 476.609375,
+            "bottom": 1680.890625
+          }
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "complete": true,
+          "naturalWidth": 300,
+          "rect": {
+            "x": 1101.703125,
+            "y": 1907.96875,
+            "width": 202.296875,
+            "height": 60,
+            "bottom": 1967.96875
+          }
+        }
+      ],
+      "horizontalOutliers": [],
+      "clippedText": [],
+      "cookies": "",
+      "storage": [],
+      "requests": [
+        "http://127.0.0.1:4178/concept-b.html?consent=saved",
+        "http://127.0.0.1:4178/concepts.css",
+        "http://127.0.0.1:4178/preview.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg"
+      ],
+      "exceptions": []
+    }
+  ],
+  "interactions": [],
+  "externalRequests": [],
+  "errors": []
+}

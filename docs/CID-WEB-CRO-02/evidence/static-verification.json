@@ -1,0 +1,178 @@
+{
+  "label": "DESIGN CONCEPT — NOT LIVE",
+  "baseline": "42c997c13712a432c8e2384915aaa010a16d068b",
+  "assets": [
+    {
+      "file": "assets/journal.jpg",
+      "source": "src/assets/journal.jpg",
+      "bytes": 317462,
+      "sha256": "088899d963d12973db1032df2fd4605cc08c708305b3885702a3e9717cb4bbd9",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/identify.jpg",
+      "source": "src/assets/identify.jpg",
+      "bytes": 497255,
+      "sha256": "53a372f4d20e15dcd722544b89c436c7ce251ede0323aef153ea4bc7245d75c0",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/insights-overview.jpg",
+      "source": "src/assets/insights-overview.jpg",
+      "bytes": 104186,
+      "sha256": "ac2884c9fa34510b257c2fbcdc40b2eac50316925d89c837a7d4e7707e09ee36",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/catchid-icon.png",
+      "source": "src/assets/catchid-icon.png",
+      "bytes": 367137,
+      "sha256": "b52dfd2618605dc2a7ffa2d0410497c7748cc4f672dbc095f6af4b0f3e8791b6",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/google-play-badge.svg",
+      "source": "public/assets/google-play-badge.svg",
+      "bytes": 5078,
+      "sha256": "4ffa4c7edd2f10b297ca4de2131eddaa00d03b2278d1e178fe512920d824ca34",
+      "matchesBaseline": true
+    }
+  ],
+  "playLinks": [
+    {
+      "page": "concept-a.html",
+      "url": "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+      "exactProductionMatch": true
+    },
+    {
+      "page": "concept-a.html",
+      "url": "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+      "exactProductionMatch": true
+    },
+    {
+      "page": "concept-a.html",
+      "url": "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+      "exactProductionMatch": true
+    },
+    {
+      "page": "concept-b.html",
+      "url": "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+      "exactProductionMatch": true
+    },
+    {
+      "page": "concept-b.html",
+      "url": "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+      "exactProductionMatch": true
+    },
+    {
+      "page": "concept-b.html",
+      "url": "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+      "exactProductionMatch": true
+    }
+  ],
+  "contrast": [
+    {
+      "use": "A main text",
+      "foreground": "#071c2a",
+      "background": "#ffffff",
+      "ratio": 17.38,
+      "passesNormalText": true
+    },
+    {
+      "use": "A secondary text",
+      "foreground": "#425969",
+      "background": "#ffffff",
+      "ratio": 7.33,
+      "passesNormalText": true
+    },
+    {
+      "use": "A teal / white CTA",
+      "foreground": "#006a75",
+      "background": "#ffffff",
+      "ratio": 6.33,
+      "passesNormalText": true
+    },
+    {
+      "use": "A caption on paper",
+      "foreground": "#425969",
+      "background": "#f8f7f3",
+      "ratio": 6.84,
+      "passesNormalText": true
+    },
+    {
+      "use": "A consent text",
+      "foreground": "#425969",
+      "background": "#f3f7f8",
+      "ratio": 6.8,
+      "passesNormalText": true
+    },
+    {
+      "use": "B main text",
+      "foreground": "#f3f7f8",
+      "background": "#03111d",
+      "ratio": 17.67,
+      "passesNormalText": true
+    },
+    {
+      "use": "B supporting text",
+      "foreground": "#c4d4de",
+      "background": "#03111d",
+      "ratio": 12.54,
+      "passesNormalText": true
+    },
+    {
+      "use": "B turquoise / header CTA",
+      "foreground": "#26c7c9",
+      "background": "#03111d",
+      "ratio": 9.16,
+      "passesNormalText": true
+    },
+    {
+      "use": "B consent text",
+      "foreground": "#c4d4de",
+      "background": "#102936",
+      "ratio": 9.92,
+      "passesNormalText": true
+    },
+    {
+      "use": "B consent button",
+      "foreground": "#f3f7f8",
+      "background": "#102936",
+      "ratio": 13.98,
+      "passesNormalText": true
+    },
+    {
+      "use": "B stage eyebrow",
+      "foreground": "#26c7c9",
+      "background": "#112e38",
+      "ratio": 6.86,
+      "passesNormalText": true
+    },
+    {
+      "use": "B stage secondary",
+      "foreground": "#bfd0d6",
+      "background": "#112e38",
+      "ratio": 8.97,
+      "passesNormalText": true
+    },
+    {
+      "use": "Review status label",
+      "foreground": "#234c53",
+      "background": "#eaf2f3",
+      "ratio": 8.29,
+      "passesNormalText": true
+    }
+  ],
+  "errors": [],
+  "productionTrackedDiff": [],
+  "lockfileSha256": "655b46c37bf4708ae9e9181a2da0a921aab54b9db94042e9f0a8784b6fbdd4e1",
+  "outputFilesExcludedFromProduction": true,
+  "badge": {
+    "heightDesktop": 60,
+    "clearSpaceDesktop": 16,
+    "heightMobile": 56,
+    "clearSpaceMobile": 15,
+    "originalAspectRatio": "238.96 / 70.87",
+    "unmodified": true
+  }
+}

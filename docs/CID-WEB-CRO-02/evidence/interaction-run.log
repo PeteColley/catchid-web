@@ -1,0 +1,125 @@
+{
+  "browser": "Chrome/157.0.8103.79",
+  "cases": 60,
+  "errors": [],
+  "externalRequests": [],
+  "cta": [
+    {
+      "concept": "a",
+      "width": 320,
+      "state": "first",
+      "badgeBottom": 592.90625,
+      "consentBottom": 899.6875
+    },
+    {
+      "concept": "a",
+      "width": 320,
+      "state": "saved",
+      "badgeBottom": 592.90625
+    },
+    {
+      "concept": "a",
+      "width": 360,
+      "state": "first",
+      "badgeBottom": 533.21875,
+      "consentBottom": 800.40625
+    },
+    {
+      "concept": "a",
+      "width": 360,
+      "state": "saved",
+      "badgeBottom": 533.21875
+    },
+    {
+      "concept": "a",
+      "width": 390,
+      "state": "first",
+      "badgeBottom": 551.140625,
+      "consentBottom": 826.328125
+    },
+    {
+      "concept": "a",
+      "width": 390,
+      "state": "saved",
+      "badgeBottom": 551.140625
+    },
+    {
+      "concept": "a",
+      "width": 430,
+      "state": "first",
+      "badgeBottom": 525.546875,
+      "consentBottom": 800.734375
+    },
+    {
+      "concept": "a",
+      "width": 430,
+      "state": "saved",
+      "badgeBottom": 525.546875
+    },
+    {
+      "concept": "b",
+      "width": 320,
+      "state": "first",
+      "badgeBottom": 534.546875,
+      "consentBottom": 878.421875
+    },
+    {
+      "concept": "b",
+      "width": 320,
+      "state": "saved",
+      "badgeBottom": 534.546875
+    },
+    {
+      "concept": "b",
+      "width": 360,
+      "state": "first",
+      "badgeBottom": 494.65625,
+      "consentBottom": 798.9375
+    },
+    {
+      "concept": "b",
+      "width": 360,
+      "state": "saved",
+      "badgeBottom": 494.65625
+    },
+    {
+      "concept": "b",
+      "width": 390,
+      "state": "first",
+      "badgeBottom": 509.25,
+      "consentBottom": 819.53125
+    },
+    {
+      "concept": "b",
+      "width": 390,
+      "state": "saved",
+      "badgeBottom": 509.25
+    },
+    {
+      "concept": "b",
+      "width": 430,
+      "state": "first",
+      "badgeBottom": 463.859375,
+      "consentBottom": 751.046875
+    },
+    {
+      "concept": "b",
+      "width": 430,
+      "state": "saved",
+      "badgeBottom": 463.859375
+    },
+    {
+      "concept": "baseline",
+      "width": 390,
+      "state": "first",
+      "badgeBottom": 733.046875,
+      "consentBottom": 329.5625
+    },
+    {
+      "concept": "baseline",
+      "width": 390,
+      "state": "saved",
+      "badgeBottom": 517.484375
+    }
+  ]
+}

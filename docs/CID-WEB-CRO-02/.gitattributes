@@ -1,0 +1,2 @@
+# Preserve supplied artwork bytes regardless of the reviewer's Git newline settings.
+assets/* -text
