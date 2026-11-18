@@ -26,7 +26,9 @@ Repository: `PeteColley/catchid-web`. Branch: **`codex/cid-web-cro-03-design`**,
 
 Every changed path is new under `docs/CID-WEB-CRO-03/`. All 78 tracked baseline blobs remain identical, including production source, public assets, packages, config, README and workflow. [QA](QA.md) explains the fresh-worktree LF/CRLF detail in the unchanged app-ads file. Original main and other worktrees remain preserved.
 
-Remote receipt will be recorded below after the scoped push. The reviewed design/evidence commit is the immutable content reference; a later handover-receipt-only commit may contain this verified receipt. The final response supplies the exact final branch-tip SHA.
+**Committed and pushed.** Immutable reviewed design/evidence commit: **`d4bbbd3f9922e94df07c415e4966149c8953e722`**. `git ls-remote` confirmed the review branch at that exact SHA after push, while main and CRO-02 remained at the values above. GitHub readback of the gallery and visual review matched the local Git blobs exactly: gallery `6e8c70081cdf41074d00d606fa2ec6dc19be5a7b`, visual review `c49a3875c5e7c8babe26f2c656fbb605ff7af8df`.
+
+This handover receipt and its file-inventory update are the only changes after that tested design commit. The final response gives the exact receipt-only branch-tip SHA; no design/code/assets/tests change in that final commit. A document cannot contain the SHA of its own containing commit, so the immutable tested revision above is the durable design reference.
 
 Review links: [branch files](https://github.com/PeteColley/catchid-web/tree/codex/cid-web-cro-03-design/docs/CID-WEB-CRO-03), [visual review](https://github.com/PeteColley/catchid-web/blob/codex/cid-web-cro-03-design/docs/CID-WEB-CRO-03/VISUAL_REVIEW.md). These are repository review files, not a hosted website preview. No PR was opened.
 
