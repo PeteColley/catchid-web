@@ -77,3 +77,5 @@
   .hero-proof{min-height:500px}
   .hero-proof .art-label{font-size:10px;max-width:220px}
 }
+/* CRO-03B: centre desktop navigation clear of the bright hero photograph. */
+@media(min-width:761px){.site-header{display:grid;grid-template-columns:1fr auto 1fr}.site-header>.brand{justify-self:start}.site-header>nav{grid-column:2}}

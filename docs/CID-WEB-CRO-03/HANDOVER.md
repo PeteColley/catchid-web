@@ -1,4 +1,8 @@
-# CID-WEB-CRO-03A — final visual polish
+# CID-WEB-CRO-03 — design review handover
+
+**Latest: CRO-03B final header cleanup — DESIGN ONLY, NOT LIVE.** The custom desktop Get CatchID button is removed on both pages, with centred navigation and unchanged official hero/final badges. See the [CRO-03B review and verification](CRO03B_REVIEW.md) and [current offline gallery](index.html). The CRO-03A delivery record below is preserved as history.
+
+## CRO-03A — final visual polish
 
 **DESIGN ONLY — NOT LIVE · 18 November 2026**
 

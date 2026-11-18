@@ -5,3 +5,4 @@ reference/* -text
 reference/*.md -whitespace
 evidence/*.png -text
 evidence/cro03a/*.png -text
+evidence/cro03b/*.png -text

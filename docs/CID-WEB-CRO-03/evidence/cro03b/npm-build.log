@@ -1,0 +1,58 @@
+
+> catchid-web@1.0.0 build
+> astro build
+
+23:21:33 [types] Generated 146ms
+23:21:33 [build] output: "static"
+23:21:33 [build] mode: "static"
+23:21:33 [build] directory: <review-worktree>\dist\
+23:21:33 [build] Collecting build info...
+23:21:33 [build] ✓ Completed in 220ms.
+23:21:33 [build] Building static entrypoints...
+23:21:34 [vite] ✓ built in 651ms
+23:21:34 [vite] ✓ built in 41ms
+23:21:34 [build] Rearranging server assets...
+
+ generating static routes
+23:21:34   ├─ /fishing-journal-app/index.html (+47ms)
+23:21:34   ├─ /robots.txt (+7ms)
+23:21:34   ├─ /sitemap.xml (+6ms)
+23:21:34   ├─ /index.html (+22ms)
+23:21:34 ✓ Completed in 110ms.
+
+ generating optimized images
+23:21:35   ▶ /_astro/catchid-icon.CDgxPLyC_Z9VQHn.png (before: 358kB, after: 5kB) (+628ms) (1/30)
+23:21:35   ▶ /_astro/home-1.2.12.C6mDn6gx_1ivGXa.webp (before: 276kB, after: 23kB) (+627ms) (2/30)
+23:21:35   ▶ /_astro/journal.BXx_c0T3_1oFpAT.webp (before: 310kB, after: 19kB) (+628ms) (3/30)
+23:21:35   ▶ /_astro/insights-overview.DpZraCKL_14cfJU.webp (before: 101kB, after: 22kB) (+628ms) (4/30)
+23:21:35   ▶ /_astro/personal-records.FMzRFCFP_Z2bHYbn.webp (before: 115kB, after: 23kB) (+687ms) (5/30)
+23:21:35   ▶ /_astro/identify.DwSz2tOT_Z9uCwM.webp (before: 485kB, after: 33kB) (+784ms) (6/30)
+23:21:35   ▶ /_astro/catchid-icon.CDgxPLyC_ZYBnje.webp (before: 358kB, after: 0kB) (+157ms) (7/30)
+23:21:35   ▶ /_astro/fishing-locations.yPJTB-Q5_1H9Tv5.webp (before: 85kB, after: 16kB) (+785ms) (8/30)
+23:21:35   ▶ /_astro/home-1.2.12.C6mDn6gx_Z1qI2kM.webp (before: 276kB, after: 41kB) (+224ms) (9/30)
+23:21:35   ▶ /_astro/journal.BXx_c0T3_Z1wglcD.webp (before: 310kB, after: 33kB) (+246ms) (10/30)
+23:21:35   ▶ /_astro/insights-overview.DpZraCKL_PQH04.webp (before: 101kB, after: 37kB) (+289ms) (11/30)
+23:21:35   ▶ /_astro/personal-records.FMzRFCFP_2o0Ida.webp (before: 115kB, after: 40kB) (+313ms) (12/30)
+23:21:35   ▶ /_astro/fishing-locations.yPJTB-Q5_1tOlKe.webp (before: 85kB, after: 27kB) (+230ms) (13/30)
+23:21:36   ▶ /_astro/identify.DwSz2tOT_reBHN.webp (before: 485kB, after: 65kB) (+307ms) (14/30)
+23:21:36   ▶ /_astro/home-1.2.12.C6mDn6gx_Z1uRNNL.webp (before: 276kB, after: 60kB) (+316ms) (15/30)
+23:21:36   ▶ /_astro/journal.BXx_c0T3_Z2rsqMo.webp (before: 310kB, after: 47kB) (+300ms) (16/30)
+23:21:36   ▶ /_astro/insights-overview.DpZraCKL_NnPuG.webp (before: 101kB, after: 52kB) (+282ms) (17/30)
+23:21:36   ▶ /_astro/personal-records.FMzRFCFP_Z1gDs4i.webp (before: 115kB, after: 61kB) (+252ms) (18/30)
+23:21:36   ▶ /_astro/home-1.2.12.C6mDn6gx_ZPcFJc.webp (before: 276kB, after: 26kB) (+91ms) (19/30)
+23:21:36   ▶ /_astro/fishing-locations.yPJTB-Q5_1rlufQ.webp (before: 85kB, after: 39kB) (+247ms) (20/30)
+23:21:36   ▶ /_astro/journal.BXx_c0T3_Z1wECvg.webp (before: 310kB, after: 15kB) (+89ms) (21/30)
+23:21:36   ▶ /_astro/identify.DwSz2tOT_2oN59z.webp (before: 485kB, after: 97kB) (+296ms) (22/30)
+23:21:36   ▶ /_astro/insights-overview.DpZraCKL_Z2j4db7.webp (before: 101kB, after: 15kB) (+189ms) (23/30)
+23:21:36   ▶ /_astro/fishing-locations.yPJTB-Q5_Z1F6ypW.webp (before: 85kB, after: 12kB) (+126ms) (24/30)
+23:21:36   ▶ /_astro/personal-records.FMzRFCFP_29NgEd.webp (before: 115kB, after: 16kB) (+132ms) (25/30)
+23:21:36   ▶ /_astro/journal.BXx_c0T3_Z12MRbt.webp (before: 310kB, after: 16kB) (+158ms) (26/30)
+23:21:36   ▶ /_astro/identify.DwSz2tOT_ZQt1Q5.webp (before: 485kB, after: 27kB) (+82ms) (27/30)
+23:21:36   ▶ /_astro/insights-overview.DpZraCKL_ZnX6Yb.webp (before: 101kB, after: 36kB) (+173ms) (28/30)
+23:21:36   ▶ /_astro/insights-overview.DpZraCKL_Z2aww5q.webp (before: 101kB, after: 52kB) (+305ms) (29/30)
+23:21:37   ▶ /_astro/insights-overview.DpZraCKL_ZJPaEW.webp (before: 101kB, after: 19kB) (+253ms) (30/30)
+23:21:37 ✓ Completed in 2.12s.
+
+23:21:37 [build] ✓ Completed in 3.15s.
+23:21:37 [build] 2 page(s) built in 3.39s
+23:21:37 [build] Complete!
