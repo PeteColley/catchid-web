@@ -1,0 +1,6 @@
+* text eol=lf
+assets/* -text
+reference/* -text
+# Preserve supplied Markdown hard breaks and trailing blank lines verbatim.
+reference/*.md -whitespace
+evidence/*.png -text

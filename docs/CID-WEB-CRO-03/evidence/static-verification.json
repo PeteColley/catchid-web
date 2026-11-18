@@ -1,0 +1,147 @@
+{
+  "label": "DESIGN CONCEPT — NOT LIVE",
+  "checks": [
+    "home.html: one main, unique ids, all local links/assets exist, no outbound href/src, no live consent keys, no forbidden claims",
+    "fishing-journal-app.html: one main, unique ids, all local links/assets exist, no outbound href/src, no live consent keys, no forbidden claims"
+  ],
+  "assets": [
+    {
+      "name": "catchid-icon.png",
+      "bytes": 367137,
+      "sha256": "b52dfd2618605dc2a7ffa2d0410497c7748cc4f672dbc095f6af4b0f3e8791b6",
+      "matchesOriginal": true
+    },
+    {
+      "name": "journal.jpg",
+      "bytes": 317462,
+      "sha256": "088899d963d12973db1032df2fd4605cc08c708305b3885702a3e9717cb4bbd9",
+      "matchesOriginal": true
+    },
+    {
+      "name": "identify.jpg",
+      "bytes": 497255,
+      "sha256": "53a372f4d20e15dcd722544b89c436c7ce251ede0323aef153ea4bc7245d75c0",
+      "matchesOriginal": true
+    },
+    {
+      "name": "insights-overview.jpg",
+      "bytes": 104186,
+      "sha256": "ac2884c9fa34510b257c2fbcdc40b2eac50316925d89c837a7d4e7707e09ee36",
+      "matchesOriginal": true
+    },
+    {
+      "name": "personal-records.jpg",
+      "bytes": 118736,
+      "sha256": "4b20cd52cbd4a65718e35f13ac5b2764ece429e64bd92ca8829439a1bb03669c",
+      "matchesOriginal": true
+    },
+    {
+      "name": "fishing-locations.jpg",
+      "bytes": 87262,
+      "sha256": "6bd7df483fce43d0d1e4b1989635d58f440af1873b8051c6f743312528250f42",
+      "matchesOriginal": true
+    },
+    {
+      "name": "home-1.2.12.png",
+      "bytes": 283458,
+      "sha256": "7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349",
+      "matchesOriginal": true
+    },
+    {
+      "name": "google-play-badge.svg",
+      "bytes": 5078,
+      "sha256": "4ffa4c7edd2f10b297ca4de2131eddaa00d03b2278d1e178fe512920d824ca34",
+      "matchesOriginal": true
+    }
+  ],
+  "contrast": [
+    {
+      "name": "ink on paper",
+      "foreground": "#071c2a",
+      "background": "#f7f4ed",
+      "ratio": 15.82,
+      "pass": true
+    },
+    {
+      "name": "teal on paper",
+      "foreground": "#006c70",
+      "background": "#f7f4ed",
+      "ratio": 5.66,
+      "pass": true
+    },
+    {
+      "name": "teal on pale",
+      "foreground": "#006c70",
+      "background": "#deece7",
+      "ratio": 5.11,
+      "pass": true
+    },
+    {
+      "name": "muted on paper",
+      "foreground": "#4c6062",
+      "background": "#f7f4ed",
+      "ratio": 6.06,
+      "pass": true
+    },
+    {
+      "name": "muted on sage",
+      "foreground": "#4c6062",
+      "background": "#e3e9df",
+      "ratio": 5.38,
+      "pass": true
+    },
+    {
+      "name": "white on navy",
+      "foreground": "#fffdf8",
+      "background": "#071c2a",
+      "ratio": 17.09,
+      "pass": true
+    },
+    {
+      "name": "mint on navy",
+      "foreground": "#70ded2",
+      "background": "#071c2a",
+      "ratio": 10.81,
+      "pass": true
+    },
+    {
+      "name": "quiet on navy",
+      "foreground": "#bdd2d3",
+      "background": "#071c2a",
+      "ratio": 11.02,
+      "pass": true
+    },
+    {
+      "name": "caption on navy",
+      "foreground": "#c4d4d6",
+      "background": "#071c2a",
+      "ratio": 11.37,
+      "pass": true
+    },
+    {
+      "name": "teal on landing panel",
+      "foreground": "#006c70",
+      "background": "#d5e2d7",
+      "ratio": 4.64,
+      "pass": true
+    },
+    {
+      "name": "white on maximum mobile photo composite",
+      "foreground": "#fffdf8",
+      "background": "#51606a",
+      "ratio": 6.39,
+      "pass": true
+    },
+    {
+      "name": "dim caption on maximum mobile photo composite",
+      "foreground": "#dce0dc",
+      "background": "#51606a",
+      "ratio": 4.87,
+      "pass": true
+    }
+  ],
+  "baselinePathsCompared": 78,
+  "equalBaselinePaths": 78,
+  "normalization": "Text CRLF normalized only for Git blob comparison. Production worktree byte hashes separately recorded in baseline manifest.",
+  "errors": []
+}
