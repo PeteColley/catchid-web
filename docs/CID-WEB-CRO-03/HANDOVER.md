@@ -25,7 +25,14 @@ The approved CRO-03 direction is preserved. Three refinements are ready for revi
 
 Continues **codex/cid-web-cro-03-design**, preserving history from reviewed **d0df9e0bdfc0c23fbdc0db1fad94dd948ab7f5a6**. Main remains **42c997c13712a432c8e2384915aaa010a16d068b**. Changes are only within `docs/CID-WEB-CRO-03/`. All 117 prior assets/reference/evidence files and 78 production-baseline blobs remain unchanged. No production source/config/package/README/workflow edit.
 
-Verified remote polish commit/readback is recorded after push below. The final response supplies the exact final branch-tip SHA. A final receipt-only commit may update this handover/inventory without changing the tested design.
+Verified pushed design commit: **`c14e07be71fbe3f9abb02b0f3c3636319b5178a6`**. GitHub API readback at that exact commit matched the local committed blobs:
+
+- `index.html`: `355716dea4aef012c8b35cd7532fc5ba4f117e1e`.
+- `VISUAL_REVIEW.md`: `351ae0a89711bc254994055e0bc7b49c029d719c`.
+
+Remote main remained `42c997c13712a432c8e2384915aaa010a16d068b`; CRO-02 remained `1095c41927f2f5eabd6e0ac1996325d780009530`. Only the review branch advanced, by normal fast-forward push. The worktree was clean and no changed path fell outside this design folder.
+
+The final response supplies the exact final branch-tip SHA, which includes this receipt-only handover/inventory update. The tested design and screenshots are unchanged by that final commit.
 
 [GitHub review files](https://github.com/PeteColley/catchid-web/tree/codex/cid-web-cro-03-design/docs/CID-WEB-CRO-03) · [Visual review](https://github.com/PeteColley/catchid-web/blob/codex/cid-web-cro-03-design/docs/CID-WEB-CRO-03/VISUAL_REVIEW.md). Repository files, not a public preview.
 
