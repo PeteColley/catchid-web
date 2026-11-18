@@ -1,94 +1,83 @@
-# CRO-03 visual self-review
+# CRO-03A — focused visual polish
 
 **DESIGN CONCEPT — NOT LIVE · 18 November 2026. Self-review, not independent approval.**
 
-One editorial/outdoor system now covers the complete homepage and the existing fishing-journal acquisition page. Open [the offline gallery](index.html) for the most convenient comparison; open either [Home](home.html) or [Fishing Journal](fishing-journal-app.html) for working local interactions.
+Pete and ChatGPT approved CRO-03’s direction at `d0df9e0bdfc0c23fbdc0db1fad94dd948ab7f5a6`. This milestone refines three specific points; it does not replace that direction or authorise implementation. The previous [visual review](CRO03_VISUAL_REVIEW_ARCHIVE.md), [QA](CRO03_QA_ARCHIVE.md), [handover](CRO03_HANDOVER_ARCHIVE.md), screenshots, references and asset bytes remain available.
 
-## What the actual reference images establish
+Open the [updated gallery](index.html), [Home](home.html) or [Fishing Journal](fishing-journal-app.html). All work offline.
 
-The desktop reference uses a huge three-line serif headline, italic aquatic accent, dark river atmosphere and a large angled product screen. A trout photograph fills the right side rather than sitting in a separate stock-image card. The body and badge form a disciplined left edge; warm paper starts immediately after the hero.
+## 1. Earlier mobile product proof
 
-The mobile reference keeps headline → promise → badge → reassurance → product proof. Its phone and trout overlap in a single composition. The sections image moves from warm journal storytelling to dark Insights, pale teal optional ID and a compact navy closing invitation. Thin river contours and careful asymmetry add finish without heavy icon grids.
+The homepage headline is unchanged. Slightly tighter display sizing, shorter mobile-only supporting copy and reduced spacing bring the unchanged official badge forward. The genuine journal follows the reassurance directly. Consent uses an opaque bottom panel on small screens, with equally styled/sized Accept and Reject buttons. Desktop consent stays in flow.
 
-Those properties, not the fictional UI, are the target. The reference’s compact text and omitted consent are not realistic constraints for every browser viewport. This prototype retains readable web copy and equal consent controls, so its mobile hero is necessarily longer.
-
-## Reference and actual browser comparison
-
-| Approved direction — AI illustration, not product evidence | Actual offline Chrome rendering |
+| CRO-03: first visit, 390 × 844 | CRO-03A: first visit, 390 × 844 |
 | --- | --- |
-| ![Desktop reference](reference/CatchID_JournalFirst_Hero_Desktop_Reference.png) | ![Home desktop, saved consent](evidence/matrix-home-1440x1000-saved.png) |
-| ![Mobile reference](reference/CatchID_JournalFirst_Hero_Mobile_Reference.png) | ![Home mobile, saved consent](evidence/matrix-home-390x844-saved.png) |
-| ![Section rhythm reference](reference/CatchID_Website_Sections_Visual_Direction.png) | ![Actual Journal section crop](evidence/section-journal-section-1440.png) |
+| ![Home before](evidence/matrix-home-390x844-first.png) | ![Home after](evidence/cro03a/matrix-home-390x844-first.png) |
+| ![Journal before](evidence/matrix-fishing-journal-app-390x844-first.png) | ![Journal after](evidence/cro03a/matrix-fishing-journal-app-390x844-first.png) |
 
-Actual additional component crops: [Insights](evidence/section-insights-section-1440.png), [optional ID](evidence/section-identify-section-1440.png). These are screenshots from the browser, not AI images or repainted screens.
+| Measured at 390 × 844, normal text | CRO-03 | CRO-03A |
+| --- | ---: | ---: |
+| Primary badge button bottom, either page | 488.23px | 412.73px |
+| Home journal pixels begin, first visit | 743.01px | 500.90px |
+| Journal landing journal pixels begin, first visit | 810.84px | 479.78px |
+| Home journal pixels begin, saved choice | 567.43px | 500.90px |
+| Journal landing journal pixels begin, saved choice | 635.26px | 479.78px |
 
-## What was weaker in CRO-02
+These are layout measurements, not conversion results. A complete saved-catch row is now recognisable above consent at 390px. The panel occupies the bottom 139.83px; each choice is 170 × 44px. Nothing is preselected, hidden or tracked. At 320 × 720 the product slice is smaller: its heading and the first catch begin above the panel, with more available by scrolling.
 
-I inspected CRO-02’s rendered desktop A and mobile B evidence, as well as the current source baseline captures. CRO-02’s successful checks did not make it visually approved. Its boxed marketing poster brought its own heading into a second heading hierarchy; the page lacked outdoor atmosphere and a convincing foreground/background relationship. Repeated flat panels, large blank areas and the prototype ribbon weakened the editorial impression. Identification also competed more directly with the journal message.
+The panel’s measured height reserves end-of-page space. Keyboard focus is scrolled clear of it. Reopening consent returns focus to the footer opener after a choice. At 1.6× text the hero becomes longer and the CTA can move below the first viewport; it remains reachable without clipping or being covered when focused. These are offline design interactions, not production consent changes.
 
-CRO-03 crops only the marketing surround of the genuine journal artwork, foregrounds that screen over labelled atmosphere, uses stronger display weight, and changes section backgrounds and visual structure intentionally. The actual page designs omit the large review ribbon; the gallery and documentation carry the design-only status.
+## 2. Brighter mobile photograph
 
-## Two deliberate refinement passes
+The photograph previously sat behind text at 30% opacity. It now occupies a bounded area below the copy, at full opacity beside the journal, with its head raised into the visible composition. The mobile crop uses the same unchanged reference file. Its concept label has an opaque navy background; bright photography does not reduce web text contrast.
 
-### Pass 1 — initial browser → stronger hierarchy and mobile proof
-
-The initial desktop composition established the correct dark/ivory rhythm, but its light-weight headline lacked the reference’s authority. The mobile consent and optional-ID note delayed proof, the landing page’s background words were obscured by the journal, and two mobile Insights screens were too small.
-
-Changes: bold Georgia display weight, larger desktop journal, tighter hero spacing, tertiary ID note removed from the small-screen hero (the full optional-ID section remains), unobscured landing typography, and one readable mobile Personal Records screen with a local link to the full Insights example. Added restrained river-line detail.
-
-| Before | After pass 1 |
+| CRO-03: saved choice | CRO-03A: saved choice |
 | --- | --- |
-| ![Initial home mobile](evidence/initial-home-390x844-first.png) | ![Pass one mobile](evidence/refine1-home-390x844-first.png) |
-| ![Initial landing desktop](evidence/initial-fishing-journal-app-1440x1000-first.png) | ![Pass one landing](evidence/refine1-fishing-journal-app-1440x1000-first.png) |
+| ![Home saved before](evidence/matrix-home-390x844-saved.png) | ![Home saved after](evidence/cro03a/matrix-home-390x844-saved.png) |
+| ![Journal saved before](evidence/matrix-fishing-journal-app-390x844-saved.png) | ![Journal saved after](evidence/cro03a/matrix-fishing-journal-app-390x844-saved.png) |
 
-The 390px primary badge bottom moved from approximately 517px on Home / 513px on Journal to 485px on both. This is a layout measurement, not conversion evidence.
+It remains **Concept art — not publication approved**. Brightness comes from removing the display overlay, not retouching pixels or acquiring rights. The journal deliberately overlaps part of the fish, with its face/water now distinct beside it. The narrow source crop remains a resolution/rights limitation for a later rollout.
 
-### Pass 2 — atmosphere, readable detail and full-page pacing
+## 3. Less repeated full-page proof
 
-Comparing pass 1 with the mobile reference showed that atmosphere still began too late. Full-page review also exposed excess vertical padding around repeated proof, too-small provenance captions and uneven landing-page spacing.
+The second populated Journal phone and repeated concept photograph have been removed from the Journal story section. A genuine saved-record card now shows its original photograph, weight, date and location at a readable scale. It is explicitly a **Personal Records excerpt**, not a claimed Catch Details screenshot.
 
-Changes: extended the cropped atmosphere behind the lower mobile hero with a controlled dark overlay; enlarged mobile reassurance/captions; adjusted Journal screen/photo proportions and section spacing; balanced the landing composition; added closing contour detail; kept the Insights screen large instead of squeezing two into a row. The final QA finish adds an accessible mobile disclosure menu, a working skip target, clear caption separation and a conservative photo-overlay contrast bound.
-
-| Pass 1 | Pass 2, then final QA finish |
+| CRO-03 Journal section | CRO-03A Journal section |
 | --- | --- |
-| ![Pass one mobile](evidence/refine1-home-390x844-first.png) | ![Final home mobile first visit](evidence/matrix-home-390x844-first.png) |
-| ![Pass one desktop](evidence/refine1-home-1440x1000-first.png) | ![Final home desktop first visit](evidence/matrix-home-1440x1000-first.png) |
+| ![Repeated phone before](evidence/section-journal-section-1440.png) | ![Saved record after](evidence/cro03a/section-journal-section-1440.png) |
 
-The intermediate second-pass evidence is retained as `refine2-*`. Final `matrix-*` captures supersede it for delivery. Final 390px badge bottom is **488.23px** on both routes in first/saved states. Consent is in flow, never hidden or overlaid on the badge. Enlarged text intentionally increases page length.
+Home now uses the populated Journal artwork **once**, in the hero. The next proof is the actual Add a catch controls, then a saved-record excerpt, then existing Insights screens. Insights, optional identification and trust markup is byte-identical on both routes. The seven-section architecture is retained.
 
-## Two pages, distinct purposes
+The Brown Trout still appears later inside the preserved Personal Records screen. This remaining reuse is explicit: the detail/overview compositions differ, but no new asset is claimed. A current approved Catch Details capture would be the stronger eventual replacement. Historical Android composites and disposable test captures were inspected and rejected as marketing proof; [exact missing-asset requirements](ASSET_PROVENANCE.md) are recorded.
 
-| Home | Existing fishing-journal landing |
+## Two browser passes and arrangement selection
+
+**Pass 1:** compact mobile typography/copy, bottom consent, brighter photograph and saved-record composition. The first catch became visible and the badge moved 75.5px earlier. Actual screenshots showed the fish still too low beside the screen.
+
+**Pass 2:** raised and narrowed the photo area, selected a tighter mobile crop, separated the concept label from app content and adjusted the screen relationship. The final finish equalises desktop consent widths and avoids the extra headline wrap at 768px. Focus testing addresses the new panel’s real obstruction risk.
+
+| Pass 1 | Final |
 | --- | --- |
-| ![Home desktop](evidence/matrix-home-1440x1000-first.png) | ![Journal desktop](evidence/matrix-fishing-journal-app-1440x1000-first.png) |
-| ![Home mobile](evidence/matrix-home-390x844-first.png) | ![Journal mobile](evidence/matrix-fishing-journal-app-390x844-first.png) |
+| ![First pass](evidence/cro03a/pass1-home-390x844-first.png) | ![Final polish](evidence/cro03a/matrix-home-390x844-first.png) |
 
-Home has seven sections: atmosphere/journal promise; manual recording; memories in the journal; recorded-catch Insights; optional ID; factual trust; FAQ/final invitation. The short paper transition belongs to the hero’s story.
+A compact **inline alternative** was also rendered: [capture](evidence/cro03a/inline-option-home-390x844-first.png). It kept consent between the CTA and product and delayed the journal. The selected bottom arrangement gives the stronger immediate reading order while keeping both choices visible. It adds a fixed-panel/focus-management tradeoff; that is documented and tested.
 
-Journal has a warm task-specific opening and three-step logging guide, not a changed-title copy of Home. Shared Insights, optional ID, trust, FAQ, navigation and final badge treatment maintain continuity. Future production campaigns remain distinct and untouched.
+## Desktop continuity and full-page pacing
 
-Full-page review: [Home desktop](evidence/matrix-home-1440x1000-saved-full.png), [Home mobile](evidence/matrix-home-390x844-saved-full.png), [Journal desktop](evidence/matrix-fishing-journal-app-1440x1000-saved-full.png), [Journal mobile](evidence/matrix-fishing-journal-app-390x844-saved-full.png).
+| Home desktop | Fishing Journal desktop |
+| --- | --- |
+| ![Home desktop](evidence/cro03a/matrix-home-1440x1000-first.png) | ![Journal desktop](evidence/cro03a/matrix-fishing-journal-app-1440x1000-first.png) |
 
-## Sceptical scoring
+Desktop retains the approved serif, navy/teal/paper composition and original supporting copy. The landing page keeps its practical opening and logging guide. Full saved-choice pages: [Home mobile](evidence/cro03a/matrix-home-390x844-saved-full.png), [Journal mobile](evidence/cro03a/matrix-fishing-journal-app-390x844-saved-full.png), [Home desktop](evidence/cro03a/matrix-home-1440x1000-saved-full.png), [Journal desktop](evidence/cro03a/matrix-fishing-journal-app-1440x1000-saved-full.png). Use saved-state full pages for pacing and first-viewport captures for the fixed consent relationship.
 
-| Area | Score / 5 | Reason and remaining limit |
-| --- | --- | --- |
-| Hero resemblance | 4 | Strong serif/italic hierarchy, asymmetrical genuine journal and outdoor depth. The source photo crop is narrower and the real journal is visually denser than the invented reference panel. |
-| Professionalism | 4 | Consistent grid, controlled colour shifts, clear badge and restrained details. A full rights-cleared photography set would improve richness and variety. |
-| Journal-first story | 4 | Logging precedes records/Insights; optional ID comes later. Complete Add Catch and Catch Details proof remains an explicit asset gap. |
-| Consent/badge balance | 4 | Badge is early; equal choices are visible in normal flow. First-visit mobile product proof begins near the bottom of the first viewport; saved-choice proof appears earlier. |
-| Mobile composition | 4 | Readable 255–265px primary screens, intentional stacking, native Menu, no tested overflow. Dense source UI cannot be made identical to the spacious fictional UI. |
-| Full-page pacing | 4 | Paper, sage, navy and pale teal establish distinct sections; the guide and FAQ vary structure. Home deliberately repeats its one approved populated journal asset. |
-| Authenticity | 4 | Asset bytes verified; no invented UI/data or unsupported success claims. Photo is labelled concept art; older screenshot age and missing current detail/form captures prevent publication readiness. |
+## Sceptical judgement
 
-No critical design score is below 4 after refinement. This is a reasoned self-assessment, not owner approval, pixel-perfect certification or a measured conversion uplift.
+- **Early understanding improves:** real catch content accompanies the promise and badge on the first mobile view.
+- **Outdoor atmosphere improves:** the fish/water are distinct without body text over the bright area. It is still narrow concept art, not production photography.
+- **Professionalism improves within the approved direction:** deliberate consent placement and varied proof scale, without extra effects or feature grids.
+- **Variety improves with a limit:** the repeated Journal phone is removed, but the excerpt shares a source with Insights. Missing current Details/Form captures remain unresolved.
+- **Accessibility is tested, not universally certified:** seven widths, two states, 1.6× text and actual keyboard traversal pass. The fixed panel uses viewport space, especially on short/enlarged-text screens. Physical devices, Safari, Firefox and screen readers were not tested.
 
-## Known compromises and later gates
+No UI, catch, feature, score or conversion benefit was invented. Screenshot age, photography rights and owner acceptance remain separate from passing checks.
 
-The full saved-state mobile pages are long because authentic app screens and readable copy take room. The gallery retains complete PNGs, not just favourable hero crops. At 1.6× text the CTA can move below the first viewport; content remains reachable by scrolling without clipping.
-
-The current baseline still includes stale “No adverts” copy. Baseline screenshots are context only, never proposed copy; this design acknowledges advertising without altering production. No app-version number appears in proposed copy.
-
-Read [asset provenance](ASSET_PROVENANCE.md) for exact crop coordinates and missing captures. Physical Android/iOS, Safari, Firefox, assistive-technology and owner visual acceptance have not been performed. These are later rollout considerations, not approval implied by this milestone.
-
-**One next action:** Pete and ChatGPT inspect the gallery and approve or request revisions to this design. No implementation or publication is implied.
+**One next action:** Pete and ChatGPT inspect CRO-03A’s before/after gallery and approve or request final revisions. No implementation or publication is implied.

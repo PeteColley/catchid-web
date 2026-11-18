@@ -1,0 +1,595 @@
+{
+  "label": "DESIGN CONCEPT — NOT LIVE",
+  "mode": "pass1",
+  "browser": "Chrome/157.0.8103.79",
+  "method": "Desktop Chromium responsive CSS-pixel emulation, DPR 1; not a physical device",
+  "cases": [
+    {
+      "route": "home",
+      "state": "first",
+      "scale": 1,
+      "screenshot": "pass1-home-390x844-first.png",
+      "full": "pass1-home-390x844-first-full.png",
+      "title": "CatchID — every catch has a story · design concept, not live",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "primary": {
+        "x": 5,
+        "y": 324.3125,
+        "width": 227,
+        "height": 88.421875,
+        "bottom": 412.734375
+      },
+      "proof": {
+        "x": 13.605062484741211,
+        "y": 472.4952392578125,
+        "width": 272.78985595703125,
+        "height": 454.478271484375,
+        "bottom": 926.9735107421875
+      },
+      "consentButtons": [
+        {
+          "x": 20,
+          "y": 786,
+          "width": 170,
+          "height": 44,
+          "bottom": 830
+        },
+        {
+          "x": 200,
+          "y": 786,
+          "width": 170,
+          "height": 44,
+          "bottom": 830
+        }
+      ],
+      "consent": {
+        "x": 0,
+        "y": 704.171875,
+        "width": 390,
+        "height": 139.828125,
+        "bottom": 844
+      },
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "loaded": true,
+          "alt": "Get it on Google Play"
+        },
+        {
+          "src": "assets/personal-records.jpg",
+          "loaded": true,
+          "alt": "Existing published Personal Records screenshot, showing a Brown Trout personal record and a Common Bream entry."
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "loaded": true,
+          "alt": "Existing published Catch Insights overview with recorded species, locations and recent activity."
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "loaded": true,
+          "alt": "Get it on Google Play"
+        },
+        {
+          "src": "assets/catchid-icon.png",
+          "loaded": true,
+          "alt": ""
+        }
+      ],
+      "svgImages": [
+        {
+          "alt": "Illustrative trout at the waterline. AI concept art, not a real recorded catch.",
+          "rect": null
+        },
+        {
+          "alt": "Illustrative trout at the waterline. Concept art, not publication approved.",
+          "rect": {
+            "x": 103,
+            "y": 500.734375,
+            "width": 287,
+            "height": 450,
+            "bottom": 950.734375
+          }
+        },
+        {
+          "alt": "Catch Journal from existing published artwork: saved carp, dace and trout with dates and fishing details.",
+          "rect": {
+            "x": 22.012784957885742,
+            "y": 480.9029846191406,
+            "width": 255.97442626953125,
+            "height": 437.6628112792969,
+            "bottom": 918.5657958984375
+          }
+        },
+        {
+          "alt": "Actual CatchID Home screen crop showing Take a photo, Choose a photo and Add without a photo.",
+          "rect": {
+            "x": 42,
+            "y": 1695.546875,
+            "width": 305.96875,
+            "height": 198.78125,
+            "bottom": 1894.328125
+          }
+        },
+        {
+          "alt": "Unaltered excerpt of a saved Brown Trout record from published Personal Records: photo, weight, date and location.",
+          "rect": {
+            "x": 18.628067016601562,
+            "y": 2514.13330078125,
+            "width": 352.743896484375,
+            "height": 382.7333984375,
+            "bottom": 2896.86669921875
+          }
+        },
+        {
+          "alt": "Existing published identification artwork: a likely Common Bream suggestion with a Change species control. This example is not an accuracy claim.",
+          "rect": {
+            "x": 75.5,
+            "y": 4726.75,
+            "width": 239,
+            "height": 425.3125,
+            "bottom": 5152.0625
+          }
+        }
+      ],
+      "smallTargets": [],
+      "clippedText": [],
+      "badAnchors": [],
+      "externalLinks": [],
+      "storage": [],
+      "cookies": "",
+      "requests": [
+        "http://127.0.0.1:4178/home.html?consent=first",
+        "http://127.0.0.1:4178/design.css",
+        "http://127.0.0.1:4178/polish.css",
+        "http://127.0.0.1:4178/design.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/reference/CatchID_JournalFirst_Hero_Desktop_Reference.png",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/home-1.2.12.png",
+        "http://127.0.0.1:4178/assets/personal-records.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/river-lines.svg",
+        "http://127.0.0.1:4178/assets/catchid-icon.png"
+      ]
+    },
+    {
+      "route": "home",
+      "state": "first",
+      "scale": 1,
+      "screenshot": "pass1-home-1440x1000-first.png",
+      "full": "pass1-home-1440x1000-first-full.png",
+      "title": "CatchID — every catch has a story · design concept, not live",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "primary": {
+        "x": 63,
+        "y": 573.5625,
+        "width": 252,
+        "height": 98.640625,
+        "bottom": 672.203125
+      },
+      "proof": {
+        "x": 716.0526733398438,
+        "y": 127.20079040527344,
+        "width": 369.89459228515625,
+        "height": 605.035888671875,
+        "bottom": 732.2366790771484
+      },
+      "consentButtons": [
+        {
+          "x": 1089.015625,
+          "y": 844.765625,
+          "width": 131.9375,
+          "height": 44,
+          "bottom": 888.765625
+        },
+        {
+          "x": 1230.953125,
+          "y": 844.765625,
+          "width": 129.046875,
+          "height": 44,
+          "bottom": 888.765625
+        }
+      ],
+      "consent": {
+        "x": 80,
+        "y": 810.703125,
+        "width": 1280,
+        "height": 95.140625,
+        "bottom": 905.84375
+      },
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "loaded": true,
+          "alt": "Get it on Google Play"
+        },
+        {
+          "src": "assets/personal-records.jpg",
+          "loaded": true,
+          "alt": "Existing published Personal Records screenshot, showing a Brown Trout personal record and a Common Bream entry."
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "loaded": true,
+          "alt": "Existing published Catch Insights overview with recorded species, locations and recent activity."
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "loaded": true,
+          "alt": "Get it on Google Play"
+        },
+        {
+          "src": "assets/catchid-icon.png",
+          "loaded": true,
+          "alt": ""
+        }
+      ],
+      "svgImages": [
+        {
+          "alt": "Illustrative trout at the waterline. AI concept art, not a real recorded catch.",
+          "rect": {
+            "x": 923.046875,
+            "y": 0,
+            "width": 492.953125,
+            "height": 810.703125,
+            "bottom": 810.703125
+          }
+        },
+        {
+          "alt": "Illustrative trout at the waterline. Concept art, not publication approved.",
+          "rect": null
+        },
+        {
+          "alt": "Catch Journal from existing published artwork: saved carp, dace and trout with dates and fishing details.",
+          "rect": {
+            "x": 724.5912475585938,
+            "y": 135.73936462402344,
+            "width": 352.81756591796875,
+            "height": 587.958740234375,
+            "bottom": 723.6981048583984
+          }
+        },
+        {
+          "alt": "Actual CatchID Home screen crop showing Take a photo, Choose a photo and Add without a photo.",
+          "rect": {
+            "x": 828.09375,
+            "y": 1319.09375,
+            "width": 501.875,
+            "height": 326.046875,
+            "bottom": 1645.140625
+          }
+        },
+        {
+          "alt": "Unaltered excerpt of a saved Brown Trout record from published Personal Records: photo, weight, date and location.",
+          "rect": {
+            "x": 138.97288513183594,
+            "y": 1899.852294921875,
+            "width": 472.05419921875,
+            "height": 512.18603515625,
+            "bottom": 2412.038330078125
+          }
+        },
+        {
+          "alt": "Existing published identification artwork: a likely Common Bream suggestion with a Change species control. This example is not an accuracy claim.",
+          "rect": {
+            "x": 243,
+            "y": 3609.296875,
+            "width": 264,
+            "height": 469.796875,
+            "bottom": 4079.09375
+          }
+        }
+      ],
+      "smallTargets": [],
+      "clippedText": [],
+      "badAnchors": [],
+      "externalLinks": [],
+      "storage": [],
+      "cookies": "",
+      "requests": [
+        "http://127.0.0.1:4178/home.html?consent=first",
+        "http://127.0.0.1:4178/design.css",
+        "http://127.0.0.1:4178/polish.css",
+        "http://127.0.0.1:4178/design.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/reference/CatchID_JournalFirst_Hero_Desktop_Reference.png",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/home-1.2.12.png",
+        "http://127.0.0.1:4178/assets/personal-records.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/river-lines.svg"
+      ]
+    },
+    {
+      "route": "fishing-journal-app",
+      "state": "first",
+      "scale": 1,
+      "screenshot": "pass1-fishing-journal-app-390x844-first.png",
+      "full": "pass1-fishing-journal-app-390x844-first-full.png",
+      "title": "CatchID — fishing journal app · design concept, not live",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "primary": {
+        "x": 5,
+        "y": 324.3125,
+        "width": 227,
+        "height": 88.421875,
+        "bottom": 412.734375
+      },
+      "proof": {
+        "x": 18.377473831176758,
+        "y": 471.3704528808594,
+        "width": 278.24505615234375,
+        "height": 463.5559387207031,
+        "bottom": 934.9263916015625
+      },
+      "consentButtons": [
+        {
+          "x": 20,
+          "y": 786,
+          "width": 170,
+          "height": 44,
+          "bottom": 830
+        },
+        {
+          "x": 200,
+          "y": 786,
+          "width": 170,
+          "height": 44,
+          "bottom": 830
+        }
+      ],
+      "consent": {
+        "x": 0,
+        "y": 704.171875,
+        "width": 390,
+        "height": 139.828125,
+        "bottom": 844
+      },
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "loaded": true,
+          "alt": "Get it on Google Play"
+        },
+        {
+          "src": "assets/personal-records.jpg",
+          "loaded": true,
+          "alt": "Existing published Personal Records screenshot, showing a Brown Trout personal record and a Common Bream entry."
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "loaded": true,
+          "alt": "Existing published Catch Insights overview with recorded species, locations and recent activity."
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "loaded": true,
+          "alt": "Get it on Google Play"
+        },
+        {
+          "src": "assets/catchid-icon.png",
+          "loaded": true,
+          "alt": ""
+        }
+      ],
+      "svgImages": [
+        {
+          "alt": "Catch Journal from existing published artwork: saved carp, dace and trout with dates and fishing details.",
+          "rect": {
+            "x": 26.785198211669922,
+            "y": 479.7781982421875,
+            "width": 261.42962646484375,
+            "height": 446.740478515625,
+            "bottom": 926.5186767578125
+          }
+        },
+        {
+          "alt": "Actual CatchID entry controls, including Add without a photo.",
+          "rect": {
+            "x": 42,
+            "y": 1669.6875,
+            "width": 305.96875,
+            "height": 198.78125,
+            "bottom": 1868.46875
+          }
+        },
+        {
+          "alt": "Existing published identification artwork: a likely Common Bream suggestion with a Change species control. This example is not an accuracy claim.",
+          "rect": {
+            "x": 75.5,
+            "y": 3845.0625,
+            "width": 239,
+            "height": 425.3125,
+            "bottom": 4270.375
+          }
+        }
+      ],
+      "smallTargets": [],
+      "clippedText": [],
+      "badAnchors": [],
+      "externalLinks": [],
+      "storage": [],
+      "cookies": "",
+      "requests": [
+        "http://127.0.0.1:4178/fishing-journal-app.html?consent=first",
+        "http://127.0.0.1:4178/design.css",
+        "http://127.0.0.1:4178/polish.css",
+        "http://127.0.0.1:4178/design.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/home-1.2.12.png",
+        "http://127.0.0.1:4178/assets/personal-records.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/river-lines.svg"
+      ]
+    },
+    {
+      "route": "fishing-journal-app",
+      "state": "first",
+      "scale": 1,
+      "screenshot": "pass1-fishing-journal-app-1440x1000-first.png",
+      "full": "pass1-fishing-journal-app-1440x1000-first-full.png",
+      "title": "CatchID — fishing journal app · design concept, not live",
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "primary": {
+        "x": 63,
+        "y": 568.8125,
+        "width": 252,
+        "height": 98.640625,
+        "bottom": 667.453125
+      },
+      "proof": {
+        "x": 761.2615966796875,
+        "y": 160.85528564453125,
+        "width": 347.476806640625,
+        "height": 568.3675537109375,
+        "bottom": 729.2228393554688
+      },
+      "consentButtons": [
+        {
+          "x": 1089.015625,
+          "y": 837.015625,
+          "width": 131.9375,
+          "height": 44,
+          "bottom": 881.015625
+        },
+        {
+          "x": 1230.953125,
+          "y": 837.015625,
+          "width": 129.046875,
+          "height": 44,
+          "bottom": 881.015625
+        }
+      ],
+      "consent": {
+        "x": 80,
+        "y": 802.953125,
+        "width": 1280,
+        "height": 95.140625,
+        "bottom": 898.09375
+      },
+      "images": [
+        {
+          "src": "assets/catchid-icon.png",
+          "loaded": true,
+          "alt": ""
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "loaded": true,
+          "alt": "Get it on Google Play"
+        },
+        {
+          "src": "assets/personal-records.jpg",
+          "loaded": true,
+          "alt": "Existing published Personal Records screenshot, showing a Brown Trout personal record and a Common Bream entry."
+        },
+        {
+          "src": "assets/insights-overview.jpg",
+          "loaded": true,
+          "alt": "Existing published Catch Insights overview with recorded species, locations and recent activity."
+        },
+        {
+          "src": "assets/google-play-badge.svg",
+          "loaded": true,
+          "alt": "Get it on Google Play"
+        },
+        {
+          "src": "assets/catchid-icon.png",
+          "loaded": true,
+          "alt": ""
+        }
+      ],
+      "svgImages": [
+        {
+          "alt": "Catch Journal from existing published artwork: saved carp, dace and trout with dates and fishing details.",
+          "rect": {
+            "x": 769.8001098632812,
+            "y": 169.39385986328125,
+            "width": 330.39971923828125,
+            "height": 551.2904052734375,
+            "bottom": 720.6842651367188
+          }
+        },
+        {
+          "alt": "Actual CatchID entry controls, including Add without a photo.",
+          "rect": {
+            "x": 108,
+            "y": 1463.015625,
+            "width": 413.984375,
+            "height": 268.953125,
+            "bottom": 1731.96875
+          }
+        },
+        {
+          "alt": "Existing published identification artwork: a likely Common Bream suggestion with a Change species control. This example is not an accuracy claim.",
+          "rect": {
+            "x": 243,
+            "y": 2965.828125,
+            "width": 264,
+            "height": 469.796875,
+            "bottom": 3435.625
+          }
+        }
+      ],
+      "smallTargets": [],
+      "clippedText": [],
+      "badAnchors": [],
+      "externalLinks": [],
+      "storage": [],
+      "cookies": "",
+      "requests": [
+        "http://127.0.0.1:4178/fishing-journal-app.html?consent=first",
+        "http://127.0.0.1:4178/design.css",
+        "http://127.0.0.1:4178/polish.css",
+        "http://127.0.0.1:4178/design.js",
+        "http://127.0.0.1:4178/assets/catchid-icon.png",
+        "http://127.0.0.1:4178/assets/google-play-badge.svg",
+        "http://127.0.0.1:4178/assets/journal.jpg",
+        "http://127.0.0.1:4178/assets/home-1.2.12.png",
+        "http://127.0.0.1:4178/assets/personal-records.jpg",
+        "http://127.0.0.1:4178/assets/insights-overview.jpg",
+        "http://127.0.0.1:4178/assets/identify.jpg",
+        "http://127.0.0.1:4178/assets/river-lines.svg"
+      ]
+    }
+  ],
+  "interactions": [],
+  "externalRequests": [],
+  "exceptions": [],
+  "failures": []
+}

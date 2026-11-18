@@ -1,0 +1,79 @@
+/* CRO-03A: focused polish over the approved CRO-03 visual system. */
+.mobile-promise{display:none}
+.consent-wrap{padding-bottom:28px}
+.journal-record{width:100%;max-width:455px;margin:auto;position:relative}
+.journal-record .record-excerpt{background:#f7f6f1;border-radius:24px;box-shadow:0 22px 45px #16372818;transform:rotate(-2deg)}
+.journal-record .record-excerpt svg{width:100%;height:auto;border-radius:24px}
+.journal-record>figcaption{margin-top:24px;max-width:410px;font-size:12px;line-height:1.6}
+.journal-record .figure-heading{color:var(--teal);font:700 11px/1.5 Arial,sans-serif;letter-spacing:.15em;margin-bottom:22px}
+.journal-section{padding-block:80px}
+.journal-layout{grid-template-columns:1fr 1fr}
+.mobile-river{display:none}
+@media(min-width:761px){.consent-actions button{width:148px}}
+@media(min-width:761px) and (max-width:900px){h1,.landing-hero h1{font-size:58px}}
+@media(max-width:760px){
+  html{scroll-padding-bottom:calc(var(--consent-safe-area,0px) + 20px)}
+  body{padding-bottom:var(--consent-safe-area,0px)}
+  .site-header{height:60px}
+  .hero,.landing-hero{padding-top:16px;gap:16px;padding-bottom:24px}
+  .hero-copy .eyebrow{margin-bottom:14px}
+  h1,.landing-hero h1{font-size:47px;line-height:1.03}
+  .hero-description{margin-top:15px;line-height:1.55}
+  .desktop-promise{display:none}
+  .mobile-promise{display:inline}
+  .hero-copy .download{margin-top:8px}
+  .hero-copy .preview-note{margin-top:2px}
+  .landing-hero .hero-copy>.text-link{display:none}
+  .consent-wrap{padding:0}
+  .consent{position:fixed;left:0;right:0;bottom:0;z-index:50;margin:0;padding:12px 20px 14px;background:#102d39;color:#fffdf8;border-top:1px solid #789194;box-shadow:0 -12px 30px #071c2a15}
+  .consent h2{font:700 14px/1.4 Arial,sans-serif;margin-bottom:3px}
+  .consent p{font-size:13px;line-height:1.45}
+  .consent .simulation{font-size:11px;opacity:1;color:#c6d6d4;line-height:1.4;display:block;margin-top:3px}
+  .consent-actions{margin-top:9px;gap:10px}
+  .consent-actions button{font-size:13px;padding:9px 8px;min-height:44px;flex:1;border-color:#9ab5b6;color:#fffdf8;background:#173c48}
+  .landing-top .consent{border-color:#789194}
+  .landing-top .consent button{border-color:#9ab5b6}
+  .hero{isolation:auto}
+  .hero-proof{min-height:535px;order:3;margin-top:4px}
+  .hero-proof .journal-screen{width:250px;max-width:76%;top:8px;left:5px;transform:rotate(-3deg)}
+  .hero-proof .river-photo{top:30px;right:-20px;bottom:55px;width:82%;opacity:1;z-index:0;border-radius:80px 0 0 0}
+  .hero-proof .river-photo:after{background:linear-gradient(90deg,var(--ink),transparent 27%),linear-gradient(0deg,var(--ink),transparent 18%)}
+  .hero-proof .river-photo .desktop-river{display:none}
+  .hero-proof .river-photo .mobile-river{display:block}
+  .hero-proof .journal-screen{z-index:1}
+  .hero-proof .proof-caption{bottom:33px;z-index:2}
+  .hero-proof .art-label{bottom:0;z-index:2}
+  .landing-proof{min-height:530px;margin-top:3px}
+  .landing-proof .journal-screen{top:8px;width:255px;max-width:78%;transform:rotate(3deg)}
+  .landing-proof .landing-paper{top:37px;height:415px}
+  .journal-section{padding-block:55px}
+  .journal-layout{gap:35px}
+  .journal-record{max-width:340px}
+  .journal-record .figure-heading{font-size:11px;margin-bottom:18px}
+  .journal-record>figcaption{font-size:12px;margin-top:20px}
+}
+@media(max-width:359px){
+  h1,.landing-hero h1{font-size:42px}
+  .hero-description{font-size:15px}
+  .hero-proof{min-height:485px}
+  .hero-proof .journal-screen{width:225px;max-width:80%}
+  .hero-proof .river-photo{top:30px;bottom:57px;width:80%}
+  .hero-proof .proof-caption,.hero-proof .art-label{font-size:10px}
+  .landing-proof{min-height:490px}
+  .landing-proof .journal-screen{width:225px;max-width:82%}
+  .landing-proof .landing-paper{height:380px}
+  .consent{padding-inline:16px}
+}
+/* Pass 2: make the fish visible beside the record, not below the consent panel. */
+@media(max-width:760px){
+  .hero-proof .river-photo{width:66%;height:390px;top:-25px;bottom:auto;border-radius:70px 0 0 0}
+  .hero-proof .river-photo:after{background:linear-gradient(90deg,var(--ink),transparent 17%),linear-gradient(0deg,var(--ink),transparent 14%)}
+  .hero-proof .journal-screen{top:28px}
+  .hero-proof .art-label{top:-2px;bottom:auto;right:-12px;max-width:240px;padding:4px 7px;font-size:11px;line-height:1.4}
+  .hero-proof{min-height:550px}
+}
+@media(max-width:359px){
+  .hero-proof .river-photo{width:64%;height:355px;top:-20px}
+  .hero-proof{min-height:500px}
+  .hero-proof .art-label{font-size:10px;max-width:220px}
+}

@@ -1,4 +1,6 @@
-# Browser capture index
+# Browser capture index — CRO-03 historical
+
+**For current CRO-03A evidence, see [the polish capture index](CRO03A_CAPTURE_INDEX.md).** The complete CRO-03 comparison set below is preserved.
 
 **DESIGN CONCEPT — NOT LIVE · 18 November 2026**
 

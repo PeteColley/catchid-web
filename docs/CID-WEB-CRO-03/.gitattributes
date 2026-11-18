@@ -4,3 +4,4 @@ reference/* -text
 # Preserve supplied Markdown hard breaks and trailing blank lines verbatim.
 reference/*.md -whitespace
 evidence/*.png -text
+evidence/cro03a/*.png -text
