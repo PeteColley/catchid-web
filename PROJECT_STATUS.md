@@ -4,6 +4,8 @@
 
 Final runtime checks: no ANRs/crashes or ad-request diagnostics, still offline with zero accounts; new emulator stopped normally, userdata and prior failed-attempt evidence retained. No website/Android source change, integration, release, merge, deployment, public preview or catchid.app change. Sceptical self-review records natural scroll boundaries and an unedited system status icon. Captures are evidence, not accepted publication assets. **One recommended next action:** Pete and ChatGPT review the three originals and approve selected assets and demonstration-data captions before separately authorizing website integration.
 
+**CRO-07A PUSHED:** capture pack `a66086c23c14513c778a46262c8a0d41362809ec` verified by remote SHA, all three PNG blobs and four document readbacks. Clean worktree/upstream `0 0`; branch Actions query returned zero runs. Website main/CRO-06 and Android main unchanged. This documentation-only follow-up records the receipt; captures remain subject to owner acceptance and separate integration authorization.
+
 ## Previous milestone — CRO-07 initial attempt
 
 **19 November 2026 · CRO-07 CAPTURE BLOCKED / REVIEW PACK PUSHED / NOT LIVE.**

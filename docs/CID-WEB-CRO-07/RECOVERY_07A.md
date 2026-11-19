@@ -1,6 +1,6 @@
 # CID-WEB-CRO-07A — product screenshot capture recovered
 
-**CAPTURED: 3 genuine product originals / REVIEW CANDIDATES / NOT LIVE.** 19 November 2026. Capture only, on the existing `codex/cid-web-cro-07-product-captures` branch from `b900647065944f7751514a44adf2ad70607d4c4c`. No website integration.
+**CAPTURED: 3 genuine product originals / PUSHED / REVIEW CANDIDATES / NOT LIVE.** 19 November 2026. Capture only, on the existing `codex/cid-web-cro-07-product-captures` branch from `b900647065944f7751514a44adf2ad70607d4c4c`. No website integration.
 
 ## Result and exact originals
 
@@ -44,6 +44,12 @@ CatchID was force-stopped, then the new emulator shut down normally at 23:10:57.
 No build or test suite was rerun: the exact prior APK was reused, and no Android/website application file changed. Focused image decoding/hash/dimension, source/evidence-preservation, local-link and gallery checks are recorded in [recovery verification](evidence/recovery-07a/verification.json). The old `verify-review.mjs` and its zero-capture results are preserved as the initial-attempt record; use [verify-recovery.mjs](verify-recovery.mjs) for this recovery.
 
 The updated gallery was browser-rendered locally at 1280 × 720: all eight images loaded, including the three new originals at the recorded dimensions; no horizontal overflow or scripts. The three capture columns/captions were visually inspected. The task tab and loopback-only server were closed/stopped; [browser receipt](evidence/recovery-07a/gallery-browser-check.json). This is not a public preview.
+
+## Remote delivery receipt
+
+Capture pack **`a66086c23c14513c778a46262c8a0d41362809ec`** was committed and pushed normally to the authorized review branch. Remote SHA matched; clean worktree and upstream `0 0`. GitHub readback matched the local Git blobs for this recovery handover (`c92b3ea29c727ebd3f245a544e11e2d24f348a9f`), gallery (`deba75ae3a56860fe98d58620fd5cbbdf92d1934`), capture manifest (`f767e63f71ffa96b257187bf125e2426b9c9e0b9`) and root status (`879fce83e5bc71be954e59e2a17283431517e686`). All three remote PNG blobs and byte sizes matched: upper `0f367013c41149751cc4602a179ca2d67c7ef29b`, lower `3002ec45767d27e0c88cad951a6427d4c5985dc9`, details `d907694c0514331b559430e2a1a9bf09af675a8e`.
+
+The branch's Actions query returned **zero runs**. Website main remained `42c997c13712a432c8e2384915aaa010a16d068b`, CRO-06 remained `8d0731f361b94a81523bfe07f528b7fdb365ccb4`, and Android main remained `35cbf6d562d6f42906e33c5c7be95d0b95800ad7`. This subsequent documentation-only commit records the receipt; the final response provides its final SHA. No merge, dispatch, deployment or public preview was performed.
 
 ## Sceptical self-review and remaining gates
 

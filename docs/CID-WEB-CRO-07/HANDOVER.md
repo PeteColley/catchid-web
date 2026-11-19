@@ -2,7 +2,7 @@
 
 ## Current result — CRO-07A recovery, 19 November 2026
 
-**CAPTURED: 3 genuine product PNGs / REVIEW CANDIDATES / NOT LIVE.** The fresh API 35 Pixel 5 succeeded; the prior failed API 36 AVD was untouched and no API 34 attempt was needed. The exact previously verified cloud-disabled 1.2.15/35 APK was reused without rebuilding. One controlled Brown Trout was entered through Home → Add without a photo, saved and reopened through Catch Journal. No app/website source changed.
+**CAPTURED: 3 genuine product PNGs / PUSHED / REVIEW CANDIDATES / NOT LIVE.** The fresh API 35 Pixel 5 succeeded; the prior failed API 36 AVD was untouched and no API 34 attempt was needed. The exact previously verified cloud-disabled 1.2.15/35 APK was reused without rebuilding. One controlled Brown Trout was entered through Home → Add without a photo, saved and reopened through Catch Journal. No app/website source changed.
 
 - [Save catch — upper original](captures/save-catch-no-photo-upper-1080x2340.png)
 - [Save catch — lower original](captures/save-catch-no-photo-lower-1080x2340.png)
@@ -11,6 +11,8 @@
 - [Recovery handover, provenance, verification and sceptical self-review](RECOVERY_07A.md)
 
 All originals are 1080 × 2340, unedited app-rendered PNGs. Offline/zero-account checks passed before install and after capture, with no ANRs/crashes or ad-request diagnostics. The new emulator is stopped; sample userdata and all previous evidence are preserved. Owner acceptance, honest demonstration-data captions, separate integration and publication gates remain open.
+
+Capture-pack commit **`a66086c23c14513c778a46262c8a0d41362809ec`** was pushed and verified by remote branch SHA, all three image blobs and four document readbacks. Clean worktree, upstream `0 0`, zero Actions runs, main/CRO-06/Android main unchanged. The recovery handover contains the exact receipt; this documentation-only follow-up records delivery.
 
 **One recommended next action for CRO-07A:** Pete and ChatGPT review the three originals and approve selected assets and demonstration-data captions before separately authorizing website integration.
 
