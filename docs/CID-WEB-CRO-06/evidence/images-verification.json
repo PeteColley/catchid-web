@@ -1,0 +1,171 @@
+{
+  "label": "IMPLEMENTATION CANDIDATE — NOT LIVE",
+  "mode": "images",
+  "browser": "Chrome/157.0.8103.79",
+  "method": "Desktop Chromium responsive CSS-pixel emulation, DPR 1; not a physical device",
+  "cases": [
+    {
+      "width": 390,
+      "dpr": 1,
+      "currentSrc": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+      "naturalWidth": 585,
+      "naturalHeight": 390,
+      "position": "30% 50%",
+      "fit": "cover",
+      "loading": "eager",
+      "priority": "high",
+      "photoElements": 1,
+      "cls": 0,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+          "bytes": 32732,
+          "transfer": 33032,
+          "duration": 19
+        }
+      ],
+      "requests": [
+        "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "currentSrc": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+      "naturalWidth": 585,
+      "naturalHeight": 390,
+      "position": "30% 50%",
+      "fit": "cover",
+      "loading": "eager",
+      "priority": "high",
+      "photoElements": 1,
+      "cls": 0,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+          "bytes": 92718,
+          "transfer": 93018,
+          "duration": 16.399999976158142
+        }
+      ],
+      "requests": [
+        "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp"
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "currentSrc": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp",
+      "naturalWidth": 585,
+      "naturalHeight": 390,
+      "position": "30% 50%",
+      "fit": "cover",
+      "loading": "eager",
+      "priority": "high",
+      "photoElements": 1,
+      "cls": 0,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp",
+          "bytes": 186714,
+          "transfer": 187014,
+          "duration": 18.30000001192093
+        }
+      ],
+      "requests": [
+        "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp"
+      ]
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "currentSrc": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+      "naturalWidth": 1200,
+      "naturalHeight": 800,
+      "position": "35% 50%",
+      "fit": "cover",
+      "loading": "eager",
+      "priority": "high",
+      "photoElements": 1,
+      "cls": 0.007800533854166666,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+          "bytes": 92718,
+          "transfer": 93018,
+          "duration": 18.599999964237213
+        }
+      ],
+      "requests": [
+        "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp"
+      ]
+    },
+    {
+      "width": 1440,
+      "dpr": 2,
+      "currentSrc": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp",
+      "naturalWidth": 1200,
+      "naturalHeight": 800,
+      "position": "35% 50%",
+      "fit": "cover",
+      "loading": "eager",
+      "priority": "high",
+      "photoElements": 1,
+      "cls": 0.007800533854166666,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp",
+          "bytes": 328818,
+          "transfer": 329118,
+          "duration": 21.30000001192093
+        }
+      ],
+      "requests": [
+        "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp"
+      ]
+    },
+    {
+      "width": 1440,
+      "dpr": 3,
+      "currentSrc": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp",
+      "naturalWidth": 1200,
+      "naturalHeight": 800,
+      "position": "35% 50%",
+      "fit": "cover",
+      "loading": "eager",
+      "priority": "high",
+      "photoElements": 1,
+      "cls": 0.007800533854166666,
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp",
+          "bytes": 328818,
+          "transfer": 329118,
+          "duration": 19.899999976158142
+        }
+      ],
+      "requests": [
+        "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp"
+      ]
+    },
+    {
+      "kind": "simulated-unsupported-WebP",
+      "width": 390,
+      "currentSrc": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_T0xok.jpg",
+      "loaded": true,
+      "alt": "Brown trout held by an angler at the river waterline."
+    },
+    {
+      "kind": "simulated-unsupported-WebP",
+      "width": 1440,
+      "currentSrc": "http://127.0.0.1:4186/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2vXFkg.jpg",
+      "loaded": true,
+      "alt": "Brown trout held by an angler at the river waterline."
+    }
+  ],
+  "interactions": [],
+  "analyticsLoads": [],
+  "externalRequests": [],
+  "exceptions": [],
+  "failures": []
+}

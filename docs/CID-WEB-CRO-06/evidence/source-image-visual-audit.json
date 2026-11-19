@@ -1,0 +1,132 @@
+{
+  "baseline": "651ae58f39a8c2530fb600b35e91455c644351e8",
+  "approved": "e5ccb55f338cd954d38c11b992f0bc48ac0d8a39",
+  "protectedBaselineFiles": 256,
+  "source": {
+    "path": "src/assets/hero/photo-1-patagonia-savage-37096316.jpg",
+    "bytes": 2950990,
+    "sha256": "460e037b2ba3d9454d5ee668872bf7227c95599e928a49e299e4ef92533685b8"
+  },
+  "consentGitBlobUnchanged": true,
+  "consentRenderedBytesUnchanged": true,
+  "consentRenderedSha256": "05eac5412cbbabef7533580d70d6721af6806983a5c7fc43fa4ccd18199bea8f",
+  "consentFreshCheckoutSha256": "73dfdeba28b026ec80c3f6a2438c6b6fdb36dd55c0f0a07b50187e5944ee41fc",
+  "journalBuiltHtmlIdentical": true,
+  "conceptAbsentFromBuild": true,
+  "images": [
+    {
+      "path": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_T0xok.jpg",
+      "width": 600,
+      "height": 400,
+      "format": "jpeg",
+      "bytes": 42249,
+      "sha256": "d564e228531ddb639b3d45126e23dfa9ab0f51ed2f9000dd286ece8d59492368"
+    },
+    {
+      "path": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+      "width": 600,
+      "height": 400,
+      "format": "webp",
+      "bytes": 32732,
+      "sha256": "32858dc97f6b4097b0356e30ba0d74f1411dfea1c6368d4aeebb681b7a7e674f"
+    },
+    {
+      "path": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1WQH50.jpg",
+      "width": 900,
+      "height": 600,
+      "format": "jpeg",
+      "bytes": 83725,
+      "sha256": "12bd630b0162273186182d2a4be85594f6cb08b1ff086debc02364d76702bf61"
+    },
+    {
+      "path": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2awlcP.webp",
+      "width": 900,
+      "height": 600,
+      "format": "webp",
+      "bytes": 60632,
+      "sha256": "a5837f345776dc5d38b1c6c56c8ac752672288e2e5b81fa14172d004d8b0223c"
+    },
+    {
+      "path": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2vXFkg.jpg",
+      "width": 1200,
+      "height": 800,
+      "format": "jpeg",
+      "bytes": 134422,
+      "sha256": "6498c9282e796947ffbbf66b77394477cb2d8a7400fccd5f43ddb6fa5e1f9419"
+    },
+    {
+      "path": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+      "width": 1200,
+      "height": 800,
+      "format": "webp",
+      "bytes": 92718,
+      "sha256": "1d6ea6b92ae8c7c92c3eff8b17c128ead524913fe8632a2adf84a42231e2c491"
+    },
+    {
+      "path": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1V0uEo.jpg",
+      "width": 1800,
+      "height": 1200,
+      "format": "jpeg",
+      "bytes": 282475,
+      "sha256": "282b89a21cb4824f54946d79368aa9c330138e65b06c5cee0abbf11082fff99d"
+    },
+    {
+      "path": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp",
+      "width": 1800,
+      "height": 1200,
+      "format": "webp",
+      "bytes": 186714,
+      "sha256": "afe713ece9887e0ad35a651df55091253b716dc809f502d7490cd185cda27efe"
+    },
+    {
+      "path": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2av7Tc.jpg",
+      "width": 2400,
+      "height": 1600,
+      "format": "jpeg",
+      "bytes": 505846,
+      "sha256": "374647f37a2012c6ec1e8a27f900f0a71b9633cc0b3fb30fb4cb95a81cefa0ec"
+    },
+    {
+      "path": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp",
+      "width": 2400,
+      "height": 1600,
+      "format": "webp",
+      "bytes": 328818,
+      "sha256": "c0441d397bb46a6c75f3457cdd483f2764560abe3c22e9dcc585445042ef1136"
+    }
+  ],
+  "comparisons": [
+    {
+      "reference": "variant-a-390-first.png",
+      "implementation": "matrix-home-390x844-first.png",
+      "referenceSha256": "aa09b2c58bc6eb9a90094f1d6d8ef4bb956f3755a62ae7b3c4c145812df3f60a",
+      "photoAndCreditChangedPixels": 24445,
+      "changedPixelsOutsidePhotoFrame": 0,
+      "tolerance": 2
+    },
+    {
+      "reference": "variant-a-390-saved.png",
+      "implementation": "matrix-home-390x844-saved.png",
+      "referenceSha256": "640cd102fb1fdd6e338cc89b2017505daaa1d583c53408ee652d90524c9bf6e7",
+      "photoAndCreditChangedPixels": 30624,
+      "changedPixelsOutsidePhotoFrame": 0,
+      "tolerance": 2
+    },
+    {
+      "reference": "variant-a-1440-first.png",
+      "implementation": "matrix-home-1440x1000-first.png",
+      "referenceSha256": "eb39c976386b789ebbb887e27907f08dd5f07ddfd4f0585977347f8e6516ebdd",
+      "photoAndCreditChangedPixels": 108776,
+      "changedPixelsOutsidePhotoFrame": 0,
+      "tolerance": 2
+    },
+    {
+      "reference": "variant-a-1440-saved.png",
+      "implementation": "matrix-home-1440x1000-saved.png",
+      "referenceSha256": "6ab4c83aa83ddb47e6cdb43201b630df0c87c4a366ccdb81b3bb362c958a8a59",
+      "photoAndCreditChangedPixels": 108776,
+      "changedPixelsOutsidePhotoFrame": 0,
+      "tolerance": 2
+    }
+  ]
+}

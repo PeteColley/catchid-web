@@ -1,0 +1,53 @@
+{
+  "label": "IMPLEMENTATION CANDIDATE — NOT LIVE",
+  "mode": "console",
+  "browser": "Chrome/157.0.8103.79",
+  "method": "Desktop Chromium responsive CSS-pixel emulation, DPR 1; not a physical device",
+  "cases": [
+    {
+      "route": "home",
+      "width": 390,
+      "state": "first"
+    },
+    {
+      "route": "home",
+      "width": 390,
+      "state": "saved"
+    },
+    {
+      "route": "home",
+      "width": 1440,
+      "state": "first"
+    },
+    {
+      "route": "home",
+      "width": 1440,
+      "state": "saved"
+    },
+    {
+      "route": "fishing-journal-app",
+      "width": 390,
+      "state": "first"
+    },
+    {
+      "route": "fishing-journal-app",
+      "width": 390,
+      "state": "saved"
+    },
+    {
+      "route": "fishing-journal-app",
+      "width": 1440,
+      "state": "first"
+    },
+    {
+      "route": "fishing-journal-app",
+      "width": 1440,
+      "state": "saved"
+    }
+  ],
+  "interactions": [],
+  "analyticsLoads": [],
+  "externalRequests": [],
+  "exceptions": [],
+  "failures": []
+}

@@ -1,0 +1,1 @@
+The first new audit compared raw bytes across two worktrees with different Git checkout newline policies (CRO-04 LF versus the fresh Windows CRLF checkout). Only line endings differed. The audit now verifies the unchanged Git blob, fresh-checkout bytes and exact built production consent script; no consent source was modified.

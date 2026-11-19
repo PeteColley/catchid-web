@@ -1,0 +1,1 @@
+Initial interaction and image-probe runs accidentally overlapped on the same isolated CDP port/profile. The image probe exited with unsettled top-level await; shared storage disturbed four Journal consent assertions. No result from this attempt is counted as passing. Subsequent runs are sequential and fresh; no production change was made in response.

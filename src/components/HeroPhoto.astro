@@ -1,0 +1,40 @@
+---
+import { Picture } from 'astro:assets';
+import trout from '../assets/hero/photo-1-patagonia-savage-37096316.jpg';
+
+// Cover uses the photograph's full height in the narrow hero frame. The source
+// size therefore accounts for the uncropped 3:2 image, not just the visible width.
+const sizes = '(max-width: 359px) 533px, (max-width: 760px) 585px, 1200px';
+---
+<Picture
+  src={trout}
+  width={1200}
+  widths={[600, 900, 1200, 1800, 2400]}
+  sizes={sizes}
+  formats={['webp']}
+  fallbackFormat="jpg"
+  quality={85}
+  loading="eager"
+  fetchpriority="high"
+  decoding="async"
+  alt="Brown trout held by an angler at the river waterline."
+  class="hero-photograph"
+  pictureAttributes={{ class: 'hero-photo' }}
+/>
+
+<style is:global>
+  .hero-photo,
+  .hero-photograph {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-photograph {
+    max-width: none;
+    object-fit: cover;
+    object-position: 35% 50%;
+  }
+  @media (max-width: 760px) {
+    .hero-photograph { object-position: 30% 50%; }
+  }
+</style>

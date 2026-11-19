@@ -1,0 +1,46 @@
+
+> catchid-web@1.0.0 build
+> astro build
+
+21:27:06 [types] Generated 101ms
+21:27:06 [build] output: "static"
+21:27:06 [build] mode: "static"
+21:27:06 [build] directory: <implementation-worktree>\dist\
+21:27:06 [build] Collecting build info...
+21:27:06 [build] ✓ Completed in 142ms.
+21:27:06 [build] Building static entrypoints...
+21:27:07 [vite] ✓ built in 503ms
+21:27:07 [vite] ✓ built in 22ms
+21:27:07 [build] Rearranging server assets...
+
+ generating static routes
+21:27:07   ├─ /fishing-journal-app/index.html (+25ms)
+21:27:07   ├─ /robots.txt (+4ms)
+21:27:07   ├─ /sitemap.xml (+3ms)
+21:27:07   ├─ /index.html (+6ms)
+21:27:07 ✓ Completed in 55ms.
+
+ generating optimized images
+21:27:08   ▶ /_astro/catchid-icon.CDgxPLyC_Z9VQHn.png (before: 358kB, after: 5kB) (+461ms) (1/18)
+21:27:08   ▶ /_astro/personal-records.FMzRFCFP_DXVGt.webp (before: 115kB, after: 102kB) (+462ms) (2/18)
+21:27:08   ▶ /_astro/home-1.2.12.C6mDn6gx_1AJTyT.webp (before: 276kB, after: 102kB) (+464ms) (3/18)
+21:27:08   ▶ /_astro/insights-overview.DpZraCKL_ZqtixD.webp (before: 101kB, after: 80kB) (+492ms) (4/18)
+21:27:08   ▶ /_astro/catchid-icon.CDgxPLyC_16wfwd.webp (before: 358kB, after: 0kB) (+32ms) (5/18)
+21:27:08   ▶ /_astro/catchid-icon.CDgxPLyC_13nBPw.webp (before: 358kB, after: 0kB) (+20ms) (6/18)
+21:27:08   ▶ /_astro/journal.BXx_c0T3_1dla5x.webp (before: 310kB, after: 144kB) (+547ms) (7/18)
+21:27:08   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp (before: 2881kB, after: 31kB) (+554ms) (8/18)
+21:27:08   ▶ /_astro/identify.DwSz2tOT_ZhwjW6.webp (before: 485kB, after: 282kB) (+644ms) (9/18)
+21:27:08   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2awlcP.webp (before: 2881kB, after: 59kB) (+122ms) (10/18)
+21:27:08   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp (before: 2881kB, after: 90kB) (+149ms) (11/18)
+21:27:08   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp (before: 2881kB, after: 182kB) (+261ms) (12/18)
+21:27:09   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp (before: 2881kB, after: 321kB) (+433ms) (13/18)
+21:27:09   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_T0xok.jpg (before: 2881kB, after: 41kB) (+41ms) (14/18)
+21:27:09   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1WQH50.jpg (before: 2881kB, after: 81kB) (+58ms) (15/18)
+21:27:09   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2vXFkg.jpg (before: 2881kB, after: 131kB) (+62ms) (16/18)
+21:27:09   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1V0uEo.jpg (before: 2881kB, after: 275kB) (+97ms) (17/18)
+21:27:09   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2av7Tc.jpg (before: 2881kB, after: 493kB) (+174ms) (18/18)
+21:27:09 ✓ Completed in 1.95s.
+
+21:27:09 [build] ✓ Completed in 2.66s.
+21:27:09 [build] 2 page(s) built in 2.81s
+21:27:09 [build] Complete!

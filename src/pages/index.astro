@@ -5,6 +5,7 @@ import SiteFooter from '../components/SiteFooter.astro';
 import Download from '../components/Download.astro';
 import WebAnalyticsConsent from '../components/WebAnalyticsConsent.astro';
 import ProductCrop from '../components/ProductCrop.astro';
+import HeroPhoto from '../components/HeroPhoto.astro';
 import ManualEntry from '../components/ManualEntry.astro';
 import JournalStory from '../components/JournalStory.astro';
 import Insights from '../components/Insights.astro';
@@ -35,14 +36,13 @@ const campaign='website_launch';
 </div>
 <div class="hero-proof">
 <div class="river-photo ">
-<ProductCrop name="CatchID_JournalFirst_Hero_Desktop_Reference.png" box="1170 90 317 748" width={1487} height={1058} alt="Illustrative trout at the waterline. AI concept art, not a real recorded catch." class="desktop-river" />
-<ProductCrop name="CatchID_JournalFirst_Hero_Desktop_Reference.png" box="1170 180 317 530" width={1487} height={1058} alt="Illustrative trout at the waterline. Concept art, not publication approved." class="mobile-river" />
+<HeroPhoto />
 </div>
 <div class="screen journal-screen ">
 <ProductCrop name="journal.jpg" box="75 205 930 1655" width={1080} height={1920} alt="Catch Journal from existing published artwork: saved carp, dace and trout with dates and fishing details." class="" />
 </div>
 <span class="proof-caption">Your Catch Journal · published example</span>
-<span class="art-label">Concept art — not publication approved</span>
+<span class="art-label">Photo: Patagonia Savage / Pexels</span>
 </div>
 </section>
 <div class="consent-wrap wrap">

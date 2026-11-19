@@ -1,0 +1,14 @@
+{
+  "protectedBaselineFiles": 256,
+  "images": 10,
+  "visualComparisons": 4,
+  "outsidePhotoPixels": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "consentByteIdentical": true,
+  "journalBuiltHtmlIdentical": true,
+  "conceptAbsentFromBuild": true
+}
