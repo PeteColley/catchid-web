@@ -1,6 +1,6 @@
 # CID-WEB-CRO-04 — Astro implementation candidate
 
-**IMPLEMENTED CANDIDATE — NOT LIVE · NOT PUBLICATION READY · 19 November 2026.**
+**IMPLEMENTED AND PUSHED — NOT LIVE · NOT PUBLICATION READY · 19 November 2026.**
 
 The approved CRO-03B journal-first design is implemented across `/` and `/fishing-journal-app/` in the existing static Astro architecture. Shared components preserve the editorial typography, dark Home hero, warm Journal page, section order, genuine product proof and optional identification. The final header has a left logo, centred desktop navigation and no download CTA.
 
@@ -23,7 +23,17 @@ Each page has exactly two real official Google Play badge links, in the hero and
 
 Branch: **`codex/cid-web-cro-04-implementation`**. Based directly on refreshed main **`42c997c13712a432c8e2384915aaa010a16d068b`**. Approved design **`9c7b0847061a460aa095150a6e2dd1972ba7a436`** remains separate and unchanged. No design archive was merged.
 
-The exact pushed implementation SHA and GitHub readback receipt are recorded after verification. The final chat receipt identifies the final branch tip, including any documentation-only receipt update.
+Tested implementation commit: **[`d27b1bc0569cc83eab7c7d3ea285bcc2de1a79fd`](https://github.com/PeteColley/catchid-web/commit/d27b1bc0569cc83eab7c7d3ea285bcc2de1a79fd)**. Pushed normally to the named implementation branch with its own upstream; no force push. Remote `ls-remote` returned this exact commit, while main and the approved design branch remained at the SHAs above.
+
+GitHub independently returned these exact-commit files with blob IDs matching local Git:
+
+| Readback at the implementation commit | Verified blob |
+| --- | --- |
+| `docs/CID-WEB-CRO-04/HANDOVER.md` | `30b3dd84ef7972885a1eee1d940047bdc1e2780d` |
+| `src/pages/index.astro` | `698acc3b3c70ff42d7ab29bcddc95dd620f8a97f` |
+| `src/pages/fishing-journal-app.astro` | `64fddcf751db7f7ba6e149b2c89dfdaf5d37a311` |
+
+This receipt and the unapplied continuity proposal are a subsequent documentation-only commit. The final delivery message identifies that final branch tip; application code and test evidence remain those of the tested implementation commit above. The task-local Astro preview reports no remaining server at handoff.
 
 PASS: existing npm install/check/build/verify and diff checks; 56 Chrome responsive/text cases; 20 Chrome interaction groups; 8 Edge visual cases and 20 interaction groups; exact official badge/attribution and shared consent regressions; source/asset protection checks. Browser limits are in QA. One existing unused-require hint remains; no check errors or warnings. The static output remains two HTML pages, without added dependencies or client hydration.
 
