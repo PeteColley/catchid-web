@@ -1,0 +1,15 @@
+
+> catchid-web@1.0.0 check
+> astro check
+
+18:28:08 [types] Generated 1.14s
+18:28:08 [check] Getting diagnostics for Astro files in <implementation-worktree>...
+scripts/verify-dependencies.mjs:8:7 - warning ts(6133): 'require' is declared but its value is never read.
+
+8 const require = createRequire(import.meta.url);
+        ~~~~~~~
+
+Result (27 files):
+- 0 errors
+- 0 warnings
+- 1 hint

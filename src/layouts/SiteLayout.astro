@@ -1,0 +1,33 @@
+---
+import { getImage } from 'astro:assets';
+import icon from '../assets/catchid-icon.png';
+import SiteInteractions from '../components/SiteInteractions.astro';
+import '../styles/global.css';
+interface Props { title: string; description: string; path: '/' | '/fishing-journal-app/'; pageClass: string }
+const { title, description, path, pageClass }=Astro.props;
+const canonical=new URL(path, Astro.site);
+const favicon=await getImage({src:icon,width:48,height:48,format:'png'});
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071c2a" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="CatchID" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <link rel="icon" type="image/png" href={favicon.src} />
+  </head>
+  <body class={pageClass}>
+    <a class="skip" href="#main">Skip to content</a>
+    <slot />
+    <SiteInteractions />
+  </body>
+</html>

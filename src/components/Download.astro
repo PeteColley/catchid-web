@@ -1,0 +1,10 @@
+---
+import PlayLink from './PlayLink.astro';
+import type { PlayCampaign } from '../config';
+interface Props { campaign: PlayCampaign; priority?: boolean }
+const { campaign, priority=false }=Astro.props;
+---
+<div class="download">
+  <PlayLink campaign={campaign} priority={priority} />
+  <p class="micro">Free on Android · No account needed to start</p>
+</div>

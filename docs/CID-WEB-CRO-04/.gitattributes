@@ -1,0 +1,4 @@
+* text eol=lf
+evidence/*.png -text
+evidence/edge/*.png -text
+reference/*.png -text

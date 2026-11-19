@@ -1,0 +1,1 @@
+First Edge interaction pass stopped while a navigation target was still loading: Cannot read properties of undefined (reading focus). No pass was claimed. The harness now waits for the exact new document loader lifecycle before querying it. The implementation was unchanged.

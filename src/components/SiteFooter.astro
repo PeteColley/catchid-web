@@ -1,0 +1,22 @@
+---
+import { Image } from 'astro:assets';
+import icon from '../assets/catchid-icon.png';
+import { PRIVACY_URL, SUPPORT_URL } from '../config';
+---
+<footer class="site-footer wrap">
+  <div class="footer-top">
+    <a class="brand" href="/" aria-label="CatchID home">
+      <Image src={icon} width={32} height={32} alt="" format="webp" loading="lazy" />
+      <span>Catch<span>ID</span>
+</span>
+    </a>
+    <p>Record. Remember. Discover.</p>
+  </div>
+  <div class="footer-links">
+    <a href="/fishing-journal-app/">Fishing journal app</a>
+    <a href={PRIVACY_URL}>Privacy</a>
+    <a href={SUPPORT_URL}>Support</a>
+    <button type="button" id="analytics-choices" aria-controls="analytics-consent" aria-expanded="false" hidden>Analytics choices</button>
+  </div>
+  <p class="fine">Google Play and the Google Play logo are trademarks of Google LLC.</p>
+</footer>

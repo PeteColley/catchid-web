@@ -1,0 +1,27 @@
+---
+import { Image } from 'astro:assets';
+import icon from '../assets/catchid-icon.png';
+interface Props { landing?: boolean }
+const { landing=false }=Astro.props;
+---
+<header class="site-header wrap">
+  <a class="brand" href="/" aria-label="CatchID home">
+    <Image src={icon} width={40} height={40} alt="" format="webp" loading="eager" />
+    <span>Catch<span>ID</span>
+</span>
+  </a>
+  <nav aria-label="Main">
+    <a href={landing ? '/#record' : '#record'}>How it works</a>
+    <a aria-current={landing ? 'page' : undefined} href="/fishing-journal-app/">Journal</a>
+    <a href="#insights">Insights</a>
+  </nav>
+  <details class="mobile-menu">
+    <summary>Menu</summary>
+    <nav aria-label="Mobile">
+      <a href="/#record">How it works</a>
+      <a aria-current={landing ? 'page' : undefined} href="/fishing-journal-app/">Fishing journal</a>
+      <a href="#insights">Insights</a>
+      <a href="#download">Get CatchID</a>
+    </nav>
+  </details>
+</header>

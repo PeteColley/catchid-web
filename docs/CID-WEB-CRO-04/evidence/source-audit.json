@@ -1,0 +1,178 @@
+{
+  "baseline": "42c997c13712a432c8e2384915aaa010a16d068b",
+  "approved": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+  "checks": [
+    {
+      "file": ".github/workflows/deploy.yml",
+      "unchanged": true,
+      "sha256": "0e37c6f4f55274fdcdea51ad58d34271ef8dc3c46fd942369c41a9ac3ebb556f"
+    },
+    {
+      "file": "astro.config.mjs",
+      "unchanged": true,
+      "sha256": "2b3342ccbe5477af09b6928f5f41c1f815396598a2b75ae6672f0dbf5db8ecbf"
+    },
+    {
+      "file": "package-lock.json",
+      "unchanged": true,
+      "sha256": "655b46c37bf4708ae9e9181a2da0a921aab54b9db94042e9f0a8784b6fbdd4e1"
+    },
+    {
+      "file": "package.json",
+      "unchanged": true,
+      "sha256": "01515f56c5ea2aeda463fe0dff5fab5162de9c5492f405f26683ed199037d37f"
+    },
+    {
+      "file": "public/CNAME",
+      "unchanged": true,
+      "sha256": "350a879c1d724ea8f505625c93e29bee09185171a3e6c9e15437e6a640e4f23c"
+    },
+    {
+      "file": "public/app-ads.txt",
+      "unchanged": true,
+      "sha256": "1e0772af8d3581fecd01bc13bca085d431789bff6122cd89a9e8e2e3e2e668e9"
+    },
+    {
+      "file": "public/assets/google-play-badge.svg",
+      "unchanged": true,
+      "sha256": "4ffa4c7edd2f10b297ca4de2131eddaa00d03b2278d1e178fe512920d824ca34"
+    },
+    {
+      "file": "scripts/verify-analytics.mjs",
+      "unchanged": true,
+      "sha256": "6720c8a902fd32223f87703f322e0c0f2bc3aec47c214be056b9c8f3a9d22fef"
+    },
+    {
+      "file": "src/assets/catchid-icon.png",
+      "unchanged": true,
+      "sha256": "b52dfd2618605dc2a7ffa2d0410497c7748cc4f672dbc095f6af4b0f3e8791b6"
+    },
+    {
+      "file": "src/assets/fishing-locations.jpg",
+      "unchanged": true,
+      "sha256": "6bd7df483fce43d0d1e4b1989635d58f440af1873b8051c6f743312528250f42"
+    },
+    {
+      "file": "src/assets/home-1.2.12.png",
+      "unchanged": true,
+      "sha256": "7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349"
+    },
+    {
+      "file": "src/assets/identify.jpg",
+      "unchanged": true,
+      "sha256": "53a372f4d20e15dcd722544b89c436c7ce251ede0323aef153ea4bc7245d75c0"
+    },
+    {
+      "file": "src/assets/insights-overview.jpg",
+      "unchanged": true,
+      "sha256": "ac2884c9fa34510b257c2fbcdc40b2eac50316925d89c837a7d4e7707e09ee36"
+    },
+    {
+      "file": "src/assets/insights.jpg",
+      "unchanged": true,
+      "sha256": "c1cd0d2b7673168405c603300424bcde101f9eaf10aabb7dc8fe89c7103ee1f7"
+    },
+    {
+      "file": "src/assets/journal.jpg",
+      "unchanged": true,
+      "sha256": "088899d963d12973db1032df2fd4605cc08c708305b3885702a3e9717cb4bbd9"
+    },
+    {
+      "file": "src/assets/personal-records.jpg",
+      "unchanged": true,
+      "sha256": "4b20cd52cbd4a65718e35f13ac5b2764ece429e64bd92ca8829439a1bb03669c"
+    },
+    {
+      "file": "src/config.ts",
+      "unchanged": true,
+      "sha256": "0b6c03c5ed10c345a65b8122888131264f97b473009ba1923f0947d478592340"
+    },
+    {
+      "file": "src/pages/robots.txt.ts",
+      "unchanged": true,
+      "sha256": "3051544e5d55fbff33a304742889c968db6ce95255034569e06f63813e78f664"
+    },
+    {
+      "file": "src/pages/sitemap.xml.ts",
+      "unchanged": true,
+      "sha256": "c53aadb78a5a50e6d8fbc8a46e560d8caad4550f9c9d8588c29cc71cdce2bae1"
+    },
+    {
+      "file": "tsconfig.json",
+      "unchanged": true,
+      "sha256": "61fc24492db9aef7ec38eb91cfeebaef96155014bb5f22648fd8ed2327c6cae2"
+    }
+  ],
+  "consentScriptUnchanged": true,
+  "consentSha256": "34836c83600fbfc1aa0464a0f1e29342189c6b50066d593411e41aa5bb6eb891",
+  "conceptSourceSha256": "ba1ce090ec23012bff700ffb996d21c6e0a1ac6895e86192c923e909985f032d",
+  "references": [
+    {
+      "file": "matrix-home-390x844-first.png",
+      "sourceCommit": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+      "sha256": "ee1812cfa5d7655c2bea321076e42b3f95c4ab02cae8a4bcebe97a2a9cef9b98"
+    },
+    {
+      "file": "matrix-home-390x844-saved-full.png",
+      "sourceCommit": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+      "sha256": "83f1cf8a977a730c953f4b39d3d8a0b9865d9bf16dc8d109375fdcdda1be3ba6"
+    },
+    {
+      "file": "matrix-home-1440x1000-first.png",
+      "sourceCommit": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+      "sha256": "1c31e6967e79298af801363db5e5ebe07a00f968b886d874c24bccbd82c9dd82"
+    },
+    {
+      "file": "matrix-home-1440x1000-saved-full.png",
+      "sourceCommit": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+      "sha256": "7b0d93ac81acca13f32ff0f224ed3c3b5a0cd3b516fd6ee5d1c90b03ae9e3097"
+    },
+    {
+      "file": "matrix-fishing-journal-app-390x844-first.png",
+      "sourceCommit": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+      "sha256": "2413103f82171afc835767a7bba018bfcf26bb6d5fe64673acae948079873b5c"
+    },
+    {
+      "file": "matrix-fishing-journal-app-390x844-saved-full.png",
+      "sourceCommit": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+      "sha256": "8f97251ea69a019131fecd071b6dcda92af3988367c8e989d4f422b42e582a54"
+    },
+    {
+      "file": "matrix-fishing-journal-app-1440x1000-first.png",
+      "sourceCommit": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+      "sha256": "551ca5a7afb73275fc508ae5c49db2de39b01f48e2e917c57c5b390601dead5b"
+    },
+    {
+      "file": "matrix-fishing-journal-app-1440x1000-saved-full.png",
+      "sourceCommit": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+      "sha256": "18c007c9f72f0a812fc647ebcd75ad41b4a0ceca391375ec295d4c3cc18e8c77"
+    }
+  ],
+  "contrast": [
+    {
+      "name": "navy text on warm paper",
+      "ratio": 14.46
+    },
+    {
+      "name": "white on navy",
+      "ratio": 17.09
+    },
+    {
+      "name": "teal on sage",
+      "ratio": 4.64
+    },
+    {
+      "name": "muted on paper",
+      "ratio": 6.06
+    },
+    {
+      "name": "white on consent",
+      "ratio": 14.18
+    },
+    {
+      "name": "white on choices",
+      "ratio": 11.63
+    }
+  ],
+  "failures": []
+}

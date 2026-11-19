@@ -12,13 +12,17 @@ Use Node.js 24 and npm.
 4. `npm run verify`
 5. `npm run preview`
 
-The preview binds to the local computer. The site has one shared inline analytics-consent script per page, no generated JavaScript bundles, remote fonts, forms, or server runtime. Google Analytics loads only after an explicit saved acceptance.
+The preview binds to the local computer. The site has one shared inline analytics-consent script and one bounded presentation script per page, no generated JavaScript bundles, remote fonts, forms, or server runtime. Google Analytics loads only after an explicit saved acceptance.
 
 ## Structure
 
 - `src/pages/index.astro`: homepage and SEO metadata.
 - `src/pages/fishing-journal-app.astro`: fishing journal acquisition page and its metadata.
-- `src/components/PlayLink.astro`: acquisition button.
+- `src/layouts/SiteLayout.astro`: shared metadata and static document structure.
+- `src/components/PlayLink.astro`: official Google Play badge link, used only in the hero and final section.
+- `src/components/SiteHeader.astro`, `SiteFooter.astro`, and section components: the approved journal-first presentation.
+- `src/components/SiteInteractions.astro`: mobile menu closing and focus/space handling for the fixed consent panel; no analytics or storage.
+- `src/product-assets.ts`: local build-time image encoding, with untouched original screenshot sources.
 - `src/components/WebAnalyticsConsent.astro`: shared optional website analytics and consent control.
 - `src/config.ts`: typed Play Store campaigns, privacy, and support destinations.
 - `src/styles/global.css`: responsive styles.
@@ -27,7 +31,7 @@ The preview binds to the local computer. The site has one shared inline analytic
 - `scripts/verify.mjs`: generated-output checks.
 - `scripts/verify-analytics.mjs`: deterministic behaviour checks against the generated consent script, run by `npm run verify`.
 
-The homepage uses the `website_launch` Play campaign (`referral`); the fishing journal page uses `fishing_journal_app` (`organic`). Both use `catchid_website` as the source. Play destinations include the same values inside Google's `referrer` parameter for install attribution. Pass the campaign to `PlayLink`, or use `getPlayUrl` for plain links.
+The homepage uses the `website_launch` Play campaign (`referral`); the fishing journal page uses `fishing_journal_app` (`organic`). Both use `catchid_website` as the source. Play destinations include the same values inside Google's `referrer` parameter for install attribution. Pass the campaign to `PlayLink`. Every direct Play action must use its unaltered official badge; each page has exactly two (hero and final section). Navigation may link to the final section.
 
 Verification covers both pages, their metadata and internal links, Play attribution, image assets, content guardrails, and the static output contract. For visual review, run `npm run preview` and inspect `/` and `/fishing-journal-app/` at 360, 390, 430, 768, 1024 and 1440 px. Confirm early access to the Play CTA, readable screenshots and FAQs, and no horizontal overflow.
 
@@ -43,6 +47,10 @@ For browser verification, clear that preference and inspect Network and Cookies 
 
 Implementation references: [Google tag setup](https://developers.google.com/tag-platform/gtagjs) and [Google privacy controls](https://developers.google.com/tag-platform/security/guides/privacy?hl=en).
 
+## CRO-04 implementation candidate — not live
+
+The CRO-03B design is implemented only on `codex/cid-web-cro-04-implementation`. See [handover](docs/CID-WEB-CRO-04/HANDOVER.md) and [asset release gates](docs/CID-WEB-CRO-04/ASSET_RELEASE_GATES.md). The hero uses temporary concept art with an on-page label. It is not cleared for publication; no deployment or main merge is authorised by this milestone.
+
 ## Deployment
 
 **Privacy prerequisite satisfied:** the [CatchID privacy policy](https://petecolley.github.io/catchid-privacy/) describes optional website analytics and was published in privacy-repository commit `6ce5a74f46ffdc33751d44cf108f82ada12f3acc`. The website analytics deployment has been separately authorised. The privacy repository remains outside this deployment slice.
@@ -53,4 +61,4 @@ In repository Settings → Pages, select **GitHub Actions** as the source and co
 
 The production origin is fixed to `https://catchid.app` in `astro.config.mjs`, with no repository-path base. `public/CNAME` is copied into the build as a domain declaration; for an Actions deployment, GitHub's Pages settings control the domain.
 
-Only push the public `main` branch. Do not push local archive branches, all refs, or tags from development archives.
+Only an expressly authorised publication may advance `main`. Scoped review/implementation branches do not match the deployment trigger. Never push all refs, archive branches or tags from development archives.

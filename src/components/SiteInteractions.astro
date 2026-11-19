@@ -1,0 +1,24 @@
+<script is:inline id="catchid-site-presentation">
+  document.addEventListener('DOMContentLoaded', () => {
+    const panel = document.getElementById('analytics-consent');
+    const mobile = matchMedia('(max-width: 760px)');
+    function reserveSpace() {
+      const height = mobile.matches && !panel.hidden ? Math.ceil(panel.getBoundingClientRect().height) : 0;
+      document.documentElement.style.setProperty('--consent-safe-area', `${height}px`);
+    }
+    new ResizeObserver(reserveSpace).observe(panel);
+    new MutationObserver(reserveSpace).observe(panel, { attributes: true, attributeFilter: ['hidden'] });
+    mobile.addEventListener('change', reserveSpace);
+    reserveSpace();
+    document.addEventListener('focusin', (event) => {
+      if (!mobile.matches || panel.hidden || panel.contains(event.target)) return;
+      const rect = event.target.getBoundingClientRect();
+      const bottom = innerHeight - panel.getBoundingClientRect().height - 18;
+      if (rect.bottom > bottom) window.scrollBy({ top: rect.bottom - bottom, behavior: 'instant' });
+      else if (rect.top < 8) window.scrollBy({ top: rect.top - 12, behavior: 'instant' });
+    });
+    document.querySelectorAll('.mobile-menu a').forEach(link => {
+      link.addEventListener('click', () => { link.closest('details').open = false; });
+    });
+  }, { once: true });
+</script>

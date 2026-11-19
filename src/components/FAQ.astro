@@ -1,0 +1,33 @@
+---
+interface Props { landing?: boolean }
+const { landing=false }=Astro.props;
+---
+<div class="faq-layout wrap">
+<div>
+<p class="eyebrow">A FEW THINGS TO KNOW</p>
+<h2>{landing ? <>Your journal,<br />your way.</> : <>Before your<br />next catch.</>}</h2>
+<p class="muted">A little clarity before you begin.</p>
+</div>
+<div class="questions">
+<details>
+<summary>Can I log a catch without a photo?</summary>
+<p>Yes. Choose “Add without a photo” and enter the catch yourself. Fish identification is optional.</p>
+</details>
+<details data-journal-protection>
+<summary>Do I need an account to start?</summary>
+<p>No account is needed to start recording catches. Optional Journal Protection uses Google sign-in.</p>
+</details>
+<details>
+<summary>What will my Insights show?</summary>
+<p>Explore personal records, fishing locations and patterns based on your recorded catches. Some views need enough saved data. They do not measure fishing effort or catch rates.</p>
+</details>
+<details>
+<summary>Can a fish suggestion be wrong?</summary>
+<p>Yes. Photo identification suggests a likely species and can be uncertain. Check the result and change the species if needed.</p>
+</details>
+<details>
+<summary>Is CatchID free?</summary>
+<p>CatchID is free to download on Android. The app includes advertising.</p>
+</details>
+</div>
+</div>

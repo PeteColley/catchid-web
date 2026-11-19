@@ -18,13 +18,16 @@ const walk = (dir) => readdirSync(dir).flatMap((name) => {
 });
 const files = walk(dist);
 const pages = [
-  { path: "/", title: "CatchID – Fish Identification & Fishing Journal App for Android", medium: "referral", campaign: "website_launch" },
+  { path: "/", title: "CatchID – Fishing Journal & Fish Identification App for Android", medium: "referral", campaign: "website_launch" },
   { path: "/fishing-journal-app/", title: "Fishing Journal App for Android | CatchID", medium: "organic", campaign: "fishing_journal_app" },
 ];
 const pageFile = (path) => resolve(dist, `.${path}`, "index.html");
 assert.deepEqual(files.filter((file) => file.endsWith(".html")).sort(), pages.map(({ path }) => pageFile(path)).sort(), "Exactly the two intended HTML pages");
 const documents = new Map(pages.map(({ path }) => [path, readFileSync(pageFile(path), "utf8")]));
 const consentSource = readFileSync("src/components/WebAnalyticsConsent.astro", "utf8").replaceAll('\r\n', '\n').match(/<script\b[^>]*>([\s\S]*?)<\/script>/)[1].trim();
+assert.equal(createHash('sha256').update(consentSource).digest('hex'), '34836c83600fbfc1aa0464a0f1e29342189c6b50066d593411e41aa5bb6eb891', 'Production consent logic remains unchanged from the verified baseline');
+const presentationSource = readFileSync('src/components/SiteInteractions.astro', 'utf8').match(/<script\b[^>]*>([\s\S]*?)<\/script>/)[1].trim();
+assert.doesNotMatch(presentationSource, /localStorage|sessionStorage|document\.cookie|fetch\(|XMLHttpRequest|sendBeacon|gtag|https?:|createElement/, 'Presentation code has no storage, analytics, network or script injection');
 const manifest = JSON.parse(readFileSync("package.json", "utf8"));
 assert.deepEqual(Object.keys(manifest.dependencies).sort(), ["@astrojs/check", "astro", "typescript"], "No added runtime dependencies");
 for (const group of ["devDependencies", "optionalDependencies", "peerDependencies"]) {
@@ -83,8 +86,10 @@ for (const page of pages) {
   assert.equal(metaValue("og:title"), page.title);
   assert.equal(metaValue("og:description"), description);
   const scripts = [...html.matchAll(/(<script\b[^>]*>)([\s\S]*?)<\/script>/gi)];
-  assert.equal(tags(html, "script").length, 1, "Only the bounded consent script is allowed");
-  assert.equal(scripts.length, 1);
+  assert.equal(tags(html, "script").length, 2, "Only shared consent and bounded presentation scripts");
+  assert.equal(scripts.length, 2);
+  assert.deepEqual(attrs(scripts[1][1]), { script: "", id: "catchid-site-presentation" });
+  assert.equal(scripts[1][2].trim(), presentationSource);
   assert.deepEqual(attrs(scripts[0][1]), { script: "", id: "catchid-web-analytics" }, "One inline script, with no static src or other script attributes");
   assert.equal(scripts[0][2].trim(), consentSource, "Both pages contain the exact shared implementation");
   assert.deepEqual([...new Set(html.match(/G-[A-Z0-9]{10}\b/g))], ["G-LPXGL5VTB1"], "Exact website measurement ID only");
@@ -108,9 +113,13 @@ for (const page of pages) {
 
   const play = links.filter(({ href }) => new URL(href, origin).hostname === "play.google.com");
   const homepage = page.path === "/";
-  const badgeCount = homepage ? 3 : 2;
-  assert.equal(play.length, homepage ? 5 : 4, `${page.path}: header, hero, final, footer and homepage journey CTA`);
-  assert.match(html, /class="play-link compact"[^>]*>\s*<span>Get CatchID free<\/span>/);
+  const badgeCount = 2;
+  assert.equal(play.length, 2, `${page.path}: exactly the hero and final official badges`);
+  const header = html.match(/<header\b[^>]*>[\s\S]*?<\/header>/)[0];
+  assert.doesNotMatch(header, /play\.google\.com|play-badge|header-cta|<button/, 'No header download CTA or replacement badge');
+  assert.doesNotMatch(html, /play-link compact|data-preview|preview-dialog|opens no store|Local demo/, 'No prototype store/consent simulation');
+  assert.match(header, /aria-label="Main"/);
+  assert.match(header, /class="mobile-menu"/);
   const anchorMarkup = [...html.matchAll(/<a\b[^>]*>[\s\S]*?<\/a>/gi)].map(([markup]) => markup);
   const badges = anchorMarkup.filter((markup) => attrs(tags(markup, "a")[0]).class?.split(/\s+/).includes("play-badge"));
   assert.equal(badges.length, badgeCount, "Official badges at the intended acquisition moments");
@@ -127,11 +136,10 @@ for (const page of pages) {
     assert.equal(images[0].fetchpriority, index === 0 ? "high" : undefined);
     assert.equal(visibleText(markup), "", "No custom text or artwork added inside the badge link");
   }
-  for (const name of ["hero", ...(homepage ? ["journey-cta"] : []), "final-cta"]) {
-    const section = [...html.matchAll(/<section\b[^>]*>[\s\S]*?<\/section>/gi)].map(([markup]) => markup)
-      .find((markup) => attrs(tags(markup, "section")[0]).class?.split(/\s+/).includes(name));
-    assert.ok(section && badges.some((badge) => section.includes(badge)), `${name} contains an official badge`);
-  }
+  const hero = [...html.matchAll(/<section\b[^>]*>[\s\S]*?<\/section>/gi)].map(([markup])=>markup).find(markup=>/class="(?:hero|landing-hero) wrap"/.test(markup));
+  assert.ok(hero?.includes(badges[0]), 'Hero contains the first official badge');
+  const final = html.slice(html.indexOf('class="final-invite wrap"'));
+  assert.ok(final.includes(badges[1]), 'Final conversion section contains the second official badge');
   assert.equal(tags(html, "img").map(attrs).filter(({ src }) => src === badgePath).length, badgeCount, "No extra store badges in navigation");
   assert.equal((text.match(/Google Play and the Google Play logo are trademarks of Google LLC\./g) || []).length, 1, "One narrow Google trademark attribution");
   for (const { href } of play) {
@@ -155,89 +163,56 @@ for (const page of pages) {
     assert.match(img.height, /^[1-9]\d*$/);
     checkLocal(img.src, page.path, true);
     if (img.srcset) for (const candidate of img.srcset.split(",")) checkLocal(candidate.trim().split(/\s+/)[0], page.path, true);
-    if (page.path !== "/") {
-      assert.ok(["lazy", "eager"].includes(img.loading), "Explicit image loading strategy");
-      if (img.loading === "eager") assert.equal(img.fetchpriority, "high", "Only the hero warrants eager loading");
-      if (img.width !== "42" && img.src !== badgePath) assert.ok(img.alt.trim().length > 20, "Descriptive screenshot alt");
-    }
+    assert.ok(["lazy", "eager"].includes(img.loading), "Explicit image loading strategy");
+    if (img.alt && img.src !== badgePath) assert.ok(img.alt.trim().length > 20, "Descriptive product-image alt");
   }
-  assert.match(text, /manual(?:ly)? (?:entry|record)/i, "Manual recording is explicit");
-  assert.match(text, /No identification or photo needed/i);
+  for (const image of tags(html, 'image').map(attrs)) checkLocal(image.href, page.path, true);
+  for (const svg of tags(html, 'svg').map(attrs)) {
+    assert.equal(svg.role, 'img');
+    assert.ok(svg['aria-label']?.length > 20, 'Descriptive crop accessible name');
+  }
+
+  assert.match(text, /manual(?:ly)? (?:entry|record)|log manually|add a catch yourself/i, 'Manual recording remains explicit');
+  assert.match(text, /without a photo/i);
   assert.match(text, /likely species suggestion/i);
   assert.match(text, /A suggestion\W+never a guarantee/i);
-  assert.match(text, /Currently free/i);
-  assert.match(text, /No adverts/i);
-  assert.match(text, /No subscription/i);
-  for (const concept of ["Personal Records", "Fishing Locations", "recent activity"]) {
-    assert.ok(text.toLowerCase().includes(concept.toLowerCase()), `${page.path}: current Insights concept: ${concept}`);
-  }
-  const screenshots = tags(html, "img").map(attrs);
-  assert.ok(screenshots.some(({ src }) => src.includes("insights-overview")), "Current Insights overview is rendered");
-  if (page.path === "/") {
-    for (const asset of ["personal-records", "fishing-locations"]) {
-      assert.ok(screenshots.some(({ src }) => src.includes(asset)), `Supporting product evidence: ${asset}`);
+  assert.match(text, /Identification is always optional/i);
+  assert.match(text, /Free on Android · No account needed to start/);
+  assert.match(text, /includes advertising/i);
+  assert.doesNotMatch(text, /no adverts|no ads\b|ad[- ]free|free forever|private by default|guaranteed identification|guaranteed fishing/i);
+  for (const concept of ['Personal Records','recorded species','fishing history']) assert.ok(text.toLowerCase().includes(concept.toLowerCase()));
+  assert.match(text, /Based on your recorded catches\. Views develop as your journal grows; some need enough data\./);
+  assert.match(text, /They don[’']t measure catch rates or fishing effort\./);
+  const claims=text.replace(/They (?:do not|don[’']t) measure (?:catch rates or fishing effort|fishing effort or catch rates)\./gi,'');
+  assert.doesNotMatch(claims,/\b(?:success(?:ful|\s+rates?)?|productiv\w*|best\s+(?:bait|venue|location|water|method)|catch\s+rates?)\b/i);
+  const screenshotUrls=[...tags(html,'img'),...tags(html,'image')].map(attrs).map(x=>x.src||x.href);
+  for(const asset of ['journal.','personal-records.','insights-overview.','identify.','home-1.2.12.']) assert.ok(screenshotUrls.some(src=>src.includes(asset)), 'Authentic product evidence: '+asset);
+  assert.doesNotMatch(html,/static\.metricool\.com/i);
+  const protectionBlocks=[...html.matchAll(/<(article|details)\b[^>]*\bdata-journal-protection(?:="[^"]*")?[^>]*>[\s\S]*?<\/\1>/gi)].map(([markup])=>markup);
+  assert.equal(protectionBlocks.length,2,'Bounded trust and account FAQ protection copy');
+  for(const block of protectionBlocks){
+    const copy=visibleText(block);
+    assert.match(copy,/Journal Protection is optional|Optional Journal Protection/i);
+    assert.match(copy,/Sign in with Google|Google sign-in/i);
+    if(/restore/i.test(copy)){
+      assert.match(copy,/(?:once|when) protection is up to date, your protected catch records and backed-up catch photos can be restored using the same Google account/i);
+      assert.match(copy,/(?:keep using CatchID|still use CatchID|keep recording catches) without signing in/i);
     }
-  } else {
-    assert.match(text, /Your year so far/);
-    assert.match(text, /enough information/);
+    assert.doesNotMatch(copy,/guaranteed|instant(?:ly)?|automatic(?:ally)?|every (?:gallery )?photo|end.to.end encrypt|account (?:is )?required|must sign in/i);
   }
-  assert.doesNotMatch(html, /static\.metricool\.com/i, "Screenshot sources are never hotlinked");
-  assert.match(text, /Insights reflect saved catches\W+They (?:do not|don[’']t) measure fishing effort\W+blank sessions or success rates/i);
-  // Allow the evidence limitation, but reject success claims elsewhere in visible copy.
-  const claims = text.replace(/They (?:do not|don[’']t) measure fishing effort\W+blank sessions or success rates/gi, "");
-  assert.doesNotMatch(claims, /\b(?:success(?:ful|\s+rates?)?|productiv\w*|best\s+(?:bait|venue|location|water|method)|catch\s+rates?)\b/i);
-  // Live protection claims are allowed only in the bounded journal copy blocks.
-  const protectionBlocks = [...html.matchAll(/<(aside|section|article)\b[^>]*\bdata-journal-protection(?:="[^"]*")?[^>]*>[\s\S]*?<\/\1>/gi)].map(([markup]) => markup);
-  assert.equal(protectionBlocks.length, page.path === "/" ? 1 : 2, "One journal treatment, plus one journal-page FAQ");
-  for (const block of protectionBlocks) {
-    const copy = visibleText(block);
-    assert.match(copy, /Journal Protection is optional/i, "Protection is explicitly optional");
-    // The concise homepage note names the account; the journal page explains sign-in.
-    if (page.path !== "/") assert.match(copy, /(?:Sign in with Google|Google sign-in)/i, "Google sign-in is explicit");
-    assert.match(copy, /(?:once|when) protection is up to date, your protected catch records and backed-up catch photos can be restored using the same Google account/i, "Restore depends on completed protection and the same account");
-    assert.match(copy, /(?:keep using CatchID|still use CatchID|keep recording catches) without signing in/i, "Core use needs no account");
-    assert.doesNotMatch(copy, /guaranteed|instant(?:ly)?|automatic(?:ally)?|every (?:gallery )?photo|end.to.end encrypt|account (?:is )?required|must sign in/i, "No stronger backup or account guarantees");
-  }
-  const outsideProtection = visibleText(protectionBlocks.reduce((remaining, block) => remaining.replace(block, ""), html));
-  assert.doesNotMatch(outsideProtection, /\b(?:cloud|backups?|sync(?:ing|hronisation)?|multi[ -]device|imports?|CatchID Pro|ML|machine learning|Ask My Journal|Evidence Engine|journal protection)\b/i);
-  assert.doesNotMatch(text, /\b(?:multi[ -]device|imports?|CatchID Pro|ML|machine learning|Ask My Journal|Evidence Engine)\b/i, "Unimplemented features remain prohibited everywhere");
-  assert.doesNotMatch(text, /planned for CatchID|not yet available|currently released CatchID 1\.2\.1|CatchID 1\.2\.1|Journal Protection[^.!?]*(?:planned|coming soon|not available|future|will be available)/i, "No stale release or pre-launch protection claims");
+  const outsideProtection=visibleText(protectionBlocks.reduce((remaining,block)=>remaining.replace(block,''),html));
+  assert.doesNotMatch(outsideProtection,/\b(?:cloud|backups?|sync(?:ing|hronisation)?|multi[ -]device|imports?|CatchID Pro|ML|machine learning|Ask My Journal|Evidence Engine|journal protection)\b/i);
+  assert.doesNotMatch(text,/\b(?:multi[ -]device|imports?|CatchID Pro|ML|machine learning|Ask My Journal|Evidence Engine)\b/i);
+  assert.doesNotMatch(text,/CatchID 1\.2\.\d|Journal Protection[^.!?]*(?:planned|coming soon|not available|future|will be available)/i);
+  assert.equal(visibleText(html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)[1]),homepage?'Every catch has a story. Keep yours.':'Your catches. Your details. Your journal.');
+  assert.ok(links.some(({href})=>href==='/fishing-journal-app/'));
+  assert.ok(links.some(({href})=>href==='/'));
+  assert.ok(links.some(({href})=>href==='https://petecolley.github.io/catchid-privacy/'));
+  assert.ok(links.some(({href})=>href==='mailto:colley.apps@gmail.com'));
+  assert.ok(ids.includes('questions'));
+  assert.equal(tags(html.match(/<div class="questions">([\s\S]*?)<\/div>/)[1], 'details').length,5);
+  assert.equal(createHash('sha256').update(readFileSync('src/assets/home-1.2.12.png')).digest('hex'),'7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349');
 
-  if (page.path === "/") {
-    assert.ok(links.some(({ href }) => href === "/fishing-journal-app/"), "Homepage links to journal page");
-    assert.equal(visibleText(html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)[1]), "Record your catches. Build your fishing story.");
-    assert.match(text, /Keep a personal fishing journal, explore insights from what you’ve recorded, and get a likely fish identification from a photo when you need help\./);
-    assert.match(text, /Currently free on Android · No\s*adverts · No\s*subscription/);
-    assert.equal((html.match(/id="journey-cta-title"/g) || []).length, 1);
-    assert.ok(html.indexOf('id="journey-cta-title"') > html.indexOf('class="journal-trust"'));
-    assert.ok(html.indexOf('id="journey-cta-title"') < html.indexOf('class="memory-section wrap"'));
-    const homeImage = screenshots.find(({ src }) => src.includes('home-1.2.12'));
-    assert.ok(homeImage, "Verified current Home capture replaces the hero Journal screenshot");
-    assert.equal(homeImage.loading, "eager");
-    assert.equal(Number(homeImage.width) / Number(homeImage.height), 390 / 844, "Home reserves its genuine screenshot proportions");
-    assert.match(text, /CatchID Home · First-catch guidance with example content\./);
-    assert.equal(createHash('sha256').update(readFileSync('src/assets/home-1.2.12.png')).digest('hex'), '7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349', "Unaltered verified non-personal Home capture");
-    const desktopScreens = anchorMarkup.filter(markup => attrs(tags(markup, 'a')[0]).class?.includes('screen-desktop'));
-    const mobileScreens = [...html.matchAll(/<div class="screen-link screen-mobile[^\"]*">[\s\S]*?<\/div>/g)].map(([markup]) => markup);
-    assert.equal(desktopScreens.length, 5, "Desktop keeps five larger-image links");
-    assert.equal(mobileScreens.length, 5, "Mobile gets five static screenshots without navigation");
-    mobileScreens.forEach((markup, index) => {
-      assert.equal(tags(markup, 'a').length, 0);
-      assert.deepEqual(attrs(tags(markup, 'img')[0]), attrs(tags(desktopScreens[index], 'img')[0]), "Responsive presentations reuse identical optimized assets and alt text");
-    });
-    assert.doesNotMatch(text, /Tap (?:a screenshot|for a closer look)/);
-  } else {
-    const h1 = html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)[1];
-    assert.equal(visibleText(h1), "A fishing journal that grows with every catch");
-    assert.ok(links.some(({ href }) => href === "/"), "Journal links home");
-    for (const field of ["species", "date", "time", "location", "weight", "fishing method", "bait", "lure", "fly", "photo"]) assert.ok(text.toLowerCase().includes(field), `Catch field: ${field}`);
-    assert.ok(ids.includes("faq"), "Visible FAQ section exists");
-    assert.equal(description, "Keep catches, photos and fishing details together. CatchID is a free Android fishing journal with manual recording, optional fish identification and Catch Insights.");
-    const faq = html.match(/<div class="faq-list"[^>]*>([\s\S]*?)<\/div>/i)[1];
-    assert.equal(tags(faq, "article").length, 6, "Five original FAQs and exactly one protection FAQ");
-    assert.equal((visibleText(faq).match(/Can I back up and restore my CatchID journal\?/g) || []).length, 1);
-
-  }
   console.log(`PASS: ${page.path} — metadata, semantics, links, images, honest copy; ${play.length} Play CTAs (${page.medium}/${page.campaign}), including ${badges.length} accessible official badges.`);
 }
 
@@ -255,5 +230,5 @@ for (const file of files.filter((file) => /\.(?:html|css|xml|txt)$/i.test(file))
     assert.doesNotMatch(contents, /@import/i, "No external stylesheets or fonts");
   }
 }
-console.log(`PASS: ${pages.length} pages, ${totalPlay} tracked CTAs; exact sitemap, robots, CNAME; local assets; one shared inline consent script per page, no JavaScript artifacts or added dependencies.`);
+console.log(`PASS: ${pages.length} pages, ${totalPlay} tracked CTAs; exact sitemap, robots, CNAME; local assets; one shared inline consent script plus bounded presentation per page, no JavaScript artifacts or added dependencies.`);
 console.log(`Static output: ${files.length} files, ${files.reduce((sum, file) => sum + statSync(file).size, 0)} bytes including full-size screenshot links.`);

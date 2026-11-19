@@ -1,0 +1,37 @@
+
+> catchid-web@1.0.0 build
+> astro build
+
+18:29:30 [types] Generated 189ms
+18:29:30 [build] output: "static"
+18:29:30 [build] mode: "static"
+18:29:30 [build] directory: <implementation-worktree>\dist\
+18:29:30 [build] Collecting build info...
+18:29:30 [build] ✓ Completed in 294ms.
+18:29:30 [build] Building static entrypoints...
+18:29:31 [vite] ✓ built in 989ms
+18:29:31 [vite] ✓ built in 63ms
+18:29:32 [build] Rearranging server assets...
+
+ generating static routes
+18:29:32   ├─ /fishing-journal-app/index.html (+65ms)
+18:29:32   ├─ /robots.txt (+9ms)
+18:29:32   ├─ /sitemap.xml (+10ms)
+18:29:32   ├─ /index.html (+17ms)
+18:29:32 ✓ Completed in 142ms.
+
+ generating optimized images
+18:29:33   ▶ /_astro/catchid-icon.CDgxPLyC_Z9VQHn.png (before: 358kB, after: 5kB) (+984ms) (1/9)
+18:29:33   ▶ /_astro/personal-records.FMzRFCFP_DXVGt.webp (before: 115kB, after: 102kB) (+987ms) (2/9)
+18:29:33   ▶ /_astro/insights-overview.DpZraCKL_ZqtixD.webp (before: 101kB, after: 80kB) (+987ms) (3/9)
+18:29:33   ▶ /_astro/home-1.2.12.C6mDn6gx_1AJTyT.webp (before: 276kB, after: 102kB) (+1.02s) (4/9)
+18:29:33   ▶ /_astro/catchid-icon.CDgxPLyC_16wfwd.webp (before: 358kB, after: 0kB) (+42ms) (5/9)
+18:29:33   ▶ /_astro/catchid-icon.CDgxPLyC_13nBPw.webp (before: 358kB, after: 0kB) (+39ms) (6/9)
+18:29:33   ▶ /_astro/journal.BXx_c0T3_1dla5x.webp (before: 310kB, after: 144kB) (+1.17s) (7/9)
+18:29:33   ▶ /_astro/identify.DwSz2tOT_ZhwjW6.webp (before: 485kB, after: 282kB) (+1.40s) (8/9)
+18:29:33   ▶ /_astro/trout-concept-reference.B71zFPMm_Z2irdRp.webp (before: 1958kB, after: 182kB) (+1.42s) (9/9)
+18:29:33 ✓ Completed in 1.42s.
+
+18:29:33 [build] ✓ Completed in 2.88s.
+18:29:33 [build] 2 page(s) built in 3.18s
+18:29:33 [build] Complete!

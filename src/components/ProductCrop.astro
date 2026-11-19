@@ -1,0 +1,10 @@
+---
+import { assets } from '../product-assets';
+interface Props { name: string; box: string; width: number; height: number; alt: string; class?: string }
+const { name, box, width, height, alt, class: className='' }=Astro.props;
+const asset=assets[name];
+if (!asset) throw new Error(`Unknown approved product asset: ${name}`);
+---
+<svg class={className} viewBox={box} role="img" aria-label={alt} preserveAspectRatio="xMidYMid slice">
+  <image href={asset.src} width={width} height={height} />
+</svg>

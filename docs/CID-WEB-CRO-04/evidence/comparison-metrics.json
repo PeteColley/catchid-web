@@ -1,0 +1,90 @@
+[
+  {
+    "route": "home",
+    "width": 390,
+    "state": "first",
+    "badgeBefore": 412.734375,
+    "badgeAfter": 412.734375,
+    "journalBefore": 492.4952392578125,
+    "journalAfter": 473.9952392578125,
+    "journalDimensionsUnchanged": true,
+    "consentBefore": 139.828125,
+    "consentAfter": 140.28125
+  },
+  {
+    "route": "home",
+    "width": 390,
+    "state": "saved",
+    "badgeBefore": 412.734375,
+    "badgeAfter": 412.734375,
+    "journalBefore": 492.4952392578125,
+    "journalAfter": 473.9952392578125,
+    "journalDimensionsUnchanged": true
+  },
+  {
+    "route": "home",
+    "width": 1440,
+    "state": "first",
+    "badgeBefore": 672.203125,
+    "badgeAfter": 672.203125,
+    "journalBefore": 127.20079040527344,
+    "journalAfter": 127.20079040527344,
+    "journalDimensionsUnchanged": true,
+    "consentBefore": 95.140625,
+    "consentAfter": 69
+  },
+  {
+    "route": "home",
+    "width": 1440,
+    "state": "saved",
+    "badgeBefore": 672.203125,
+    "badgeAfter": 672.203125,
+    "journalBefore": 127.20079040527344,
+    "journalAfter": 127.20079040527344,
+    "journalDimensionsUnchanged": true
+  },
+  {
+    "route": "fishing-journal-app",
+    "width": 390,
+    "state": "first",
+    "badgeBefore": 412.734375,
+    "badgeAfter": 412.734375,
+    "journalBefore": 471.3704528808594,
+    "journalAfter": 452.8704528808594,
+    "journalDimensionsUnchanged": true,
+    "consentBefore": 139.828125,
+    "consentAfter": 140.28125
+  },
+  {
+    "route": "fishing-journal-app",
+    "width": 390,
+    "state": "saved",
+    "badgeBefore": 412.734375,
+    "badgeAfter": 412.734375,
+    "journalBefore": 471.3704528808594,
+    "journalAfter": 452.8704528808594,
+    "journalDimensionsUnchanged": true
+  },
+  {
+    "route": "fishing-journal-app",
+    "width": 1440,
+    "state": "first",
+    "badgeBefore": 667.453125,
+    "badgeAfter": 667.453125,
+    "journalBefore": 160.85528564453125,
+    "journalAfter": 160.85528564453125,
+    "journalDimensionsUnchanged": true,
+    "consentBefore": 95.140625,
+    "consentAfter": 69
+  },
+  {
+    "route": "fishing-journal-app",
+    "width": 1440,
+    "state": "saved",
+    "badgeBefore": 667.453125,
+    "badgeAfter": 667.453125,
+    "journalBefore": 160.85528564453125,
+    "journalAfter": 160.85528564453125,
+    "journalDimensionsUnchanged": true
+  }
+]

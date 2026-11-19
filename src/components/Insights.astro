@@ -1,0 +1,42 @@
+---
+import { assets, originalInsights } from '../product-assets';
+interface Props { landing?: boolean }
+const { landing=false }=Astro.props;
+---
+<section class="insights-section" id="insights">
+<div class="wrap insights-layout">
+<div class="section-copy">
+<p class="eyebrow">DISCOVER CATCH INSIGHTS</p>
+<h2>{landing ? <>The more you record,<br />
+<em>the more you can see.</em>
+</> : <>Your journal becomes<br />
+<em>your insights.</em>
+</>}</h2>
+<p>Look back at personal records, your most recorded species and the places in your fishing history.</p>
+<p class="quiet">Based on your recorded catches. Views develop as your journal grows; some need enough data.</p>
+<a class="text-link" href="#questions">What can Insights tell me? <span aria-hidden="true">↗</span>
+</a>
+</div>
+<div class="insights-proof">
+<figure>
+<div class="screen">
+<img src={assets["personal-records.jpg"].src} alt="Existing published Personal Records screenshot, showing a Brown Trout personal record and a Common Bream entry." width="709" height="1536" loading="lazy" decoding="async" />
+</div>
+<figcaption>Personal Records · published example</figcaption>
+</figure>
+<figure>
+<div class="screen">
+<img src={assets["insights-overview.jpg"].src} alt="Existing published Catch Insights overview with recorded species, locations and recent activity." width="709" height="1536" loading="lazy" decoding="async" />
+</div>
+<figcaption>Catch Insights · published example</figcaption>
+</figure>
+</div>
+<a class="mobile-insights-link" href={originalInsights.src}>View the Catch Insights example ↗</a>
+</div>
+<div class="insights-foot wrap">
+<span>Personal records</span>
+<span>Recorded species</span>
+<span>Fishing history</span>
+<p>Your catches tell a story. They don’t measure catch rates or fishing effort.</p>
+</div>
+</section>

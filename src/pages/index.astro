@@ -1,159 +1,76 @@
 ---
-import { Image, getImage } from 'astro:assets';
-import PlayLink from '../components/PlayLink.astro';
-import ProductScreenshot from '../components/ProductScreenshot.astro';
+import SiteLayout from '../layouts/SiteLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import Download from '../components/Download.astro';
 import WebAnalyticsConsent from '../components/WebAnalyticsConsent.astro';
-import { PLAY_URL, PRIVACY_URL, SUPPORT_URL } from '../config';
-import icon from '../assets/catchid-icon.png';
-import home from '../assets/home-1.2.12.png';
-import identify from '../assets/identify.jpg';
-import journal from '../assets/journal.jpg';
-import insights from '../assets/insights-overview.jpg';
-import personalRecords from '../assets/personal-records.jpg';
-import fishingLocations from '../assets/fishing-locations.jpg';
-import '../styles/global.css';
-const title = 'CatchID – Fish Identification & Fishing Journal App for Android';
-const description = 'Identify a likely fish species, record catches in a personal fishing journal and explore Catch Insights. CatchID is currently free on Android.';
-const canonical = Astro.site ? new URL('/', Astro.site) : undefined;
-const favicon = await getImage({ src: icon, width: 48, height: 48, format: 'png' });
+import ProductCrop from '../components/ProductCrop.astro';
+import ManualEntry from '../components/ManualEntry.astro';
+import JournalStory from '../components/JournalStory.astro';
+import Insights from '../components/Insights.astro';
+import Identification from '../components/Identification.astro';
+import Trust from '../components/Trust.astro';
+import FAQ from '../components/FAQ.astro';
+const campaign='website_launch';
 ---
-<!doctype html>
-<html lang="en-GB">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#173e39" />
-    <title>{title}</title>
-    <meta name="description" content={description} />
-    {canonical && <link rel="canonical" href={canonical} />}
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_GB" />
-    <meta property="og:site_name" content="CatchID" />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    {canonical && <meta property="og:url" content={canonical} />}
-    <link rel="icon" type="image/png" href={favicon.src} />
-  </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header wrap">
-      <a class="brand" href="#" aria-label="CatchID home">
-        <Image src={icon} width={42} height={42} alt="" format="webp" />
-        <span>Catch<span class="brand-id">ID</span></span>
-      </a>
-      <nav aria-label="Main navigation">
-        <a href="#how-it-works">How it works</a>
-        <a href="#journal">Journal</a>
-        <a href="#insights">Insights</a>
-      </nav>
-      <PlayLink compact />
-    </header>
-    <WebAnalyticsConsent />
-    <main id="main">
-      <section class="hero home-hero wrap" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Your fishing. Remembered.</p>
-          <h1 id="hero-title">Record your catches.<br /><em>Build your<br class="desktop-break" /> fishing story.</em></h1>
-          <p class="hero-description">Keep a personal fishing journal, explore insights from what you’ve recorded, and get a likely fish identification from a photo when you need help.</p>
-          <PlayLink priority />
-          <p class="availability">Currently free on Android <span aria-hidden="true">·</span> No&nbsp;adverts <span aria-hidden="true">·</span> No&nbsp;subscription</p>
-          <a class="journey-link" href="#how-it-works">Add a catch <span aria-hidden="true">→</span> Journal <span aria-hidden="true">→</span> Insights <span class="down" aria-hidden="true">↓</span></a>
-        </div>
-        <figure class="hero-evidence">
-          <div class="water-lines" aria-hidden="true"></div>
-          <p class="evidence-label">A catch today. A story to keep.</p>
-          <Image src={home} alt="CatchID Home: add a catch with or without a photo, open your journal or Insights, and explore the clearly labelled example guidance." widths={[360, 540, 720]} sizes="(max-width: 600px) 270px, (max-width: 800px) 235px, 270px" width={390} height={844} format="webp" quality={85} loading="eager" fetchpriority="high" />
-          <figcaption>CatchID Home · First-catch guidance with example content.</figcaption>
-        </figure>
-      </section>
-
-      <section id="how-it-works" class="journey-section" aria-labelledby="journey-title">
-        <div class="wrap">
-          <div class="section-heading">
-            <div><p class="eyebrow">From the water to your story</p><h2 id="journey-title">One catch is just<br /><em>the beginning.</em></h2></div>
-            <p>Identify it or record it yourself. Save the details. Let each catch become part of a bigger picture.</p>
-          </div>
-          <ol class="journey">
-            <li>
-              <div class="journey-copy">
-                <div class="step-heading"><span class="step-number">01</span><span class="step-line" aria-hidden="true">→</span></div>
-                <h3>Identify</h3>
-                <p>Take or choose a photo for a <strong>likely species suggestion</strong>. You can correct it, or skip identification and enter the catch yourself.</p>
-                <p class="step-note">A suggestion, never a guarantee.</p>
-              </div>
-              <ProductScreenshot src={identify} alt="CatchID identification result showing a likely species and the option to change species." label="View larger CatchID identification screenshot" sizes="(max-width: 599px) 192px, (max-width: 1100px) 212px, 272px" width={320} height={569} stage />
-            </li>
-            <li id="journal">
-              <div class="journey-copy">
-                <div class="step-heading"><span class="step-number">02</span><span class="step-line" aria-hidden="true">→</span></div>
-                <h3>Journal</h3>
-                <p>Keep your catches, photos and details together in a personal fishing journal. <strong>Manual entry is always an option.</strong></p>
-                <p class="step-note">No identification or photo needed.</p>
-              </div>
-              <ProductScreenshot src={journal} alt="CatchID Catch Journal showing a fishing history with saved photographs and structured details." label="View larger CatchID journal screenshot" sizes="(max-width: 599px) 192px, (max-width: 1100px) 212px, 272px" width={320} height={569} stage />
-            </li>
-            <li id="insights">
-              <div class="journey-copy">
-                <div class="step-heading"><span class="step-number">03</span><span class="step-line last" aria-hidden="true">↗</span></div>
-                <h3>Insights</h3>
-                <p>Each saved catch adds to your fishing history. Explore <strong>what you’ve recorded</strong> through species, recent activity, Personal Records and Fishing Locations.</p>
-                <p class="step-note">Your recorded catches tell the story.</p>
-              </div>
-              <ProductScreenshot src={insights} alt="CatchID Catch Insights overview with saved catches, species recorded and recent journal activity." label="View larger CatchID Insights screenshot" sizes="(max-width: 599px) 160px, (max-width: 1100px) 175px, 225px" width={320} height={693} stage />
-            </li>
-          </ol>
-          <section class="insights-proof" aria-labelledby="inside-insights-title">
-            <h3 id="inside-insights-title" class="eyebrow">Inside Catch Insights</h3>
-            <div class="insights-features">
-              <figure>
-                <figcaption><h4>Personal Records</h4><p>See your top recorded catches by species.</p></figcaption>
-                <ProductScreenshot src={personalRecords} alt="CatchID Personal Records showing top recorded catches by species with PB labels and catch details." label="View larger CatchID Personal Records screenshot" sizes="(max-width: 599px) 160px, (max-width: 1100px) 180px, 220px" width={280} height={607} />
-              </figure>
-              <figure>
-                <figcaption><h4>Fishing Locations</h4><p>Explore the catches you’ve saved at each water.</p></figcaption>
-                <ProductScreenshot src={fishingLocations} alt="CatchID Fishing Locations showing saved catches and recorded species grouped by water." label="View larger CatchID Fishing Locations screenshot" sizes="(max-width: 599px) 160px, (max-width: 1100px) 180px, 220px" width={280} height={607} />
-              </figure>
-            </div>
-          </section>
-          <p class="image-note desktop-image-note">Select a screenshot for a closer look.</p>
-          <p class="insights-note">Insights reflect saved catches. They don’t measure fishing effort, blank sessions or success rates.</p>
-          <aside class="journal-trust" data-journal-protection aria-labelledby="protection-title">
-            <h3 id="protection-title">Protect your fishing history</h3>
-            <div><p>Journal Protection is optional. Once protection is up to date, your protected catch records and backed-up catch photos can be restored using the same Google account. You can keep using CatchID without signing in.</p>
-            <a class="journal-explore" href="/fishing-journal-app/">Explore CatchID as a fishing journal <span aria-hidden="true">→</span></a>
-            </div>
-          </aside>
-        </div>
-      </section>
-
-      <section class="journey-cta wrap" aria-labelledby="journey-cta-title">
-        <div>
-          <h2 id="journey-cta-title">Ready to start your fishing story?</h2>
-          <p>Record your next catch in CatchID. Currently free on Android, with no adverts or subscription.</p>
-        </div>
-        <PlayLink />
-      </section>
-
-      <section class="memory-section wrap" aria-labelledby="memory-title">
-        <div><p class="eyebrow">More than a photo in your gallery</p><h2 id="memory-title">Keep the details.<br /><em>Relive the catch.</em></h2><p class="memory-intro">The fish you remember. The little details you forget. Give them a place in your fishing story.</p></div>
-        <div class="memory-reasons">
-          <article><span aria-hidden="true">01 /</span><div><h3>A memory worth keeping</h3><p>Revisit memorable fish, with saved photographs and the catch details alongside them.</p></div></article>
-          <article><span aria-hidden="true">02 /</span><div><h3>A history that grows with you</h3><p>Build a personal record, catch by catch and season by season.</p></div></article>
-          <article><span aria-hidden="true">03 /</span><div><h3>A little more perspective</h3><p>Notice patterns that are hard to see in a single catch, from the species you record to how your journal develops.</p></div></article>
-        </div>
-      </section>
-      <section class="final-cta" aria-labelledby="cta-title">
-        <div class="wrap cta-inner">
-          <div><p class="eyebrow">Ready for your next catch</p><h2 id="cta-title">Your fishing story<br /><em>starts with one catch.</em></h2></div>
-          <div class="cta-action"><PlayLink /><p>Available now on Android.<br />Currently free. No adverts. No subscription.</p></div>
-        </div>
-      </section>
-    </main>
-    <footer class="wrap site-footer">
-      <a class="brand footer-brand" href="#">Catch<span class="brand-id">ID</span></a>
-      <p>Identify. Journal. Insights.</p>
-      <nav aria-label="Footer"><a href={PRIVACY_URL}>Privacy</a><a href={SUPPORT_URL}>Support</a><a href={PLAY_URL}>Google Play <span aria-hidden="true">↗</span></a><button type="button" id="analytics-choices" aria-controls="analytics-consent" aria-expanded="false" hidden>Analytics choices</button></nav>
-    </footer>
-    <p class="wrap store-attribution">Google Play and the Google Play logo are trademarks of Google LLC.</p>
-  </body>
-</html>
+<SiteLayout title="CatchID – Fishing Journal & Fish Identification App for Android" description="Build your personal fishing journal with CatchID. Save catches, photos and details, discover Catch Insights, and get optional fish identification help on Android." path="/" pageClass="home-page">
+<div class="hero-shell">
+<SiteHeader  />
+</div>
+<main id="main" tabindex="-1">
+<div class="hero-shell">
+<section class="hero wrap">
+<div class="hero-copy">
+<p class="eyebrow">YOUR PERSONAL FISHING JOURNAL</p>
+<h1>Every catch<br>has a story.<br>
+<em>Keep yours.</em>
+</h1>
+<p class="hero-description">
+<span class="desktop-promise">Save your catches, photos and details in one personal journal. Discover records and insights as your fishing history grows.</span>
+<span class="mobile-promise">Save catches, photos and details. Discover insights as your journal grows.</span>
+</p>
+<Download campaign={campaign} priority />
+<p class="optional-note">Not sure of the species? <a href="#identify">Get a likely suggestion from a photo.</a>
+</p>
+</div>
+<div class="hero-proof">
+<div class="river-photo ">
+<ProductCrop name="CatchID_JournalFirst_Hero_Desktop_Reference.png" box="1170 90 317 748" width={1487} height={1058} alt="Illustrative trout at the waterline. AI concept art, not a real recorded catch." class="desktop-river" />
+<ProductCrop name="CatchID_JournalFirst_Hero_Desktop_Reference.png" box="1170 180 317 530" width={1487} height={1058} alt="Illustrative trout at the waterline. Concept art, not publication approved." class="mobile-river" />
+</div>
+<div class="screen journal-screen ">
+<ProductCrop name="journal.jpg" box="75 205 930 1655" width={1080} height={1920} alt="Catch Journal from existing published artwork: saved carp, dace and trout with dates and fishing details." class="" />
+</div>
+<span class="proof-caption">Your Catch Journal · published example</span>
+<span class="art-label">Concept art — not publication approved</span>
+</div>
+</section>
+<div class="consent-wrap wrap">
+<WebAnalyticsConsent />
+</div>
+</div>
+<div class="story-intro wrap">
+<p class="eyebrow">YOUR FISHING, REMEMBERED.</p>
+<p>A journal that grows more meaningful<br>with every catch.</p>
+<span aria-hidden="true">↓</span>
+</div>
+<ManualEntry />
+<JournalStory />
+<Insights />
+<Identification />
+<Trust />
+<section class="faq-section" id="questions">
+<FAQ />
+<div class="final-invite wrap" id="download">
+<div>
+<p class="eyebrow">YOUR NEXT CATCH IS A BEGINNING</p>
+<h2>Keep the catch.<br>
+<em>Keep the story.</em>
+</h2>
+</div>
+<Download campaign={campaign}  />
+</div>
+</section>
+</main>
+<SiteFooter />
+</SiteLayout>

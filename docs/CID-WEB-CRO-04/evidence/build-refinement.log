@@ -1,0 +1,37 @@
+
+> catchid-web@1.0.0 build
+> astro build
+
+18:37:54 [types] Generated 95ms
+18:37:54 [build] output: "static"
+18:37:54 [build] mode: "static"
+18:37:54 [build] directory: <implementation-worktree>\dist\
+18:37:54 [build] Collecting build info...
+18:37:54 [build] ✓ Completed in 115ms.
+18:37:54 [build] Building static entrypoints...
+18:37:54 [vite] ✓ built in 365ms
+18:37:54 [vite] ✓ built in 24ms
+18:37:54 [build] Rearranging server assets...
+
+ generating static routes
+18:37:54   ├─ /fishing-journal-app/index.html (+23ms)
+18:37:54   ├─ /robots.txt (+5ms)
+18:37:54   ├─ /sitemap.xml (+3ms)
+18:37:54   ├─ /index.html (+8ms)
+18:37:54 ✓ Completed in 54ms.
+
+ generating optimized images
+18:37:54   ▶ /_astro/catchid-icon.CDgxPLyC_Z9VQHn.png (reused cache entry) (+4ms) (1/9)
+18:37:54   ▶ /_astro/journal.BXx_c0T3_1dla5x.webp (reused cache entry) (+4ms) (2/9)
+18:37:54   ▶ /_astro/home-1.2.12.C6mDn6gx_1AJTyT.webp (reused cache entry) (+5ms) (3/9)
+18:37:54   ▶ /_astro/personal-records.FMzRFCFP_DXVGt.webp (reused cache entry) (+5ms) (4/9)
+18:37:54   ▶ /_astro/insights-overview.DpZraCKL_ZqtixD.webp (reused cache entry) (+6ms) (5/9)
+18:37:54   ▶ /_astro/identify.DwSz2tOT_ZhwjW6.webp (reused cache entry) (+6ms) (6/9)
+18:37:54   ▶ /_astro/trout-concept-reference.B71zFPMm_Z2irdRp.webp (reused cache entry) (+6ms) (7/9)
+18:37:54   ▶ /_astro/catchid-icon.CDgxPLyC_16wfwd.webp (reused cache entry) (+3ms) (8/9)
+18:37:54   ▶ /_astro/catchid-icon.CDgxPLyC_13nBPw.webp (reused cache entry) (+2ms) (9/9)
+18:37:54 ✓ Completed in 11ms.
+
+18:37:54 [build] ✓ Completed in 566ms.
+18:37:54 [build] 2 page(s) built in 688ms
+18:37:54 [build] Complete!
