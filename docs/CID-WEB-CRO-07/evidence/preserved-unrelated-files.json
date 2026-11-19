@@ -1,0 +1,30 @@
+[
+  {
+    "path": "docs/CID-FREE-02A/Start-CatchID-Smart-Locations-Review.ps1",
+    "sha256": "3fcc6d8404800f6972d452c5ec2dc2a752e9fbe2a23ce74442c49a61487a46ed"
+  },
+  {
+    "path": "app/src/androidTest/java/com/catchid/app/SmartLocationsLiveReviewTest.kt",
+    "sha256": "b5e1e584205e03bcadb89ba8f40d51a739de84e2675f376254a4e4db68e693ed"
+  },
+  {
+    "path": "docs/CID-FREE-02B/Start-Private-LocationIQ-Handoff.ps1",
+    "sha256": "221349f5553211a044113cb93afefc277e0945b8afff7a25a466218f847edb4a"
+  },
+  {
+    "path": "docs/CID-FREE-02B/checkpoint-20261117.json",
+    "sha256": "82855b95d6a77c9a90c4c04dc02a0805273767b2c9ae9d78062689037b3d9a8e"
+  },
+  {
+    "path": "docs/CID-FREE-02B/cleanup-20261117.json",
+    "sha256": "12eb60437237166711549173f2685dc7b3676d3ccc08bcf8e048c052d84d2067"
+  },
+  {
+    "path": "docs/CID-FREE-02B/evidence-manifest-20261117.json",
+    "sha256": "e428e7376c6d16fa82cae53a27abc9ace999f5823494f799830efca9873b4df7"
+  },
+  {
+    "path": "docs/CID-FREE-02B/measure-loopback.js",
+    "sha256": "9d6280bcf8c84c50024da422f6c340fb8858a862e820f4050196632338120f0b"
+  }
+]

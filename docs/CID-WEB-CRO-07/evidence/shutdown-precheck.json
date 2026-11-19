@@ -1,0 +1,14 @@
+{
+  "defaultNetwork": [
+    "Active default network: none"
+  ],
+  "catchidPackages": [],
+  "name": "CatchID_CRO07_20261119",
+  "accounts": [
+    "Accounts: 0"
+  ],
+  "at": "2026-11-19T22:35:46.6890384+00:00",
+  "airplaneMode": "1",
+  "thirdPartyPackages": [],
+  "boot": "1"
+}

@@ -1,0 +1,17 @@
+{
+  "versionName": "1.2.15",
+  "adAppId": "Google demo",
+  "versionCode": 35,
+  "variant": "debug",
+  "file": "app-debug.apk",
+  "packagedAnalyticsDeactivated": true,
+  "properties": {
+    "journalCloudEnabled": false,
+    "catchidPlaytest": true
+  },
+  "productionEquivalent": false,
+  "source": "9e9b37e9dfdc2554321602bfbada2e18227d34e7",
+  "packagedCrashlyticsEnabled": false,
+  "sha256": "94248cacfef23ef021dd75c4ffe38879ea5310ade42852227215ce62ddc4d3ac",
+  "bytes": 23569575
+}

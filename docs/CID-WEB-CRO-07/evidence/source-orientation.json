@@ -1,0 +1,52 @@
+{
+  "inspectedFiles": [
+    {
+      "blob": "e1744839cd21bbdfc39b1dc3db1e6f2f11474fb0",
+      "path": "app/build.gradle.kts"
+    },
+    {
+      "blob": "a21c2a3f5e3df5070df33f018b85dbcf399e422e",
+      "path": "app/src/main/java/com/catchid/app/MainActivity.kt"
+    },
+    {
+      "blob": "145fe2c55769bab1f7e949995f93a254765456cd",
+      "path": "app/src/debug/java/com/catchid/app/AppObservability.kt"
+    },
+    {
+      "blob": "527689d51ebcc335875adfa8ac61a5195ea73dc4",
+      "path": "app/src/debug/AndroidManifest.xml"
+    },
+    {
+      "blob": "0bf19642f7cd12acc8cde9147341ef1aa6d5db12",
+      "path": "app/src/main/java/com/catchid/app/ads/AdsSession.kt"
+    },
+    {
+      "blob": "eda10f56d783e685635bc20f56231b64e904de08",
+      "path": "app/src/main/java/com/catchid/app/data/room/JournalSyncRuntime.kt"
+    },
+    {
+      "blob": "70e35daa3d10f4dfd655301425cadf7541c52a52",
+      "path": "app/src/main/java/com/catchid/app/data/room/JournalIdentity.kt"
+    },
+    {
+      "blob": "e49798adfea27ff625dcb476f274bf0da314afed",
+      "path": "app/src/main/java/com/catchid/app/data/room/RoomJournalRepository.kt"
+    },
+    {
+      "blob": "fb556d33c876ea6de66650c91940649995a2e994",
+      "path": "app/src/main/java/com/catchid/app/ui/insights/CatchInsightsScreen.kt"
+    },
+    {
+      "blob": "264ebed950afa6efdbb6a7803f41760d40fd2611",
+      "path": "app/src/main/java/com/catchid/app/ui/insights/PersonalIntelligenceScreens.kt"
+    }
+  ],
+  "androidSourceDiff": [],
+  "androidAgentsBlob": "edaa7694c58fd4e855dba2ac8e63bb46eb357353",
+  "androidVersion": "1.2.15 / 35",
+  "releaseBuildSource": "f77f76f2dc7b4547d7a124b63c71e6f7783744ca",
+  "websiteMain": "42c997c13712a432c8e2384915aaa010a16d068b",
+  "websiteBaseline": "8d0731f361b94a81523bfe07f528b7fdb365ccb4",
+  "androidMain": "9e9b37e9dfdc2554321602bfbada2e18227d34e7",
+  "androidStatusBlob": "0ac34723d88ffb0a2c17e6f4c3266ab525650e0a"
+}

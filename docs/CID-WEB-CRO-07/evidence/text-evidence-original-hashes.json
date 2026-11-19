@@ -1,0 +1,17 @@
+[
+  {
+    "normalization": "Trailing horizontal whitespace and blank lines at EOF only; raw original retained in task runtime/source image.",
+    "originalSha256": "a62d89ea62e09598f53dfdc717eb4af946ce02458980453733f00af1aeb9b34c",
+    "file": "build-jbr25-failure.log"
+  },
+  {
+    "normalization": "Trailing horizontal whitespace and blank lines at EOF only; raw original retained in task runtime/source image.",
+    "originalSha256": "92c2213f244b898f70c782a8c082ab7e27c0c8d763bd1609a250f3702382c159",
+    "file": "build-playtest-jbr21.log"
+  },
+  {
+    "normalization": "Trailing horizontal whitespace and blank lines at EOF only; raw original retained in task runtime/source image.",
+    "originalSha256": "edfc961bd9128fbfea84b4c61aac3a72ea270ca286425e22b3ed01ac759b1fc3",
+    "file": "system-image-source.properties"
+  }
+]

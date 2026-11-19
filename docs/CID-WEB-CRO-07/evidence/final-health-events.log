@@ -1,0 +1,11 @@
+--------- beginning of events
+11-19 22:34:10.804   672  1779 I am_anr  : [0,1064,com.android.systemui,550026765,executing service com.android.systemui/.keyguard.KeyguardService, waited 25669ms]
+11-19 22:34:20.264   672  1779 I am_anr  : [0,1270,com.android.phone,952647245,Broadcast of Intent { act=android.safetycenter.action.REFRESH_SAFETY_SOURCES flg=0x10000010 xflg=0x4 pkg=com.android.phone cmp=com.android.phone/.security.SafetySourceReceiver (has extras) }]
+11-19 22:34:25.376   672  2073 I am_anr  : [0,1403,com.google.android.gms.persistent,-1597325755,Process ProcessRecord{26f967d 1403:com.google.android.gms.persistent/u0a145} failed to complete startup]
+11-19 22:34:31.727   672  2073 I am_anr  : [0,1776,com.google.android.gms,-1597325755,Process ProcessRecord{de391eb 1776:com.google.android.gms/u0a145} failed to complete startup]
+11-19 22:34:38.410   672  2213 I am_anr  : [0,1501,com.google.android.inputmethod.latin,550157893,No response to onStartJob]
+11-19 22:34:46.440   672  2309 I am_anr  : [0,2030,com.android.phone,952647245,Process ProcessRecord{8ab1102 2030:com.android.phone/1001} failed to complete startup]
+11-19 22:35:06.705   672  2699 I am_anr  : [0,2161,com.google.android.gms.persistent,-1597325755,Broadcast of Intent { act=android.safetycenter.action.REFRESH_SAFETY_SOURCES flg=0x10000010 xflg=0x4 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver (has extras) }]
+11-19 22:35:18.972   672  2920 I am_crash: [672,0,com.google.android.bluetooth,550026821,Native crash,Aborted,unknown,0,0]
+11-19 22:35:21.774   672  2971 I am_anr  : [0,2500,com.android.phone,952647245,Process ProcessRecord{8ab1102 2500:com.android.phone/1001} failed to complete startup]
+11-19 22:35:46.899   672  3263 I am_anr  : [0,3032,com.android.phone,952647245,Process ProcessRecord{8ab1102 3032:com.android.phone/1001} failed to complete startup]

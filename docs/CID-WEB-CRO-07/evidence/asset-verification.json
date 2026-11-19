@@ -1,0 +1,68 @@
+[
+  {
+    "path": "src/assets/home-1.2.12.png",
+    "role": "existing historical product source",
+    "bytes": 283458,
+    "sha256": "7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349",
+    "width": 780,
+    "height": 1688,
+    "format": "png",
+    "decoded": true,
+    "pixelsWritten": false
+  },
+  {
+    "path": "src/assets/journal.jpg",
+    "role": "existing historical product source",
+    "bytes": 317462,
+    "sha256": "088899d963d12973db1032df2fd4605cc08c708305b3885702a3e9717cb4bbd9",
+    "width": 1080,
+    "height": 1920,
+    "format": "jpeg",
+    "decoded": true,
+    "pixelsWritten": false
+  },
+  {
+    "path": "src/assets/personal-records.jpg",
+    "role": "existing historical product source",
+    "bytes": 118736,
+    "sha256": "4b20cd52cbd4a65718e35f13ac5b2764ece429e64bd92ca8829439a1bb03669c",
+    "width": 709,
+    "height": 1536,
+    "format": "jpeg",
+    "decoded": true,
+    "pixelsWritten": false
+  },
+  {
+    "path": "src/assets/insights-overview.jpg",
+    "role": "existing historical product source",
+    "bytes": 104186,
+    "sha256": "ac2884c9fa34510b257c2fbcdc40b2eac50316925d89c837a7d4e7707e09ee36",
+    "width": 709,
+    "height": 1536,
+    "format": "jpeg",
+    "decoded": true,
+    "pixelsWritten": false
+  },
+  {
+    "path": "src/assets/identify.jpg",
+    "role": "existing historical product source",
+    "bytes": 497255,
+    "sha256": "53a372f4d20e15dcd722544b89c436c7ce251ede0323aef153ea4bc7245d75c0",
+    "width": 1080,
+    "height": 1920,
+    "format": "jpeg",
+    "decoded": true,
+    "pixelsWritten": false
+  },
+  {
+    "path": "docs/CID-WEB-CRO-07/evidence/emulator-anr-diagnostic-not-product.png",
+    "role": "diagnostic only; NOT a CatchID product capture",
+    "bytes": 587498,
+    "sha256": "de5234e8c2e3be8f21100df4de505e113a7117ddd1e189cefa8027047d05acd5",
+    "width": 1170,
+    "height": 2532,
+    "format": "png",
+    "decoded": true,
+    "pixelsWritten": false
+  }
+]

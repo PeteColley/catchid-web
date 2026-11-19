@@ -1,0 +1,20 @@
+[
+  {
+    "reason": "Fresh isolated checkout CRLF conversion only; restored exact clean baseline worktree bytes",
+    "before": "4eed744139e22a3557274b83f1e5fdcfabac62c2d6cfa1a8867f745f46bab16a",
+    "path": "docs/CID-WEB-CRO-06/evidence/audit-checkout-note.txt",
+    "after": "4c14df8838a807f65b69d3d9563530d166688cb35f604ee7b0e957b92820ba02"
+  },
+  {
+    "reason": "Fresh isolated checkout CRLF conversion only; restored exact clean baseline worktree bytes",
+    "before": "f97b5ab9629fb8800345e316857f10a2ae5ad617ed4c698cbc683448937ec341",
+    "path": "docs/CID-WEB-CRO-06/evidence/browser-overlap-attempt.txt",
+    "after": "c76c91ff916add7f3c4cd7b9330e16236d7f9ecc0d491a9bc32e8b3d0d9d1d60"
+  },
+  {
+    "reason": "Fresh isolated checkout CRLF conversion only; restored exact clean baseline worktree bytes",
+    "before": "058aee2ad61428dace94ebbe9ffcafe85015559bff65032a9c5f588cb3f1dc7e",
+    "path": "src/components/HeroPhoto.astro",
+    "after": "0b3a5c4bd59458a99959fee246c49cd41fdd7379a718a4e962465989524d4344"
+  }
+]

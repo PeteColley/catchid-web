@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-19T22:45:36.325Z",
+  "baseline": "8d0731f361b94a81523bfe07f528b7fdb365ccb4",
+  "protectedBaselineFiles": 369,
+  "allProtectedGitContentUnchanged": true,
+  "checkoutLineEndingDifferences": [],
+  "allProductImageBytesEqual": true,
+  "consentBytesEqual": true,
+  "androidSourceUnchanged": true,
+  "unrelatedFilesPreserved": 7,
+  "scopePassed": true,
+  "decodedImages": 6,
+  "newProductCaptures": 0,
+  "diagnosticPngs": 1,
+  "localLinksChecked": 55,
+  "noGalleryScriptsOrExternalResources": true,
+  "sharpVersion": "0.35.5"
+}

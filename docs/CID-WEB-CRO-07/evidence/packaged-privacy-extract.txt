@@ -1,0 +1,8 @@
+            A: http://schemas.android.com/apk/res/android:name(0x01010003)="firebase_analytics_collection_deactivated" (Raw: "firebase_analytics_collection_deactivated")
+            A: http://schemas.android.com/apk/res/android:value(0x01010024)=true
+            A: http://schemas.android.com/apk/res/android:name(0x01010003)="firebase_crashlytics_collection_enabled" (Raw: "firebase_crashlytics_collection_enabled")
+            A: http://schemas.android.com/apk/res/android:value(0x01010024)=false
+            A: http://schemas.android.com/apk/res/android:name(0x01010003)="google_analytics_tcf_data_enabled" (Raw: "google_analytics_tcf_data_enabled")
+            A: http://schemas.android.com/apk/res/android:value(0x01010024)=false
+            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.google.android.gms.ads.APPLICATION_ID" (Raw: "com.google.android.gms.ads.APPLICATION_ID")
+            A: http://schemas.android.com/apk/res/android:value(0x01010024)="ca-app-pub-3940256099942544~3347511713" (Raw: "ca-app-pub-3940256099942544~3347511713")

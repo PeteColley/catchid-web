@@ -1,0 +1,15 @@
+{
+  "galleryOnly": true,
+  "images": 5,
+  "horizontalOverflow": false,
+  "allImagesLoadedAtExpectedDimensions": true,
+  "statusLabel": "0 new product captures / Capture blocked / Not live",
+  "tabClosed": true,
+  "scope": "Static offline review gallery only; not Android app runtime or website candidate validation",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "checked": "2026-11-19",
+  "browser": "ChatGPT in-app browser"
+}
