@@ -1,10 +1,21 @@
 # CID-WEB-CRO-06 — approved hero photography integration
 
-**IMPLEMENTED CANDIDATE — NOT LIVE · 19 November 2026. Not publication-ready.**
+**IMPLEMENTED / PUSHED / NOT LIVE · 19 November 2026. Not publication-ready.**
 
 Variant A / Photo 1 by Patagonia Savage now replaces the homepage's AI concept image. The approved 35%/50% desktop and 30%/50% mobile positions, cover fit, scale 1 and existing gradients are preserved. One Astro `Picture` supplies local responsive WebP with JPEG fallback. A discreet credit replaces the obsolete concept label; accessible text describes a trout at the waterline without claiming it is a CatchID user's catch.
 
-Branch: **`codex/cid-web-cro-06-hero-integration`**, created directly from CRO-04 **`651ae58f39a8c2530fb600b35e91455c644351e8`**. Approved source/evidence: CRO-05 **`e5ccb55f338cd954d38c11b992f0bc48ac0d8a39`**. No comparison branch was merged. Main remains **`42c997c13712a432c8e2384915aaa010a16d068b`**. The implementation SHA and remote receipt are recorded after push; the final delivery identifies any subsequent documentation-only receipt commit.
+Branch: **`codex/cid-web-cro-06-hero-integration`**, created directly from CRO-04 **`651ae58f39a8c2530fb600b35e91455c644351e8`**. Approved source/evidence: CRO-05 **`e5ccb55f338cd954d38c11b992f0bc48ac0d8a39`**. No comparison branch was merged. Main remains **`42c997c13712a432c8e2384915aaa010a16d068b`**.
+
+Tested implementation commit: **[`9c2b9e601b83c9feadfaabb12a936276ed762f35`](https://github.com/PeteColley/catchid-web/commit/9c2b9e601b83c9feadfaabb12a936276ed762f35)**. Pushed normally to its own remote branch/upstream; `ls-remote` confirmed this SHA and unchanged main/CRO-04/CRO-05 refs. Exact-commit GitHub readback matched these local blobs:
+
+| File | Verified blob at the implementation commit |
+| --- | --- |
+| `docs/CID-WEB-CRO-06/HANDOVER.md` | `5f32536ca760388f34b725876a77e1feaa58ccbc` |
+| `src/components/HeroPhoto.astro` | `ee65d12582b769aa9834aa341d37089db4f804cc` |
+| `src/pages/index.astro` | `67f9cb243dea983c20ae9efa4179d0089ba7e38a` |
+| `src/components/WebAnalyticsConsent.astro` | `7aaa8c2b508815749f779b5a6679d4624ebb5352` |
+
+This receipt and the two continuity notes are a subsequent documentation-only commit; the final delivery records that branch tip. Application code and test evidence remain those of the implementation commit above. The task-owned preview and browser are stopped, with no remaining task listeners.
 
 - [Before/after visual review](VISUAL_REVIEW.md) · [Offline gallery](index.html)
 - [Asset provenance and rights](ASSET_PROVENANCE.md)
