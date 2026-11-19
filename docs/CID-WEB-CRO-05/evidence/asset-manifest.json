@@ -1,0 +1,123 @@
+{
+  "baseline": "651ae58f39a8c2530fb600b35e91455c644351e8",
+  "branch": "codex/cid-web-cro-05-hero-photography",
+  "baselineHtmlSha256": "c75fab37840cb052de8499d74b6f6dad84305b90f6e0a549fca3a8223b5818c7",
+  "productionChanges": [],
+  "brokenReviewLinks": [],
+  "variantHtmlSha256": {
+    "a": "741fbd25d244c12dd6a4aeae0c81b526d1dcdc504e01514140b513c2ca29a881",
+    "b": "2f2a3110221fea5d870ee1b00de2cc64a4470e202e54e200bd9167ac272d3c4a"
+  },
+  "files": [
+    {
+      "path": "assets/photo-1-patagonia-savage-37096316.jpg",
+      "bytes": 2950990,
+      "sha256": "460e037b2ba3d9454d5ee668872bf7227c95599e928a49e299e4ef92533685b8"
+    },
+    {
+      "path": "assets/photo-3-giant-asparagus-35437559.jpg",
+      "bytes": 1444179,
+      "sha256": "2c23435008d1a5bf7c8c74fe23a1f314fc1f2cf5ade794ff1395151721c06f3e"
+    },
+    {
+      "path": "evidence/baseline-1440-first.png",
+      "bytes": 661499,
+      "sha256": "57d58c177c0cc429084bb603143b00bb7e92247856e2c2c1d98b805a6decd9fa"
+    },
+    {
+      "path": "evidence/baseline-1440-saved.png",
+      "bytes": 665438,
+      "sha256": "55712f15dd759f24ba32daa4a98e55e527d3bd768cb60d50a6251196c465d04f"
+    },
+    {
+      "path": "evidence/baseline-390-first.png",
+      "bytes": 147606,
+      "sha256": "bbe662d5ae637d1c6c4f477479908f50a7b778544fe741080877aa7c34069216"
+    },
+    {
+      "path": "evidence/baseline-390-saved.png",
+      "bytes": 193006,
+      "sha256": "5b155fb3e7cb1952bce9626a20a1f579b6611890fdabf348a96d80a00c306247"
+    },
+    {
+      "path": "evidence/initial-fit/variant-b-1440-first.png",
+      "bytes": 694125,
+      "sha256": "ab24dc2391d059dbc29c3b079ea49cd87722b70398ab8c370eb769ed99f48746"
+    },
+    {
+      "path": "evidence/initial-fit/variant-b-390-first.png",
+      "bytes": 148776,
+      "sha256": "587e986436bc420878d9e70fc919a2bc601da062d918cd2518491ca59d0122fe"
+    },
+    {
+      "path": "evidence/variant-a-1440-first.png",
+      "bytes": 686436,
+      "sha256": "eb39c976386b789ebbb887e27907f08dd5f07ddfd4f0585977347f8e6516ebdd"
+    },
+    {
+      "path": "evidence/variant-a-1440-hero.png",
+      "bytes": 753572,
+      "sha256": "c5eae19ae5f764b68d8675c5caacf83f2853feefd28d38fb12a4817e87801f3c"
+    },
+    {
+      "path": "evidence/variant-a-1440-saved.png",
+      "bytes": 690284,
+      "sha256": "6ab4c83aa83ddb47e6cdb43201b630df0c87c4a366ccdb81b3bb362c958a8a59"
+    },
+    {
+      "path": "evidence/variant-a-390-first.png",
+      "bytes": 146538,
+      "sha256": "aa09b2c58bc6eb9a90094f1d6d8ef4bb956f3755a62ae7b3c4c145812df3f60a"
+    },
+    {
+      "path": "evidence/variant-a-390-full.png",
+      "bytes": 820875,
+      "sha256": "a91b60801ed2408658003e0f97f7d970a4d5e894d7029f8d82557cfb45374cd3"
+    },
+    {
+      "path": "evidence/variant-a-390-hero.png",
+      "bytes": 231054,
+      "sha256": "db11b60a6f143c2a126355e77b4a6d81c10224381afab67316433fb9f7b8bfd6"
+    },
+    {
+      "path": "evidence/variant-a-390-saved.png",
+      "bytes": 188209,
+      "sha256": "640cd102fb1fdd6e338cc89b2017505daaa1d583c53408ee652d90524c9bf6e7"
+    },
+    {
+      "path": "evidence/variant-b-1440-first.png",
+      "bytes": 719890,
+      "sha256": "9057bc68f1f868bd7bb94cea4540d76ad8d069538b901ae416b33253eef37790"
+    },
+    {
+      "path": "evidence/variant-b-1440-hero.png",
+      "bytes": 707858,
+      "sha256": "20a1c507d7c0d624cf5d1ef26a7378e54c35acbb7f3870a04ed905bf96e9b298"
+    },
+    {
+      "path": "evidence/variant-b-1440-saved.png",
+      "bytes": 724001,
+      "sha256": "323a7ad3d8e98e9b40bde5253c8ddcfbc0fef5a15992abbf81cff96fd142dffe"
+    },
+    {
+      "path": "evidence/variant-b-390-first.png",
+      "bytes": 148591,
+      "sha256": "0a5f7df6a15e4c9e1d1aa128d8c9ec2620871ae44444db835a213af0d8f8e429"
+    },
+    {
+      "path": "evidence/variant-b-390-full.png",
+      "bytes": 820594,
+      "sha256": "5df4270297fc3c126a2f68afc79537ff00b9a4f302a2f97531f9e0a7509d1d82"
+    },
+    {
+      "path": "evidence/variant-b-390-hero.png",
+      "bytes": 230279,
+      "sha256": "667e2a53f4ac3e5dc58babc65b322284167cea85b0b35b05d79c4d57a7900614"
+    },
+    {
+      "path": "evidence/variant-b-390-saved.png",
+      "bytes": 199876,
+      "sha256": "523d9d390c8754984ed39b9d3b8407fb7ac76a2089d382e491580854586afb44"
+    }
+  ]
+}
