@@ -1,5 +1,21 @@
 # CID-WEB-CRO-07 — authentic product screenshot review
 
+## Current result — CRO-07A recovery, 19 November 2026
+
+**CAPTURED: 3 genuine product PNGs / REVIEW CANDIDATES / NOT LIVE.** The fresh API 35 Pixel 5 succeeded; the prior failed API 36 AVD was untouched and no API 34 attempt was needed. The exact previously verified cloud-disabled 1.2.15/35 APK was reused without rebuilding. One controlled Brown Trout was entered through Home → Add without a photo, saved and reopened through Catch Journal. No app/website source changed.
+
+- [Save catch — upper original](captures/save-catch-no-photo-upper-1080x2340.png)
+- [Save catch — lower original](captures/save-catch-no-photo-lower-1080x2340.png)
+- [Catch details — read-only original](captures/catch-details-no-photo-1080x2340.png)
+- [Updated offline gallery](index.html)
+- [Recovery handover, provenance, verification and sceptical self-review](RECOVERY_07A.md)
+
+All originals are 1080 × 2340, unedited app-rendered PNGs. Offline/zero-account checks passed before install and after capture, with no ANRs/crashes or ad-request diagnostics. The new emulator is stopped; sample userdata and all previous evidence are preserved. Owner acceptance, honest demonstration-data captions, separate integration and publication gates remain open.
+
+**One recommended next action for CRO-07A:** Pete and ChatGPT review the three originals and approve selected assets and demonstration-data captions before separately authorizing website integration.
+
+## CRO-07 initial attempt — historical record
+
 **CAPTURED: 0 new product screenshots / CAPTURE BLOCKED / REVIEW PACK PUSHED / NOT LIVE.** 19 November 2026. The screenshot publication gate remains open.
 
 The unchanged current Android source builds successfully with its supported cloud-off playtest configuration. A new isolated API 36 emulator then suffered repeated system startup ANRs and a visible System UI dialog **before CatchID installation**. It was stopped without bypassing the failure. No app was installed/launched, no catch was entered, and no new form, details, Journal, Insights or ID capture is claimed.

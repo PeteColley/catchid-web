@@ -1,5 +1,17 @@
 # Visual review and recommended integration set
 
+## CRO-07A — current sceptical self-review
+
+The three [recovery originals](RECOVERY_07A.md) resolve the priority acquisition gap. Each was opened and reviewed as an image after capture: accurate **Save catch** / **Catch details** labels, one consistent sample, readable values, no keyboard/dialog/ad or private information obscuring content. The app's genuine light palette is preserved. They are complete original device screenshots, not a stitched complete form.
+
+The upper form naturally continues below the viewport into the fly selector; the lower begins at measurements and includes full Save/Cancel controls. The selected details view keeps **No photo recorded**, all sample values, the complete note and **Edit catch** visible, while the decorative top of its placeholder is scrolled offscreen. Share/Delete are further below. A small system notification icon and the lower form's authentic caret remain unedited. These are selection/composition caveats, not reasons to fabricate a larger viewport or retouch UI.
+
+**One recommended set for subsequent integration review:** `captures/save-catch-no-photo-upper-1080x2340.png`, `captures/save-catch-no-photo-lower-1080x2340.png`, and `captures/catch-details-no-photo-1080x2340.png`. Use the explicit controlled-demonstration-data caption. The three older 1170 × 2532 names below were plans, not files; actual capture uses the standard Pixel 5 resolution. Existing Journal, Personal Records, Insights and ID examples remain unchanged with their prior current-fidelity/rights caveats. No website layout/copy decision or integration is authorized by these captures.
+
+This is self-review, not independent acceptance. Pete/ChatGPT must select the assets, consider natural scroll boundaries and any later crop/caption treatment, and separately authorize integration. The full publication gate remains open.
+
+## CRO-07 initial attempt — historical review and planned set
+
 **Sceptical self-review, not independent review. No new product capture or current-app visual pass.** Existing assets were opened and inspected as images; current Android source was compared with their visible structures. The [offline gallery](index.html) makes the retained examples available without representing them as new captures.
 
 The approved website composition remains unchanged. The manual-entry Home crop is legible and shows the real no-photo entry point, but cannot demonstrate the form or Save action. The saved Brown Trout excerpt is polished and meaningful, but is clearly a Personal Records card rather than Catch details. These two evidence gaps remain unresolved.

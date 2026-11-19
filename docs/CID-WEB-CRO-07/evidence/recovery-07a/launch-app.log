@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.catchid.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.catchid.app/.MainActivity
+TotalTime: 3457
+WaitTime: 3462
+Complete

@@ -1,5 +1,13 @@
 # Verification and capture limitation
 
+## CRO-07A recovery — current verification
+
+**Three genuine originals obtained on healthy API 35.** Exact APK reused; no rebuild. Healthy launcher/app drawer and empty-profile/offline assertions passed before install. Real form input, one successful local save, and reopening from Catch Journal verified. PNG originals were inspected without pixel editing. Final runtime buffers contained no ANR/crash, AndroidRuntime errors or CatchIdTestAds requests. Offline/zero-account state persisted, and normal shutdown was verified. API 34 unnecessary; failed API 36 not reused.
+
+See [recovery handover and sceptical self-review](RECOVERY_07A.md), [capture hashes](evidence/recovery-07a/captures.json) and [focused verification](evidence/recovery-07a/verification.json). The original verification script/results below belong to the initial zero-capture attempt and remain unchanged; the current command is `node docs/CID-WEB-CRO-07/verify-recovery.mjs`. No full website/Android test-suite, Play-delivered, physical-device or independent review claim is made.
+
+## CRO-07 initial attempt — historical verification
+
 19 November 2026. **Self-review. No independent reviewer and no new app runtime pass.**
 
 ## Build and environment results

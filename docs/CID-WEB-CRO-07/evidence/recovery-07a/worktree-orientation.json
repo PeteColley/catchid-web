@@ -1,0 +1,436 @@
+[
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/catchid-web",
+    "head": "42c997c13712a432c8e2384915aaa010a16d068b",
+    "branch": "main",
+    "upstream": "origin/main",
+    "status": [],
+    "ignored": [
+      ".astro/",
+      ".npm-cache/",
+      "dist/",
+      "node_modules/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-app-ads-01",
+    "head": "42c997c13712a432c8e2384915aaa010a16d068b",
+    "branch": "codex/cid-web-app-ads-01",
+    "upstream": "origin/main",
+    "status": [],
+    "ignored": [
+      ".astro/",
+      ".npm-cache/",
+      "dist/",
+      "node_modules/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-01",
+    "head": "9fbef55613daded6e0d1c23bc616d8a91dca9f52",
+    "branch": "codex/cid-web-cro-01",
+    "upstream": "origin/codex/cid-web-cro-01",
+    "status": [],
+    "ignored": [
+      ".astro/",
+      ".npm-cache/",
+      "dist/",
+      "node_modules/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-02",
+    "head": "1095c41927f2f5eabd6e0ac1996325d780009530",
+    "branch": "codex/cid-web-cro-02-design",
+    "upstream": "origin/codex/cid-web-cro-02-design",
+    "status": [],
+    "ignored": [
+      ".astro/",
+      ".npm-cache/",
+      "dist/",
+      "node_modules/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-03",
+    "head": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+    "branch": "codex/cid-web-cro-03-design",
+    "upstream": "origin/codex/cid-web-cro-03-design",
+    "status": [],
+    "ignored": [
+      ".astro/",
+      ".npm-cache/",
+      "dist/",
+      "node_modules/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-04",
+    "head": "651ae58f39a8c2530fb600b35e91455c644351e8",
+    "branch": "codex/cid-web-cro-04-implementation",
+    "upstream": "origin/codex/cid-web-cro-04-implementation",
+    "status": [],
+    "ignored": [
+      ".astro/",
+      ".npm-cache/",
+      "dist/",
+      "node_modules/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-05",
+    "head": "e5ccb55f338cd954d38c11b992f0bc48ac0d8a39",
+    "branch": "codex/cid-web-cro-05-hero-photography",
+    "upstream": "origin/codex/cid-web-cro-05-hero-photography",
+    "status": [],
+    "ignored": [
+      ".astro/",
+      ".npm-cache/",
+      "dist/",
+      "node_modules/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-06",
+    "head": "8d0731f361b94a81523bfe07f528b7fdb365ccb4",
+    "branch": "codex/cid-web-cro-06-hero-integration",
+    "upstream": "origin/codex/cid-web-cro-06-hero-integration",
+    "status": [],
+    "ignored": [
+      ".astro/",
+      ".npm-cache/",
+      "dist/",
+      "node_modules/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-07",
+    "head": "b900647065944f7751514a44adf2ad70607d4c4c",
+    "branch": "codex/cid-web-cro-07-product-captures",
+    "upstream": "origin/codex/cid-web-cro-07-product-captures",
+    "status": [],
+    "ignored": []
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-deps-01",
+    "head": "341fdc09608c4e38984770e375e0991c2dfe0286",
+    "branch": "codex/cid-web-deps-01",
+    "upstream": "origin/codex/cid-web-deps-01",
+    "status": [],
+    "ignored": [
+      ".astro/",
+      ".npm-cache/",
+      "dist/",
+      "node_modules/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-main-1.2.12",
+    "head": "b662d238a244ad193315819ecbd1d95651a9c7c6",
+    "branch": "main",
+    "upstream": "origin/main",
+    "status": [],
+    "ignored": []
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-cro07-android-source",
+    "head": "9e9b37e9dfdc2554321602bfbada2e18227d34e7",
+    "branch": "",
+    "upstream": "",
+    "status": [],
+    "ignored": [
+      ".gradle/",
+      ".kotlin/",
+      "app/build/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01",
+    "head": "f208a47797b322fae06d82dbfca18e29745f9846",
+    "branch": "codex/cid-free-01",
+    "upstream": "origin/codex/cid-free-01",
+    "status": [],
+    "ignored": [
+      ".gradle/",
+      ".kotlin/",
+      "app/build/",
+      "candidate-artifacts/",
+      "candidate-avd/",
+      "gate-01a-focused.log",
+      "gate-01a-full.log",
+      "gate-01a-runtime.log",
+      "gate-01a-verified.log",
+      "gate-01b-acceptance-build.log",
+      "gate-01b-acceptance.log",
+      "gate-01b-accepted.log",
+      "gate-01b-android-accepted.log",
+      "gate-01b-android-final.log",
+      "gate-01b-android-full.log",
+      "gate-01b-build-lint.log",
+      "gate-01b-final-build.log",
+      "gate-01b-final-test-apk.log",
+      "gate-01b-final-verified.log",
+      "gate-01b-focused.log",
+      "gate-01b-full.log",
+      "gate-01b-push-candidate.log",
+      "gate-01b-runtime-focused.log",
+      "gate-01b-verified.log",
+      "gate-01c-acceptance-build.log",
+      "gate-01c-android-acceptance-focused.log",
+      "gate-01c-android-acceptance-full.log",
+      "gate-01c-android-final.log",
+      "gate-01c-android-focused-final.log",
+      "gate-01c-android-focused-hardened.log",
+      "gate-01c-android-focused-pinned.log",
+      "gate-01c-android-focused-retry.log",
+      "gate-01c-android-focused-stable.log",
+      "gate-01c-android-focused-synchronized.log",
+      "gate-01c-android-focused.log",
+      "gate-01c-android-hardware-focused.log",
+      "gate-01c-android-hardware-full.log",
+      "gate-01c-android-manual-save-recheck.log",
+      "gate-01c-build-tests.log",
+      "gate-01c-committed-build.log",
+      "gate-01c-final-build-pinned.log",
+      "gate-01c-final-build.log",
+      "gate-01c-final-synchronization-build.log",
+      "gate-01c-final-unit-rerun.log",
+      "gate-01c-final-variant-build.log",
+      "gate-01c-google-samples.log",
+      "gate-01c-initial-result-diagnostic.log",
+      "gate-01c-initial.log",
+      "gate-01c-input-isolation-diagnostic.log",
+      "gate-01c-pete-emulator-error.log",
+      "gate-01c-pete-emulator.log",
+      "gate-01c-regression-emulator-error.log",
+      "gate-01c-regression-emulator.log",
+      "gate-01c-regression-hardware-error.log",
+      "gate-01c-regression-hardware.log",
+      "gate-01c-test-diagnostic-build.log",
+      "gate-01c-verified-build.log",
+      "gate-ad-measurement-dependency.log",
+      "gate-ad-release-demo.log",
+      "gate-ad-release-missing.log",
+      "gate-ads-build-compatible.log",
+      "gate-ads-build.log",
+      "gate-ads-eea-build.log",
+      "gate-edit-diagnosis.log",
+      "gate-edit-fix.log",
+      "gate-emulator-error.log",
+      "gate-emulator.log"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01d-diagnostic",
+    "head": "baa545e59afaa643394b68fc1c911ad3595801b6",
+    "branch": "",
+    "upstream": "",
+    "status": [],
+    "ignored": [
+      ".gradle/",
+      ".kotlin/",
+      "app/build/",
+      "candidate-artifacts/",
+      "candidate-avd/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01l",
+    "head": "30dadf50ba01c5c9fbeafc46ac94e035aa8bd83c",
+    "branch": "codex/cid-free-01l",
+    "upstream": "origin/codex/cid-free-01l",
+    "status": [],
+    "ignored": [
+      ".gradle/",
+      ".kotlin/",
+      "app/build/",
+      "candidate-artifacts/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01m",
+    "head": "d6822a17b429fdb4246a58b83982bdf0bc10e0fc",
+    "branch": "codex/cid-free-01m-remove-native",
+    "upstream": "origin/codex/cid-free-01m-remove-native",
+    "status": [],
+    "ignored": [
+      ".gradle/",
+      ".idea/",
+      ".kotlin/",
+      "app/build/",
+      "candidate-artifacts/",
+      "local.properties"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02a",
+    "head": "a796f364a27bbcff0fdfaf1efa51e1e3b677c769",
+    "branch": "codex/cid-free-02a",
+    "upstream": "origin/codex/cid-free-02a",
+    "status": [
+      "M docs/CID-FREE-02A/Start-CatchID-Smart-Locations-Review.ps1",
+      "?? app/src/androidTest/java/com/catchid/app/SmartLocationsLiveReviewTest.kt",
+      "?? docs/CID-FREE-02B/Start-Private-LocationIQ-Handoff.ps1",
+      "?? docs/CID-FREE-02B/checkpoint-20261117.json",
+      "?? docs/CID-FREE-02B/cleanup-20261117.json",
+      "?? docs/CID-FREE-02B/evidence-manifest-20261117.json",
+      "?? docs/CID-FREE-02B/measure-loopback.js"
+    ],
+    "ignored": [
+      ".gradle/",
+      ".kotlin/",
+      "app/build/",
+      "candidate-artifacts/",
+      "candidate-avd/",
+      "gate-android-acceptance-04.log",
+      "gate-android-acceptance-05.log",
+      "gate-android-baseline.log",
+      "gate-android-capture-final.log",
+      "gate-android-final.log",
+      "gate-android-focused-02.log",
+      "gate-android-focused.log",
+      "gate-android-journal-capture-03.log",
+      "gate-android-journal-final-02.log",
+      "gate-android-journal-final.log",
+      "gate-android-locations-03.log",
+      "gate-android-permission-06.log",
+      "gate-android-permission-07.log",
+      "gate-android-regression-02.log",
+      "gate-android-regression.log",
+      "gate-android-small-offline.log",
+      "gate-backend-02.log",
+      "gate-backend-existing.log",
+      "gate-baseline-build.log",
+      "gate-build-01.log",
+      "gate-build-02.log",
+      "gate-build-03.log",
+      "gate-build-04.log",
+      "gate-build-05.log",
+      "gate-build-06.log",
+      "gate-build-07.log",
+      "gate-build-08.log",
+      "gate-build-09.log",
+      "gate-build-10.log",
+      "gate-build-11.log",
+      "gate-build-12.log",
+      "gate-build-captures.log",
+      "gate-build-demo-inset.log",
+      "gate-build-evidence.log",
+      "gate-build-final.log",
+      "gate-emulator-error.log",
+      "gate-emulator-retry-error.log",
+      "gate-emulator-retry.log",
+      "gate-emulator.log",
+      "gate-final-diff-check.log",
+      "gate-initial.log",
+      "gate-locationiq-android-broad.log",
+      "gate-locationiq-android-final-focused.log",
+      "gate-locationiq-android-focused.log",
+      "gate-locationiq-android-ime-targeted.log",
+      "gate-locationiq-android-small-offline-02.log",
+      "gate-locationiq-android-small-offline.log",
+      "gate-locationiq-backend-final-02.log",
+      "gate-locationiq-backend-final-03.log",
+      "gate-locationiq-backend-final-04.log",
+      "gate-locationiq-backend-final.log",
+      "gate-locationiq-backend-initial.log",
+      "gate-locationiq-backend.log",
+      "gate-locationiq-build-final.log",
+      "gate-locationiq-build.log",
+      "gate-locationiq-feedback-build.log",
+      "gate-locationiq-focused-feedback-build.log",
+      "gate-locationiq-harness-build-02.log",
+      "gate-locationiq-harness-build-03.log",
+      "gate-locationiq-harness-build-04.log",
+      "gate-locationiq-harness-build.log",
+      "gate-locationiq-lint-final.log",
+      "gate-staged-diff-check.log",
+      "gate-test-apk.log"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02e",
+    "head": "655664c33f25a63fbebe2f7665c8ee15a8197309",
+    "branch": "codex/cid-free-02e-integration",
+    "upstream": "origin/codex/cid-free-02e-integration",
+    "status": [],
+    "ignored": [
+      ".gradle/",
+      ".kotlin/",
+      "app/build/",
+      "candidate-artifacts/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02f",
+    "head": "1962a48127022847deb6673a3b44e61c457f0535",
+    "branch": "codex/cid-free-02f-cloud-design",
+    "upstream": "origin/codex/cid-free-02f-cloud-design",
+    "status": [],
+    "ignored": [
+      ".gradle/",
+      ".kotlin/",
+      "app/build/",
+      "candidate-artifacts/"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02g",
+    "head": "4f8a97c89d1e9b2955ef9eb150ef813240304fc6",
+    "branch": "codex/cid-free-02g-feasibility",
+    "upstream": "origin/codex/cid-free-02g-feasibility",
+    "status": [],
+    "ignored": []
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-integrate-free-01",
+    "head": "05391ff71835dfaad162d7699c959238ce1caa8c",
+    "branch": "codex/integrate-cid-free-01",
+    "upstream": "origin/main",
+    "status": [],
+    "ignored": [
+      ".gradle/",
+      ".idea/",
+      ".kotlin/",
+      "app/build/",
+      "candidate-artifacts/",
+      "local.properties"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-integrate-free-01l",
+    "head": "d14106fdeed014d35650ee31f1274994e216c824",
+    "branch": "codex/integrate-cid-free-01l",
+    "upstream": "origin/main",
+    "status": [],
+    "ignored": [
+      ".gradle/",
+      ".idea/",
+      ".kotlin/",
+      "app/build/",
+      "candidate-artifacts/",
+      "local.properties"
+    ]
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-integrate-whats-new-01",
+    "head": "1b2ee93f6de49bb2081813ef41395405944a9f4c",
+    "branch": "codex/integrate-whats-new-01",
+    "upstream": "origin/codex/integrate-whats-new-01",
+    "status": [],
+    "ignored": []
+  },
+  {
+    "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-whats-new-01",
+    "head": "50a3467a617a6ca6f5fc8d0f6d467c4769928547",
+    "branch": "codex/cid-whats-new-01",
+    "upstream": "origin/codex/cid-whats-new-01",
+    "status": [],
+    "ignored": [
+      ".gradle/",
+      ".kotlin/",
+      "app/build/",
+      "candidate-artifacts/"
+    ]
+  }
+]

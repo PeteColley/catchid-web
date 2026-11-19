@@ -1,5 +1,9 @@
 # Minimal manual capture procedure
 
+**CRO-07A update, 19 November 2026:** the three priority captures have now been obtained on one fresh, healthy **API 35 Google APIs Pixel 5**, using the exact verified APK, standard 1080 × 2340/density 440 and this sample procedure. No API 34 fallback was needed. See [performed steps, originals and caveats](RECOVERY_07A.md). The API 36 recommendation below is preserved as historical planning and was superseded by Pete's explicit API 35-first recovery instruction. No further capture is the recommended next action; review and asset acceptance come next.
+
+## Original CRO-07 procedure — historical plan
+
 Use this only on a **new, healthy disposable emulator**. Do not use Pete's phone, an existing journal, the failed CRO-07 AVD, a signed release build, or a real Google account. This is the remaining capture procedure, **not a record of work already performed**.
 
 ## Prepare once

@@ -1,0 +1,7 @@
+{
+  "at": "2026-11-19T23:10:57.557Z",
+  "serial": "emulator-5570",
+  "name": "CatchID_CRO07A_API35_20261119",
+  "method": "Normal emulator console kill, after app force-stop",
+  "output": "OK: killing emulator, bye bye\r\r\nOK"
+}

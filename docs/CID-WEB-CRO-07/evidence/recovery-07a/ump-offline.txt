@@ -1,0 +1,8 @@
+Filtered UMP lines from original local app-safety-log.txt; device identifier omitted.
+Original SHA-256: 22d7e447ce47e364f3cb150301386a3678e40d1b42edf26fc9cc7f7e0a9a6906
+11-19 23:02:59.224  3888  3959 D UserMessagingPlatform: Stored info not exists: IABTCF_TCString
+11-19 23:02:59.224  3888  3959 D UserMessagingPlatform: Stored info not exists: IABGPP_HDR_GppString
+11-19 23:02:59.224  3888  3959 D UserMessagingPlatform: Stored info not exists: IABGPP_GppSID
+11-19 23:02:59.225  3888  3959 D UserMessagingPlatform: Stored info not exists: IABUSPrivacy_String
+11-19 23:03:00.619  3888  3959 W UserMessagingPlatform: Metrics reporting URL is not set yet.
+11-19 23:03:00.681  3888  3888 W UserMessagingPlatform: Error making request.

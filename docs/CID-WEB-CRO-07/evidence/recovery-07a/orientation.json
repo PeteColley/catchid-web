@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-19",
+  "websiteBranch": "codex/cid-web-cro-07-product-captures",
+  "websiteStart": "b900647065944f7751514a44adf2ad70607d4c4c",
+  "websiteMain": "42c997c13712a432c8e2384915aaa010a16d068b",
+  "cro06": "8d0731f361b94a81523bfe07f528b7fdb365ccb4",
+  "androidMain": "35cbf6d562d6f42906e33c5c7be95d0b95800ad7",
+  "androidSource": "9e9b37e9dfdc2554321602bfbada2e18227d34e7",
+  "androidMainDelta": "PROJECT_STATUS.md only; owner confirmation of 1.2.15 Production and Smart Locations deferral",
+  "androidAgentsBlob": "edaa7694c58fd4e855dba2ac8e63bb46eb357353",
+  "androidStatusBlob": "a811c048466f36fe8f6f505e481ca2ce7db08a45",
+  "apkRebuilt": false,
+  "api35Image": {
+    "url": "https://dl.google.com/android/repository/sys-img/google_apis/x86_64-35_r09.zip",
+    "bytes": 1738815903,
+    "sha1": "0103e6dab21290c4b9d16550a3ce99476f884eef",
+    "verified": true
+  },
+  "api34Attempted": false,
+  "api36Reused": false,
+  "docs": [
+    "https://developer.android.com/studio/run/emulator-commandline",
+    "https://developer.android.com/tools/avdmanager"
+  ]
+}

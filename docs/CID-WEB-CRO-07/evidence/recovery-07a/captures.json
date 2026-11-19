@@ -1,0 +1,50 @@
+[
+  {
+    "at": "2026-11-19T23:07:56.252Z",
+    "serial": "emulator-5570",
+    "name": "CatchID_CRO07A_API35_20261119",
+    "path": "captures/save-catch-no-photo-lower-1080x2340.png",
+    "width": 1080,
+    "height": 2340,
+    "bytes": 145653,
+    "sha256": "28f36d07f095529eb8b7d1708311839263d02281be1f5d558f9da76ab4b5b07c",
+    "method": "adb exec-out screencap -p; binary buffer; no pixel edits",
+    "source": "9e9b37e9dfdc2554321602bfbada2e18227d34e7",
+    "version": "1.2.15 / 35",
+    "apkSha256": "94248cacfef23ef021dd75c4ffe38879ea5310ade42852227215ce62ddc4d3ac",
+    "sampleData": true,
+    "acceptedForPublication": false
+  },
+  {
+    "at": "2026-11-19T23:08:17.394Z",
+    "serial": "emulator-5570",
+    "name": "CatchID_CRO07A_API35_20261119",
+    "path": "captures/save-catch-no-photo-upper-1080x2340.png",
+    "width": 1080,
+    "height": 2340,
+    "bytes": 174773,
+    "sha256": "9a9f9671158643fc1ac8499a24177eac6fae40ffbf2cc74d71b8b50957dd6291",
+    "method": "adb exec-out screencap -p; binary buffer; no pixel edits",
+    "source": "9e9b37e9dfdc2554321602bfbada2e18227d34e7",
+    "version": "1.2.15 / 35",
+    "apkSha256": "94248cacfef23ef021dd75c4ffe38879ea5310ade42852227215ce62ddc4d3ac",
+    "sampleData": true,
+    "acceptedForPublication": false
+  },
+  {
+    "at": "2026-11-19T23:10:02.737Z",
+    "serial": "emulator-5570",
+    "name": "CatchID_CRO07A_API35_20261119",
+    "path": "captures/catch-details-no-photo-1080x2340.png",
+    "width": 1080,
+    "height": 2340,
+    "bytes": 112135,
+    "sha256": "8467825c56f0796c15fe67ab76400945837631da90019dc7b9c0a333b6093fd5",
+    "method": "adb exec-out screencap -p; binary buffer; no pixel edits",
+    "source": "9e9b37e9dfdc2554321602bfbada2e18227d34e7",
+    "version": "1.2.15 / 35",
+    "apkSha256": "94248cacfef23ef021dd75c4ffe38879ea5310ade42852227215ce62ddc4d3ac",
+    "sampleData": true,
+    "acceptedForPublication": false
+  }
+]

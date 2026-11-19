@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-19T23:10:56.336Z",
+  "serial": "emulator-5570",
+  "name": "CatchID_CRO07A_API35_20261119",
+  "airplane": "1",
+  "wifi": "Wifi is disabled\r\nWifi scanning is only available when wifi is enabled",
+  "mobileData": "0",
+  "network": "Active default network: none\r",
+  "accounts": [
+    "  Accounts: 0\r"
+  ],
+  "thirdPartyPackages": "package:com.catchid.app",
+  "healthEvents": "",
+  "adDiagnostics": "",
+  "runtimeErrors": "",
+  "installed": [
+    "    versionCode=35 minSdk=26 targetSdk=36\r",
+    "    versionName=1.2.15\r"
+  ],
+  "sampleRecords": 1,
+  "persistence": "Saved through UI; reopened twice from Catch Journal; values matched",
+  "newProductPngs": 3
+}

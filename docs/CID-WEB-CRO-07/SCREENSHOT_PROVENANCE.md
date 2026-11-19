@@ -1,5 +1,13 @@
 # Screenshot and build provenance
 
+## CRO-07A — three new genuine originals
+
+The [recovery handover](RECOVERY_07A.md) is the exact current capture/build/device/sample-data and rights record; [capture manifest](evidence/recovery-07a/captures.json) binds all three untouched PNGs to source, APK hash, timestamp, dimensions and SHA-256. Captured 19 November 2026 on fresh offline Android 15/API 35 Pixel 5, 1080 × 2340, density 440, font scale 1.0. Reused the unchanged cloud-disabled 1.2.15/35 APK from source `9e9b37e9dfdc2554321602bfbada2e18227d34e7`; no rebuild, fixture or seeder. One fictional no-photo Brown Trout, entered through genuine app UI. No third-party fish photograph or real user's catch is represented.
+
+The newer Android continuity at `35cbf6d562d6f42906e33c5c7be95d0b95800ad7` now explicitly records **Pete's owner confirmation of 1.2.15/35 Production**; no fresh direct Play Console or Play-delivered capture was obtained. App/build files are identical to the APK source. Current-source provenance is verified; independent Production fidelity and owner publication acceptance remain separate gates. Required caption: **Actual CatchID UI · controlled demonstration data · no photo required.**
+
+## CRO-07 initial attempt — historical provenance
+
 **No new product captures.** No sample catch was entered, no CatchID app was installed or launched, and no app screenshot was obtained. The sole new PNG in this folder is explicitly named `evidence/emulator-anr-diagnostic-not-product.png`; it is infrastructure evidence and must never be used as a product asset.
 
 ## Attempted capture environment

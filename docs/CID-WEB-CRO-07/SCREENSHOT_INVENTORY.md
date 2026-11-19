@@ -1,5 +1,16 @@
 # Screenshot inventory
 
+## CRO-07A — current priority originals
+
+| Website proof | Current genuine original(s) | Recommendation | Fidelity and acceptance |
+| --- | --- | --- | --- |
+| Manual catch recording | [Save catch upper](captures/save-catch-no-photo-upper-1080x2340.png) and [lower](captures/save-catch-no-photo-lower-1080x2340.png) | Recommend these two separate originals for asset-selection review; do not integrate yet. | Same controlled no-photo draft, real 1.2.15/35 playtest UI, API 35, 1080 × 2340. Source/build identity verified; owner Production confirmation recorded, direct Play delivery unverified. |
+| Saved catch details | [Read-only Catch details](captures/catch-details-no-photo-1080x2340.png) | Recommend this genuine saved-record original instead of treating a Personal Records card as details. | One sample saved through UI and reopened from Catch Journal. No photo, fictional Riverside, all values disclosed in [recovery provenance](RECOVERY_07A.md). |
+
+Only these three product originals were acquired. Existing Journal/Insights/ID images remain unchanged and retain their historical qualifications below. No current refreshed set of those screens is claimed. Owner selection, sample-data captions and later integration remain separate approvals.
+
+## CRO-07 initial attempt — historical inventory
+
 19 November 2026. **No new CatchID product screenshots captured.** This is a source-backed audit of existing images, not running-app or Production visual acceptance. A fresh AVD failed before CatchID installation; see [QA](QA.md).
 
 Android reference throughout: main `9e9b37e9dfdc2554321602bfbada2e18227d34e7`, 1.2.15 / 35. Current Production remains unreconciled: direct repository proof is 1.2.12 / 32 on 2 November, while Pete subsequently reported 1.2.15 live.

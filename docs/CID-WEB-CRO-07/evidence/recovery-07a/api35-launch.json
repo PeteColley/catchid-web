@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-19T22:59:30.7885592+00:00",
+  "name": "CatchID_CRO07A_API35_20261119",
+  "serial": "emulator-5570",
+  "pid": 19212,
+  "api": 35,
+  "profile": "Pixel 5 standard: 1080x2340 density 440",
+  "userdata": "new",
+  "arguments": [
+    "-avd",
+    "CatchID_CRO07A_API35_20261119",
+    "-port",
+    "5570",
+    "-no-window",
+    "-no-snapshot",
+    "-no-audio",
+    "-no-boot-anim",
+    "-gpu",
+    "auto",
+    "-timezone",
+    "Europe/London",
+    "-http-proxy",
+    "http://127.0.0.1:9",
+    "-dns-server",
+    "127.0.0.1"
+  ]
+}

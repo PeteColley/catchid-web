@@ -1,0 +1,31 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {spawnSync} from 'node:child_process';
+const root=import.meta.dirname;
+const identity=JSON.parse(fs.readFileSync(path.join(root,'active-device.json')));
+const {serial,name}=identity;
+const adb=path.join(root,'sdk/platform-tools/adb.exe');
+function run(args,binary=false){const r=spawnSync(adb,['-s',serial,...args],{encoding:binary?undefined:'utf8',windowsHide:true,timeout:30000,maxBuffer:32*1024*1024});if(r.status!==0)throw Error(`${args.join(' ')}: ${r.error||r.stderr}`);return binary?r.stdout:r.stdout.trim();}
+if(run(['shell','getprop','ro.boot.qemu.avd_name'])!==name)throw Error('Unexpected device');
+const [action,...args]=process.argv.slice(2), at=new Date().toISOString(), stamp=at.replaceAll(':','-').replaceAll('.','-');
+fs.appendFileSync(path.join(root,'ui-actions.jsonl'),JSON.stringify({at,serial,name,action,args})+'\n');
+if(action==='tap'||action==='swipe')run(['shell','input',action,...args]);
+else if(action==='text')run(['shell','input','text',args.join(' ').replaceAll(' ','%s')]);
+else if(action==='key')run(['shell','input','keyevent',...args]);
+else if(action==='state'||action==='frame'){
+ const file=path.join(root,`${name}-${stamp}`);
+ const data=run(['exec-out','screencap','-p'],true);fs.writeFileSync(file+'.png',data);
+ if(action==='state'){
+  run(['shell','uiautomator','dump','/sdcard/cro07a-window.xml']);
+  const xml=run(['exec-out','cat','/sdcard/cro07a-window.xml']);fs.writeFileSync(file+'.xml',xml);
+  const nodes=[...xml.matchAll(/<node\b[^>]+>/g)].map(([s])=>Object.fromEntries([...s.matchAll(/([\w-]+)="([^"]*)"/g)].map(m=>[m[1],m[2]]))).filter(n=>n.text||n['content-desc']||n.class==='android.widget.EditText').map(n=>({text:n.text,desc:n['content-desc'],class:n.class,bounds:n.bounds,clickable:n.clickable}));console.log(JSON.stringify({at,file:file+'.png',nodes},null,2));
+ }else console.log(JSON.stringify({at,file:file+'.png'}));
+}else if(action==='capture'){
+ if(args.length!==1||!/^[a-z0-9-]+\.png$/.test(args[0]))throw Error('Invalid capture filename');
+ const dir=path.resolve(root,'../cid-web-cro-07/docs/CID-WEB-CRO-07/captures');
+ fs.mkdirSync(dir,{recursive:true});const dest=path.join(dir,args[0]);if(fs.existsSync(dest))throw Error('Preserve existing capture');
+ const data=run(['exec-out','screencap','-p'],true);if(data.subarray(0,8).toString('hex')!=='89504e470d0a1a0a')throw Error('Not PNG');
+ fs.writeFileSync(dest,data);const receipt={at,serial,name,path:dest,width:data.readUInt32BE(16),height:data.readUInt32BE(20),bytes:data.length,sha256:crypto.createHash('sha256').update(data).digest('hex'),method:'adb exec-out screencap -p; binary buffer; no pixel edits'};
+ fs.appendFileSync(path.join(root,'captures.jsonl'),JSON.stringify(receipt)+'\n');console.log(JSON.stringify(receipt));
+}else throw Error('Unsupported action');
