@@ -1,6 +1,6 @@
 # CID-WEB-CRO-07 — authentic product screenshot review
 
-**CAPTURED: 0 new product screenshots / CAPTURE BLOCKED / REVIEW PACK PREPARED / NOT LIVE.** 19 November 2026. The screenshot publication gate remains open.
+**CAPTURED: 0 new product screenshots / CAPTURE BLOCKED / REVIEW PACK PUSHED / NOT LIVE.** 19 November 2026. The screenshot publication gate remains open.
 
 The unchanged current Android source builds successfully with its supported cloud-off playtest configuration. A new isolated API 36 emulator then suffered repeated system startup ANRs and a visible System UI dialog **before CatchID installation**. It was stopped without bypassing the failure. No app was installed/launched, no catch was entered, and no new form, details, Journal, Insights or ID capture is claimed.
 
@@ -13,6 +13,10 @@ Website branch: `codex/cid-web-cro-07-product-captures`, directly from approved 
 - [Verification and concrete failure evidence](QA.md)
 - [Minimal manual capture procedure](MANUAL_CAPTURE.md)
 - [Unapplied Android continuity proposal](PROJECT_STATUS_PROPOSED.md)
+
+## Remote delivery receipt
+
+Review-pack commit **`28e3678152211519973fbc58931931cda6c23c7a`** was pushed normally to `codex/cid-web-cro-07-product-captures`. Remote branch SHA matched, upstream divergence was `0 0`, and the worktree was clean. GitHub file readback matched local Git blobs for HANDOVER (`942413c225b8e1db58fb4fc6dfcaf8136a6f479a`), SCREENSHOT_PROVENANCE (`55cda7b16b1f44bcb3db6f44946dfa18b4c67e95`), the offline gallery (`c32025b73093d9ba55140ab600c67c3b412fcb0b`) and root PROJECT_STATUS (`99176f9d46dcd73edab4656c77debeaab82d384c`). The branch's Actions query returned zero runs; website main and CRO-06 remained at their recorded SHAs. This documentation-only follow-up adds the delivery receipt; the final response identifies its final commit. No publication or deployment was performed.
 
 ## Obtained versus unavailable
 

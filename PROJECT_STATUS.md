@@ -1,12 +1,14 @@
 # CatchID website — project continuity
 
-**19 November 2026 · CRO-07 CAPTURE BLOCKED / REVIEW PACK PREPARED / NOT LIVE.**
+**19 November 2026 · CRO-07 CAPTURE BLOCKED / REVIEW PACK PUSHED / NOT LIVE.**
 
 Pete and ChatGPT approved CRO-06. The isolated screenshot-review branch `codex/cid-web-cro-07-product-captures` starts from its exact final commit `8d0731f361b94a81523bfe07f528b7fdb365ccb4`. [CRO-07 handover](docs/CID-WEB-CRO-07/HANDOVER.md) records delivery and remote verification. **Zero new product screenshots captured; no new assets accepted or integrated.** The unchanged Android main `9e9b37e9dfdc2554321602bfbada2e18227d34e7` / 1.2.15 (35) builds with JBR 21 and supported cloud-off playtest settings; APK SHA-256 `94248cacfef23ef021dd75c4ffe38879ea5310ade42852227215ce62ddc4d3ac`. A JBR 25 pre-compilation failure is retained. A newly created API 36/390dp emulator recorded nine startup ANRs and a Bluetooth native crash before CatchID installation. It was stopped without bypass; no sample data, app network/ad/ID/cloud actions or existing user-data changes.
 
 The existing five product assets were visually inspected and source-audited, not promoted to verified-current screenshots. The actual Save catch form and Catch details remain missing; [one target set and self-review](docs/CID-WEB-CRO-07/VISUAL_REVIEW.md), [minimal capture procedure](docs/CID-WEB-CRO-07/MANUAL_CAPTURE.md). Pete's report that Android 1.2.15 is live is acknowledged; directly documented Production proof remains 1.2.12/32 on 2 November and was not independently reconciled. All website source/assets/config/dependencies/workflow remain unchanged; only review evidence and this continuity entry change. Android continuity is an [unapplied proposal](docs/CID-WEB-CRO-07/PROJECT_STATUS_PROPOSED.md); no Android push or source change. No merge, deployment, public preview, catchid.app, Play, advertising or outreach change.
 
 **One recommended next action for CRO-07:** obtain the Save catch upper/lower and read-only Catch details originals on a healthy isolated emulator using the verified playtest APK and the minimal procedure. Screenshot acceptance, subsequent integration and publication remain separate gates.
+
+Review pack `28e3678152211519973fbc58931931cda6c23c7a` was pushed normally and verified against the remote branch and four file readbacks. The worktree was clean with zero upstream divergence; the branch had zero Actions runs, and main/CRO-06 were unchanged. A documentation-only follow-up records this receipt; see the handover. No new product screenshot is claimed or accepted.
 
 ## Previous milestone — CRO-06
 
