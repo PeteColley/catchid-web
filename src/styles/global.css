@@ -8,6 +8,7 @@
   --line:#bdccc6;
   --pale:#deece7;
   --white:#fffdf8;
+  --focus-ring:var(--teal);
   color-scheme:light
 }
 
@@ -50,10 +51,18 @@ img,svg {
 button {
   color:inherit
 }
+/* Keep focus distinct on light surfaces and retain gold on dark surfaces. */
+.hero-shell,.insights-section,.final-invite,.mobile-menu nav,.home-page .skip {
+  --focus-ring:#c57e23
+}
+/* Desktop navigation can cross the photograph when text is enlarged. */
+.hero-shell .site-header>nav { --focus-ring:var(--paper); }
 button:focus-visible,a:focus-visible,summary:focus-visible {
-  outline:3px solid #c57e23;
+  outline:3px solid var(--focus-ring);
   outline-offset:6px
 }
+/* Keep the indicator clear of the badge caption and viewport edge. */
+.play-badge:focus-visible { outline-offset:1px; }
 button:focus-visible {
   position:relative;
   z-index:5
@@ -1868,6 +1877,7 @@ h1,h2,h3,p,dt,dd,summary,a,button {
     margin:0;
     padding:12px 20px 14px;
     background:#102d39;
+    --focus-ring:#c57e23;
     color:#fffdf8;
     border-top:1px solid #789194;
     box-shadow:0 -12px 30px #071c2a15
@@ -2132,7 +2142,9 @@ h1,h2,h3,p,dt,dd,summary,a,button {
 a.play-badge { text-decoration: none; }
 #analytics-status:empty { display: none; }
 #analytics-status:not(:empty) { margin-top: 8px; }
-#analytics-title:focus-visible { outline: 3px solid #c57e23; outline-offset: 4px; }
+#analytics-title:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 4px; }
 @media (max-width: 760px) {
+  /* Fit the complete focus ring inside the mobile viewport without moving controls. */
+  button:focus-visible,a:focus-visible,summary:focus-visible { outline-offset: 4px; }
   .analytics-consent { max-height: 50dvh; overflow-y: auto; overscroll-behavior: contain; }
 }

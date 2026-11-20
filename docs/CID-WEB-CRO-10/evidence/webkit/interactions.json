@@ -1,0 +1,1070 @@
+{
+  "utc": "2026-11-20T16:36:42.224Z",
+  "engine": "webkit",
+  "version": "27.2",
+  "mode": "interactions",
+  "method": "Actual engine on Windows; CSS viewport emulation, not Safari or a physical phone",
+  "cases": [
+    {
+      "id": "home-320",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Menu",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "home-390",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Menu",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "home-768",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Accept analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Reject analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "outline": "solid"
+        },
+        {
+          "label": "Do I need an account to start?",
+          "outline": "solid"
+        },
+        {
+          "label": "What will my Insights show?",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "home-1024",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Accept analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Reject analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "outline": "solid"
+        },
+        {
+          "label": "Do I need an account to start?",
+          "outline": "solid"
+        },
+        {
+          "label": "What will my Insights show?",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "home-1440",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Accept analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Reject analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "outline": "solid"
+        },
+        {
+          "label": "Do I need an account to start?",
+          "outline": "solid"
+        },
+        {
+          "label": "What will my Insights show?",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "journal-320",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Menu",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "journal-390",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Menu",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "journal-768",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Accept analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Reject analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "outline": "solid"
+        },
+        {
+          "label": "Do I need an account to start?",
+          "outline": "solid"
+        },
+        {
+          "label": "What will my Insights show?",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "journal-1024",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Accept analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Reject analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "outline": "solid"
+        },
+        {
+          "label": "Do I need an account to start?",
+          "outline": "solid"
+        },
+        {
+          "label": "What will my Insights show?",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "journal-1440",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Accept analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Reject analytics",
+          "outline": "solid"
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "outline": "solid"
+        },
+        {
+          "label": "Do I need an account to start?",
+          "outline": "solid"
+        },
+        {
+          "label": "What will my Insights show?",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "route": "home",
+      "kind": "consent",
+      "before": {
+        "choice": null,
+        "disabled": true,
+        "loaders": 0,
+        "hidden": false,
+        "cookies": ""
+      },
+      "accepted": {
+        "choice": "granted",
+        "disabled": false,
+        "loaders": 1,
+        "hidden": true,
+        "cookies": ""
+      },
+      "clicks": {
+        "events": [
+          [
+            "event",
+            "play_store_click",
+            {
+              "destination": "google_play",
+              "handoff_attribution": "inbound_campaign"
+            }
+          ],
+          [
+            "event",
+            "play_store_click",
+            {
+              "destination": "google_play",
+              "handoff_attribution": "inbound_campaign"
+            }
+          ]
+        ],
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dqa%26utm_medium%3Dreview%26utm_campaign%3Dfixture%26gclid%3Dfixture-id",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dqa%26utm_medium%3Dreview%26utm_campaign%3Dfixture%26gclid%3Dfixture-id"
+        ]
+      },
+      "withdrawn": {
+        "choice": "denied",
+        "disabled": true,
+        "loaders": 0,
+        "hidden": true,
+        "cookies": ""
+      }
+    },
+    {
+      "route": "home",
+      "kind": "storage-blocked",
+      "disabled": true,
+      "loaders": 0,
+      "status": "Analytics are off on this page. Your browser could not save your choice. Please allow site storage to remember it.",
+      "visible": true
+    },
+    {
+      "route": "home",
+      "kind": "no-js",
+      "badges": 2,
+      "hidden": true,
+      "loaders": 0
+    },
+    {
+      "route": "journal",
+      "kind": "consent",
+      "before": {
+        "choice": null,
+        "disabled": true,
+        "loaders": 0,
+        "hidden": false,
+        "cookies": ""
+      },
+      "accepted": {
+        "choice": "granted",
+        "disabled": false,
+        "loaders": 1,
+        "hidden": true,
+        "cookies": ""
+      },
+      "clicks": {
+        "events": [
+          [
+            "event",
+            "play_store_click",
+            {
+              "destination": "google_play",
+              "handoff_attribution": "inbound_campaign"
+            }
+          ],
+          [
+            "event",
+            "play_store_click",
+            {
+              "destination": "google_play",
+              "handoff_attribution": "inbound_campaign"
+            }
+          ]
+        ],
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dqa%26utm_medium%3Dreview%26utm_campaign%3Dfixture%26gclid%3Dfixture-id",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dqa%26utm_medium%3Dreview%26utm_campaign%3Dfixture%26gclid%3Dfixture-id"
+        ]
+      },
+      "withdrawn": {
+        "choice": "denied",
+        "disabled": true,
+        "loaders": 0,
+        "hidden": true,
+        "cookies": ""
+      }
+    },
+    {
+      "route": "journal",
+      "kind": "storage-blocked",
+      "disabled": true,
+      "loaders": 0,
+      "status": "Analytics are off on this page. Your browser could not save your choice. Please allow site storage to remember it.",
+      "visible": true
+    },
+    {
+      "route": "journal",
+      "kind": "no-js",
+      "badges": 2,
+      "hidden": true,
+      "loaders": 0
+    },
+    {
+      "route": "home",
+      "width": 320,
+      "kind": "text160-keyboard",
+      "focus": [
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 470.609375
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 340.1875,
+          "bottom": 450.1875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 343.1875,
+          "bottom": 453.1875,
+          "limit": 470.609375
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 340.1875,
+          "bottom": 450.1875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 307.1875,
+          "bottom": 453.1875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 379.1875,
+          "bottom": 453.1875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 409.265625,
+          "bottom": 453.265625,
+          "limit": 470.609375
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -11853,
+          "bottom": 800.296875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 470.609375
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 343.1875,
+          "bottom": 453.1875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 343.1875,
+          "bottom": 453.1875,
+          "limit": 470.609375
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 343.1875,
+          "bottom": 453.1875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 307.1875,
+          "bottom": 453.1875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 379.1875,
+          "bottom": 453.1875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 409.265625,
+          "bottom": 453.265625,
+          "limit": 470.609375
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -11856,
+          "bottom": 797.296875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 470.609375
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 343.1875,
+          "bottom": 453.1875,
+          "limit": 470.609375
+        }
+      ]
+    },
+    {
+      "route": "home",
+      "width": 390,
+      "kind": "text160-keyboard",
+      "focus": [
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 628.921875
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 501.59375,
+          "bottom": 611.59375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 501.59375,
+          "bottom": 611.59375,
+          "limit": 628.921875
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 501.59375,
+          "bottom": 611.59375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 501.59375,
+          "bottom": 611.59375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 537.59375,
+          "bottom": 611.59375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 563.671875,
+          "bottom": 607.671875,
+          "limit": 628.921875
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -10814,
+          "bottom": 920.703125,
+          "limit": 628.921875
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 628.921875
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 497.59375,
+          "bottom": 607.59375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 501.59375,
+          "bottom": 611.59375,
+          "limit": 628.921875
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 501.59375,
+          "bottom": 611.59375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 501.59375,
+          "bottom": 611.59375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 537.59375,
+          "bottom": 611.59375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 563.671875,
+          "bottom": 607.671875,
+          "limit": 628.921875
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -10814,
+          "bottom": 920.703125,
+          "limit": 628.921875
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 628.921875
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 497.59375,
+          "bottom": 607.59375,
+          "limit": 628.921875
+        }
+      ]
+    },
+    {
+      "route": "journal",
+      "width": 320,
+      "kind": "text160-keyboard",
+      "focus": [
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 470.609375
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 339.796875,
+          "bottom": 449.796875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 342.796875,
+          "bottom": 452.796875,
+          "limit": 470.609375
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 339.796875,
+          "bottom": 449.796875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 306.796875,
+          "bottom": 452.796875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 375.796875,
+          "bottom": 449.796875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 408.875,
+          "bottom": 452.875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -9753,
+          "bottom": 799.90625,
+          "limit": 470.609375
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 470.609375
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 339.796875,
+          "bottom": 449.796875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 342.796875,
+          "bottom": 452.796875,
+          "limit": 470.609375
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 339.796875,
+          "bottom": 449.796875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 306.796875,
+          "bottom": 452.796875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 378.796875,
+          "bottom": 452.796875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 408.875,
+          "bottom": 452.875,
+          "limit": 470.609375
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -9753,
+          "bottom": 799.90625,
+          "limit": 470.609375
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 470.609375
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 617.375,
+          "bottom": 706,
+          "limit": 470.609375
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 339.796875,
+          "bottom": 449.796875,
+          "limit": 470.609375
+        }
+      ]
+    },
+    {
+      "route": "journal",
+      "width": 390,
+      "kind": "text160-keyboard",
+      "focus": [
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 628.921875
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 498.375,
+          "bottom": 608.375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 501.375,
+          "bottom": 611.375,
+          "limit": 628.921875
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 498.375,
+          "bottom": 608.375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 501.375,
+          "bottom": 611.375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 537.375,
+          "bottom": 611.375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 567.625,
+          "bottom": 611.625,
+          "limit": 628.921875
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -8460,
+          "bottom": 924.65625,
+          "limit": 628.921875
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 628.921875
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 501.375,
+          "bottom": 611.375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 501.375,
+          "bottom": 611.375,
+          "limit": 628.921875
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 498.375,
+          "bottom": 608.375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 501.375,
+          "bottom": 611.375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 534.375,
+          "bottom": 608.375,
+          "limit": 628.921875
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 567.625,
+          "bottom": 611.625,
+          "limit": 628.921875
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -8464,
+          "bottom": 920.65625,
+          "limit": 628.921875
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 628.921875
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 775.6875,
+          "bottom": 830,
+          "limit": 628.921875
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 498.375,
+          "bottom": 608.375,
+          "limit": 628.921875
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "exceptions": [],
+  "consoleWarnings": [],
+  "limitations": [
+    "home-320: default Windows WebKit Tab/Alt+Tab skips anchors; programmatic link focus used to check Enter activation, not sequential link navigation",
+    "home-390: default Windows WebKit Tab/Alt+Tab skips anchors; programmatic link focus used to check Enter activation, not sequential link navigation",
+    "journal-320: default Windows WebKit Tab/Alt+Tab skips anchors; programmatic link focus used to check Enter activation, not sequential link navigation",
+    "journal-390: default Windows WebKit Tab/Alt+Tab skips anchors; programmatic link focus used to check Enter activation, not sequential link navigation"
+  ],
+  "external": [],
+  "analytics": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    }
+  ],
+  "axe": []
+}

@@ -1,5 +1,15 @@
 # CatchID website — project continuity
 
+## CRO-10 — keyboard focus contrast, 20 November 2026
+
+**IMPLEMENTED / REVIEW CANDIDATE / NOT LIVE.** Isolated `codex/cid-web-cro-10-focus-contrast` starts from audited `68661d45ab5795d3b904b058d4ad71a9f04ad96d` (approved CRO-08 implementation `94a4f5ed343b70e7f992556acb1a037158ebb9c4`). Only production `src/styles/global.css` changes: teal focus on light surfaces, retained gold on solid dark surfaces, pale desktop homepage navigation focus over the photograph, and focus-only offsets to avoid clipping/caption intersections. Unfocused content/layout/assets, consent, attribution, dependencies and deployment are preserved. [Handover](docs/CID-WEB-CRO-10/HANDOVER.md), [before/after gallery](docs/CID-WEB-CRO-10/index.html), [QA](docs/CID-WEB-CRO-10/QA.md), [sceptical self-review](docs/CID-WEB-CRO-10/REVIEW.md).
+
+Journal sage improves from 2.661:1 to 5.027:1; FAQ paper 2.995:1 to 5.658:1. All 2,112 computed focus states pass; 28 real painted-background checks pass with minimum 3.671:1, including 7.479:1 over the enlarged tablet header photo. Three-engine responsive/interaction evidence passes with 18 zero-violation axe scans. Install/check/build pass, exactly two pages; plain Windows verify still fails solely on known CRLF comparison, unchanged normalisation wrapper passes. The final unfocused comparison is 15/16 pixel-identical; the remaining rotated SVG raster difference is documented, with identical geometry, source assets and non-style HTML. No exact-pixel-all-cases claim or whole-site accessibility certification is made.
+
+**Privacy-policy gate CLOSED — OWNER-CONFIRMED LIVE:** Pete explicitly confirms the separate advertising correction is publicly visible in the CRO-10 instruction. No privacy repository changes were made here; the older CRO-09 finding below is historical. Focus contrast is resolved for the tested implementation candidate, not a live website release. Historical rights/fidelity and final image-use acceptance, actual Safari/physical devices/spoken screen reader/native zoom, unpublished Linux preflight, Play evidence qualification and Pete's separate publication approval remain independent. Android main is unchanged; an [unapplied documentation proposal](docs/CID-WEB-CRO-10/ANDROID_CONTINUITY_PROPOSED.md) is supplied.
+
+**One recommended next action:** Pete and ChatGPT review and accept the CRO-10 correction while retaining the separate publication gates.
+
 ## CRO-09 — final readiness audit, 20 November 2026
 
 **AUDITED / NO-GO / NOT LIVE.** Pete and ChatGPT have approved CRO-08's visual design and implementation `94a4f5ed343b70e7f992556acb1a037158ebb9c4`. Isolated audit branch `codex/cid-web-cro-09-readiness` changes only audit evidence and this continuity record. All 615 protected baseline files and all 48 generated output files remain unchanged. [Readiness verdict/gates](docs/CID-WEB-CRO-09/READINESS_REPORT.md), [offline evidence index](docs/CID-WEB-CRO-09/index.html), [QA/remote receipt](docs/CID-WEB-CRO-09/QA.md).

@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-20T16:51:34.639Z",
+  "pages": {
+    "build_type": "workflow",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    }
+  },
+  "workflow": [
+    {
+      "id": 351092057,
+      "name": "Deploy to GitHub Pages",
+      "path": ".github/workflows/deploy.yml"
+    }
+  ],
+  "runs": {
+    "total": 9,
+    "latest": {
+      "id": 42503395484,
+      "head_sha": "42c997c13712a432c8e2384915aaa010a16d068b",
+      "updated_at": "2026-11-08T17:08:32Z"
+    }
+  },
+  "allowedPush": "codex/cid-web-cro-10-focus-contrast",
+  "workflowTriggers": [
+    "push: main",
+    "workflow_dispatch"
+  ],
+  "publicationNotAuthorised": true
+}

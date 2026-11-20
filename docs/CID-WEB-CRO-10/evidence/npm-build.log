@@ -1,0 +1,62 @@
+
+> catchid-web@1.0.0 build
+> astro build
+
+16:42:03 [types] Generated 58ms
+16:42:03 [build] output: "static"
+16:42:03 [build] mode: "static"
+16:42:03 [build] directory: C:\Users\chen2\Documents\ChatGPT\CatchID\cid-web-cro-10\dist\
+16:42:03 [build] Collecting build info...
+16:42:03 [build] ✓ Completed in 85ms.
+16:42:03 [build] Building static entrypoints...
+16:42:03 [vite] ✓ built in 194ms
+16:42:03 [vite] ✓ built in 15ms
+16:42:03 [build] Rearranging server assets...
+
+ generating static routes
+16:42:03   ├─ /fishing-journal-app/index.html (+17ms)
+16:42:03   ├─ /robots.txt (+3ms)
+16:42:03   ├─ /sitemap.xml (+2ms)
+16:42:03   ├─ /index.html (+7ms)
+16:42:03 ✓ Completed in 40ms.
+
+ generating optimized images
+16:42:03   ▶ /_astro/journal.BXx_c0T3_1dla5x.webp (reused cache entry) (+3ms) (1/34)
+16:42:03   ▶ /_astro/catchid-icon.CDgxPLyC_Z9VQHn.png (reused cache entry) (+3ms) (2/34)
+16:42:03   ▶ /_astro/personal-records.FMzRFCFP_DXVGt.webp (reused cache entry) (+3ms) (3/34)
+16:42:03   ▶ /_astro/home-1.2.12.C6mDn6gx_1AJTyT.webp (reused cache entry) (+5ms) (4/34)
+16:42:03   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp (reused cache entry) (+5ms) (5/34)
+16:42:03   ▶ /_astro/insights-overview.DpZraCKL_ZqtixD.webp (reused cache entry) (+5ms) (6/34)
+16:42:03   ▶ /_astro/identify.DwSz2tOT_ZhwjW6.webp (reused cache entry) (+6ms) (7/34)
+16:42:03   ▶ /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1gYU0O.webp (reused cache entry) (+6ms) (8/34)
+16:42:03   ▶ /_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_o8szK.webp (reused cache entry) (+7ms) (9/34)
+16:42:03   ▶ /_astro/catchid-icon.CDgxPLyC_16wfwd.webp (reused cache entry) (+4ms) (10/34)
+16:42:03   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2awlcP.webp (reused cache entry) (+2ms) (11/34)
+16:42:03   ▶ /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp (reused cache entry) (+1ms) (12/34)
+16:42:03   ▶ /_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp (reused cache entry) (+2ms) (13/34)
+16:42:03   ▶ /_astro/catchid-icon.CDgxPLyC_13nBPw.webp (reused cache entry) (+1ms) (14/34)
+16:42:03   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp (reused cache entry) (+2ms) (15/34)
+16:42:03   ▶ /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1aRrhW.webp (reused cache entry) (+1ms) (16/34)
+16:42:03   ▶ /_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_4bUCF.webp (reused cache entry) (+1ms) (17/34)
+16:42:03   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp (reused cache entry) (+1ms) (18/34)
+16:42:03   ▶ /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp (reused cache entry) (+2ms) (19/34)
+16:42:03   ▶ /_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_2krz87.webp (reused cache entry) (+2ms) (20/34)
+16:42:03   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp (reused cache entry) (+2ms) (21/34)
+16:42:03   ▶ /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z26008I.png (reused cache entry) (+1ms) (22/34)
+16:42:03   ▶ /_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_Z2oAI5R.png (reused cache entry) (+2ms) (23/34)
+16:42:03   ▶ /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1uQSta.png (reused cache entry) (+2ms) (24/34)
+16:42:03   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_T0xok.jpg (reused cache entry) (+2ms) (25/34)
+16:42:03   ▶ /_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_Z4dcyh.png (reused cache entry) (+2ms) (26/34)
+16:42:03   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1WQH50.jpg (reused cache entry) (+1ms) (27/34)
+16:42:03   ▶ /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1N6cb8.png (reused cache entry) (+2ms) (28/34)
+16:42:03   ▶ /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z4uSOc.png (reused cache entry) (+1ms) (29/34)
+16:42:03   ▶ /_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_ZfnxAK.png (reused cache entry) (+2ms) (30/34)
+16:42:03   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2vXFkg.jpg (reused cache entry) (+2ms) (31/34)
+16:42:03   ▶ /_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_Z2wn8na.png (reused cache entry) (+1ms) (32/34)
+16:42:03   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1V0uEo.jpg (reused cache entry) (+2ms) (33/34)
+16:42:03   ▶ /_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2av7Tc.jpg (reused cache entry) (+1ms) (34/34)
+16:42:03 ✓ Completed in 22ms.
+
+16:42:03 [build] ✓ Completed in 371ms.
+16:42:03 [build] 2 page(s) built in 462ms
+16:42:03 [build] Complete!

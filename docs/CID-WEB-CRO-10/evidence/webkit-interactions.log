@@ -1,0 +1,12 @@
+{
+  "engine": "webkit",
+  "version": "27.2",
+  "mode": "interactions",
+  "cases": 20,
+  "axeScans": 0,
+  "violations": [],
+  "failures": [],
+  "exceptions": [],
+  "external": [],
+  "analytics": 6
+}

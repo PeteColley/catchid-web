@@ -1,0 +1,478 @@
+{
+  "utc": "2026-11-20T16:50:46.722Z",
+  "baseline": "68661d45ab5795d3b904b058d4ad71a9f04ad96d",
+  "changedTrackedFiles": [
+    "PROJECT_STATUS.md",
+    "src/styles/global.css"
+  ],
+  "productionChangeOnlyCSS": true,
+  "nonCssSource": [
+    {
+      "path": ".github/workflows/deploy.yml",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "public/CNAME",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "public/app-ads.txt",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "public/assets/google-play-badge.svg",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "public/assets/river-lines.svg",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "scripts/verify-analytics.mjs",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "scripts/verify-dependencies.mjs",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/assets/catchid-icon.png",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/assets/fishing-locations.jpg",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/assets/hero/photo-1-patagonia-savage-37096316.jpg",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/assets/home-1.2.12.png",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/assets/identify.jpg",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/assets/insights-overview.jpg",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/assets/insights.jpg",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/assets/journal.jpg",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/assets/personal-records.jpg",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/assets/review-only/trout-concept-reference.png",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/CapturedScreen.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/Download.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/FAQ.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/HeroPhoto.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/Identification.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/Insights.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/JournalStory.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/ManualEntry.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/PlayLink.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/ProductCrop.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/ProductScreenshot.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/SiteFooter.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/SiteHeader.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/SiteInteractions.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/Trust.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/components/WebAnalyticsConsent.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/config.ts",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/layouts/SiteLayout.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/pages/fishing-journal-app.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/pages/index.astro",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/pages/robots.txt.ts",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/pages/sitemap.xml.ts",
+      "workingBytesEqualBaseline": true
+    },
+    {
+      "path": "src/product-assets.ts",
+      "workingBytesEqualBaseline": true
+    }
+  ],
+  "built": [
+    {
+      "page": "index.html",
+      "allNonStyleHTMLBytesEqual": true,
+      "scriptCount": 2
+    },
+    {
+      "page": "fishing-journal-app/index.html",
+      "allNonStyleHTMLBytesEqual": true,
+      "scriptCount": 2
+    }
+  ],
+  "generated": [
+    {
+      "path": "dist/app-ads.txt",
+      "bytes": 60,
+      "sha256": "1e0772af8d3581fecd01bc13bca085d431789bff6122cd89a9e8e2e3e2e668e9",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/assets/google-play-badge.svg",
+      "bytes": 5078,
+      "sha256": "4ffa4c7edd2f10b297ca4de2131eddaa00d03b2278d1e178fe512920d824ca34",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/assets/river-lines.svg",
+      "bytes": 401,
+      "sha256": "c0c5b71aa4e77fb9f487200de05f88b5600621557373ee616d61fffe40e84f73",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/CNAME",
+      "bytes": 13,
+      "sha256": "350a879c1d724ea8f505625c93e29bee09185171a3e6c9e15437e6a640e4f23c",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/fishing-journal-app/index.html",
+      "bytes": 19012,
+      "sha256": "2a6df3cbc9f40ea6bcb6bd6ca466f30d7808b3cc2384ee7b45f5c8aa05563d6e",
+      "baselineEqual": false
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 26389,
+      "sha256": "41116f73766ab0ac5a423da16e34d5de6292667ad244a19f21f8771e5601850e",
+      "baselineEqual": false
+    },
+    {
+      "path": "dist/robots.txt",
+      "bytes": 64,
+      "sha256": "360551b7e23c2d74edf3c637529e1675006ab9053659f03967c8be9d999bd7b7",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/sitemap.xml",
+      "bytes": 211,
+      "sha256": "8766b8303172b9a641cd7d7180841670027e3a35a897dc23c87a75bf61a6fb27",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_2krz87.webp",
+      "bytes": 59466,
+      "sha256": "b36991170a9008637fef79860e6940f9101a15bc8c41231b589395f64bcbaf1c",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_4bUCF.webp",
+      "bytes": 38656,
+      "sha256": "d98d2f850b7160f7e326f56c45d11db881b5f9bbce94dffdb45307210e4f4871",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+      "bytes": 27386,
+      "sha256": "502ca98cb3e06a694bce3bc4948f432952e3d8d91a5a5661cad34737cf497a53",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_o8szK.webp",
+      "bytes": 16290,
+      "sha256": "5f1170a0f6ad6a7661a4ed553fa6369f524a7db2fdcdb10857f9407d30242698",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_Z2oAI5R.png",
+      "bytes": 15299,
+      "sha256": "8aa407fc86ade3cf6d8a2711ba4e7e0bc2949f6666aa8406db45e0158d006b56",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_Z2wn8na.png",
+      "bytes": 35376,
+      "sha256": "5d519db089f0613d26bed606d505e451c243281d07aa2fb8819e003ab8a87aba",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_Z4dcyh.png",
+      "bytes": 24101,
+      "sha256": "a8c28a8d9fe397dec6dc7a4bca0bb69f0967fed6fb141a1f321a5c47b6469d7d",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_ZfnxAK.png",
+      "bytes": 33940,
+      "sha256": "c99da8fef42c2068c98b5629134b367a1b9f5056a4ff5341bde572dbef082a73",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+      "bytes": 608,
+      "sha256": "0ca86da8fb71f3b71cd0e3259800562d36248f980cb40c421837b1ba17512824",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+      "bytes": 826,
+      "sha256": "4c02f829744c74df501481dfd88b3c47abdbb57dbb4cb3e824c55c2cadef3683",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+      "bytes": 5737,
+      "sha256": "7372b039d41a5d88c45a23614ebb90613b73dbb88bc54f49169e781703221b20",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/FAQ.B4iCblLi.css",
+      "bytes": 26874,
+      "sha256": "806aaf366b8e4e1e01c36c4f722ddc2f8a62e65669b0e77cc3604dfbe76ffcf4",
+      "baselineEqual": false
+    },
+    {
+      "path": "dist/_astro/home-1.2.12.C6mDn6gx.png",
+      "bytes": 283458,
+      "sha256": "7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/home-1.2.12.C6mDn6gx_1AJTyT.webp",
+      "bytes": 104952,
+      "sha256": "a8e720fd2525ca6fac9eb3df023ade561159668eaaee6c9122e7c472cdd2d853",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/identify.DwSz2tOT.jpg",
+      "bytes": 497255,
+      "sha256": "53a372f4d20e15dcd722544b89c436c7ce251ede0323aef153ea4bc7245d75c0",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+      "bytes": 289070,
+      "sha256": "1bd70c952c5b0238769ab6dbf7140a92f72086e9d3365ad7a9df760e2c600321",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/insights-overview.DpZraCKL.jpg",
+      "bytes": 104186,
+      "sha256": "ac2884c9fa34510b257c2fbcdc40b2eac50316925d89c837a7d4e7707e09ee36",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/insights-overview.DpZraCKL_ZqtixD.webp",
+      "bytes": 82300,
+      "sha256": "5494238b62615b60987c6fd276e273787afe51dbb26324ae9a5c110e8025631c",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/journal.BXx_c0T3.jpg",
+      "bytes": 317462,
+      "sha256": "088899d963d12973db1032df2fd4605cc08c708305b3885702a3e9717cb4bbd9",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/journal.BXx_c0T3_1dla5x.webp",
+      "bytes": 147492,
+      "sha256": "eed579101801d9766d7bc42cefd344d1335fc78551201d382afa7bf4f21c230d",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/personal-records.FMzRFCFP.jpg",
+      "bytes": 118736,
+      "sha256": "4b20cd52cbd4a65718e35f13ac5b2764ece429e64bd92ca8829439a1bb03669c",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+      "bytes": 105280,
+      "sha256": "4fbd3631ea3d3396b4daac57e0610b45e34e1321601cabe0b21c420c11b3011a",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1V0uEo.jpg",
+      "bytes": 282475,
+      "sha256": "282b89a21cb4824f54946d79368aa9c330138e65b06c5cee0abbf11082fff99d",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp",
+      "bytes": 186714,
+      "sha256": "afe713ece9887e0ad35a651df55091253b716dc809f502d7490cd185cda27efe",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2awlcP.webp",
+      "bytes": 60632,
+      "sha256": "a5837f345776dc5d38b1c6c56c8ac752672288e2e5b81fa14172d004d8b0223c",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp",
+      "bytes": 328818,
+      "sha256": "c0441d397bb46a6c75f3457cdd483f2764560abe3c22e9dcc585445042ef1136",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2vXFkg.jpg",
+      "bytes": 134422,
+      "sha256": "6498c9282e796947ffbbf66b77394477cb2d8a7400fccd5f43ddb6fa5e1f9419",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_T0xok.jpg",
+      "bytes": 42249,
+      "sha256": "d564e228531ddb639b3d45126e23dfa9ab0f51ed2f9000dd286ece8d59492368",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+      "bytes": 92718,
+      "sha256": "1d6ea6b92ae8c7c92c3eff8b17c128ead524913fe8632a2adf84a42231e2c491",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1WQH50.jpg",
+      "bytes": 83725,
+      "sha256": "12bd630b0162273186182d2a4be85594f6cb08b1ff086debc02364d76702bf61",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2av7Tc.jpg",
+      "bytes": 505846,
+      "sha256": "374647f37a2012c6ec1e8a27f900f0a71b9633cc0b3fb30fb4cb95a81cefa0ec",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+      "bytes": 32732,
+      "sha256": "32858dc97f6b4097b0356e30ba0d74f1411dfea1c6368d4aeebb681b7a7e674f",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1aRrhW.webp",
+      "bytes": 59416,
+      "sha256": "d3e54c06a095bafc1b337076fa349626bebb367aa3de58f4c588500d28c47746",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1gYU0O.webp",
+      "bytes": 25654,
+      "sha256": "dc129f973bcdd60c3ea00aa5127ef8c17d0a81e6b225871cabaf8e921020fc4c",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+      "bytes": 41704,
+      "sha256": "4fa2fcf6c34315ad4206accb0f114efd77973330dbb28e84035aef197f5463a3",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+      "bytes": 92092,
+      "sha256": "aafe197f0df0b8bf4d7164f84c9ca3901f8074c41c619221541c14c50e23f043",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1N6cb8.png",
+      "bytes": 55873,
+      "sha256": "74d0c2ea770680908a71b29cca0cf4c98c28703a209d0189b7253ff45c32a803",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1uQSta.png",
+      "bytes": 37659,
+      "sha256": "1170e3d09dcb196ea16c6c146a626a8371d8b1f4faf84641fdb843d0cde11e14",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z26008I.png",
+      "bytes": 23549,
+      "sha256": "746d011af6556c5bb683c22276c3f62c6f8a1932073f31f63871bbdddddbcfc6",
+      "baselineEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z4uSOc.png",
+      "bytes": 53951,
+      "sha256": "660194fbb96c9696f0dc952383a43fbee0dc5a6c5476310e247bafc4f9d0e653",
+      "baselineEqual": true
+    }
+  ],
+  "packageLockUnchanged": true
+}

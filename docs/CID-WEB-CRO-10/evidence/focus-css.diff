@@ -1,0 +1,27 @@
+diff --git a/src/styles/global.css b/src/styles/global.css
+index 0cf3efe..8c5ed2c 100644
+--- a/src/styles/global.css
++++ b/src/styles/global.css
+@@ -10,0 +11 @@
++  --focus-ring:var(--teal);
+@@ -52,0 +54,6 @@ button {
++/* Keep focus distinct on light surfaces and retain gold on dark surfaces. */
++.hero-shell,.insights-section,.final-invite,.mobile-menu nav,.home-page .skip {
++  --focus-ring:#c57e23
++}
++/* Desktop navigation can cross the photograph when text is enlarged. */
++.hero-shell .site-header>nav { --focus-ring:var(--paper); }
+@@ -54 +61 @@ button:focus-visible,a:focus-visible,summary:focus-visible {
+-  outline:3px solid #c57e23;
++  outline:3px solid var(--focus-ring);
+@@ -56,0 +64,2 @@ button:focus-visible,a:focus-visible,summary:focus-visible {
++/* Keep the indicator clear of the badge caption and viewport edge. */
++.play-badge:focus-visible { outline-offset:1px; }
+@@ -1870,0 +1880 @@ h1,h2,h3,p,dt,dd,summary,a,button {
++    --focus-ring:#c57e23;
+@@ -2135 +2145 @@ a.play-badge { text-decoration: none; }
+-#analytics-title:focus-visible { outline: 3px solid #c57e23; outline-offset: 4px; }
++#analytics-title:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 4px; }
+@@ -2136,0 +2147,2 @@ a.play-badge { text-decoration: none; }
++  /* Fit the complete focus ring inside the mobile viewport without moving controls. */
++  button:focus-visible,a:focus-visible,summary:focus-visible { outline-offset: 4px; }

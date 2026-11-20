@@ -1,0 +1,407 @@
+{
+  "utc": "2026-11-20T16:47:38.724Z",
+  "method": "Same loaded browser DOM and image bitmap; actual baseline built CSS then actual candidate built CSS, decoded images/fonts and two settled frames. Non-style HTML equality independently proved in scope.json. Native PNG bytes and decoded RGBA pixels compared; no screenshot editing.",
+  "beforeCss": "FAQ.DEeiV-5d.css",
+  "afterCss": "FAQ.B4iCblLi.css",
+  "results": [
+    {
+      "id": "home-320-first",
+      "route": "/",
+      "width": 320,
+      "saved": false,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 215,
+      "computedDifferences": [],
+      "beforeSha256": "db92c39dd7d5d774ef450e5ddf9a59c22109fe8fed52d2a94abe2f647894593c",
+      "afterSha256": "db92c39dd7d5d774ef450e5ddf9a59c22109fe8fed52d2a94abe2f647894593c",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "home-320-saved",
+      "route": "/",
+      "width": 320,
+      "saved": true,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 215,
+      "computedDifferences": [],
+      "beforeSha256": "8128c50768a3b989cf52fd445b1f2cba6b268048d262e6613a20bb6c06e7bfee",
+      "afterSha256": "8128c50768a3b989cf52fd445b1f2cba6b268048d262e6613a20bb6c06e7bfee",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "home-390-first",
+      "route": "/",
+      "width": 390,
+      "saved": false,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 215,
+      "computedDifferences": [],
+      "beforeSha256": "51a2f83fb43db9c8b92732700be62fa2ebfd7a8d4a8ffefe09fe0057467a1bf6",
+      "afterSha256": "51a2f83fb43db9c8b92732700be62fa2ebfd7a8d4a8ffefe09fe0057467a1bf6",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "home-390-saved",
+      "route": "/",
+      "width": 390,
+      "saved": true,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 215,
+      "computedDifferences": [
+        {
+          "index": 89,
+          "tag": "DIV",
+          "class": "wrap journal-layout",
+          "geometryEqual": true,
+          "properties": [
+            "margin-inline-end",
+            "margin-inline-start",
+            "margin-left",
+            "margin-right"
+          ]
+        }
+      ],
+      "beforeSha256": "d0f51b809599f6e2775e949c178d7faa1f89c75dbbbbea7aa18d6228d809ca0d",
+      "afterSha256": "d0f51b809599f6e2775e949c178d7faa1f89c75dbbbbea7aa18d6228d809ca0d",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "home-768-first",
+      "route": "/",
+      "width": 768,
+      "saved": false,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 215,
+      "computedDifferences": [],
+      "beforeSha256": "cde2e70452968bb7a17a513f7db0a9dddb83e8ffd833e9db67b8a5e690807494",
+      "afterSha256": "cde2e70452968bb7a17a513f7db0a9dddb83e8ffd833e9db67b8a5e690807494",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "home-768-saved",
+      "route": "/",
+      "width": 768,
+      "saved": true,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 215,
+      "computedDifferences": [],
+      "beforeSha256": "a02749ca73e40d612ccd739f376c6bdc42da1680c3dfe1e211330a7675e4fe0b",
+      "afterSha256": "a02749ca73e40d612ccd739f376c6bdc42da1680c3dfe1e211330a7675e4fe0b",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "home-1440-first",
+      "route": "/",
+      "width": 1440,
+      "saved": false,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 215,
+      "computedDifferences": [],
+      "beforeSha256": "09673d546b293310419909fad166ecf28d412f70708706783651509d500c4307",
+      "afterSha256": "09673d546b293310419909fad166ecf28d412f70708706783651509d500c4307",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "home-1440-saved",
+      "route": "/",
+      "width": 1440,
+      "saved": true,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 215,
+      "computedDifferences": [
+        {
+          "index": 89,
+          "tag": "DIV",
+          "class": "wrap journal-layout",
+          "geometryEqual": true,
+          "properties": [
+            "margin-inline-end",
+            "margin-inline-start",
+            "margin-left",
+            "margin-right"
+          ]
+        }
+      ],
+      "beforeSha256": "baca07e1e270c1b2280a1262958aaff2fcc79157ae8ad7f05b707acff08c3744",
+      "afterSha256": "baca07e1e270c1b2280a1262958aaff2fcc79157ae8ad7f05b707acff08c3744",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "journal-320-first",
+      "route": "/fishing-journal-app/",
+      "width": 320,
+      "saved": false,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 185,
+      "computedDifferences": [],
+      "beforeSha256": "6f56436d0f6bac2a804113ba2940a9c4852d0907092404156a081c15739b2df0",
+      "afterSha256": "8b645b44030fcd093c432d40cccbf66ff574b23d015e411d8aa3bada4e767588",
+      "identical": false,
+      "changedPixels": 16689,
+      "bounds": {
+        "minX": 42,
+        "minY": 442,
+        "maxX": 255,
+        "maxY": 703
+      }
+    },
+    {
+      "id": "journal-320-saved",
+      "route": "/fishing-journal-app/",
+      "width": 320,
+      "saved": true,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 185,
+      "computedDifferences": [],
+      "beforeSha256": "e7d2f3f6912f572a9cc7fc6e701d2a27c96fc7a405a410e5e6a3b038c476fbe2",
+      "afterSha256": "e7d2f3f6912f572a9cc7fc6e701d2a27c96fc7a405a410e5e6a3b038c476fbe2",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "journal-390-first",
+      "route": "/fishing-journal-app/",
+      "width": 390,
+      "saved": false,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 185,
+      "computedDifferences": [],
+      "beforeSha256": "1ce1338b7fd7f8b4e7088cf9eaf43a94a8ced8b7e360cdd2f5f1f83a667084d8",
+      "afterSha256": "1ce1338b7fd7f8b4e7088cf9eaf43a94a8ced8b7e360cdd2f5f1f83a667084d8",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "journal-390-saved",
+      "route": "/fishing-journal-app/",
+      "width": 390,
+      "saved": true,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 185,
+      "computedDifferences": [],
+      "beforeSha256": "a9ab100d350306cf84674e0046d53c1fbc1d1b55f57ac849202c2b30efa2cbcc",
+      "afterSha256": "a9ab100d350306cf84674e0046d53c1fbc1d1b55f57ac849202c2b30efa2cbcc",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "journal-768-first",
+      "route": "/fishing-journal-app/",
+      "width": 768,
+      "saved": false,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 185,
+      "computedDifferences": [],
+      "beforeSha256": "f7cee2861690612b841ca8bfb6b24d0f831808e34925c54a5220d25b1736a77c",
+      "afterSha256": "f7cee2861690612b841ca8bfb6b24d0f831808e34925c54a5220d25b1736a77c",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "journal-768-saved",
+      "route": "/fishing-journal-app/",
+      "width": 768,
+      "saved": true,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 185,
+      "computedDifferences": [],
+      "beforeSha256": "31261e9a4ea7944023a780d6296e07f89b404a5179b82211e0f9bffb6c41bcb5",
+      "afterSha256": "31261e9a4ea7944023a780d6296e07f89b404a5179b82211e0f9bffb6c41bcb5",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "journal-1440-first",
+      "route": "/fishing-journal-app/",
+      "width": 1440,
+      "saved": false,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 185,
+      "computedDifferences": [],
+      "beforeSha256": "72e2c0a7ef5839f4ba075c1517ae4d54b26754ebcbc7c1c44711f9558c0c9af6",
+      "afterSha256": "72e2c0a7ef5839f4ba075c1517ae4d54b26754ebcbc7c1c44711f9558c0c9af6",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    },
+    {
+      "id": "journal-1440-saved",
+      "route": "/fishing-journal-app/",
+      "width": 1440,
+      "saved": true,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 185,
+      "computedDifferences": [],
+      "beforeSha256": "3bb6c973eb742d28a6697b8bca8356b24ce9147f5aea1fabd1db11207675967b",
+      "afterSha256": "3bb6c973eb742d28a6697b8bca8356b24ce9147f5aea1fabd1db11207675967b",
+      "identical": true,
+      "changedPixels": 0,
+      "bounds": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "engine": "firefox",
+  "version": "159.0",
+  "mode": "matrix",
+  "cases": 32,
+  "axeScans": 6,
+  "violations": [
+    {
+      "id": "home-320-first-text1",
+      "rules": []
+    },
+    {
+      "id": "home-768-first-text1",
+      "rules": []
+    },
+    {
+      "id": "home-1440-first-text1",
+      "rules": []
+    },
+    {
+      "id": "journal-320-first-text1",
+      "rules": []
+    },
+    {
+      "id": "journal-768-first-text1",
+      "rules": []
+    },
+    {
+      "id": "journal-1440-first-text1",
+      "rules": []
+    }
+  ],
+  "failures": [],
+  "exceptions": [],
+  "external": [],
+  "analytics": 0
+}

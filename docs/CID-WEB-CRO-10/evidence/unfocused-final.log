@@ -1,0 +1,34 @@
+{
+  "cases": 16,
+  "identical": 15,
+  "failures": [
+    {
+      "id": "journal-320-first",
+      "route": "/fishing-journal-app/",
+      "width": 320,
+      "saved": false,
+      "focus": [
+        {
+          "active": "BODY",
+          "visible": 0
+        },
+        {
+          "active": "BODY",
+          "visible": 0
+        }
+      ],
+      "computedNodes": 185,
+      "computedDifferences": [],
+      "beforeSha256": "6f56436d0f6bac2a804113ba2940a9c4852d0907092404156a081c15739b2df0",
+      "afterSha256": "8b645b44030fcd093c432d40cccbf66ff574b23d015e411d8aa3bada4e767588",
+      "identical": false,
+      "changedPixels": 16689,
+      "bounds": {
+        "minX": 42,
+        "minY": 442,
+        "maxX": 255,
+        "maxY": 703
+      }
+    }
+  ]
+}

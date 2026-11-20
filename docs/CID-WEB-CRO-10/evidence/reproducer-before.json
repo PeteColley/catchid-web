@@ -1,0 +1,44 @@
+{
+  "utc": "2026-11-20T16:32:53.326Z",
+  "engine": "157.0.8103.79",
+  "method": "Actual computed author focus styling; keyboard modality then focused representative controls; no source edits",
+  "result": [
+    {
+      "label": "Explore the fishing journal ↗",
+      "focusVisible": true,
+      "outline": "rgb(197, 126, 35) solid 3px",
+      "offset": "6px",
+      "backgrounds": [
+        {
+          "tag": "SECTION",
+          "class": "journal-section",
+          "color": "rgb(227, 233, 223)"
+        },
+        {
+          "tag": "BODY",
+          "class": "home-page",
+          "color": "rgb(247, 244, 237)"
+        }
+      ],
+      "contrast": 2.6614682302078863,
+      "required": 3,
+      "pass": false
+    },
+    {
+      "label": "Can I log a catch without a photo?",
+      "focusVisible": true,
+      "outline": "rgb(197, 126, 35) solid 3px",
+      "offset": "6px",
+      "backgrounds": [
+        {
+          "tag": "BODY",
+          "class": "home-page",
+          "color": "rgb(247, 244, 237)"
+        }
+      ],
+      "contrast": 2.995294264691522,
+      "required": 3,
+      "pass": false
+    }
+  ]
+}

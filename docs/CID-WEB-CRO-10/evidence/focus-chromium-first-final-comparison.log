@@ -1,0 +1,13 @@
+{
+  "engine": "chromium",
+  "version": "157.0.8103.79",
+  "measurements": 704,
+  "minimumContrast": 4.382297374400614,
+  "failures": [
+    "/fishing-journal-app/ 320 true unfocused pixels changed",
+    "/fishing-journal-app/ 1440 true unfocused pixels changed"
+  ],
+  "errors": [],
+  "external": [],
+  "unfocused": 16
+}

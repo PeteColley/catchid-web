@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-20T16:50:46.408Z",
+  "focusMeasurements": 2112,
+  "focusAssertionsPass": true,
+  "computedPairs": [
+    {
+      "outline": "rgb(197, 126, 35)",
+      "background": "rgb(7, 28, 42)",
+      "contrast": 5.2811829186934505
+    },
+    {
+      "outline": "rgb(197, 126, 35)",
+      "background": "rgb(16, 45, 57)",
+      "contrast": 4.382297374400614
+    },
+    {
+      "outline": "rgb(0, 108, 112)",
+      "background": "rgb(227, 233, 223)",
+      "contrast": 5.0273188954388255
+    },
+    {
+      "outline": "rgb(0, 108, 112)",
+      "background": "rgb(247, 244, 237)",
+      "contrast": 5.657891867116908
+    },
+    {
+      "outline": "rgb(247, 244, 237)",
+      "background": "rgb(7, 28, 42)",
+      "contrast": 15.818696907149324
+    },
+    {
+      "outline": "rgb(0, 108, 112)",
+      "background": "rgb(238, 234, 224)",
+      "contrast": 5.1734075889899405
+    }
+  ],
+  "paintedCases": 28,
+  "paintedMinimum": 3.6707326307198516,
+  "paintedPass": true,
+  "unfocusedPixelIdentical": 15,
+  "unfocusedTotal": 16,
+  "unfocusedGeometryIdentical": true
+}

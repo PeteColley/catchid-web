@@ -1,0 +1,70 @@
+{
+  "utc": "2026-11-20T16:45:20.116Z",
+  "worktrees": [
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/catchid-web",
+      "head": "42c997c13712a432c8e2384915aaa010a16d068b",
+      "status": "!! .astro/\n!! .npm-cache/\n!! dist/\n!! node_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-app-ads-01",
+      "head": "42c997c13712a432c8e2384915aaa010a16d068b",
+      "status": "!! .astro/\n!! .npm-cache/\n!! dist/\n!! node_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-01",
+      "head": "9fbef55613daded6e0d1c23bc616d8a91dca9f52",
+      "status": "!! .astro/\n!! .npm-cache/\n!! dist/\n!! node_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-02",
+      "head": "1095c41927f2f5eabd6e0ac1996325d780009530",
+      "status": "!! .astro/\n!! .npm-cache/\n!! dist/\n!! node_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-03",
+      "head": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+      "status": "!! .astro/\n!! .npm-cache/\n!! dist/\n!! node_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-04",
+      "head": "651ae58f39a8c2530fb600b35e91455c644351e8",
+      "status": "!! .astro/\n!! .npm-cache/\n!! dist/\n!! node_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-05",
+      "head": "e5ccb55f338cd954d38c11b992f0bc48ac0d8a39",
+      "status": "!! .astro/\n!! .npm-cache/\n!! dist/\n!! node_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-06",
+      "head": "8d0731f361b94a81523bfe07f528b7fdb365ccb4",
+      "status": "!! .astro/\n!! .npm-cache/\n!! dist/\n!! node_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-07",
+      "head": "aa818647e3acd7537e92774fb7b2f437388aa7ce",
+      "status": ""
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-08",
+      "head": "94a4f5ed343b70e7f992556acb1a037158ebb9c4",
+      "status": "!! .astro/\n!! .npm-cache/\n!! dist/\n!! node_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-09",
+      "head": "68661d45ab5795d3b904b058d4ad71a9f04ad96d",
+      "status": "!! .astro/\n!! dist/\n!! node_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-10",
+      "head": "68661d45ab5795d3b904b058d4ad71a9f04ad96d",
+      "status": "M src/styles/global.css\n?? docs/CID-WEB-CRO-10/\n!! .astro/\n!! dist/\n!! node_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-deps-01",
+      "head": "341fdc09608c4e38984770e375e0991c2dfe0286",
+      "status": "!! .astro/\n!! .npm-cache/\n!! dist/\n!! node_modules/"
+    }
+  ]
+}

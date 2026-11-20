@@ -1,0 +1,622 @@
+{
+  "utc": "2026-11-20T16:41:53.032Z",
+  "method": "Actual rendered pixels beneath opaque straight portions of the focus outline, compared with the identical focused screenshot with only outline-color made transparent. Antialiased outline edge pixels excluded; no image editing or production-source changes.",
+  "results": [
+    {
+      "width": 320,
+      "text": 1,
+      "selector": ".hero-copy .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 1950,
+      "minimumContrast": 5.2811829186934505,
+      "worst": {
+        "x": 1,
+        "y": 302,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 320,
+      "text": 1,
+      "selector": ".final-invite .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 1956,
+      "minimumContrast": 3.8717472278445566,
+      "worst": {
+        "x": 201,
+        "y": 608,
+        "background": [
+          18,
+          55,
+          65
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 320,
+      "text": 1.6,
+      "selector": ".hero-copy .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 1950,
+      "minimumContrast": 5.2811829186934505,
+      "worst": {
+        "x": 1,
+        "y": 468,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 320,
+      "text": 1.6,
+      "selector": ".final-invite .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 1950,
+      "minimumContrast": 3.8717472278445566,
+      "worst": {
+        "x": 156,
+        "y": 563,
+        "background": [
+          18,
+          55,
+          65
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 390,
+      "text": 1,
+      "selector": ".hero-copy .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 1956,
+      "minimumContrast": 5.2811829186934505,
+      "worst": {
+        "x": 1,
+        "y": 320,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 390,
+      "text": 1,
+      "selector": ".final-invite .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 1950,
+      "minimumContrast": 3.9274069609021596,
+      "worst": {
+        "x": 230,
+        "y": 693,
+        "background": [
+          18,
+          54,
+          63
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 390,
+      "text": 1.6,
+      "selector": ".hero-copy .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 1956,
+      "minimumContrast": 5.2811829186934505,
+      "worst": {
+        "x": 1,
+        "y": 467,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 390,
+      "text": 1.6,
+      "selector": ".final-invite .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 1950,
+      "minimumContrast": 3.8717472278445566,
+      "worst": {
+        "x": 226,
+        "y": 563,
+        "background": [
+          18,
+          55,
+          65
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "text": 1,
+      "selector": ".site-header>nav a:nth-child(1)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 954,
+      "minimumContrast": 15.818696907149324,
+      "worst": {
+        "x": 250,
+        "y": 17,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "text": 1,
+      "selector": ".site-header>nav a:nth-child(2)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 738,
+      "minimumContrast": 15.818696907149324,
+      "worst": {
+        "x": 367,
+        "y": 17,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "text": 1,
+      "selector": ".site-header>nav a:nth-child(3)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 756,
+      "minimumContrast": 15.12665631864184,
+      "worst": {
+        "x": 516,
+        "y": 39,
+        "background": [
+          10,
+          32,
+          49
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "text": 1,
+      "selector": ".hero-copy .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 2166,
+      "minimumContrast": 5.2811829186934505,
+      "worst": {
+        "x": 11,
+        "y": 473,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "text": 1,
+      "selector": ".final-invite .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 2166,
+      "minimumContrast": 3.6707326307198516,
+      "worst": {
+        "x": 606,
+        "y": 586,
+        "background": [
+          20,
+          59,
+          68
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "text": 1.6,
+      "selector": ".site-header>nav a:nth-child(1)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 1260,
+      "minimumContrast": 15.818696907149324,
+      "worst": {
+        "x": 249,
+        "y": 17,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "text": 1.6,
+      "selector": ".site-header>nav a:nth-child(2)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 918,
+      "minimumContrast": 15.12665631864184,
+      "worst": {
+        "x": 513,
+        "y": 17,
+        "background": [
+          10,
+          32,
+          49
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "text": 1.6,
+      "selector": ".site-header>nav a:nth-child(3)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 942,
+      "minimumContrast": 7.478998693769656,
+      "worst": {
+        "x": 628,
+        "y": 76,
+        "background": [
+          92,
+          76,
+          61
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "text": 1.6,
+      "selector": ".hero-copy .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 2160,
+      "minimumContrast": 5.2811829186934505,
+      "worst": {
+        "x": 11,
+        "y": 473,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "text": 1.6,
+      "selector": ".final-invite .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 2160,
+      "minimumContrast": 3.7142307084713893,
+      "worst": {
+        "x": 647,
+        "y": 578,
+        "background": [
+          20,
+          58,
+          68
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "text": 1,
+      "selector": ".site-header>nav a:nth-child(1)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 954,
+      "minimumContrast": 15.818696907149324,
+      "worst": {
+        "x": 586,
+        "y": 17,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "text": 1,
+      "selector": ".site-header>nav a:nth-child(2)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 738,
+      "minimumContrast": 15.818696907149324,
+      "worst": {
+        "x": 703,
+        "y": 17,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "text": 1,
+      "selector": ".site-header>nav a:nth-child(3)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 756,
+      "minimumContrast": 15.818696907149324,
+      "worst": {
+        "x": 784,
+        "y": 17,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "text": 1,
+      "selector": ".hero-copy .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 2160,
+      "minimumContrast": 5.2811829186934505,
+      "worst": {
+        "x": 59,
+        "y": 461,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "text": 1,
+      "selector": ".final-invite .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 2160,
+      "minimumContrast": 3.6707326307198516,
+      "worst": {
+        "x": 1207,
+        "y": 641,
+        "background": [
+          20,
+          59,
+          68
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "text": 1.6,
+      "selector": ".site-header>nav a:nth-child(1)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 1260,
+      "minimumContrast": 15.818696907149324,
+      "worst": {
+        "x": 530,
+        "y": 17,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "text": 1.6,
+      "selector": ".site-header>nav a:nth-child(2)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 918,
+      "minimumContrast": 15.818696907149324,
+      "worst": {
+        "x": 698,
+        "y": 17,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "text": 1.6,
+      "selector": ".site-header>nav a:nth-child(3)",
+      "outlineRGB": [
+        247,
+        244,
+        237
+      ],
+      "samples": 942,
+      "minimumContrast": 15.818696907149324,
+      "worst": {
+        "x": 809,
+        "y": 17,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "text": 1.6,
+      "selector": ".hero-copy .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 2166,
+      "minimumContrast": 5.2811829186934505,
+      "worst": {
+        "x": 59,
+        "y": 460,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "text": 1.6,
+      "selector": ".final-invite .play-badge",
+      "outlineRGB": [
+        197,
+        126,
+        35
+      ],
+      "samples": 2166,
+      "minimumContrast": 5.2811829186934505,
+      "worst": {
+        "x": 827,
+        "y": 468,
+        "background": [
+          7,
+          28,
+          42
+        ]
+      },
+      "pass": true
+    }
+  ]
+}

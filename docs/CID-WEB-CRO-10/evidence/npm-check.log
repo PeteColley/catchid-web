@@ -1,0 +1,49 @@
+
+> catchid-web@1.0.0 check
+> astro check
+
+16:41:39 [types] Generated 67ms
+16:41:39 [check] Getting diagnostics for Astro files in C:\Users\chen2\Documents\ChatGPT\CatchID\cid-web-cro-10...
+[96mdocs/CID-WEB-CRO-07/verify-recovery.mjs[0m:[93m30[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m30[0m const require=createRequire(path.join(reference,'package.json')),sharp=require('sharp');
+[7m  [0m [93m      ~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-07/verify-review.mjs[0m:[93m35[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m35[0m const require=createRequire(path.join(reference,'package.json'));
+[7m  [0m [93m      ~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-09/qa/browsers.mjs[0m:[93m30[0m:[93m146[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m30[0m async function navigate(p,url){await p.goto(origin+url,{waitUntil:'load'});await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.dataset.auditLoading=i.loading;i.loading='eager';return i.decode().catch(()=>{});}));});}
+[7m  [0m [93m                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-10/qa/browsers.mjs[0m:[93m30[0m:[93m146[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m30[0m async function navigate(p,url){await p.goto(origin+url,{waitUntil:'load'});await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.dataset.auditLoading=i.loading;i.loading='eager';return i.decode().catch(()=>{});}));});}
+[7m  [0m [93m                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-10/qa/focus-review.mjs[0m:[93m28[0m:[93m22[0m - [93mwarning[0m[90m ts(6133): [0m'page' is declared but its value is never read.
+
+[7m28[0m async function focus(page,locator){
+[7m  [0m [93m                     ~~~~[0m
+[96mdocs/CID-WEB-CRO-10/qa/focus-review.mjs[0m:[93m24[0m:[93m75[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m24[0m  await page.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));});
+[7m  [0m [93m                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-10/qa/painted-contrast.mjs[0m:[93m13[0m:[93m73[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m13[0m   await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));});
+[7m  [0m [93m                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mscripts/verify-dependencies.mjs[0m:[93m8[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m8[0m const require = createRequire(import.meta.url);
+[7m [0m [93m      ~~~~~~~[0m
+
+Result (49 files):
+- 0 errors
+- 0 warnings
+- 8 hints
