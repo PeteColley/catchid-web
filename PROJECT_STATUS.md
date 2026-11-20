@@ -1,3 +1,17 @@
+## CRO-12 — website publication, 20 November 2026
+
+**GITHUB PAGES DEPLOYMENT VERIFIED SUCCESSFUL / PUBLISHED TO `https://catchid.app/`; DIRECT PUBLIC-HTML READBACK NOT AVAILABLE.** Pete explicitly authorised immediate publication and accepted the untested physical-device, actual Safari and spoken-screen-reader scenarios, the older Android emulator Chrome and the documented extreme-zoom scrolling qualification. Approved production implementation is CRO-10 at `537dbc0945452ed66dbd74ef4400a1d04db31c9c`; approved CRO-11 documentation/acceptance is `f04659a68574cd98ad55b5735d9436e09cfa166e`, fast-forwarded safely to website `main` from prior production `42c997c13712a432c8e2384915aaa010a16d068b`.
+
+**Mandatory Linux preflight passed:** [isolated Ubuntu/Node 24.22.3 run 44813979587](https://github.com/PeteColley/catchid-web/actions/runs/44813979587), using the exact CRO-10 application/source with an isolated temporary CI workflow only on `codex/cid-web-linux-preflight-20261120`. Locked install, check, build, **unmodified** verifier, two pages and artifact manifest passed. That test workflow is NOT present on production `main`.
+
+**Release evidence:** [GitHub Pages run 44814198964](https://github.com/PeteColley/catchid-web/actions/runs/44814198964) completed both build and deploy successfully for `f04659a`. Deploy-pages reported success, Pages artifact ID `14669015874`, and environment URL `https://catchid.app/` at 20:46 UTC. Direct independent HTTP fetch of the live custom domain was unavailable from the assistant's environment; no claim of direct served-HTML smoke, user browser acceptance or field analytics verification. Production app is separately OWNER-CONFIRMED 1.2.15/code35 without direct new Play Console readback.
+
+**Release qualifications:** Historical fish-photo use is owner-attested, the hero is licensed Patagonia Savage/Pexels, the linked privacy policy correction was independently pushed and owner-confirmed live, keyboard focus contrast passed, and the unperformed actual Safari/physical device/spoken reader tests are explicitly OWNER-ACCEPTED LIMITATIONS, not passes. No Android, Play, Firebase, ad spend, outreach or backend change. The authorised publication uses the existing Pages workflow and custom domain; the existing pre-release production tree `42c997c` is the rollback reference. A future rollback requires a reviewed normal restoration/revert, never a force-push.
+
+**Next action:** independently inspect both public routes, consent controls and Play badge targets in a real browser; if a material regression is found, stop promotion and use the reviewed rollback process.
+
+---
+
 # CatchID website — project continuity
 
 ## CRO-11 — final release gate closure, 20 November 2026
