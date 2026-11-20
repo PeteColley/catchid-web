@@ -1,0 +1,207 @@
+{
+  "engine": "27.2",
+  "sequences": [
+    {
+      "key": "Tab",
+      "steps": [
+        {
+          "tag": "SUMMARY",
+          "text": "Menu",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Accept analytics",
+          "id": "analytics-accept",
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Reject analytics",
+          "id": "analytics-reject",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Can I log a catch without a photo?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Do I need an account to start?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "What will my Insights show?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Can a fish suggestion be wrong?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Is CatchID free?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Analytics choices",
+          "id": "analytics-choices",
+          "outline": "solid"
+        },
+        {
+          "tag": "BODY",
+          "text": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishing journal",
+          "id": "",
+          "outline": "none"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Menu",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Accept analytics",
+          "id": "analytics-accept",
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Reject analytics",
+          "id": "analytics-reject",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Can I log a catch without a photo?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Do I need an account to start?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "What will my Insights show?",
+          "id": "",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "key": "Alt+Tab",
+      "steps": [
+        {
+          "tag": "SUMMARY",
+          "text": "Menu",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Accept analytics",
+          "id": "analytics-accept",
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Reject analytics",
+          "id": "analytics-reject",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Can I log a catch without a photo?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Do I need an account to start?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "What will my Insights show?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Can a fish suggestion be wrong?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Is CatchID free?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Analytics choices",
+          "id": "analytics-choices",
+          "outline": "solid"
+        },
+        {
+          "tag": "BODY",
+          "text": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishing journal",
+          "id": "",
+          "outline": "none"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Menu",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Accept analytics",
+          "id": "analytics-accept",
+          "outline": "solid"
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Reject analytics",
+          "id": "analytics-reject",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Can I log a catch without a photo?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "Do I need an account to start?",
+          "id": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "text": "What will my Insights show?",
+          "id": "",
+          "outline": "solid"
+        }
+      ]
+    }
+  ]
+}

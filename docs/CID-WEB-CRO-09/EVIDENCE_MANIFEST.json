@@ -1,0 +1,995 @@
+{
+  "utc": "2026-11-20T15:38:38.369Z",
+  "files": [
+    {
+      "file": "ANDROID_CONTINUITY_PROPOSED.md",
+      "bytes": 1544,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "01212f8f13bfa8667ae741bff440133fca1e825f9b8fb24d5e65c1644cc0f9a4"
+    },
+    {
+      "file": "ASSET_ACCEPTANCE.md",
+      "bytes": 11562,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "63aacf04f7c7a179615d4c31468ae8e280d838547624df7e2f351d0e96bd7538"
+    },
+    {
+      "file": "BROWSER_ACCESSIBILITY.md",
+      "bytes": 10256,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "3c9b854cd6f3be0b1a1c004e940a0098b376c73aa1e3b52746c35de129814859"
+    },
+    {
+      "file": "evidence/actions-before-push.json",
+      "bytes": 36,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "a2790a384d7d281e7395679000c35d27768d89dbd7052f725b8f4688beb59915"
+    },
+    {
+      "file": "evidence/advisory-dynamic-tag.json",
+      "bytes": 4512,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "41af88d2f23a6d479a98bb3feb0ad9b2f985399ced688c01d05c7a758d8bc6a3"
+    },
+    {
+      "file": "evidence/advisory-image-endpoint.json",
+      "bytes": 5140,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "e343b651409821683a32a59c93ec3a0fc76f056032b8052a96bb084bc2f3f45b"
+    },
+    {
+      "file": "evidence/chromium/edges-performance-initial.json",
+      "bytes": 60321,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "c4a0441fe8e68ede6fe5854e3dbb4fe14592abc48a63bfe42e886d7a747bdb34"
+    },
+    {
+      "file": "evidence/chromium/edges-performance.json",
+      "bytes": 61686,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "f2977575b078393e241b4ef89a82e11bb145887c8eb44c9c98ee07c45e4cec06"
+    },
+    {
+      "file": "evidence/chromium/focus-faq.png",
+      "bytes": 39044,
+      "representation": "exact binary",
+      "sha256": "d10d7bb349446f8230123bd5f77fd23d98c153af1bad09c63fdd23feda60e846"
+    },
+    {
+      "file": "evidence/chromium/focus-journal-link.png",
+      "bytes": 64024,
+      "representation": "exact binary",
+      "sha256": "fd36dbaf819a9ead413724906a28b36f7692910978f56dfdae7c4d9ebff3ffd1"
+    },
+    {
+      "file": "evidence/chromium/home-1024-first-text1.png",
+      "bytes": 430137,
+      "representation": "exact binary",
+      "sha256": "bb13cb63a612de69900b09cc6eeadd9b3826f5adbe99d700790587dfd1efb4bb"
+    },
+    {
+      "file": "evidence/chromium/home-1440-first-text1.png",
+      "bytes": 616709,
+      "representation": "exact binary",
+      "sha256": "09673d546b293310419909fad166ecf28d412f70708706783651509d500c4307"
+    },
+    {
+      "file": "evidence/chromium/home-1440-saved-text1-full.png",
+      "bytes": 1522187,
+      "representation": "exact binary",
+      "sha256": "baca07e1e270c1b2280a1262958aaff2fcc79157ae8ad7f05b707acff08c3744"
+    },
+    {
+      "file": "evidence/chromium/home-320-first-text1.png",
+      "bytes": 80762,
+      "representation": "exact binary",
+      "sha256": "b1a5e8540d2b9b5859e4e037006df3394e70b93fdafcb220a888f9eaad2fd12d"
+    },
+    {
+      "file": "evidence/chromium/home-320-saved-text1.6.png",
+      "bytes": 49919,
+      "representation": "exact binary",
+      "sha256": "66b61dbc5f662ca79a748b99320ee1f8849bbb997fee3eab6f3072ee35c8c024"
+    },
+    {
+      "file": "evidence/chromium/home-320-text200.png",
+      "bytes": 69066,
+      "representation": "exact binary",
+      "sha256": "87e4b906c5d3f6594259e9f5809a7a1014513dffdf26711c73264240a33b97fd"
+    },
+    {
+      "file": "evidence/chromium/home-390-first-text1.png",
+      "bytes": 140840,
+      "representation": "exact binary",
+      "sha256": "51a2f83fb43db9c8b92732700be62fa2ebfd7a8d4a8ffefe09fe0057467a1bf6"
+    },
+    {
+      "file": "evidence/chromium/home-390-saved-text1-full.png",
+      "bytes": 830478,
+      "representation": "exact binary",
+      "sha256": "3c33efb0243c6fc541551da775edb64721fb35e05d34831afbf8ecb6983d097e"
+    },
+    {
+      "file": "evidence/chromium/home-390-saved-text1.6.png",
+      "bytes": 59537,
+      "representation": "exact binary",
+      "sha256": "4991dc2f0beb148debf944b1270410619e1eb3e72c6093b1c30e4f8a2f607bab"
+    },
+    {
+      "file": "evidence/chromium/home-768-first-text1.png",
+      "bytes": 338200,
+      "representation": "exact binary",
+      "sha256": "cde2e70452968bb7a17a513f7db0a9dddb83e8ffd833e9db67b8a5e690807494"
+    },
+    {
+      "file": "evidence/chromium/home-768-saved-text1.6.png",
+      "bytes": 382666,
+      "representation": "exact binary",
+      "sha256": "e2d464c872e3eff1d739d9195bd30cf0d6e869896299545aaea1a67d934c1c18"
+    },
+    {
+      "file": "evidence/chromium/interactions.json",
+      "bytes": 26497,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "590bfffb856fce9d135de97dfa0820c73971f88e68df2724ec504b9ede17e9ad"
+    },
+    {
+      "file": "evidence/chromium/journal-1024-first-text1.png",
+      "bytes": 209370,
+      "representation": "exact binary",
+      "sha256": "1dbefac8d4df8aa41ce7eeb3bc894a5d050ad6b5fc32ebac72e4b059ba77226e"
+    },
+    {
+      "file": "evidence/chromium/journal-1440-first-text1.png",
+      "bytes": 263255,
+      "representation": "exact binary",
+      "sha256": "72e2c0a7ef5839f4ba075c1517ae4d54b26754ebcbc7c1c44711f9558c0c9af6"
+    },
+    {
+      "file": "evidence/chromium/journal-1440-saved-text1-full.png",
+      "bytes": 943787,
+      "representation": "exact binary",
+      "sha256": "3bb6c973eb742d28a6697b8bca8356b24ce9147f5aea1fabd1db11207675967b"
+    },
+    {
+      "file": "evidence/chromium/journal-1440-viewport-width.png",
+      "bytes": 129783,
+      "representation": "exact binary",
+      "sha256": "df558f7bba0cf133ee558376b6379681269b8ea666c18066d6f95c2dd40470ad"
+    },
+    {
+      "file": "evidence/chromium/journal-1440.png",
+      "bytes": 129792,
+      "representation": "exact binary",
+      "sha256": "fddfbf0e186bb433a45f1748d89bb52b79d7bb23422d038000c06363bc2d2d4a"
+    },
+    {
+      "file": "evidence/chromium/journal-320-first-text1.png",
+      "bytes": 68862,
+      "representation": "exact binary",
+      "sha256": "7306f7576a3e1d0e52ab4cea6bf7e4a35d9bd99f1c9d5a227ce0ec9fd3f6cd4b"
+    },
+    {
+      "file": "evidence/chromium/journal-320-saved-text1.6.png",
+      "bytes": 50587,
+      "representation": "exact binary",
+      "sha256": "c1a3092f6d069e92572c2cc0be9216ae56664995bcb18ea08001d890496d44c0"
+    },
+    {
+      "file": "evidence/chromium/journal-320-viewport-width.png",
+      "bytes": 86232,
+      "representation": "exact binary",
+      "sha256": "56fe9110b6097e7137fe65e0660806bf09c73ae92e7f419406d568b9dc20cf02"
+    },
+    {
+      "file": "evidence/chromium/journal-390-first-text1.png",
+      "bytes": 100994,
+      "representation": "exact binary",
+      "sha256": "a6d0064ad81c55ef4abddf54448789e41837b2c840ead853e73da5295080e3a6"
+    },
+    {
+      "file": "evidence/chromium/journal-390-saved-text1-full.png",
+      "bytes": 588420,
+      "representation": "exact binary",
+      "sha256": "155ae37ff510861bd2e4c1d299d1a0e6a1d6f24695cf90ce4d33ac55de5100c1"
+    },
+    {
+      "file": "evidence/chromium/journal-390-saved-text1.6.png",
+      "bytes": 61124,
+      "representation": "exact binary",
+      "sha256": "0bd88bebe033adcd527eaeae635d478341a6d07db1c2e8686433009c4ba9038a"
+    },
+    {
+      "file": "evidence/chromium/journal-390-viewport-width.png",
+      "bytes": 100851,
+      "representation": "exact binary",
+      "sha256": "ca5643b69f64b922496f0f495f42517e58c7687a8fe1e195eeef31a6552021a3"
+    },
+    {
+      "file": "evidence/chromium/journal-390.png",
+      "bytes": 100062,
+      "representation": "exact binary",
+      "sha256": "83f1dd7b5ccb5661c7f163832e419230e872f20ec3c3669a24b899ee4e7cdadd"
+    },
+    {
+      "file": "evidence/chromium/journal-768-first-text1.png",
+      "bytes": 204520,
+      "representation": "exact binary",
+      "sha256": "f7cee2861690612b841ca8bfb6b24d0f831808e34925c54a5220d25b1736a77c"
+    },
+    {
+      "file": "evidence/chromium/journal-768-saved-text1.6.png",
+      "bytes": 200187,
+      "representation": "exact binary",
+      "sha256": "dd9ebc770cd6cc87aa44a40ecbeb9b9e356c4ecadbaff11d920d7889cef264f5"
+    },
+    {
+      "file": "evidence/chromium/journal-768-viewport-width.png",
+      "bytes": 119157,
+      "representation": "exact binary",
+      "sha256": "de4d5189903b10f91e0278ad9b0aca9e27272a396b0d2381114a8466757d8260"
+    },
+    {
+      "file": "evidence/chromium/landing-320-text200.png",
+      "bytes": 64844,
+      "representation": "exact binary",
+      "sha256": "72597928e6fecb06585d64c46db660d51e73f45c7b7b18833495e14d157bef2f"
+    },
+    {
+      "file": "evidence/chromium/matrix.json",
+      "bytes": 389325,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "969d71c3e9e83f502a704f3d58f5788be5e7ce2568dcda6982e414189c4c49fb"
+    },
+    {
+      "file": "evidence/chromium/record-1440-viewport-width.png",
+      "bytes": 170733,
+      "representation": "exact binary",
+      "sha256": "9f00a6093ee1fa7b81e9d29fdca3492e6974bd1278d44ed864b39fdfab40d83b"
+    },
+    {
+      "file": "evidence/chromium/record-1440.png",
+      "bytes": 168247,
+      "representation": "exact binary",
+      "sha256": "513a139c6515418f8e085472ed7b942d27c76b2988124bcda647caacc3d70e40"
+    },
+    {
+      "file": "evidence/chromium/record-320-viewport-width.png",
+      "bytes": 112456,
+      "representation": "exact binary",
+      "sha256": "dcd6472df7c9250496c2ebc95036edc1e1e3f9b3d12e4e83d877d7191fe2d5a6"
+    },
+    {
+      "file": "evidence/chromium/record-390-viewport-width.png",
+      "bytes": 133442,
+      "representation": "exact binary",
+      "sha256": "2807ecc2b18d3d30fd3562415479af2de438e4f42c8318361abf96601b62df8d"
+    },
+    {
+      "file": "evidence/chromium/record-390.png",
+      "bytes": 126986,
+      "representation": "exact binary",
+      "sha256": "c6c58d86d4890d8f8b8eb96579ab7e3994d8bcfcb0fef320ef12568441bf3eb6"
+    },
+    {
+      "file": "evidence/chromium/record-768-viewport-width.png",
+      "bytes": 157107,
+      "representation": "exact binary",
+      "sha256": "bfd60d7956fa9f2de2ff7837e97e81c313ab1e7665b2ca901db1e91d33660af2"
+    },
+    {
+      "file": "evidence/commands.json",
+      "bytes": 231,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "06852e9c15d22493190c0ed663f851681ef0db5e9a19500a529b23ab13054cd7"
+    },
+    {
+      "file": "evidence/default-archive-verifier.log",
+      "bytes": 6685,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "5c61853b05fcfac3e81801bd4e1a770774703a69371887cae855f9763b1ad413"
+    },
+    {
+      "file": "evidence/firefox/domain-cookie.json",
+      "bytes": 1086,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "bc5cd4fb458220d2c41876b86037fdcf6f220fe454e97cb1f3b94b83fdb2f7b0"
+    },
+    {
+      "file": "evidence/firefox/edges-performance-initial.json",
+      "bytes": 59843,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "2ba9c115988d2732047104b14eedf2e624e3e89755e4995a7fa507e1ea5b25b5"
+    },
+    {
+      "file": "evidence/firefox/edges-performance.json",
+      "bytes": 61789,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "05a81188caf4e0a9ba817c096fb9652330a496d05b6a8544edf15a8fbb98f596"
+    },
+    {
+      "file": "evidence/firefox/home-1024-first-text1.png",
+      "bytes": 498120,
+      "representation": "exact binary",
+      "sha256": "32be7dd8f8357da122470025e573ada8accb9986e7a55500e0a3b1a5fd1cac0e"
+    },
+    {
+      "file": "evidence/firefox/home-1440-first-text1.png",
+      "bytes": 718994,
+      "representation": "exact binary",
+      "sha256": "79e89c05b71a63ee47a4738a22b6c167a2fb0ea318da2d53f6bb7263028c41f0"
+    },
+    {
+      "file": "evidence/firefox/home-1440-saved-text1-full.png",
+      "bytes": 1735811,
+      "representation": "exact binary",
+      "sha256": "eebad5aaafc85c3d0691aaa99b162edea03e88f2101880be92313d3d0afc3e28"
+    },
+    {
+      "file": "evidence/firefox/home-320-first-text1.png",
+      "bytes": 84856,
+      "representation": "exact binary",
+      "sha256": "9292293e294e821ebfe74299983184d727760c5dfa502adad71a8a3cd2ac640b"
+    },
+    {
+      "file": "evidence/firefox/home-320-saved-text1.6.png",
+      "bytes": 35054,
+      "representation": "exact binary",
+      "sha256": "c3cc4f5c4edce9e3c326fc1b02db06ebaa2081ea41ae704dd956fa3281b48ef5"
+    },
+    {
+      "file": "evidence/firefox/home-320-text200.png",
+      "bytes": 48469,
+      "representation": "exact binary",
+      "sha256": "96aa4331c7f014c0e4d000dc12ffb1079ad3bfceb5d02ab4fd3a56ef8e8086cc"
+    },
+    {
+      "file": "evidence/firefox/home-390-first-text1.png",
+      "bytes": 160540,
+      "representation": "exact binary",
+      "sha256": "01f253d7bc4bec4cee942b079ab2fc9eb62cfc81a997fc67dd50b4777f1486f8"
+    },
+    {
+      "file": "evidence/firefox/home-390-saved-text1-full.png",
+      "bytes": 929407,
+      "representation": "exact binary",
+      "sha256": "33b09d8325f0d2ad3f62ff9c8bfdd0b5f0cdc6e72404709b90b497cb27a4ef56"
+    },
+    {
+      "file": "evidence/firefox/home-390-saved-text1.6.png",
+      "bytes": 43877,
+      "representation": "exact binary",
+      "sha256": "8ccdf917d5130711ad9364c4d7ffbd8c2e0b7578c8df6a2647e0babc7b5426a2"
+    },
+    {
+      "file": "evidence/firefox/home-768-first-text1.png",
+      "bytes": 381715,
+      "representation": "exact binary",
+      "sha256": "f46a0bdec67f7f5013f25a26fa765b374134520301cc529e9012b73462b99ae7"
+    },
+    {
+      "file": "evidence/firefox/home-768-saved-text1.6.png",
+      "bytes": 436374,
+      "representation": "exact binary",
+      "sha256": "693f7f210c18dacbbfa30d05b3894c9b92b6a1a752c24b354583176d6c9438d4"
+    },
+    {
+      "file": "evidence/firefox/interactions-initial.json",
+      "bytes": 29002,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "b4617f6f3a8f1cdbe3059327627d9696fb1f023bdffa38334e1806f6f40c2059"
+    },
+    {
+      "file": "evidence/firefox/interactions.json",
+      "bytes": 29048,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "868a89c5084338cb059666a22cbf54bd574b4d68b4f6a2d67315eee7111fcf02"
+    },
+    {
+      "file": "evidence/firefox/journal-1024-first-text1.png",
+      "bytes": 238371,
+      "representation": "exact binary",
+      "sha256": "c7d1b0585f9025517f07367ce16eaea7f3ef60b636d1f1a453550c67ab3f38d3"
+    },
+    {
+      "file": "evidence/firefox/journal-1440-first-text1.png",
+      "bytes": 299043,
+      "representation": "exact binary",
+      "sha256": "a3bdbdb7e2c710067667b2c48734167026d0f17428d1894c9cc83b3a0ad1e7a4"
+    },
+    {
+      "file": "evidence/firefox/journal-1440-saved-text1-full.png",
+      "bytes": 1040416,
+      "representation": "exact binary",
+      "sha256": "19b0ea4d058ab22610607462fc05a765073ce277c8d450e485ca21f8e07a13ae"
+    },
+    {
+      "file": "evidence/firefox/journal-1440-viewport-width.png",
+      "bytes": 152890,
+      "representation": "exact binary",
+      "sha256": "d6be2f1e9fc889e451bcf5e206ede6a600c13f660c63e9907ff6437338f42d62"
+    },
+    {
+      "file": "evidence/firefox/journal-1440.png",
+      "bytes": 152889,
+      "representation": "exact binary",
+      "sha256": "0a035571b88c366a104102885ec482d0f8b6c5a378629d94c41ff92536a9e469"
+    },
+    {
+      "file": "evidence/firefox/journal-320-first-text1.png",
+      "bytes": 72845,
+      "representation": "exact binary",
+      "sha256": "7b3e7205e494f93f3291f1a173cebee89e9e5a1a9cf0a674d6054a90ed165f55"
+    },
+    {
+      "file": "evidence/firefox/journal-320-saved-text1.6.png",
+      "bytes": 35475,
+      "representation": "exact binary",
+      "sha256": "e2ec405764d1b67aa4b71ac953a080582ab8f4704d522e6cd956e13dbb428498"
+    },
+    {
+      "file": "evidence/firefox/journal-320-viewport-width.png",
+      "bytes": 92617,
+      "representation": "exact binary",
+      "sha256": "78ac252417982e93f65884b126e77fcc31e54ca9a26705a2f0922600037ba98e"
+    },
+    {
+      "file": "evidence/firefox/journal-390-first-text1.png",
+      "bytes": 112263,
+      "representation": "exact binary",
+      "sha256": "42d0d98bc3de009e921f821688b1cd0255173dcb17c7ebd69d5c2527bac8a611"
+    },
+    {
+      "file": "evidence/firefox/journal-390-saved-text1-full.png",
+      "bytes": 642911,
+      "representation": "exact binary",
+      "sha256": "6055917d7bd8fe9e98612917972fb9fdef3ff56ddac68ce7775d59d383f97e4c"
+    },
+    {
+      "file": "evidence/firefox/journal-390-saved-text1.6.png",
+      "bytes": 45193,
+      "representation": "exact binary",
+      "sha256": "a9c47f827b5640bb3c4be9feaa96ed6c6c8f9f3ba45fc074441bc00456275450"
+    },
+    {
+      "file": "evidence/firefox/journal-390-viewport-width.png",
+      "bytes": 115242,
+      "representation": "exact binary",
+      "sha256": "3d5fd46651065e2c40a88978436835dcd08be67d95fce2b9a9691ce1fe271ff4"
+    },
+    {
+      "file": "evidence/firefox/journal-390.png",
+      "bytes": 115198,
+      "representation": "exact binary",
+      "sha256": "709283a9aab4c9da3053131a52bfce743a38ccb5a105230e0e63863a91ef0bad"
+    },
+    {
+      "file": "evidence/firefox/journal-768-first-text1.png",
+      "bytes": 234924,
+      "representation": "exact binary",
+      "sha256": "e3df93c0a1d70ea159b64d262b2209a0965531aa85644e448a5d42241781e25b"
+    },
+    {
+      "file": "evidence/firefox/journal-768-saved-text1.6.png",
+      "bytes": 228750,
+      "representation": "exact binary",
+      "sha256": "7501d80daf740c8635d1b95c3e03cecbd1a6cd091f1c4281d6e6d9ceb76eb76d"
+    },
+    {
+      "file": "evidence/firefox/journal-768-viewport-width.png",
+      "bytes": 145725,
+      "representation": "exact binary",
+      "sha256": "566a82e00798530207ae95f697784c8df7ef2d47724976b06fafcee82b02f91f"
+    },
+    {
+      "file": "evidence/firefox/landing-320-text200.png",
+      "bytes": 46814,
+      "representation": "exact binary",
+      "sha256": "4fcdc6c7f5095b65ffa1c4e9baf4aea1110bead034ee7573a1e05e9cdbb44a07"
+    },
+    {
+      "file": "evidence/firefox/matrix.json",
+      "bytes": 392989,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "9eb9de6c7d5754654e284c23d59dfd7bc00d3f2a4707fb1a4bbecb888e19b32a"
+    },
+    {
+      "file": "evidence/firefox/record-1440-viewport-width.png",
+      "bytes": 199200,
+      "representation": "exact binary",
+      "sha256": "7ce7347aadef1b39737be6da7f2254b995f0e487053226596f59b956bddfab48"
+    },
+    {
+      "file": "evidence/firefox/record-1440.png",
+      "bytes": 196023,
+      "representation": "exact binary",
+      "sha256": "e621b8e8ac1e2b282bf911061da11a15a519c634f2d272c2514695c0a0acec54"
+    },
+    {
+      "file": "evidence/firefox/record-320-viewport-width.png",
+      "bytes": 125783,
+      "representation": "exact binary",
+      "sha256": "f37fc070f9c47a0d73fe6686fabba3a55c75e0fa3eaa899da92411452962521d"
+    },
+    {
+      "file": "evidence/firefox/record-390-viewport-width.png",
+      "bytes": 154854,
+      "representation": "exact binary",
+      "sha256": "1814d3cb6301b176d1ff475d942309f52dcf556840db4f54edb259abfd59b72c"
+    },
+    {
+      "file": "evidence/firefox/record-390.png",
+      "bytes": 148151,
+      "representation": "exact binary",
+      "sha256": "9e895a879b53fea1af8eba041c84f3dfb6d0a8cffd02b6835bcec4f9207e3909"
+    },
+    {
+      "file": "evidence/firefox/record-768-viewport-width.png",
+      "bytes": 188041,
+      "representation": "exact binary",
+      "sha256": "81ea0fd5c9aae3f4452b3efa28391fc1aaf30ba0b3986578075b2ff67580ee5b"
+    },
+    {
+      "file": "evidence/focus-contrast.json",
+      "bytes": 1121,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "b76e6f2fc00eaf60dfb5712df4a033a3a35d4754a602192853b8e660f9f7f8c8"
+    },
+    {
+      "file": "evidence/historical-dependency-guard.log",
+      "bytes": 23373,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "c008ffb48f6293302ec319b3b1ec60a6bf37b54d1628e0476053a283c923f8a3"
+    },
+    {
+      "file": "evidence/index-browser.json",
+      "bytes": 1596,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "13ba228083526dd303e65dc59e5bd5394a7348a1eb3ba0fd23217beed2f28d27"
+    },
+    {
+      "file": "evidence/index-browser.png",
+      "bytes": 163260,
+      "representation": "exact binary",
+      "sha256": "21a16041cebca550f1c5e9a6c45c73cdcbe86e019cef3c048f59975129319ebe"
+    },
+    {
+      "file": "evidence/installed-tree.json",
+      "bytes": 84903,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "2396b96535df0517d3e17ec542c20740b632039efc8aef826f2f6f0cb91db5c5"
+    },
+    {
+      "file": "evidence/node-embedded-undici-advisories.json",
+      "bytes": 61435,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "c70382cb15b88fa49f71d638f258b54d0f3d8e1ccb322007743bbd27aa320938"
+    },
+    {
+      "file": "evidence/npm-audit-signatures.log",
+      "bytes": 179,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "5d5c5afd23a8120dae4e61ff3162ff0a835f88f15b8c32df9e3fb455ffc1c8d0"
+    },
+    {
+      "file": "evidence/npm-audit.json",
+      "bytes": 1675,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "157372bc150fe6a7f169b2b5a7df70eaadb311a1b028c7a3c8887ad3755fae15"
+    },
+    {
+      "file": "evidence/npm-build.log",
+      "bytes": 4920,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "0217627017e5cb3b9b254972f92f032de4b7a4bccde681dbf4b4c0dfeaf12752"
+    },
+    {
+      "file": "evidence/npm-check-final.log",
+      "bytes": 1717,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "34693f0138192d341e0049860f50a9e623a5d7316b8bfffc1e3b8eb757314ad1"
+    },
+    {
+      "file": "evidence/npm-check.log",
+      "bytes": 1057,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "2eb7550acc152d138b2acf806b133ca150e04257945f85c85b01e422c62086a2"
+    },
+    {
+      "file": "evidence/npm-ci.log",
+      "bytes": 326,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "a5467904893cf7d791ec4ccfc4d474dd1f7cd80ac3774a5ffde6b238b6515945"
+    },
+    {
+      "file": "evidence/npm-verify-normalised.log",
+      "bytes": 994,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "20f5c4cedf52ead77e2e9cb87d0a959bf993b25149745779443d7a060c3c169e"
+    },
+    {
+      "file": "evidence/npm-verify-plain.log",
+      "bytes": 6729,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "53f2df7790d904437f80b49371a5171a7552f178a73d78d870548541161e8693"
+    },
+    {
+      "file": "evidence/orientation.json",
+      "bytes": 1967,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "7cbabefb25f77335a834f2806417445deb8ffb6b219ef62b3f818975c7a90999"
+    },
+    {
+      "file": "evidence/pages-configuration-readonly.json",
+      "bytes": 488,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "9f712cffc4b234950c11d82e31a4b33b52b77715f29585d26cb504f7406c1d7c"
+    },
+    {
+      "file": "evidence/privacy-policy-readback.json",
+      "bytes": 366,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "1878fb328be5c0057d1588856449f4830720b323205be99c9bdf9bc6a388880e"
+    },
+    {
+      "file": "evidence/raw-command-logs.zip",
+      "bytes": 9753,
+      "representation": "exact binary",
+      "sha256": "48db914d957d349b6d8b3446f86e823395293f2a8073f7e4ec5058804558ce16"
+    },
+    {
+      "file": "evidence/static-audit.json",
+      "bytes": 21477,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "c59d094a28a197ace5dc21b8f8e007f4d7077e62f77ede5ffd36c73b673d4fa1"
+    },
+    {
+      "file": "evidence/unmodified-lf-checkout-verifier.log",
+      "bytes": 994,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "20f5c4cedf52ead77e2e9cb87d0a959bf993b25149745779443d7a060c3c169e"
+    },
+    {
+      "file": "evidence/verification-summary.json",
+      "bytes": 6753,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "e2c73447e3eba6e0f8d3b4acae90adb6d432285efdabee65ab9a3312c2701b7e"
+    },
+    {
+      "file": "evidence/webkit/edges-performance-initial.json",
+      "bytes": 58344,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "3db4ac6754c3d99091e921448cc026c322e9d1b07c7922f96228a675cfa19b40"
+    },
+    {
+      "file": "evidence/webkit/edges-performance.json",
+      "bytes": 58667,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "d3117e1652f95c7c449efeefd02c43d16d83ac62b844f72f04000399711938dc"
+    },
+    {
+      "file": "evidence/webkit/home-1024-first-text1.png",
+      "bytes": 445205,
+      "representation": "exact binary",
+      "sha256": "89f986fc22d57e3e16981277d0ef58b71b8b083a2a1315e92d23897eee320322"
+    },
+    {
+      "file": "evidence/webkit/home-1440-first-text1.png",
+      "bytes": 641317,
+      "representation": "exact binary",
+      "sha256": "3f17d2651971833b9f913a77fb7406cd5c2be44603fcd22f5a6c604a80da2d25"
+    },
+    {
+      "file": "evidence/webkit/home-1440-saved-text1-full.png",
+      "bytes": 1540772,
+      "representation": "exact binary",
+      "sha256": "8e4f86261a40b2b9e206409d88ba7d2489d8e237c9620d52e3e92d4ed6c9384f"
+    },
+    {
+      "file": "evidence/webkit/home-320-first-text1.png",
+      "bytes": 77169,
+      "representation": "exact binary",
+      "sha256": "6f4a00a7884cf8168a38c177d0d35b7945c4ae57e8ab5912aad270af53ef77f3"
+    },
+    {
+      "file": "evidence/webkit/home-320-saved-text1.6.png",
+      "bytes": 34737,
+      "representation": "exact binary",
+      "sha256": "49d1f7cce1dc4608026ae0090ef45476297256d0513cbeb49fbc6d0ba3deba60"
+    },
+    {
+      "file": "evidence/webkit/home-320-text200.png",
+      "bytes": 44561,
+      "representation": "exact binary",
+      "sha256": "3fcbb442c748e60cc85b2ab9ecfc09f99d5136686fd262f857ede848ca950b08"
+    },
+    {
+      "file": "evidence/webkit/home-390-first-text1.png",
+      "bytes": 143332,
+      "representation": "exact binary",
+      "sha256": "c702264ba3b2d9b717b92db4f1097bf5207702a11c17a16f58df75011bc88c90"
+    },
+    {
+      "file": "evidence/webkit/home-390-saved-text1-full.png",
+      "bytes": 850923,
+      "representation": "exact binary",
+      "sha256": "6fce28c119898144ad95bf727a5f1983f553c12c66afcec51164c8e065cc658e"
+    },
+    {
+      "file": "evidence/webkit/home-390-saved-text1.6.png",
+      "bytes": 43627,
+      "representation": "exact binary",
+      "sha256": "9ec38a5ab2d7dc98d9d1b8f28d2bb9caaa1918b21bce6dbde129e319f958cbd0"
+    },
+    {
+      "file": "evidence/webkit/home-768-first-text1.png",
+      "bytes": 342413,
+      "representation": "exact binary",
+      "sha256": "32a2313a397369598330c4ba5d6eeda8a6583e6ded07b02403953ae451e0ac4f"
+    },
+    {
+      "file": "evidence/webkit/home-768-saved-text1.6.png",
+      "bytes": 382567,
+      "representation": "exact binary",
+      "sha256": "1fae0705c4383e590bc3390995d9cf2bf384ed402a892b4a9cc7df00b92c7846"
+    },
+    {
+      "file": "evidence/webkit/interactions-initial.json",
+      "bytes": 1504,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "00660c37ddeb7aa061de90c0185cf263a7418dbeba719b76840a0df9c44fd5f9"
+    },
+    {
+      "file": "evidence/webkit/interactions.json",
+      "bytes": 27424,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "110a2efc3d0ff348109cd1ad74fd33eac07309067a2f3b8fb3b70c52f282b3bb"
+    },
+    {
+      "file": "evidence/webkit/journal-1024-first-text1.png",
+      "bytes": 208118,
+      "representation": "exact binary",
+      "sha256": "7de146136d4340778095b3cdefe0d98cdfa451c17f8b471129734d1c5b0ae08e"
+    },
+    {
+      "file": "evidence/webkit/journal-1440-first-text1.png",
+      "bytes": 261454,
+      "representation": "exact binary",
+      "sha256": "cb61706a522629aba3e73068bcbd738c7485073419287633fb6ae40f6f09522d"
+    },
+    {
+      "file": "evidence/webkit/journal-1440-saved-text1-full.png",
+      "bytes": 927431,
+      "representation": "exact binary",
+      "sha256": "8a620576d422033b913085a9d9a00be1c2791fbdcca1f85168eb7f820bcdb8e3"
+    },
+    {
+      "file": "evidence/webkit/journal-1440-viewport-width.png",
+      "bytes": 126263,
+      "representation": "exact binary",
+      "sha256": "a39536a1138d8b0384c890a1efea0661779a895ae855e3ad54d81c17c1623ffd"
+    },
+    {
+      "file": "evidence/webkit/journal-1440.png",
+      "bytes": 126271,
+      "representation": "exact binary",
+      "sha256": "e467bad7bdd6abbdfbf47f2113dc084a37461e1b951aa0c99e06bf352c9420e2"
+    },
+    {
+      "file": "evidence/webkit/journal-320-first-text1.png",
+      "bytes": 63723,
+      "representation": "exact binary",
+      "sha256": "e4cad51b6a136269f510b68d9327def9f18d6c23fac6d027725d3dbee3801d95"
+    },
+    {
+      "file": "evidence/webkit/journal-320-saved-text1.6.png",
+      "bytes": 33866,
+      "representation": "exact binary",
+      "sha256": "bb306dba97fca194fb8d6ee9daebe75074b8e0e66b1228770a92e1050fc176f4"
+    },
+    {
+      "file": "evidence/webkit/journal-320-viewport-width.png",
+      "bytes": 83871,
+      "representation": "exact binary",
+      "sha256": "1d36caf48ad33f3591ff69cce9285d596d946fb427dfb37208a43e5372bf9cb0"
+    },
+    {
+      "file": "evidence/webkit/journal-390-first-text1.png",
+      "bytes": 97211,
+      "representation": "exact binary",
+      "sha256": "24214cad2ecfdfd558186422ecc9bc590b4b5cdd76297a3238ede86f5b5c3140"
+    },
+    {
+      "file": "evidence/webkit/journal-390-saved-text1-full.png",
+      "bytes": 589746,
+      "representation": "exact binary",
+      "sha256": "60334f5df56c2f881565dfb405b891fa472a103b32d016024440e79fd658d436"
+    },
+    {
+      "file": "evidence/webkit/journal-390-saved-text1.6.png",
+      "bytes": 43250,
+      "representation": "exact binary",
+      "sha256": "df9215a4204b45477ac4fbf6c7d0d9f8bf92f2781983531df33e818000beb36d"
+    },
+    {
+      "file": "evidence/webkit/journal-390-viewport-width.png",
+      "bytes": 100583,
+      "representation": "exact binary",
+      "sha256": "8f757f60ae6ad82268c94ead6b508a0d40406c023b4c9d00a4cedb17bfeb1086"
+    },
+    {
+      "file": "evidence/webkit/journal-390.png",
+      "bytes": 100589,
+      "representation": "exact binary",
+      "sha256": "9d2e5baf6cb49d5bf88defb3e363292b8aa4b90cd54624918cb47bda308d9e46"
+    },
+    {
+      "file": "evidence/webkit/journal-768-first-text1.png",
+      "bytes": 205209,
+      "representation": "exact binary",
+      "sha256": "a09cd8b75dd8c230eba4ddf828a8a3ac5d3a57fb099d910eca0d56e0ed5c944f"
+    },
+    {
+      "file": "evidence/webkit/journal-768-saved-text1.6.png",
+      "bytes": 196814,
+      "representation": "exact binary",
+      "sha256": "39d634a2a536c074cd543413567aa2e5ccd03bf2b7b246eff1d4f2d420835c37"
+    },
+    {
+      "file": "evidence/webkit/journal-768-viewport-width.png",
+      "bytes": 118413,
+      "representation": "exact binary",
+      "sha256": "2b0618548b8726d4a0c278bb92b3c19700c068722e524922c1c14052d409ee8e"
+    },
+    {
+      "file": "evidence/webkit/keyboard-probe.json",
+      "bytes": 4942,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "e9bd68cd9ff16bdcd8d84aa50b0a1a6c53be3a6cfdff7405122622fe3f6ddeea"
+    },
+    {
+      "file": "evidence/webkit/landing-320-text200.png",
+      "bytes": 41696,
+      "representation": "exact binary",
+      "sha256": "0b099abbd68beaa14b17f1b3280782597e12888c93ce3db1d8d793a5cbb1f4a5"
+    },
+    {
+      "file": "evidence/webkit/matrix.json",
+      "bytes": 386296,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "92cd66abc7b2e7d75578e6e90a8c5b374ba52cc48fe9853bb97d84047af624bf"
+    },
+    {
+      "file": "evidence/webkit/record-1440-viewport-width.png",
+      "bytes": 170473,
+      "representation": "exact binary",
+      "sha256": "ef1f486f7002436c78d4df8c876b2333bb681824e1c5dbb3d42b595d0e49396f"
+    },
+    {
+      "file": "evidence/webkit/record-1440.png",
+      "bytes": 168891,
+      "representation": "exact binary",
+      "sha256": "be44cbf5deaa0617de7f1cf0e931585bb86f03e4accca1457f678e90f70cf97e"
+    },
+    {
+      "file": "evidence/webkit/record-320-viewport-width.png",
+      "bytes": 110050,
+      "representation": "exact binary",
+      "sha256": "9cc9226f9700ceebea75d8de86f97d3e332ad8c3d84f7d1478a0d07e218ee9da"
+    },
+    {
+      "file": "evidence/webkit/record-390-viewport-width.png",
+      "bytes": 134226,
+      "representation": "exact binary",
+      "sha256": "f9b5020a080333df294854d0724ebbe1f9a9d796eb8849eb62e319dc2f39ae23"
+    },
+    {
+      "file": "evidence/webkit/record-390.png",
+      "bytes": 126466,
+      "representation": "exact binary",
+      "sha256": "362e48cb2c4fdefa52797a50e385c5ed9af8e579f312ea37d905c60af713c469"
+    },
+    {
+      "file": "evidence/webkit/record-768-viewport-width.png",
+      "bytes": 160184,
+      "representation": "exact binary",
+      "sha256": "d32a9b4d79c75443f91b390cb20342f3feddd111317b49de1aed8b9d489267a9"
+    },
+    {
+      "file": "evidence/withastro-action-v6.json",
+      "bytes": 7944,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "3fa0b1557e431f2bc9d39748e32e80dcab000064e1ad0e541a95dda46392ce85"
+    },
+    {
+      "file": "evidence/workflow-inventory.json",
+      "bytes": 543,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "ea3c49ab5d84a40f926ccfed161ac825a5d70638a954568693383b47e40dda00"
+    },
+    {
+      "file": "evidence/worktree-orientation.json",
+      "bytes": 13738,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "240cad0d63e5a1143bbb735ed0c70e6ee051c225518c05221d5ea6b1809a5b6e"
+    },
+    {
+      "file": "index.html",
+      "bytes": 8358,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "66c5e122b290da341fef57329e9cb6bf7c260fcb3f1bcb2127316d91fd3aa7f7"
+    },
+    {
+      "file": "PLAY_PRODUCTION_EVIDENCE.md",
+      "bytes": 3930,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "4e1c718e6dacf33534a1108b86db2a2fd3cc32454e005125f1e1ba315738cb47"
+    },
+    {
+      "file": "PUBLICATION_CHECKLIST.md",
+      "bytes": 4512,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "5da6f550eebf8ec5958a549d8fa0a202a18279766b60c789e140bcfa21252d3e"
+    },
+    {
+      "file": "qa/browsers.mjs",
+      "bytes": 14501,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "df9a90fc1041464a4592b052a8d5e396bb421623814b5dc5fe4be4b7c9b263e9"
+    },
+    {
+      "file": "qa/domain-cookie.mjs",
+      "bytes": 1675,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "278c7e71eb16cbec1f5d7022fee73644feaaa6c740110a414315508b333c58bb"
+    },
+    {
+      "file": "qa/edges-performance.mjs",
+      "bytes": 5445,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "ae9cf8894ad2231904f26cf27f8665ee0e9edeba57e844657367f4d46cbde7fe"
+    },
+    {
+      "file": "qa/focus-contrast.mjs",
+      "bytes": 2075,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "2d83bd86d3aea199734b2eae35ab44b1608f098bc502e43f1bc73e2793116ea8"
+    },
+    {
+      "file": "qa/keyboard-probe.mjs",
+      "bytes": 1175,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "81969b808053ee6f25b65c7593e45b534305b6943ef2e1dc252a2c1536519cb9"
+    },
+    {
+      "file": "qa/review-index.mjs",
+      "bytes": 1945,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "c0322a3b72ae18f4bb7a7772aa163b19e03c61c04d667b76527734ebc10d912f"
+    },
+    {
+      "file": "qa/static-audit.mjs",
+      "bytes": 5335,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "493c4a49f34c8dd4ca78a32f7ccab3ba44496e76a947ec290cc133469cce2003"
+    },
+    {
+      "file": "QA.md",
+      "bytes": 8265,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "d0de53035b92516e3040985644cc25239ad0612d524847780a4b10497c6e7e38"
+    },
+    {
+      "file": "READINESS_REPORT.md",
+      "bytes": 7911,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "7c34db1941eea7657dc9df6104897b20663607987b5b04a7cba91e9a0ea8f0da"
+    },
+    {
+      "file": "SECURITY_PRIVACY.md",
+      "bytes": 10553,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "4428538888a81bdeada6456a719dd000af03fcf97bdb7b5d97fab4b9bf763e40"
+    }
+  ]
+}

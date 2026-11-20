@@ -1,0 +1,72 @@
+{
+  "utc": "2026-11-20T15:35:12.848Z",
+  "engine": "157.0.8103.79",
+  "errors": [],
+  "external": [],
+  "width": 1280,
+  "scroll": 1280,
+  "images": [
+    {
+      "src": "evidence/firefox/home-390-first-text1.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/webkit/home-768-first-text1.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/chromium/home-1440-first-text1.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/webkit/record-320-viewport-width.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/firefox/journal-320-viewport-width.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/webkit/record-1440-viewport-width.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/firefox/journal-390-first-text1.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/webkit/journal-1440-first-text1.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/chromium/home-1440-saved-text1-full.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/firefox/home-390-saved-text1-full.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/webkit/journal-390-saved-text1-full.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/webkit/home-320-saved-text1.6.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/chromium/focus-journal-link.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/chromium/focus-faq.png",
+      "loaded": true
+    },
+    {
+      "src": "evidence/chromium/home-320-text200.png",
+      "loaded": true
+    }
+  ],
+  "scripts": 0,
+  "pass": true
+}

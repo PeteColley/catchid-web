@@ -1,0 +1,51 @@
+{
+  "utc": "2026-11-20T15:18:43.430Z",
+  "method": "Synthetic .test hostname fulfilled only from loopback static bytes; no DNS/public host/contact",
+  "engine": "159.0",
+  "before": [
+    {
+      "name": "_ga",
+      "value": "host",
+      "domain": "audit.catchid.test",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_TEST",
+      "value": "domain",
+      "domain": ".catchid.test",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "audit_keep",
+      "value": "yes",
+      "domain": "audit.catchid.test",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    }
+  ],
+  "after": [
+    {
+      "name": "audit_keep",
+      "value": "yes",
+      "domain": "audit.catchid.test",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    }
+  ],
+  "messages": [],
+  "pass": true
+}

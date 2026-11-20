@@ -1,0 +1,30 @@
+
+> catchid-web@1.0.0 check
+> astro check
+
+15:35:16 [types] Generated 76ms
+15:35:16 [check] Getting diagnostics for Astro files in C:\Users\chen2\Documents\ChatGPT\CatchID\cid-web-cro-09...
+[96mdocs/CID-WEB-CRO-07/verify-recovery.mjs[0m:[93m30[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m30[0m const require=createRequire(path.join(reference,'package.json')),sharp=require('sharp');
+[7m  [0m [93m      ~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-07/verify-review.mjs[0m:[93m35[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m35[0m const require=createRequire(path.join(reference,'package.json'));
+[7m  [0m [93m      ~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-09/qa/browsers.mjs[0m:[93m30[0m:[93m146[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m30[0m async function navigate(p,url){await p.goto(origin+url,{waitUntil:'load'});await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.dataset.auditLoading=i.loading;i.loading='eager';return i.decode().catch(()=>{});}));});}
+[7m  [0m [93m                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mscripts/verify-dependencies.mjs[0m:[93m8[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m8[0m const require = createRequire(import.meta.url);
+[7m [0m [93m      ~~~~~~~[0m
+
+Result (45 files):
+- 0 errors
+- 0 warnings
+- 4 hints

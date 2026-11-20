@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-20T15:08:36.2133889Z",
+  "ci": 0,
+  "check": 0,
+  "build": 0,
+  "plainVerify": 1,
+  "normalisedVerify": 0,
+  "historicalDependencyGuard": 0,
+  "audit": 1,
+  "tree": 0,
+  "node": "v24.21.0",
+  "npm": "11.19.0"
+}

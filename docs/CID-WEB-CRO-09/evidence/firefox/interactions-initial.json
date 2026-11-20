@@ -1,0 +1,1104 @@
+{
+  "utc": "2026-11-20T15:14:40.804Z",
+  "engine": "firefox",
+  "version": "159.0",
+  "mode": "interactions",
+  "method": "Actual engine on Windows; CSS viewport emulation, not Safari or a physical phone",
+  "cases": [
+    {
+      "id": "home-320",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "label": "Menu",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "home-390",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "label": "Menu",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "home-768",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "label": "How it works",
+          "outline": "solid"
+        },
+        {
+          "label": "Journal",
+          "outline": "solid"
+        },
+        {
+          "label": "Insights",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "home-1024",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "label": "How it works",
+          "outline": "solid"
+        },
+        {
+          "label": "Journal",
+          "outline": "solid"
+        },
+        {
+          "label": "Insights",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "home-1440",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "label": "How it works",
+          "outline": "solid"
+        },
+        {
+          "label": "Journal",
+          "outline": "solid"
+        },
+        {
+          "label": "Insights",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "journal-320",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "label": "Menu",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "journal-390",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "label": "Menu",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "journal-768",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "label": "How it works",
+          "outline": "solid"
+        },
+        {
+          "label": "Journal",
+          "outline": "solid"
+        },
+        {
+          "label": "Insights",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "journal-1024",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "label": "How it works",
+          "outline": "solid"
+        },
+        {
+          "label": "Journal",
+          "outline": "solid"
+        },
+        {
+          "label": "Insights",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "id": "journal-1440",
+      "kind": "keyboard-navigation",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "label": "How it works",
+          "outline": "solid"
+        },
+        {
+          "label": "Journal",
+          "outline": "solid"
+        },
+        {
+          "label": "Insights",
+          "outline": "solid"
+        }
+      ]
+    },
+    {
+      "route": "home",
+      "kind": "consent",
+      "before": {
+        "choice": null,
+        "disabled": true,
+        "loaders": 0,
+        "hidden": false,
+        "cookies": ""
+      },
+      "accepted": {
+        "choice": "granted",
+        "disabled": false,
+        "loaders": 1,
+        "hidden": true,
+        "cookies": ""
+      },
+      "clicks": {
+        "events": [
+          [
+            "event",
+            "play_store_click",
+            {
+              "destination": "google_play",
+              "handoff_attribution": "inbound_campaign"
+            }
+          ],
+          [
+            "event",
+            "play_store_click",
+            {
+              "destination": "google_play",
+              "handoff_attribution": "inbound_campaign"
+            }
+          ]
+        ],
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dqa%26utm_medium%3Dreview%26utm_campaign%3Dfixture%26gclid%3Dfixture-id",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dqa%26utm_medium%3Dreview%26utm_campaign%3Dfixture%26gclid%3Dfixture-id"
+        ]
+      },
+      "withdrawn": {
+        "choice": "denied",
+        "disabled": true,
+        "loaders": 0,
+        "hidden": true,
+        "cookies": ""
+      }
+    },
+    {
+      "route": "home",
+      "kind": "storage-blocked",
+      "disabled": true,
+      "loaders": 0,
+      "status": "Analytics are off on this page. Your browser could not save your choice. Please allow site storage to remember it.",
+      "visible": true
+    },
+    {
+      "route": "home",
+      "kind": "no-js",
+      "badges": 2,
+      "hidden": true,
+      "loaders": 0
+    },
+    {
+      "route": "journal",
+      "kind": "consent",
+      "before": {
+        "choice": null,
+        "disabled": true,
+        "loaders": 0,
+        "hidden": false,
+        "cookies": ""
+      },
+      "accepted": {
+        "choice": "granted",
+        "disabled": false,
+        "loaders": 1,
+        "hidden": true,
+        "cookies": ""
+      },
+      "clicks": {
+        "events": [
+          [
+            "event",
+            "play_store_click",
+            {
+              "destination": "google_play",
+              "handoff_attribution": "inbound_campaign"
+            }
+          ],
+          [
+            "event",
+            "play_store_click",
+            {
+              "destination": "google_play",
+              "handoff_attribution": "inbound_campaign"
+            }
+          ]
+        ],
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dqa%26utm_medium%3Dreview%26utm_campaign%3Dfixture%26gclid%3Dfixture-id",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dqa%26utm_medium%3Dreview%26utm_campaign%3Dfixture%26gclid%3Dfixture-id"
+        ]
+      },
+      "withdrawn": {
+        "choice": "denied",
+        "disabled": true,
+        "loaders": 0,
+        "hidden": true,
+        "cookies": ""
+      }
+    },
+    {
+      "route": "journal",
+      "kind": "storage-blocked",
+      "disabled": true,
+      "loaders": 0,
+      "status": "Analytics are off on this page. Your browser could not save your choice. Please allow site storage to remember it.",
+      "visible": true
+    },
+    {
+      "route": "journal",
+      "kind": "no-js",
+      "badges": 2,
+      "hidden": true,
+      "loaders": 0
+    },
+    {
+      "route": "home",
+      "width": 320,
+      "kind": "text160-keyboard",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "visible": true,
+          "top": 10,
+          "bottom": 76.23333740234375,
+          "limit": 470.5
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 7.9166717529296875,
+          "bottom": 52.08332824707031,
+          "limit": 470.5
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 470.5
+        },
+        {
+          "label": "",
+          "visible": true,
+          "top": 194.78334045410156,
+          "bottom": 283.21665954589844,
+          "limit": 470.5
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 617.36669921875,
+          "bottom": 706.0000305175781,
+          "limit": 470.5
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 617.36669921875,
+          "bottom": 706.0000305175781,
+          "limit": 470.5
+        },
+        {
+          "label": "Explore the fishing journal ↗",
+          "visible": true,
+          "top": 204.68333435058594,
+          "bottom": 273.31666564941406,
+          "limit": 470.5
+        },
+        {
+          "label": "What can Insights tell me? ↗",
+          "visible": true,
+          "top": 204.68333435058594,
+          "bottom": 273.31666564941406,
+          "limit": 470.5
+        },
+        {
+          "label": "View the Catch Insights example ↗",
+          "visible": true,
+          "top": 204.68333435058594,
+          "bottom": 273.31666564941406,
+          "limit": 470.5
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 184,
+          "bottom": 294,
+          "limit": 470.5
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 295,
+          "bottom": 405,
+          "limit": 470.5
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 342.5,
+          "bottom": 452.5,
+          "limit": 470.5
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 166,
+          "bottom": 312,
+          "limit": 470.5
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 313,
+          "bottom": 387,
+          "limit": 470.5
+        },
+        {
+          "label": "",
+          "visible": true,
+          "top": 194.78334045410156,
+          "bottom": 283.21665954589844,
+          "limit": 470.5
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 364.16668701171875,
+          "bottom": 452.50001525878906,
+          "limit": 470.5
+        },
+        {
+          "label": "Fishing journal app",
+          "visible": true,
+          "top": 278.933349609375,
+          "bottom": 322.933349609375,
+          "limit": 470.5
+        },
+        {
+          "label": "Privacy",
+          "visible": true,
+          "top": 278.933349609375,
+          "bottom": 322.933349609375,
+          "limit": 470.5
+        },
+        {
+          "label": "Support",
+          "visible": true,
+          "top": 328.933349609375,
+          "bottom": 372.933349609375,
+          "limit": 470.5
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 328.933349609375,
+          "bottom": 372.933349609375,
+          "limit": 470.5
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -11899.650390625,
+          "bottom": 720,
+          "limit": 470.5
+        },
+        {
+          "label": "Skip to content",
+          "visible": true,
+          "top": 10,
+          "bottom": 76.23333740234375,
+          "limit": 470.5
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 7.9166717529296875,
+          "bottom": 52.08332824707031,
+          "limit": 470.5
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 470.5
+        }
+      ]
+    },
+    {
+      "route": "home",
+      "width": 390,
+      "kind": "text160-keyboard",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "visible": true,
+          "top": 10,
+          "bottom": 76.23333740234375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 7.9166717529296875,
+          "bottom": 52.08332824707031,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "",
+          "visible": true,
+          "top": 273.7833251953125,
+          "bottom": 362.2166442871094,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 775.683349609375,
+          "bottom": 830.0000152587891,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 775.683349609375,
+          "bottom": 830.0000152587891,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Explore the fishing journal ↗",
+          "visible": true,
+          "top": 296,
+          "bottom": 340,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "What can Insights tell me? ↗",
+          "visible": true,
+          "top": 296,
+          "bottom": 340,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "View the Catch Insights example ↗",
+          "visible": true,
+          "top": 296,
+          "bottom": 340,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 263,
+          "bottom": 373,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 374,
+          "bottom": 484,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 485,
+          "bottom": 595,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 263,
+          "bottom": 373,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 374,
+          "bottom": 448,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "",
+          "visible": true,
+          "top": 273.7833251953125,
+          "bottom": 362.2166442871094,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 501.816650390625,
+          "bottom": 545.9833221435547,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Fishing journal app",
+          "visible": true,
+          "top": 436.933349609375,
+          "bottom": 480.933349609375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Privacy",
+          "visible": true,
+          "top": 436.933349609375,
+          "bottom": 480.933349609375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Support",
+          "visible": true,
+          "top": 436.933349609375,
+          "bottom": 480.933349609375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 486.933349609375,
+          "bottom": 530.933349609375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -10892.5830078125,
+          "bottom": 844,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Skip to content",
+          "visible": true,
+          "top": 10,
+          "bottom": 76.23333740234375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 7.9166717529296875,
+          "bottom": 52.08332824707031,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 628.816650390625
+        }
+      ]
+    },
+    {
+      "route": "journal",
+      "width": 320,
+      "kind": "text160-keyboard",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "visible": true,
+          "top": 10,
+          "bottom": 76.23333740234375,
+          "limit": 470.5
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 7.9166717529296875,
+          "bottom": 52.08332824707031,
+          "limit": 470.5
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 470.5
+        },
+        {
+          "label": "",
+          "visible": true,
+          "top": 194.78334045410156,
+          "bottom": 283.21665954589844,
+          "limit": 470.5
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 617.36669921875,
+          "bottom": 706.0000305175781,
+          "limit": 470.5
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 617.36669921875,
+          "bottom": 706.0000305175781,
+          "limit": 470.5
+        },
+        {
+          "label": "What can Insights tell me? ↗",
+          "visible": true,
+          "top": 204.68333435058594,
+          "bottom": 273.31666564941406,
+          "limit": 470.5
+        },
+        {
+          "label": "View the Catch Insights example ↗",
+          "visible": true,
+          "top": 204.68333435058594,
+          "bottom": 273.31666564941406,
+          "limit": 470.5
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 184,
+          "bottom": 294,
+          "limit": 470.5
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 295,
+          "bottom": 405,
+          "limit": 470.5
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 342.5,
+          "bottom": 452.5,
+          "limit": 470.5
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 166,
+          "bottom": 312,
+          "limit": 470.5
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 313,
+          "bottom": 387,
+          "limit": 470.5
+        },
+        {
+          "label": "",
+          "visible": true,
+          "top": 194.78334045410156,
+          "bottom": 283.21665954589844,
+          "limit": 470.5
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 364.16668701171875,
+          "bottom": 452.50001525878906,
+          "limit": 470.5
+        },
+        {
+          "label": "Fishing journal app",
+          "visible": true,
+          "top": 278.933349609375,
+          "bottom": 322.933349609375,
+          "limit": 470.5
+        },
+        {
+          "label": "Privacy",
+          "visible": true,
+          "top": 278.933349609375,
+          "bottom": 322.933349609375,
+          "limit": 470.5
+        },
+        {
+          "label": "Support",
+          "visible": true,
+          "top": 328.933349609375,
+          "bottom": 372.933349609375,
+          "limit": 470.5
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 328.933349609375,
+          "bottom": 372.933349609375,
+          "limit": 470.5
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -9798.650390625,
+          "bottom": 720,
+          "limit": 470.5
+        },
+        {
+          "label": "Skip to content",
+          "visible": true,
+          "top": 10,
+          "bottom": 76.23333740234375,
+          "limit": 470.5
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 7.9166717529296875,
+          "bottom": 52.08332824707031,
+          "limit": 470.5
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 470.5
+        },
+        {
+          "label": "",
+          "visible": true,
+          "top": 194.78334045410156,
+          "bottom": 283.21665954589844,
+          "limit": 470.5
+        }
+      ]
+    },
+    {
+      "route": "journal",
+      "width": 390,
+      "kind": "text160-keyboard",
+      "focus": [
+        {
+          "label": "Skip to content",
+          "visible": true,
+          "top": 10,
+          "bottom": 76.23333740234375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 7.9166717529296875,
+          "bottom": 52.08332824707031,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "",
+          "visible": true,
+          "top": 273.7833251953125,
+          "bottom": 362.2166442871094,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Accept analytics",
+          "visible": true,
+          "top": 775.683349609375,
+          "bottom": 830.0000152587891,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Reject analytics",
+          "visible": true,
+          "top": 775.683349609375,
+          "bottom": 830.0000152587891,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "What can Insights tell me? ↗",
+          "visible": true,
+          "top": 296,
+          "bottom": 340,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "View the Catch Insights example ↗",
+          "visible": true,
+          "top": 296,
+          "bottom": 340,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Can I log a catch without a photo?",
+          "visible": true,
+          "top": 263,
+          "bottom": 373,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Do I need an account to start?",
+          "visible": true,
+          "top": 374,
+          "bottom": 484,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "What will my Insights show?",
+          "visible": true,
+          "top": 485,
+          "bottom": 595,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Can a fish suggestion be wrong?",
+          "visible": true,
+          "top": 263,
+          "bottom": 373,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Is CatchID free?",
+          "visible": true,
+          "top": 374,
+          "bottom": 448,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "",
+          "visible": true,
+          "top": 273.7833251953125,
+          "bottom": 362.2166442871094,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 501.816650390625,
+          "bottom": 545.9833221435547,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Fishing journal app",
+          "visible": true,
+          "top": 436.933349609375,
+          "bottom": 480.933349609375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Privacy",
+          "visible": true,
+          "top": 436.933349609375,
+          "bottom": 480.933349609375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Support",
+          "visible": true,
+          "top": 436.933349609375,
+          "bottom": 480.933349609375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Analytics choices",
+          "visible": true,
+          "top": 486.933349609375,
+          "bottom": 530.933349609375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Skip to contentCatchIDHow it worksJournalInsightsMenuHow it worksFishi",
+          "visible": true,
+          "top": -8542.06640625,
+          "bottom": 844,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Skip to content",
+          "visible": true,
+          "top": 10,
+          "bottom": 76.23333740234375,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "CatchID home",
+          "visible": true,
+          "top": 7.9166717529296875,
+          "bottom": 52.08332824707031,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "Menu",
+          "visible": true,
+          "top": 8,
+          "bottom": 52,
+          "limit": 628.816650390625
+        },
+        {
+          "label": "",
+          "visible": true,
+          "top": 273.7833251953125,
+          "bottom": 362.2166442871094,
+          "limit": 628.816650390625
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "exceptions": [
+    "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+    "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+    "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+    "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+    "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/fishing-journal-app/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+    "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/fishing-journal-app/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+    "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/fishing-journal-app/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+    "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/fishing-journal-app/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]"
+  ],
+  "external": [],
+  "analytics": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "choice": "granted"
+    }
+  ],
+  "axe": []
+}

@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-20T15:36:32.6274843Z",
+  "baseline": "94a4f5ed343b70e7f992556acb1a037158ebb9c4",
+  "branch": "codex/cid-web-cro-09-readiness",
+  "remoteHeads": [
+    "8d0731f361b94a81523bfe07f528b7fdb365ccb4\trefs/heads/codex/cid-web-cro-06-hero-integration",
+    "aa818647e3acd7537e92774fb7b2f437388aa7ce\trefs/heads/codex/cid-web-cro-07-product-captures",
+    "94a4f5ed343b70e7f992556acb1a037158ebb9c4\trefs/heads/codex/cid-web-cro-08-product-integration",
+    "42c997c13712a432c8e2384915aaa010a16d068b\trefs/heads/main"
+  ],
+  "recentMain": [
+    "42c997c13712a432c8e2384915aaa010a16d068b Publish CatchID authorized app-ads.txt declaration",
+    "341fdc09608c4e38984770e375e0991c2dfe0286 fix: remediate website dependency advisories",
+    "9fbef55613daded6e0d1c23bc616d8a91dca9f52 docs: record dependency review and authorised CRO publication",
+    "51f44045edea137fa31a69a7df2011e2da83c102 Save complete journey and conversion review captures"
+  ],
+  "recentCandidate": [
+    "94a4f5ed343b70e7f992556acb1a037158ebb9c4 Record CRO-08 remote implementation delivery receipt",
+    "7189320d756d934898b13328f8ce8d9fb8614166 Integrate approved authentic product screenshots for CRO-08",
+    "aa818647e3acd7537e92774fb7b2f437388aa7ce Record CRO-07A remote capture delivery receipt",
+    "a66086c23c14513c778a46262c8a0d41362809ec Capture authentic CRO-07A no-photo catch form and details"
+  ],
+  "androidMain": "35cbf6d562d6f42906e33c5c7be95d0b95800ad7",
+  "androidAgentsBlob": "edaa7694c58fd4e855dba2ac8e63bb46eb357353",
+  "androidStatusBlob": "a811c048466f36fe8f6f505e481ca2ce7db08a45",
+  "scope": "Audit documents/evidence plus PROJECT_STATUS only",
+  "nativeBrowserControl": "Chrome unavailable; no unrelated native window content opened",
+  "physicalDevices": "No authorised clean physical test device identified",
+  "linux": "WSL not installed; Docker unavailable; no actual Linux run",
+  "screenReader": "Narrator inventory only; no spoken operation tested"
+}

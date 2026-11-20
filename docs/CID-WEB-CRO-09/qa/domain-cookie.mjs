@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';import path from 'node:path';import {pathToFileURL} from 'node:url';
+const runtime=path.resolve('../cro09-runtime');process.env.PLAYWRIGHT_BROWSERS_PATH=path.join(runtime,'browsers');
+const {firefox}=await import(pathToFileURL(path.join(runtime,'tools/node_modules/playwright/index.mjs')));
+const b=await firefox.launch(),c=await b.newContext(),p=await c.newPage(),messages=[];
+p.on('console',m=>{if(m.type()==='error')messages.push(m.text());});p.on('pageerror',e=>messages.push(e.message));
+await c.route('**/*',async r=>{const u=new URL(r.request().url());if(u.hostname!=='audit.catchid.test')throw Error('Unexpected request '+u.href);const local=await fetch('http://127.0.0.1:4191'+u.pathname);return r.fulfill({status:local.status,headers:{'content-type':local.headers.get('content-type')},body:Buffer.from(await local.arrayBuffer())});});
+await p.goto('http://audit.catchid.test/');await p.evaluate(()=>{document.cookie='_ga=host; Path=/';document.cookie='_ga_TEST=domain; Path=/; Domain=.catchid.test';document.cookie='audit_keep=yes; Path=/';});
+const before=await c.cookies();await p.locator('#analytics-reject').click();const after=await c.cookies();
+const result={utc:new Date().toISOString(),method:'Synthetic .test hostname fulfilled only from loopback static bytes; no DNS/public host/contact',engine:b.version(),before,after,messages,pass:before.length===3&&after.length===1&&after[0].name==='audit_keep'&&!messages.length};
+await fs.writeFile('docs/CID-WEB-CRO-09/evidence/firefox/domain-cookie.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result));await b.close();if(!result.pass)process.exitCode=1;

@@ -1,0 +1,2121 @@
+{
+  "utc": "2026-11-20T15:25:30.281Z",
+  "engine": "chromium",
+  "version": "157.0.8103.79",
+  "edges": [
+    {
+      "route": "/",
+      "width": 760,
+      "textFactor": 1,
+      "scroll": 760,
+      "consent": {
+        "x": 0,
+        "y": 878.5625,
+        "width": 760,
+        "height": 121.4375,
+        "top": 878.5625,
+        "right": 760,
+        "bottom": 1000,
+        "left": 0
+      },
+      "buttons": [
+        {
+          "x": 20,
+          "y": 942,
+          "width": 355,
+          "height": 44,
+          "top": 942,
+          "right": 375,
+          "bottom": 986,
+          "left": 20
+        },
+        {
+          "x": 385,
+          "y": 942,
+          "width": 355,
+          "height": 44,
+          "top": 942,
+          "right": 740,
+          "bottom": 986,
+          "left": 385
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/",
+      "width": 761,
+      "textFactor": 1,
+      "scroll": 761,
+      "consent": {
+        "x": 32,
+        "y": 771.703125,
+        "width": 697,
+        "height": 119,
+        "top": 771.703125,
+        "right": 729,
+        "bottom": 890.703125,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 581,
+          "y": 792.703125,
+          "width": 148,
+          "height": 44,
+          "top": 792.703125,
+          "right": 729,
+          "bottom": 836.703125,
+          "left": 581
+        },
+        {
+          "x": 581,
+          "y": 842.703125,
+          "width": 148,
+          "height": 44,
+          "top": 842.703125,
+          "right": 729,
+          "bottom": 886.703125,
+          "left": 581
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/",
+      "width": 900,
+      "textFactor": 1,
+      "scroll": 900,
+      "consent": {
+        "x": 32,
+        "y": 766,
+        "width": 836,
+        "height": 119,
+        "top": 766,
+        "right": 868,
+        "bottom": 885,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 720,
+          "y": 787,
+          "width": 148,
+          "height": 44,
+          "top": 787,
+          "right": 868,
+          "bottom": 831,
+          "left": 720
+        },
+        {
+          "x": 720,
+          "y": 837,
+          "width": 148,
+          "height": 44,
+          "top": 837,
+          "right": 868,
+          "bottom": 881,
+          "left": 720
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/",
+      "width": 901,
+      "textFactor": 1,
+      "scroll": 901,
+      "consent": {
+        "x": 32,
+        "y": 766,
+        "width": 837,
+        "height": 119,
+        "top": 766,
+        "right": 869,
+        "bottom": 885,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 721,
+          "y": 787,
+          "width": 148,
+          "height": 44,
+          "top": 787,
+          "right": 869,
+          "bottom": 831,
+          "left": 721
+        },
+        {
+          "x": 721,
+          "y": 837,
+          "width": 148,
+          "height": 44,
+          "top": 837,
+          "right": 869,
+          "bottom": 881,
+          "left": 721
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/",
+      "width": 760,
+      "textFactor": 1.6,
+      "scroll": 760,
+      "consent": {
+        "x": 0,
+        "y": 845.1875,
+        "width": 760,
+        "height": 154.8125,
+        "top": 845.1875,
+        "right": 760,
+        "bottom": 1000,
+        "left": 0
+      },
+      "buttons": [
+        {
+          "x": 20,
+          "y": 931.6875,
+          "width": 355,
+          "height": 54.3125,
+          "top": 931.6875,
+          "right": 375,
+          "bottom": 986,
+          "left": 20
+        },
+        {
+          "x": 385,
+          "y": 931.6875,
+          "width": 355,
+          "height": 54.3125,
+          "top": 931.6875,
+          "right": 740,
+          "bottom": 986,
+          "left": 385
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/",
+      "width": 761,
+      "textFactor": 1.6,
+      "scroll": 761,
+      "consent": {
+        "x": 32,
+        "y": 1473.484375,
+        "width": 697,
+        "height": 208.25,
+        "top": 1473.484375,
+        "right": 729,
+        "bottom": 1681.734375,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 581,
+          "y": 1494.484375,
+          "width": 148,
+          "height": 88.625,
+          "top": 1494.484375,
+          "right": 729,
+          "bottom": 1583.109375,
+          "left": 581
+        },
+        {
+          "x": 581,
+          "y": 1589.109375,
+          "width": 148,
+          "height": 88.625,
+          "top": 1589.109375,
+          "right": 729,
+          "bottom": 1677.734375,
+          "left": 581
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/",
+      "width": 900,
+      "textFactor": 1.6,
+      "scroll": 900,
+      "consent": {
+        "x": 32,
+        "y": 1398.15625,
+        "width": 836,
+        "height": 208.25,
+        "top": 1398.15625,
+        "right": 868,
+        "bottom": 1606.40625,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 720,
+          "y": 1419.15625,
+          "width": 148,
+          "height": 88.625,
+          "top": 1419.15625,
+          "right": 868,
+          "bottom": 1507.78125,
+          "left": 720
+        },
+        {
+          "x": 720,
+          "y": 1513.78125,
+          "width": 148,
+          "height": 88.625,
+          "top": 1513.78125,
+          "right": 868,
+          "bottom": 1602.40625,
+          "left": 720
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/",
+      "width": 901,
+      "textFactor": 1.6,
+      "scroll": 901,
+      "consent": {
+        "x": 32,
+        "y": 1459.28125,
+        "width": 837,
+        "height": 208.25,
+        "top": 1459.28125,
+        "right": 869,
+        "bottom": 1667.53125,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 721,
+          "y": 1480.28125,
+          "width": 148,
+          "height": 88.625,
+          "top": 1480.28125,
+          "right": 869,
+          "bottom": 1568.90625,
+          "left": 721
+        },
+        {
+          "x": 721,
+          "y": 1574.90625,
+          "width": 148,
+          "height": 88.625,
+          "top": 1574.90625,
+          "right": 869,
+          "bottom": 1663.53125,
+          "left": 721
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "textFactor": 2,
+      "scroll": 320,
+      "consent": {
+        "x": 0,
+        "y": 626.09375,
+        "width": 320,
+        "height": 373.90625,
+        "top": 626.09375,
+        "right": 320,
+        "bottom": 1000,
+        "left": 0
+      },
+      "buttons": [
+        {
+          "x": 16,
+          "y": 880.21875,
+          "width": 139,
+          "height": 105.78125,
+          "top": 880.21875,
+          "right": 155,
+          "bottom": 986,
+          "left": 16
+        },
+        {
+          "x": 165,
+          "y": 880.21875,
+          "width": 139,
+          "height": 105.78125,
+          "top": 880.21875,
+          "right": 304,
+          "bottom": 986,
+          "left": 165
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "textFactor": 2,
+      "scroll": 390,
+      "consent": {
+        "x": 0,
+        "y": 663.78125,
+        "width": 390,
+        "height": 336.21875,
+        "top": 663.78125,
+        "right": 390,
+        "bottom": 1000,
+        "left": 0
+      },
+      "buttons": [
+        {
+          "x": 20,
+          "y": 880.21875,
+          "width": 170,
+          "height": 105.78125,
+          "top": 880.21875,
+          "right": 190,
+          "bottom": 986,
+          "left": 20
+        },
+        {
+          "x": 200,
+          "y": 880.21875,
+          "width": 170,
+          "height": 105.78125,
+          "top": 880.21875,
+          "right": 370,
+          "bottom": 986,
+          "left": 200
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "textFactor": 2,
+      "scroll": 768,
+      "consent": {
+        "x": 32,
+        "y": 1873.296875,
+        "width": 704,
+        "height": 242.5625,
+        "top": 1873.296875,
+        "right": 736,
+        "bottom": 2115.859375,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 588,
+          "y": 1894.296875,
+          "width": 148,
+          "height": 105.78125,
+          "top": 1894.296875,
+          "right": 736,
+          "bottom": 2000.078125,
+          "left": 588
+        },
+        {
+          "x": 588,
+          "y": 2006.078125,
+          "width": 148,
+          "height": 105.78125,
+          "top": 2006.078125,
+          "right": 736,
+          "bottom": 2111.859375,
+          "left": 588
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "width": 760,
+      "textFactor": 1,
+      "scroll": 760,
+      "consent": {
+        "x": 0,
+        "y": 878.5625,
+        "width": 760,
+        "height": 121.4375,
+        "top": 878.5625,
+        "right": 760,
+        "bottom": 1000,
+        "left": 0
+      },
+      "buttons": [
+        {
+          "x": 20,
+          "y": 942,
+          "width": 355,
+          "height": 44,
+          "top": 942,
+          "right": 375,
+          "bottom": 986,
+          "left": 20
+        },
+        {
+          "x": 385,
+          "y": 942,
+          "width": 355,
+          "height": 44,
+          "top": 942,
+          "right": 740,
+          "bottom": 986,
+          "left": 385
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "width": 761,
+      "textFactor": 1,
+      "scroll": 761,
+      "consent": {
+        "x": 32,
+        "y": 877.546875,
+        "width": 697,
+        "height": 119,
+        "top": 877.546875,
+        "right": 729,
+        "bottom": 996.546875,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 581,
+          "y": 898.546875,
+          "width": 148,
+          "height": 44,
+          "top": 898.546875,
+          "right": 729,
+          "bottom": 942.546875,
+          "left": 581
+        },
+        {
+          "x": 581,
+          "y": 948.546875,
+          "width": 148,
+          "height": 44,
+          "top": 948.546875,
+          "right": 729,
+          "bottom": 992.546875,
+          "left": 581
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "width": 900,
+      "textFactor": 1,
+      "scroll": 900,
+      "consent": {
+        "x": 32,
+        "y": 791,
+        "width": 836,
+        "height": 119,
+        "top": 791,
+        "right": 868,
+        "bottom": 910,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 720,
+          "y": 812,
+          "width": 148,
+          "height": 44,
+          "top": 812,
+          "right": 868,
+          "bottom": 856,
+          "left": 720
+        },
+        {
+          "x": 720,
+          "y": 862,
+          "width": 148,
+          "height": 44,
+          "top": 862,
+          "right": 868,
+          "bottom": 906,
+          "left": 720
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "width": 901,
+      "textFactor": 1,
+      "scroll": 901,
+      "consent": {
+        "x": 32,
+        "y": 841.515625,
+        "width": 837,
+        "height": 119,
+        "top": 841.515625,
+        "right": 869,
+        "bottom": 960.515625,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 721,
+          "y": 862.515625,
+          "width": 148,
+          "height": 44,
+          "top": 862.515625,
+          "right": 869,
+          "bottom": 906.515625,
+          "left": 721
+        },
+        {
+          "x": 721,
+          "y": 912.515625,
+          "width": 148,
+          "height": 44,
+          "top": 912.515625,
+          "right": 869,
+          "bottom": 956.515625,
+          "left": 721
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "width": 760,
+      "textFactor": 1.6,
+      "scroll": 760,
+      "consent": {
+        "x": 0,
+        "y": 845.1875,
+        "width": 760,
+        "height": 154.8125,
+        "top": 845.1875,
+        "right": 760,
+        "bottom": 1000,
+        "left": 0
+      },
+      "buttons": [
+        {
+          "x": 20,
+          "y": 931.6875,
+          "width": 355,
+          "height": 54.3125,
+          "top": 931.6875,
+          "right": 375,
+          "bottom": 986,
+          "left": 20
+        },
+        {
+          "x": 385,
+          "y": 931.6875,
+          "width": 355,
+          "height": 54.3125,
+          "top": 931.6875,
+          "right": 740,
+          "bottom": 986,
+          "left": 385
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "width": 761,
+      "textFactor": 1.6,
+      "scroll": 761,
+      "consent": {
+        "x": 32,
+        "y": 1563.453125,
+        "width": 697,
+        "height": 208.25,
+        "top": 1563.453125,
+        "right": 729,
+        "bottom": 1771.703125,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 581,
+          "y": 1584.453125,
+          "width": 148,
+          "height": 88.625,
+          "top": 1584.453125,
+          "right": 729,
+          "bottom": 1673.078125,
+          "left": 581
+        },
+        {
+          "x": 581,
+          "y": 1679.078125,
+          "width": 148,
+          "height": 88.625,
+          "top": 1679.078125,
+          "right": 729,
+          "bottom": 1767.703125,
+          "left": 581
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "width": 900,
+      "textFactor": 1.6,
+      "scroll": 900,
+      "consent": {
+        "x": 32,
+        "y": 1416.453125,
+        "width": 836,
+        "height": 208.25,
+        "top": 1416.453125,
+        "right": 868,
+        "bottom": 1624.703125,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 720,
+          "y": 1437.453125,
+          "width": 148,
+          "height": 88.625,
+          "top": 1437.453125,
+          "right": 868,
+          "bottom": 1526.078125,
+          "left": 720
+        },
+        {
+          "x": 720,
+          "y": 1532.078125,
+          "width": 148,
+          "height": 88.625,
+          "top": 1532.078125,
+          "right": 868,
+          "bottom": 1620.703125,
+          "left": 720
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "width": 901,
+      "textFactor": 1.6,
+      "scroll": 901,
+      "consent": {
+        "x": 32,
+        "y": 1477.578125,
+        "width": 837,
+        "height": 208.25,
+        "top": 1477.578125,
+        "right": 869,
+        "bottom": 1685.828125,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 721,
+          "y": 1498.578125,
+          "width": 148,
+          "height": 88.625,
+          "top": 1498.578125,
+          "right": 869,
+          "bottom": 1587.203125,
+          "left": 721
+        },
+        {
+          "x": 721,
+          "y": 1593.203125,
+          "width": 148,
+          "height": 88.625,
+          "top": 1593.203125,
+          "right": 869,
+          "bottom": 1681.828125,
+          "left": 721
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "width": 320,
+      "textFactor": 2,
+      "scroll": 320,
+      "consent": {
+        "x": 0,
+        "y": 626.09375,
+        "width": 320,
+        "height": 373.90625,
+        "top": 626.09375,
+        "right": 320,
+        "bottom": 1000,
+        "left": 0
+      },
+      "buttons": [
+        {
+          "x": 16,
+          "y": 880.21875,
+          "width": 139,
+          "height": 105.78125,
+          "top": 880.21875,
+          "right": 155,
+          "bottom": 986,
+          "left": 16
+        },
+        {
+          "x": 165,
+          "y": 880.21875,
+          "width": 139,
+          "height": 105.78125,
+          "top": 880.21875,
+          "right": 304,
+          "bottom": 986,
+          "left": 165
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "width": 390,
+      "textFactor": 2,
+      "scroll": 390,
+      "consent": {
+        "x": 0,
+        "y": 663.78125,
+        "width": 390,
+        "height": 336.21875,
+        "top": 663.78125,
+        "right": 390,
+        "bottom": 1000,
+        "left": 0
+      },
+      "buttons": [
+        {
+          "x": 20,
+          "y": 880.21875,
+          "width": 170,
+          "height": 105.78125,
+          "top": 880.21875,
+          "right": 190,
+          "bottom": 986,
+          "left": 20
+        },
+        {
+          "x": 200,
+          "y": 880.21875,
+          "width": 170,
+          "height": 105.78125,
+          "top": 880.21875,
+          "right": 370,
+          "bottom": 986,
+          "left": 200
+        }
+      ],
+      "badges": 2
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "width": 768,
+      "textFactor": 2,
+      "scroll": 768,
+      "consent": {
+        "x": 32,
+        "y": 2303.765625,
+        "width": 704,
+        "height": 242.5625,
+        "top": 2303.765625,
+        "right": 736,
+        "bottom": 2546.328125,
+        "left": 32
+      },
+      "buttons": [
+        {
+          "x": 588,
+          "y": 2324.765625,
+          "width": 148,
+          "height": 105.78125,
+          "top": 2324.765625,
+          "right": 736,
+          "bottom": 2430.546875,
+          "left": 588
+        },
+        {
+          "x": 588,
+          "y": 2436.546875,
+          "width": 148,
+          "height": 105.78125,
+          "top": 2436.546875,
+          "right": 736,
+          "bottom": 2542.328125,
+          "left": 588
+        }
+      ],
+      "badges": 2
+    }
+  ],
+  "performance": [
+    {
+      "width": 320,
+      "dpr": 1,
+      "initialRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1gYU0O.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png"
+      ],
+      "allRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1gYU0O.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+        "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_o8szK.webp",
+        "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp"
+      ],
+      "hero": [
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp"
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "width": 40,
+          "renderedWidth": 33,
+          "loading": "eager",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 197,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+          "width": 533,
+          "renderedWidth": 179.1875,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1gYU0O.webp",
+          "width": 319,
+          "renderedWidth": 317.515625,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_o8szK.webp",
+          "width": 319,
+          "renderedWidth": 317.515625,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "width": 709,
+          "renderedWidth": 238,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "",
+          "width": 0,
+          "renderedWidth": 0,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": false
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 197,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "width": 32,
+          "renderedWidth": 33,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+          "bytes": 26531,
+          "transfer": 26831,
+          "duration": 28.899999976158142,
+          "initiator": "link"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "bytes": 826,
+          "transfer": 1126,
+          "duration": 28.799999952316284,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "bytes": 5078,
+          "transfer": 5378,
+          "duration": 29.600000023841858,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+          "bytes": 32732,
+          "transfer": 33032,
+          "duration": 29.5,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+          "bytes": 147492,
+          "transfer": 147792,
+          "duration": 30.899999976158142,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+          "bytes": 289070,
+          "transfer": 289370,
+          "duration": 31.30000001192093,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/river-lines.svg",
+          "bytes": 401,
+          "transfer": 701,
+          "duration": 95.5,
+          "initiator": "css"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1gYU0O.webp",
+          "bytes": 25654,
+          "transfer": 25954,
+          "duration": 8,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+          "bytes": 5737,
+          "transfer": 6037,
+          "duration": 7.599999964237213,
+          "initiator": "other"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_o8szK.webp",
+          "bytes": 16290,
+          "transfer": 16590,
+          "duration": 5.199999988079071,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "bytes": 105280,
+          "transfer": 105580,
+          "duration": 5.900000035762787,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "bytes": 608,
+          "transfer": 908,
+          "duration": 6.099999964237213,
+          "initiator": "img"
+        }
+      ],
+      "totalDecodedBytes": 655699,
+      "note": "Local uncompressed development HTTP; no real-network LCP/CLS/INP claim"
+    },
+    {
+      "width": 390,
+      "dpr": 1,
+      "initialRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png"
+      ],
+      "allRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+        "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+        "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp"
+      ],
+      "hero": [
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp"
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "width": 40,
+          "renderedWidth": 33,
+          "loading": "eager",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 197,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+          "width": 585,
+          "renderedWidth": 231,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+          "width": 395,
+          "renderedWidth": 393.109375,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+          "width": 395,
+          "renderedWidth": 393.109375,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "width": 709,
+          "renderedWidth": 251,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "",
+          "width": 0,
+          "renderedWidth": 0,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": false
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 197,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "width": 32,
+          "renderedWidth": 33,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+          "bytes": 26531,
+          "transfer": 26831,
+          "duration": 24.80000001192093,
+          "initiator": "link"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "bytes": 826,
+          "transfer": 1126,
+          "duration": 33.89999997615814,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "bytes": 5078,
+          "transfer": 5378,
+          "duration": 33.89999997615814,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+          "bytes": 32732,
+          "transfer": 33032,
+          "duration": 33.69999998807907,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+          "bytes": 147492,
+          "transfer": 147792,
+          "duration": 34.10000002384186,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+          "bytes": 289070,
+          "transfer": 289370,
+          "duration": 37.10000002384186,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/river-lines.svg",
+          "bytes": 401,
+          "transfer": 701,
+          "duration": 101.30000001192093,
+          "initiator": "css"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+          "bytes": 41704,
+          "transfer": 42004,
+          "duration": 11.300000011920929,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+          "bytes": 5737,
+          "transfer": 6037,
+          "duration": 7.5,
+          "initiator": "other"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+          "bytes": 27386,
+          "transfer": 27686,
+          "duration": 6.200000047683716,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "bytes": 105280,
+          "transfer": 105580,
+          "duration": 7.599999964237213,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "bytes": 608,
+          "transfer": 908,
+          "duration": 7.100000023841858,
+          "initiator": "img"
+        }
+      ],
+      "totalDecodedBytes": 682845,
+      "note": "Local uncompressed development HTTP; no real-network LCP/CLS/INP claim"
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "initialRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png"
+      ],
+      "allRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+        "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_2krz87.webp",
+        "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp"
+      ],
+      "hero": [
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp"
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "width": 40,
+          "renderedWidth": 33,
+          "loading": "eager",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 197,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+          "width": 585,
+          "renderedWidth": 231,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+          "width": 395,
+          "renderedWidth": 393.109375,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_2krz87.webp",
+          "width": 395,
+          "renderedWidth": 393.109375,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "width": 709,
+          "renderedWidth": 251,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "",
+          "width": 0,
+          "renderedWidth": 0,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": false
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 197,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "width": 32,
+          "renderedWidth": 33,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+          "bytes": 26531,
+          "transfer": 26831,
+          "duration": 27.600000023841858,
+          "initiator": "link"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "bytes": 826,
+          "transfer": 1126,
+          "duration": 33.39999997615814,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "bytes": 5078,
+          "transfer": 5378,
+          "duration": 34.09999996423721,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+          "bytes": 92718,
+          "transfer": 93018,
+          "duration": 36.19999998807907,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+          "bytes": 147492,
+          "transfer": 147792,
+          "duration": 36.60000002384186,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+          "bytes": 289070,
+          "transfer": 289370,
+          "duration": 37.69999998807907,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/river-lines.svg",
+          "bytes": 401,
+          "transfer": 701,
+          "duration": 89.80000001192093,
+          "initiator": "css"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+          "bytes": 92092,
+          "transfer": 92392,
+          "duration": 7.400000035762787,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+          "bytes": 5737,
+          "transfer": 6037,
+          "duration": 8.899999976158142,
+          "initiator": "other"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_2krz87.webp",
+          "bytes": 59466,
+          "transfer": 59766,
+          "duration": 5.199999988079071,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "bytes": 105280,
+          "transfer": 105580,
+          "duration": 5.800000011920929,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "bytes": 608,
+          "transfer": 908,
+          "duration": 6.199999988079071,
+          "initiator": "img"
+        }
+      ],
+      "totalDecodedBytes": 825299,
+      "note": "Local uncompressed development HTTP; no real-network LCP/CLS/INP claim"
+    },
+    {
+      "width": 390,
+      "dpr": 3,
+      "initialRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png"
+      ],
+      "allRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+        "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_2krz87.webp",
+        "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp"
+      ],
+      "hero": [
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp"
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "width": 40,
+          "renderedWidth": 33,
+          "loading": "eager",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 197,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp",
+          "width": 585,
+          "renderedWidth": 231,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+          "width": 395,
+          "renderedWidth": 393.109375,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_2krz87.webp",
+          "width": 395,
+          "renderedWidth": 393.109375,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "width": 709,
+          "renderedWidth": 251,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "",
+          "width": 0,
+          "renderedWidth": 0,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": false
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 197,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "width": 32,
+          "renderedWidth": 33,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+          "bytes": 26531,
+          "transfer": 26831,
+          "duration": 26.5,
+          "initiator": "link"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "bytes": 826,
+          "transfer": 1126,
+          "duration": 31.399999976158142,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "bytes": 5078,
+          "transfer": 5378,
+          "duration": 34.90000003576279,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp",
+          "bytes": 186714,
+          "transfer": 187014,
+          "duration": 33.69999998807907,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+          "bytes": 147492,
+          "transfer": 147792,
+          "duration": 35.30000001192093,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+          "bytes": 289070,
+          "transfer": 289370,
+          "duration": 37.5,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/river-lines.svg",
+          "bytes": 401,
+          "transfer": 701,
+          "duration": 78.69999998807907,
+          "initiator": "css"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+          "bytes": 92092,
+          "transfer": 92392,
+          "duration": 7.399999976158142,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+          "bytes": 5737,
+          "transfer": 6037,
+          "duration": 5.300000011920929,
+          "initiator": "other"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_2krz87.webp",
+          "bytes": 59466,
+          "transfer": 59766,
+          "duration": 5.900000035762787,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "bytes": 105280,
+          "transfer": 105580,
+          "duration": 6.100000023841858,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "bytes": 608,
+          "transfer": 908,
+          "duration": 5.099999964237213,
+          "initiator": "img"
+        }
+      ],
+      "totalDecodedBytes": 919295,
+      "note": "Local uncompressed development HTTP; no real-network LCP/CLS/INP claim"
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "initialRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png"
+      ],
+      "allRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+        "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+        "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+        "http://127.0.0.1:4191/_astro/insights-overview.DpZraCKL_ZqtixD.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp"
+      ],
+      "hero": [
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp"
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "width": 40,
+          "renderedWidth": 40,
+          "loading": "eager",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 218,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+          "width": 1200,
+          "renderedWidth": 267.015625,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+          "width": 421,
+          "renderedWidth": 421.1875,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+          "width": 421,
+          "renderedWidth": 419.03125,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "width": 709,
+          "renderedWidth": 152.046875,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/insights-overview.DpZraCKL_ZqtixD.webp",
+          "width": 709,
+          "renderedWidth": 152.046875,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 218,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "width": 32,
+          "renderedWidth": 32,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+          "bytes": 26531,
+          "transfer": 26831,
+          "duration": 20.69999998807907,
+          "initiator": "link"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "bytes": 826,
+          "transfer": 1126,
+          "duration": 24.400000035762787,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "bytes": 5078,
+          "transfer": 5378,
+          "duration": 25.80000001192093,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+          "bytes": 92718,
+          "transfer": 93018,
+          "duration": 26.19999998807907,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+          "bytes": 147492,
+          "transfer": 147792,
+          "duration": 26.299999952316284,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+          "bytes": 289070,
+          "transfer": 289370,
+          "duration": 27.100000023841858,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/river-lines.svg",
+          "bytes": 401,
+          "transfer": 701,
+          "duration": 67.40000003576279,
+          "initiator": "css"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+          "bytes": 41704,
+          "transfer": 42004,
+          "duration": 9.700000047683716,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+          "bytes": 5737,
+          "transfer": 6037,
+          "duration": 6.600000023841858,
+          "initiator": "other"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+          "bytes": 27386,
+          "transfer": 27686,
+          "duration": 5.600000023841858,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "bytes": 105280,
+          "transfer": 105580,
+          "duration": 6.200000047683716,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/insights-overview.DpZraCKL_ZqtixD.webp",
+          "bytes": 82300,
+          "transfer": 82600,
+          "duration": 7.600000023841858,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "bytes": 608,
+          "transfer": 908,
+          "duration": 5.699999988079071,
+          "initiator": "img"
+        }
+      ],
+      "totalDecodedBytes": 825131,
+      "note": "Local uncompressed development HTTP; no real-network LCP/CLS/INP claim"
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "initialRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png"
+      ],
+      "allRequests": [
+        "http://127.0.0.1:4191/",
+        "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+        "http://127.0.0.1:4191/assets/google-play-badge.svg",
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+        "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+        "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+        "http://127.0.0.1:4191/assets/river-lines.svg",
+        "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+        "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+        "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+        "http://127.0.0.1:4191/_astro/insights-overview.DpZraCKL_ZqtixD.webp",
+        "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp"
+      ],
+      "hero": [
+        "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp"
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "width": 40,
+          "renderedWidth": 40,
+          "loading": "eager",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 218,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+          "width": 1200,
+          "renderedWidth": 492.953125,
+          "loading": "eager",
+          "priority": "high",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+          "width": 421,
+          "renderedWidth": 421.1875,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+          "width": 421,
+          "renderedWidth": 419.03125,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "width": 709,
+          "renderedWidth": 283.3125,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/insights-overview.DpZraCKL_ZqtixD.webp",
+          "width": 709,
+          "renderedWidth": 283.3125,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "width": 300,
+          "renderedWidth": 218,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        },
+        {
+          "src": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "width": 32,
+          "renderedWidth": 32,
+          "loading": "lazy",
+          "priority": "auto",
+          "complete": true
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4191/_astro/FAQ.DEeiV-5d.css",
+          "bytes": 26531,
+          "transfer": 26831,
+          "duration": 24.30000001192093,
+          "initiator": "link"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+          "bytes": 826,
+          "transfer": 1126,
+          "duration": 24.100000023841858,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/google-play-badge.svg",
+          "bytes": 5078,
+          "transfer": 5378,
+          "duration": 24.399999976158142,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+          "bytes": 92718,
+          "transfer": 93018,
+          "duration": 24.69999998807907,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/journal.BXx_c0T3_1dla5x.webp",
+          "bytes": 147492,
+          "transfer": 147792,
+          "duration": 28.69999998807907,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+          "bytes": 289070,
+          "transfer": 289370,
+          "duration": 37.59999996423721,
+          "initiator": "image"
+        },
+        {
+          "url": "http://127.0.0.1:4191/assets/river-lines.svg",
+          "bytes": 401,
+          "transfer": 701,
+          "duration": 6.900000035762787,
+          "initiator": "css"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+          "bytes": 41704,
+          "transfer": 42004,
+          "duration": 8.399999976158142,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+          "bytes": 5737,
+          "transfer": 6037,
+          "duration": 8.300000011920929,
+          "initiator": "other"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+          "bytes": 27386,
+          "transfer": 27686,
+          "duration": 4.399999976158142,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+          "bytes": 105280,
+          "transfer": 105580,
+          "duration": 5.300000011920929,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/insights-overview.DpZraCKL_ZqtixD.webp",
+          "bytes": 82300,
+          "transfer": 82600,
+          "duration": 6.800000011920929,
+          "initiator": "img"
+        },
+        {
+          "url": "http://127.0.0.1:4191/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+          "bytes": 608,
+          "transfer": 908,
+          "duration": 5.899999976158142,
+          "initiator": "img"
+        }
+      ],
+      "totalDecodedBytes": 825131,
+      "note": "Local uncompressed development HTTP; no real-network LCP/CLS/INP claim"
+    }
+  ],
+  "contrast": [
+    {
+      "label": "body",
+      "fg": "#071c2a",
+      "bg": "#f7f4ed",
+      "ratio": 15.818696907149324,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "muted caption",
+      "fg": "#4c6062",
+      "bg": "#e3e9df",
+      "ratio": 5.381144406530788,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "teal text",
+      "fg": "#006c70",
+      "bg": "#f7f4ed",
+      "ratio": 5.657891867116908,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "mint hero",
+      "fg": "#70ded2",
+      "bg": "#071c2a",
+      "ratio": 10.812858765935497,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "consent",
+      "fg": "#fffdf8",
+      "bg": "#173c48",
+      "ratio": 11.629218227129996,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "label": "focus on paper",
+      "fg": "#c57e23",
+      "bg": "#f7f4ed",
+      "ratio": 2.995294264691522,
+      "minimum": 3,
+      "pass": false
+    },
+    {
+      "label": "focus on ink",
+      "fg": "#c57e23",
+      "bg": "#071c2a",
+      "ratio": 5.2811829186934505,
+      "minimum": 3,
+      "pass": true
+    }
+  ],
+  "failures": [
+    "contrast focus on paper"
+  ],
+  "external": []
+}

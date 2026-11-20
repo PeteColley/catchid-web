@@ -1,0 +1,212 @@
+{
+  "utc": "2026-11-20T15:37:05.487Z",
+  "verdict": "NO-GO",
+  "engines": [
+    {
+      "engine": "chromium",
+      "version": "157.0.8103.79",
+      "matrix": 56,
+      "matrixFailures": [],
+      "axeScans": 6,
+      "axeViolations": 0,
+      "axeIncomplete": [
+        {
+          "case": "home-320-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "home-768-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "home-1440-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "journal-320-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "journal-768-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "journal-1440-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        }
+      ],
+      "interactions": 20,
+      "interactionFailures": [],
+      "interactionExceptions": [],
+      "interactionWarnings": [],
+      "interactionLimitations": [],
+      "edges": 22,
+      "delivery": 6,
+      "edgeScriptFailures": [
+        "contrast focus on paper"
+      ],
+      "external": []
+    },
+    {
+      "engine": "firefox",
+      "version": "159.0",
+      "matrix": 56,
+      "matrixFailures": [],
+      "axeScans": 6,
+      "axeViolations": 0,
+      "axeIncomplete": [
+        {
+          "case": "home-320-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "home-768-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "home-1440-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "journal-320-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "journal-768-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "journal-1440-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        }
+      ],
+      "interactions": 20,
+      "interactionFailures": [],
+      "interactionExceptions": [],
+      "interactionWarnings": [
+        "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+        "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+        "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+        "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+        "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/fishing-journal-app/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+        "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/fishing-journal-app/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+        "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/fishing-journal-app/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]",
+        "[JavaScript Error: \"Cookie “_ga” has been rejected for invalid domain.\" {file: \"http://127.0.0.1:4191/fishing-journal-app/?utm_source=qa&utm_medium=review&utm_campaign=fixture&gclid=fixture-id\" line: 0}]"
+      ],
+      "interactionLimitations": [],
+      "edges": 22,
+      "delivery": 6,
+      "edgeScriptFailures": [
+        "contrast focus on paper"
+      ],
+      "external": []
+    },
+    {
+      "engine": "webkit",
+      "version": "27.2",
+      "matrix": 56,
+      "matrixFailures": [],
+      "axeScans": 6,
+      "axeViolations": 0,
+      "axeIncomplete": [
+        {
+          "case": "home-320-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "home-768-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "home-1440-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "journal-320-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "journal-768-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        },
+        {
+          "case": "journal-1440-first-text1",
+          "rules": [
+            "color-contrast"
+          ]
+        }
+      ],
+      "interactions": 20,
+      "interactionFailures": [],
+      "interactionExceptions": [],
+      "interactionWarnings": [],
+      "interactionLimitations": [
+        "home-320: default Windows WebKit Tab/Alt+Tab skips anchors; programmatic link focus used to check Enter activation, not sequential link navigation",
+        "home-390: default Windows WebKit Tab/Alt+Tab skips anchors; programmatic link focus used to check Enter activation, not sequential link navigation",
+        "journal-320: default Windows WebKit Tab/Alt+Tab skips anchors; programmatic link focus used to check Enter activation, not sequential link navigation",
+        "journal-390: default Windows WebKit Tab/Alt+Tab skips anchors; programmatic link focus used to check Enter activation, not sequential link navigation"
+      ],
+      "edges": 22,
+      "delivery": 6,
+      "edgeScriptFailures": [
+        "contrast focus on paper"
+      ],
+      "external": []
+    }
+  ],
+  "sourceAudit": "PASS",
+  "ci": 0,
+  "check": 0,
+  "checkFinal": 0,
+  "checkFinalHints": 4,
+  "build": 0,
+  "plainWindowsVerify": 1,
+  "normalisedVerify": 0,
+  "explicitLFUnmodifiedWindowsVerify": 0,
+  "linux": "UNTESTED",
+  "npmAuditExit": 1,
+  "npmAuditAffectedPackages": 1,
+  "npmAdvisories": 2,
+  "npmSignatureAudit": 0,
+  "focusContrastExit": 1,
+  "privacyPolicyStaleProductionStatement": true,
+  "physicalDevices": "UNTESTED",
+  "Safari": "UNTESTED",
+  "spokenScreenReader": "UNTESTED",
+  "actualBrowserZoom": "UNTESTED",
+  "sourceChanges": false
+}
