@@ -1,0 +1,374 @@
+{
+  "at": "2026-11-20T18:21:08.730Z",
+  "mode": "desktop",
+  "label": "zoom200-final",
+  "version": "157.0.8103.79",
+  "method": "Headed desktop Chrome, native UI zoom set with keyboard; no viewport or page-scale emulation",
+  "cases": [
+    {
+      "name": "home",
+      "route": "/",
+      "first": {
+        "width": 713,
+        "height": 394,
+        "dpr": 2.5,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "scrollWidth": 706,
+        "clientWidth": 706,
+        "consent": null,
+        "panelHidden": false,
+        "panel": {
+          "x": 0,
+          "y": 272.75,
+          "width": 706,
+          "height": 121.25,
+          "bottom": 394
+        },
+        "accept": {
+          "x": 20,
+          "y": 336,
+          "width": 328,
+          "height": 44,
+          "bottom": 380
+        },
+        "reject": {
+          "x": 358,
+          "y": 336,
+          "width": 328,
+          "height": 44,
+          "bottom": 380
+        },
+        "disabled": true,
+        "loaders": 0,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+        ],
+        "brokenImages": [],
+        "focus": ""
+      },
+      "withdrawn": {
+        "width": 713,
+        "height": 394,
+        "dpr": 2.5,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "scrollWidth": 706,
+        "clientWidth": 706,
+        "consent": "denied",
+        "panelHidden": true,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "accept": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "reject": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "disabled": true,
+        "loaders": 1,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+        ],
+        "brokenImages": [],
+        "focus": "analytics-choices"
+      },
+      "final": {
+        "width": 713,
+        "height": 394,
+        "dpr": 2.5,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "scrollWidth": 706,
+        "clientWidth": 706,
+        "consent": "denied",
+        "panelHidden": true,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "accept": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "reject": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "disabled": true,
+        "loaders": 1,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+        ],
+        "brokenImages": [],
+        "focus": "analytics-choices"
+      },
+      "sequence": [
+        {
+          "tag": "A",
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "label": "Menu",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Explore the fishing journal ↗",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "What can Insights tell me? ↗",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "View the Catch Insights example ↗",
+          "outline": "solid"
+        }
+      ],
+      "events": [
+        [
+          "event",
+          "play_store_click",
+          {
+            "destination": "google_play",
+            "handoff_attribution": "website_campaign"
+          }
+        ],
+        [
+          "event",
+          "play_store_click",
+          {
+            "destination": "google_play",
+            "handoff_attribution": "website_campaign"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "journal",
+      "route": "/fishing-journal-app/",
+      "first": {
+        "width": 713,
+        "height": 394,
+        "dpr": 2.5,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "scrollWidth": 706,
+        "clientWidth": 706,
+        "consent": null,
+        "panelHidden": false,
+        "panel": {
+          "x": 0,
+          "y": 272.75,
+          "width": 706,
+          "height": 121.25,
+          "bottom": 394
+        },
+        "accept": {
+          "x": 20,
+          "y": 336,
+          "width": 328,
+          "height": 44,
+          "bottom": 380
+        },
+        "reject": {
+          "x": 358,
+          "y": 336,
+          "width": 328,
+          "height": 44,
+          "bottom": 380
+        },
+        "disabled": true,
+        "loaders": 0,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app"
+        ],
+        "brokenImages": [],
+        "focus": ""
+      },
+      "withdrawn": {
+        "width": 713,
+        "height": 394,
+        "dpr": 2.5,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "scrollWidth": 706,
+        "clientWidth": 706,
+        "consent": "denied",
+        "panelHidden": true,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "accept": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "reject": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "disabled": true,
+        "loaders": 1,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+        ],
+        "brokenImages": [],
+        "focus": "analytics-choices"
+      },
+      "final": {
+        "width": 713,
+        "height": 394,
+        "dpr": 2.5,
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+        "scrollWidth": 706,
+        "clientWidth": 706,
+        "consent": "denied",
+        "panelHidden": true,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "accept": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "reject": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "disabled": true,
+        "loaders": 1,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+        ],
+        "brokenImages": [],
+        "focus": "analytics-choices"
+      },
+      "sequence": [
+        {
+          "tag": "A",
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "label": "Menu",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "What can Insights tell me? ↗",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "View the Catch Insights example ↗",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "label": "Can I log a catch without a photo?",
+          "outline": "solid"
+        }
+      ],
+      "events": [
+        [
+          "event",
+          "play_store_click",
+          {
+            "destination": "google_play",
+            "handoff_attribution": "website_campaign"
+          }
+        ],
+        [
+          "event",
+          "play_store_click",
+          {
+            "destination": "google_play",
+            "handoff_attribution": "website_campaign"
+          }
+        ]
+      ]
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "external": [],
+  "analytics": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "consent": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "consent": "granted"
+    }
+  ]
+}

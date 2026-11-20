@@ -1,0 +1,414 @@
+{
+  "at": "2026-11-20T18:22:42.896Z",
+  "mode": "android",
+  "label": "android-chrome-final",
+  "version": "124.0.6367.219",
+  "method": "Preinstalled Chrome on fresh Android 15/API 35 emulator, not desktop emulation or physical device",
+  "cases": [
+    {
+      "name": "home",
+      "route": "/",
+      "first": {
+        "width": 393,
+        "height": 701,
+        "dpr": 2.75,
+        "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "scrollWidth": 393,
+        "clientWidth": 393,
+        "consent": null,
+        "panelHidden": false,
+        "panel": {
+          "x": 0,
+          "y": 561.0738525390625,
+          "width": 393.0909118652344,
+          "height": 140.0170440673828,
+          "bottom": 701.0908966064453
+        },
+        "accept": {
+          "x": 20,
+          "y": 643.0909423828125,
+          "width": 171.5454559326172,
+          "height": 44,
+          "bottom": 687.0909423828125
+        },
+        "reject": {
+          "x": 201.5454559326172,
+          "y": 643.0909423828125,
+          "width": 171.5454559326172,
+          "height": 44,
+          "bottom": 687.0909423828125
+        },
+        "disabled": true,
+        "loaders": 0,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+        ],
+        "brokenImages": [],
+        "focus": ""
+      },
+      "controlFocus": [
+        {
+          "id": "analytics-accept",
+          "top": 643.0909423828125,
+          "bottom": 687.0909423828125,
+          "panelTop": 561.0738525390625,
+          "panelBottom": 701.0908966064453,
+          "panelScrollTop": 0,
+          "visible": true
+        },
+        {
+          "id": "analytics-reject",
+          "top": 643.0909423828125,
+          "bottom": 687.0909423828125,
+          "panelTop": 561.0738525390625,
+          "panelBottom": 701.0908966064453,
+          "panelScrollTop": 0,
+          "visible": true
+        }
+      ],
+      "withdrawn": {
+        "width": 393,
+        "height": 701,
+        "dpr": 2.75,
+        "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "scrollWidth": 393,
+        "clientWidth": 393,
+        "consent": "denied",
+        "panelHidden": true,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "accept": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "reject": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "disabled": true,
+        "loaders": 1,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+        ],
+        "brokenImages": [],
+        "focus": "analytics-choices"
+      },
+      "final": {
+        "width": 393,
+        "height": 701,
+        "dpr": 2.75,
+        "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "scrollWidth": 393,
+        "clientWidth": 393,
+        "consent": "denied",
+        "panelHidden": true,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "accept": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "reject": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "disabled": true,
+        "loaders": 1,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+        ],
+        "brokenImages": [],
+        "focus": "analytics-choices"
+      },
+      "sequence": [
+        {
+          "tag": "A",
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "label": "Menu",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "Explore the fishing journal ↗",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "What can Insights tell me? ↗",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "View the Catch Insights example ↗",
+          "outline": "solid"
+        }
+      ],
+      "events": [
+        [
+          "event",
+          "play_store_click",
+          {
+            "destination": "google_play",
+            "handoff_attribution": "website_campaign"
+          }
+        ],
+        [
+          "event",
+          "play_store_click",
+          {
+            "destination": "google_play",
+            "handoff_attribution": "website_campaign"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "journal",
+      "route": "/fishing-journal-app/",
+      "first": {
+        "width": 393,
+        "height": 701,
+        "dpr": 2.75,
+        "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "scrollWidth": 393,
+        "clientWidth": 393,
+        "consent": null,
+        "panelHidden": false,
+        "panel": {
+          "x": 0,
+          "y": 561.0738525390625,
+          "width": 393.0909118652344,
+          "height": 140.0170440673828,
+          "bottom": 701.0908966064453
+        },
+        "accept": {
+          "x": 20,
+          "y": 643.0909423828125,
+          "width": 171.5454559326172,
+          "height": 44,
+          "bottom": 687.0909423828125
+        },
+        "reject": {
+          "x": 201.5454559326172,
+          "y": 643.0909423828125,
+          "width": 171.5454559326172,
+          "height": 44,
+          "bottom": 687.0909423828125
+        },
+        "disabled": true,
+        "loaders": 0,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=organic&utm_campaign=fishing_journal_app&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dorganic%26utm_campaign%3Dfishing_journal_app"
+        ],
+        "brokenImages": [],
+        "focus": ""
+      },
+      "controlFocus": [
+        {
+          "id": "analytics-accept",
+          "top": 643.0909423828125,
+          "bottom": 687.0909423828125,
+          "panelTop": 561.0738525390625,
+          "panelBottom": 701.0908966064453,
+          "panelScrollTop": 0,
+          "visible": true
+        },
+        {
+          "id": "analytics-reject",
+          "top": 643.0909423828125,
+          "bottom": 687.0909423828125,
+          "panelTop": 561.0738525390625,
+          "panelBottom": 701.0908966064453,
+          "panelScrollTop": 0,
+          "visible": true
+        }
+      ],
+      "withdrawn": {
+        "width": 393,
+        "height": 701,
+        "dpr": 2.75,
+        "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "scrollWidth": 393,
+        "clientWidth": 393,
+        "consent": "denied",
+        "panelHidden": true,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "accept": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "reject": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "disabled": true,
+        "loaders": 1,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+        ],
+        "brokenImages": [],
+        "focus": "analytics-choices"
+      },
+      "final": {
+        "width": 393,
+        "height": 701,
+        "dpr": 2.75,
+        "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "scrollWidth": 393,
+        "clientWidth": 393,
+        "consent": "denied",
+        "panelHidden": true,
+        "panel": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "accept": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "reject": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        },
+        "disabled": true,
+        "loaders": 1,
+        "links": [
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch",
+          "https://play.google.com/store/apps/details?id=com.catchid.app&utm_source=catchid_website&utm_medium=referral&utm_campaign=website_launch&referrer=utm_source%3Dcatchid_website%26utm_medium%3Dreferral%26utm_campaign%3Dwebsite_launch"
+        ],
+        "brokenImages": [],
+        "focus": "analytics-choices"
+      },
+      "sequence": [
+        {
+          "tag": "A",
+          "label": "Skip to content",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "CatchID home",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "label": "Menu",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "What can Insights tell me? ↗",
+          "outline": "solid"
+        },
+        {
+          "tag": "A",
+          "label": "View the Catch Insights example ↗",
+          "outline": "solid"
+        },
+        {
+          "tag": "SUMMARY",
+          "label": "Can I log a catch without a photo?",
+          "outline": "solid"
+        }
+      ],
+      "events": [
+        [
+          "event",
+          "play_store_click",
+          {
+            "destination": "google_play",
+            "handoff_attribution": "website_campaign"
+          }
+        ],
+        [
+          "event",
+          "play_store_click",
+          {
+            "destination": "google_play",
+            "handoff_attribution": "website_campaign"
+          }
+        ]
+      ]
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "external": [],
+  "analytics": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "consent": "granted"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LPXGL5VTB1",
+      "consent": "granted"
+    }
+  ]
+}

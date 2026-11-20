@@ -1,0 +1,166 @@
+{
+  "at": "2026-11-20T18:27:03.349Z",
+  "launch": {
+    "freshUserdata": true,
+    "at": "2026-11-20T18:15:06.3704497+00:00",
+    "pid": 19356,
+    "name": "CatchID_CRO11_API35",
+    "arguments": [
+      "-avd",
+      "CatchID_CRO11_API35",
+      "-port",
+      "5572",
+      "-no-window",
+      "-no-snapshot",
+      "-no-audio",
+      "-no-boot-anim",
+      "-gpu",
+      "auto",
+      "-timezone",
+      "Europe/London",
+      "-http-proxy",
+      "http://127.0.0.1:9",
+      "-dns-server",
+      "127.0.0.1"
+    ],
+    "serial": "emulator-5572"
+  },
+  "boot": {
+    "cmd": "C:\\Users\\chen2\\Documents\\ChatGPT\\CatchID\\cro07a-runtime\\sdk\\platform-tools\\adb.exe",
+    "args": [
+      "-s",
+      "emulator-5572",
+      "shell",
+      "getprop",
+      "sys.boot_completed"
+    ],
+    "exit": 0,
+    "stdout": "1",
+    "stderr": ""
+  },
+  "fingerprint": {
+    "cmd": "C:\\Users\\chen2\\Documents\\ChatGPT\\CatchID\\cro07a-runtime\\sdk\\platform-tools\\adb.exe",
+    "args": [
+      "-s",
+      "emulator-5572",
+      "shell",
+      "getprop",
+      "ro.build.fingerprint"
+    ],
+    "exit": 0,
+    "stdout": "google/sdk_gphone64_x86_64/emu64xa:15/AE3A.240806.043/12960925:userdebug/dev-keys",
+    "stderr": ""
+  },
+  "android": {
+    "cmd": "C:\\Users\\chen2\\Documents\\ChatGPT\\CatchID\\cro07a-runtime\\sdk\\platform-tools\\adb.exe",
+    "args": [
+      "-s",
+      "emulator-5572",
+      "shell",
+      "getprop",
+      "ro.build.version.release"
+    ],
+    "exit": 0,
+    "stdout": "15",
+    "stderr": ""
+  },
+  "api": {
+    "cmd": "C:\\Users\\chen2\\Documents\\ChatGPT\\CatchID\\cro07a-runtime\\sdk\\platform-tools\\adb.exe",
+    "args": [
+      "-s",
+      "emulator-5572",
+      "shell",
+      "getprop",
+      "ro.build.version.sdk"
+    ],
+    "exit": 0,
+    "stdout": "35",
+    "stderr": ""
+  },
+  "thirdPartyPackages": {
+    "cmd": "C:\\Users\\chen2\\Documents\\ChatGPT\\CatchID\\cro07a-runtime\\sdk\\platform-tools\\adb.exe",
+    "args": [
+      "-s",
+      "emulator-5572",
+      "shell",
+      "pm",
+      "list",
+      "packages",
+      "-3"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "accounts": {
+    "cmd": "C:\\Users\\chen2\\Documents\\ChatGPT\\CatchID\\cro07a-runtime\\sdk\\platform-tools\\adb.exe",
+    "args": [
+      "-s",
+      "emulator-5572",
+      "shell",
+      "dumpsys",
+      "account"
+    ],
+    "exit": 0,
+    "stdout": "  Accounts: 0\r",
+    "stderr": ""
+  },
+  "airplaneMode": {
+    "cmd": "C:\\Users\\chen2\\Documents\\ChatGPT\\CatchID\\cro07a-runtime\\sdk\\platform-tools\\adb.exe",
+    "args": [
+      "-s",
+      "emulator-5572",
+      "shell",
+      "settings",
+      "get",
+      "global",
+      "airplane_mode_on"
+    ],
+    "exit": 0,
+    "stdout": "1",
+    "stderr": ""
+  },
+  "wifi": {
+    "cmd": "C:\\Users\\chen2\\Documents\\ChatGPT\\CatchID\\cro07a-runtime\\sdk\\platform-tools\\adb.exe",
+    "args": [
+      "-s",
+      "emulator-5572",
+      "shell",
+      "settings",
+      "get",
+      "global",
+      "wifi_on"
+    ],
+    "exit": 0,
+    "stdout": "0",
+    "stderr": ""
+  },
+  "mobileDataSetting": {
+    "cmd": "C:\\Users\\chen2\\Documents\\ChatGPT\\CatchID\\cro07a-runtime\\sdk\\platform-tools\\adb.exe",
+    "args": [
+      "-s",
+      "emulator-5572",
+      "shell",
+      "settings",
+      "get",
+      "global",
+      "mobile_data"
+    ],
+    "exit": 0,
+    "stdout": "1",
+    "stderr": ""
+  },
+  "network": {
+    "cmd": "C:\\Users\\chen2\\Documents\\ChatGPT\\CatchID\\cro07a-runtime\\sdk\\platform-tools\\adb.exe",
+    "args": [
+      "-s",
+      "emulator-5572",
+      "shell",
+      "dumpsys",
+      "connectivity"
+    ],
+    "exit": 0,
+    "stdout": "Active default network: none\r",
+    "stderr": ""
+  }
+}

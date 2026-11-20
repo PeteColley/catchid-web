@@ -1,0 +1,5161 @@
+{
+  "at": "2026-11-20T18:31:43.518Z",
+  "baseline": "537dbc0945452ed66dbd74ef4400a1d04db31c9c",
+  "changedTracked": [
+    "PROJECT_STATUS.md"
+  ],
+  "untracked": [
+    "docs/CID-WEB-CRO-11/DEVICE_ACCESSIBILITY.md",
+    "docs/CID-WEB-CRO-11/FINAL_READINESS.md",
+    "docs/CID-WEB-CRO-11/LINUX_PREFLIGHT.md",
+    "docs/CID-WEB-CRO-11/OWNER_ASSET_ATTESTATION.md",
+    "docs/CID-WEB-CRO-11/PUBLICATION_DECISION.md",
+    "docs/CID-WEB-CRO-11/QA.md",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-final-home-first.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-final-home-full.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-final-home-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-final-journal-first.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-final-journal-full.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-final-journal-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-final.json",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-home-first.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-home-full.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-home-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-journal-first.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-journal-full.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome-journal-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/android-chrome.json",
+    "docs/CID-WEB-CRO-11/evidence/android-environment.json",
+    "docs/CID-WEB-CRO-11/evidence/diff-check.log",
+    "docs/CID-WEB-CRO-11/evidence/diff-check.raw.log.gz",
+    "docs/CID-WEB-CRO-11/evidence/environment.json",
+    "docs/CID-WEB-CRO-11/evidence/native400-home-first-final.png",
+    "docs/CID-WEB-CRO-11/evidence/native400-home-first-viewport.png",
+    "docs/CID-WEB-CRO-11/evidence/native400-home-focus-final.png",
+    "docs/CID-WEB-CRO-11/evidence/native400-home-saved-final.png",
+    "docs/CID-WEB-CRO-11/evidence/native400-journal-first-final.png",
+    "docs/CID-WEB-CRO-11/evidence/native400-journal-focus-final.png",
+    "docs/CID-WEB-CRO-11/evidence/native400-journal-saved-final.png",
+    "docs/CID-WEB-CRO-11/evidence/native400-window-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/npm-build.log",
+    "docs/CID-WEB-CRO-11/evidence/npm-build.raw.log.gz",
+    "docs/CID-WEB-CRO-11/evidence/npm-check.log",
+    "docs/CID-WEB-CRO-11/evidence/npm-check.raw.log.gz",
+    "docs/CID-WEB-CRO-11/evidence/npm-ci-launcher-initial.log",
+    "docs/CID-WEB-CRO-11/evidence/npm-ci-launcher-initial.raw.log.gz",
+    "docs/CID-WEB-CRO-11/evidence/npm-ci.log",
+    "docs/CID-WEB-CRO-11/evidence/npm-ci.raw.log.gz",
+    "docs/CID-WEB-CRO-11/evidence/npm-verify-normalised.log",
+    "docs/CID-WEB-CRO-11/evidence/npm-verify-normalised.raw.log.gz",
+    "docs/CID-WEB-CRO-11/evidence/npm-verify-plain.log",
+    "docs/CID-WEB-CRO-11/evidence/npm-verify-plain.raw.log.gz",
+    "docs/CID-WEB-CRO-11/evidence/scope-initial-worktree-bytes.json",
+    "docs/CID-WEB-CRO-11/evidence/scope.json",
+    "docs/CID-WEB-CRO-11/evidence/windows-command-results-initial.json",
+    "docs/CID-WEB-CRO-11/evidence/windows-command-results.json",
+    "docs/CID-WEB-CRO-11/evidence/worktree-orientation.json",
+    "docs/CID-WEB-CRO-11/evidence/zoom200-final-home-first.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom200-final-home-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom200-final-journal-first.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom200-final-journal-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom200-final.json",
+    "docs/CID-WEB-CRO-11/evidence/zoom200-home-first.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom200-home-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-acceptance-home-first.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-acceptance-home-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-acceptance-journal-first.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-acceptance-journal-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-acceptance.json",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-final-home-first.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-final-home-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-final-journal-first.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-final-journal-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-final.json",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-home-first.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-home-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-journal-first.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400-journal-saved.png",
+    "docs/CID-WEB-CRO-11/evidence/zoom400.json",
+    "docs/CID-WEB-CRO-11/index.html",
+    "docs/CID-WEB-CRO-11/qa/device-check.mjs",
+    "docs/CID-WEB-CRO-11/qa/scope.mjs"
+  ],
+  "protectedFiles": [
+    {
+      "path": ".gitattributes",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": ".gitignore",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "README.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "astro.config.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/ASSETS.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/DEPENDENCY_REVIEW.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/HANDOVER.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/01-desktop-1440-hero.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/02-mobile-390-first-visit.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/02-mobile-390-saved-choice.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/03-mobile-journey-cta.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/03b-mobile-proof-cta.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/04-desktop-journey-cta.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/05-desktop-final-footer.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/05b-mobile-final-footer.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/advisories-2026-11-06.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/dependency-inspection-2026-11-06.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/dependency-tree-2026-11-06.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/fix-versions-2026-11-06.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/journal-responsive.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/layout-desktop.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/layout-mobile.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/npm-audit-2026-11-06-network.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/npm-audit-2026-11-06.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/responsive-first-visit.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/responsive-text-scale.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-01/evidence/text-scale-768.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/.gitattributes",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/ASSET_RELEASE_GATES.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/HANDOVER.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/PROJECT_STATUS_PROPOSED.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/QA.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/VISUAL_REVIEW.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/build-refinement.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/comparison-metrics.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/first-interaction-attempt.txt",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/fishing-journal-app-navigation-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/fishing-journal-app-navigation-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/fishing-journal-app-navigation-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/fishing-journal-app-navigation-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/fishing-journal-app-navigation-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/fishing-journal-app-storage-blocked.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/fishing-journal-app-text160-focus-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/fishing-journal-app-text160-focus-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/home-navigation-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/home-navigation-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/home-navigation-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/home-navigation-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/home-navigation-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/home-storage-blocked.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/home-text160-focus-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/home-text160-focus-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-fishing-journal-app-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-fishing-journal-app-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-fishing-journal-app-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-fishing-journal-app-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-fishing-journal-app-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-fishing-journal-app-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-fishing-journal-app-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-fishing-journal-app-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-home-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-home-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-home-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-home-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-home-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-home-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-home-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-home-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/initial-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/edge/interactions-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/fishing-journal-app-navigation-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/fishing-journal-app-navigation-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/fishing-journal-app-navigation-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/fishing-journal-app-navigation-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/fishing-journal-app-navigation-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/fishing-journal-app-storage-blocked.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/fishing-journal-app-text160-focus-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/fishing-journal-app-text160-focus-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/home-navigation-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/home-navigation-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/home-navigation-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/home-navigation-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/home-navigation-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/home-storage-blocked.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/home-text160-focus-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/home-text160-focus-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-build.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-check.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-fishing-journal-app-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-fishing-journal-app-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-fishing-journal-app-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-fishing-journal-app-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-fishing-journal-app-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-fishing-journal-app-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-fishing-journal-app-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-fishing-journal-app-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-home-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-home-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-home-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-home-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-home-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-home-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-home-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-home-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/initial-verify.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/interactions-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-before-brand-refinement.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-first-pass.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-1024x900-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-1024x900-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-1024x900-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-1024x900-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-1440x1000-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-1440x1000-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-320x720-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-320x720-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-320x720-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-320x720-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-360x800-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-360x800-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-360x800-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-360x800-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-390x844-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-390x844-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-430x932-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-430x932-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-430x932-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-430x932-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-768x1024-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-768x1024-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-768x1024-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-fishing-journal-app-768x1024-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-1024x900-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-1024x900-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-1024x900-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-1024x900-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-1440x1000-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-1440x1000-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-320x720-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-320x720-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-320x720-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-320x720-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-360x800-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-360x800-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-360x800-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-360x800-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-390x844-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-390x844-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-430x932-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-430x932-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-430x932-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-430x932-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-768x1024-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-768x1024-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-768x1024-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-home-768x1024-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/matrix-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/npm-build.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/npm-check.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/npm-ci.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/npm-verify.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/source-audit.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/verify-pass1.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/evidence/verify-refinement.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/index.html",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/qa/browser.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/qa/source-audit.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/reference/matrix-fishing-journal-app-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/reference/matrix-fishing-journal-app-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/reference/matrix-fishing-journal-app-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/reference/matrix-fishing-journal-app-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/reference/matrix-home-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/reference/matrix-home-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/reference/matrix-home-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-04/reference/matrix-home-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/.gitattributes",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/ASSET_PROVENANCE.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/HANDOVER.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/PERFORMANCE.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/PROJECT_STATUS_PROPOSED.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/QA.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/VISUAL_REVIEW.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/audit-checkout-note.txt",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/audit.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/browser-overlap-attempt.txt",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/console-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/fishing-journal-app-navigation-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/fishing-journal-app-navigation-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/fishing-journal-app-navigation-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/fishing-journal-app-navigation-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/fishing-journal-app-navigation-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/fishing-journal-app-storage-blocked.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/fishing-journal-app-text160-focus-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/fishing-journal-app-text160-focus-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/home-navigation-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/home-navigation-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/home-navigation-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/home-navigation-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/home-navigation-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/home-storage-blocked.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/home-text160-focus-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/home-text160-focus-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/images-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/interactions-overlap-attempt.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/interactions-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-1024x900-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-1024x900-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-1024x900-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-1024x900-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-1440x1000-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-1440x1000-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-320x720-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-320x720-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-320x720-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-320x720-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-360x800-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-360x800-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-360x800-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-360x800-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-390x844-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-390x844-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-430x932-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-430x932-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-430x932-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-430x932-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-768x1024-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-768x1024-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-768x1024-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-fishing-journal-app-768x1024-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-1024x900-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-1024x900-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-1024x900-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-1024x900-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-1440x1000-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-1440x1000-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-320x720-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-320x720-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-320x720-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-320x720-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-360x800-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-360x800-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-360x800-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-360x800-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-390x844-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-390x844-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-430x932-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-430x932-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-430x932-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-430x932-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-768x1024-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-768x1024-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-768x1024-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-home-768x1024-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/matrix-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/npm-build.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/npm-check.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/npm-ci.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/npm-verify-normalised.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/npm-verify-original.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/evidence/source-image-visual-audit.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/index.html",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/qa/audit.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/qa/browser.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/qa/verify-baseline.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/reference/variant-a-1440-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/reference/variant-a-1440-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/reference/variant-a-390-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-06/reference/variant-a-390-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/CAPTURE_PLAN.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/HANDOVER.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/MANUAL_CAPTURE.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/PROJECT_STATUS_PROPOSED.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/QA.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/RECOVERY_07A.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/SCREENSHOT_INVENTORY.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/SCREENSHOT_PROVENANCE.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/VISUAL_REVIEW.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/captures/catch-details-no-photo-1080x2340.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/captures/save-catch-no-photo-lower-1080x2340.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/captures/save-catch-no-photo-upper-1080x2340.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/asset-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/avd-config-capture-profile.ini",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/avd-config-created.ini",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/avd-create-complete-sdk.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/avd-create.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/boot-probes.jsonl",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/build-identity.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/build-jbr25-failure.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/build-playtest-jbr21.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/checkout-byte-preservation.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/emulator-anr-diagnostic-not-product.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/emulator-anr-diagnostic-not-product.xml",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/emulator-launch.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/final-health-events.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/gallery-browser-check.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/packaged-privacy-extract.txt",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/preserved-unrelated-files.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/api35-config.ini",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/api35-launch.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/boot-probes.jsonl",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/capture-helper.mjs.txt",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/captures.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/gallery-browser-check.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/install.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/launch-app.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/lower-form-before-final-scroll-ui.xml",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/orientation.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/postcapture-gate.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/preinstall-gate.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/reopened-details-ui.xml",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/shutdown-request.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/shutdown-verified.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/ui-actions.jsonl",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/ump-offline.txt",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/upper-form-ui.xml",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/recovery-07a/worktree-orientation.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/review-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/shutdown-precheck.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/shutdown-request.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/shutdown-verified.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/source-orientation.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/system-image-source.properties",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/text-evidence-original-hashes.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/evidence/worktree-orientation.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/index.html",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/verify-recovery.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-07/verify-review.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/ASSET_PROVENANCE.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/HANDOVER.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/PROJECT_STATUS_PROPOSED.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/QA.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/VISUAL_REVIEW.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/audit-final.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/audit-raster-tolerance-attempt.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/audit.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-fishing-journal-app-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-fishing-journal-app-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-fishing-journal-app-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-fishing-journal-app-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-fishing-journal-app-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-fishing-journal-app-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-fishing-journal-app-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-fishing-journal-app-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-home-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-home-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-home-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-home-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-home-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-home-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-home-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-home-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/initial-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/journal-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/journal-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/journal-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/journal-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/journal-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/record-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/record-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/record-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/record-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/record-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/before/sections-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/browser-images-eager-harness-attempt.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/browser-images.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/browser-interactions-favicon-diagnostic.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/browser-interactions-first-attempt.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/browser-interactions.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/browser-matrix.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/browser-sections-text160.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/fishing-journal-app-navigation-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/fishing-journal-app-navigation-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/fishing-journal-app-navigation-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/fishing-journal-app-navigation-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/fishing-journal-app-navigation-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/fishing-journal-app-storage-blocked.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/fishing-journal-app-text160-focus-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/fishing-journal-app-text160-focus-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/gallery-1280.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/gallery-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/home-navigation-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/home-navigation-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/home-navigation-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/home-navigation-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/home-navigation-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/home-storage-blocked.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/home-text160-focus-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/home-text160-focus-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/images-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/interactions-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/journal-1024-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/journal-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/journal-1440-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/journal-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/journal-320-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/journal-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/journal-390-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/journal-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/journal-768-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/journal-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-1024x900-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-1024x900-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-1024x900-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-1024x900-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-1440x1000-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-1440x1000-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-320x720-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-320x720-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-320x720-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-320x720-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-360x800-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-360x800-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-360x800-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-360x800-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-390x844-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-390x844-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-430x932-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-430x932-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-430x932-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-430x932-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-768x1024-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-768x1024-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-768x1024-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-fishing-journal-app-768x1024-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-1024x900-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-1024x900-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-1024x900-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-1024x900-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-1440x1000-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-1440x1000-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-1440x1000-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-1440x1000-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-1440x1000-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-1440x1000-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-320x720-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-320x720-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-320x720-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-320x720-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-360x800-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-360x800-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-360x800-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-360x800-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-390x844-first-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-390x844-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-390x844-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-390x844-saved-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-390x844-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-390x844-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-430x932-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-430x932-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-430x932-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-430x932-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-768x1024-first-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-768x1024-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-768x1024-saved-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-home-768x1024-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/matrix-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/record-1024-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/record-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/record-1440-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/record-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/record-320-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/record-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/record-390-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/record-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/record-768-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/record-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/sections-text160-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/final/sections-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/gallery-browser.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/gallery-favicon-attempt.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/gallery-favicon-attempt.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/images-eager-harness-attempt.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/interactions-favicon-diagnostic.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/interactions-first-attempt.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/link-check.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/npm-build-pass1.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/npm-build.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/npm-check-pass1.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/npm-check.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/npm-ci-sandbox-attempt.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/npm-ci.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/npm-verify-assertion-order-attempt.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/npm-verify-normalised.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/npm-verify-original.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/pass1/journal-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/pass1/journal-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/pass1/journal-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/pass1/journal-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/pass1/journal-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/pass1/record-1024.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/pass1/record-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/pass1/record-320.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/pass1/record-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/pass1/record-768.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/pass1/sections-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/remote-screenshot-readback.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/shutdown.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/source-image-visual-audit.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/evidence/worktree-orientation.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/index.html",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/qa/audit.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/qa/browser.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-08/qa/serve.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/ANDROID_CONTINUITY_PROPOSED.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/ASSET_ACCEPTANCE.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/BROWSER_ACCESSIBILITY.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/EVIDENCE_MANIFEST.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/PLAY_PRODUCTION_EVIDENCE.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/PUBLICATION_CHECKLIST.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/QA.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/READINESS_REPORT.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/SECURITY_PRIVACY.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/actions-after-push.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/actions-before-push.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/advisory-dynamic-tag.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/advisory-image-endpoint.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/edges-performance-initial.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/edges-performance.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/focus-faq.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/focus-journal-link.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/home-1024-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/home-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/home-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/home-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/home-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/home-320-text200.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/home-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/home-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/home-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/home-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/home-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/interactions.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-1024-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-1440-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-320-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-390-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/journal-768-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/landing-320-text200.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/matrix.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/record-1440-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/record-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/record-320-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/record-390-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/record-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/chromium/record-768-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/commands.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/default-archive-verifier.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/domain-cookie.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/edges-performance-initial.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/edges-performance.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-1024-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-320-text200.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/interactions-initial.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/interactions.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-1024-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-1440-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-320-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-390-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/journal-768-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/landing-320-text200.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/matrix.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/record-1440-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/record-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/record-320-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/record-390-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/record-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/firefox/record-768-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/focus-contrast.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/historical-dependency-guard.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/index-browser.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/index-browser.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/installed-tree.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/local-services-stopped.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/node-embedded-undici-advisories.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/npm-audit-signatures.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/npm-audit.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/npm-build.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/npm-check-final.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/npm-check.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/npm-ci.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/npm-verify-normalised.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/npm-verify-plain.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/orientation.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/pages-configuration-readonly.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/privacy-policy-readback.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/raw-command-logs.zip",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/remote-image-readbacks.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/remote-report-readbacks.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/static-audit.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/unmodified-lf-checkout-verifier.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/verification-summary.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/edges-performance-initial.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/edges-performance.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/home-1024-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/home-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/home-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/home-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/home-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/home-320-text200.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/home-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/home-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/home-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/home-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/home-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/interactions-initial.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/interactions.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-1024-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-1440-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-320-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-390-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/journal-768-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/keyboard-probe.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/landing-320-text200.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/matrix.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/record-1440-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/record-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/record-320-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/record-390-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/record-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/webkit/record-768-viewport-width.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/withastro-action-v6.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/workflow-inventory.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/evidence/worktree-orientation.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/index.html",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/qa/browsers.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/qa/domain-cookie.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/qa/edges-performance.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/qa/focus-contrast.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/qa/keyboard-probe.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/qa/review-index.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/qa/static-audit.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/ANDROID_CONTINUITY_PROPOSED.md",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/HANDOVER.md",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/QA.md",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/REVIEW.md",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-analytics-heading-mobile.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-consent-mobile.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-faq-paper.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-footer-choices.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-header-dark.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-header-photo-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-hero-badge-desktop.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-hero-badge-mobile.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-journal-sage.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-landing-analytics-heading.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-landing-consent.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-landing-header.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-landing-menu.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-mobile-menu.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-skip-home.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/baseline-build.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-analytics-heading-mobile.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-consent-mobile.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-faq-paper.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-footer-choices.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-header-dark.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-header-photo-text160.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-hero-badge-desktop.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-hero-badge-mobile.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-journal-sage.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-landing-analytics-heading.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-landing-consent.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-landing-header.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-landing-menu.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-mobile-menu.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/before-skip-home.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium-interactions.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium-matrix.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/home-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/home-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/home-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/home-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/home-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/home-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/home-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/home-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/home-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/interactions.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/journal-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/journal-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/journal-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/journal-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/journal-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/journal-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/journal-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/journal-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/journal-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/journal-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/journal-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/matrix.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/record-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/chromium/record-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/command-results.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/contrast-summary.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox-interactions.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox-matrix.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/home-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/home-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/home-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/home-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/home-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/home-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/home-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/home-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/home-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/interactions.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/journal-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/journal-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/journal-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/journal-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/journal-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/journal-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/journal-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/journal-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/journal-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/journal-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/journal-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/matrix.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/record-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/firefox/record-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/focus-chromium-first-final-comparison.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/focus-chromium-first-final-comparison.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/focus-chromium.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/focus-chromium.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/focus-css.diff",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/focus-firefox.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/focus-firefox.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/focus-webkit.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/focus-webkit.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/implementation-readback.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/mismatch-after-journal-1440-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/mismatch-after-journal-320-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/mismatch-after-journal-320-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/mismatch-before-journal-1440-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/mismatch-before-journal-320-first.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/mismatch-before-journal-320-saved.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/npm-build.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/npm-check-final.raw.log.gz",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/npm-check.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/npm-ci.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/npm-verify-normalised.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/npm-verify-original.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/painted-contrast-initial.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/painted-contrast-initial.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/painted-contrast.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/painted-contrast.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/publication-isolation.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/raw-command-logs.zip",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/reproducer-after-focus-faq.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/reproducer-after-focus-journal-link.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/reproducer-after.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/reproducer-after.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/reproducer-before-focus-faq.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/reproducer-before-focus-journal-link.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/reproducer-before.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/reproducer-before.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/scope.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/server-shutdown.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/unfocused-cross-context.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/unfocused-cross-context.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/unfocused-final.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/unfocused-final.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/unfocused-home-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/unfocused-home-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/unfocused-journal-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/unfocused-journal-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit-interactions.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit-matrix.log",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/home-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/home-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/home-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/home-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/home-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/home-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/home-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/home-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/home-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/interactions.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/journal-1440-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/journal-1440-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/journal-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/journal-320-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/journal-320-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/journal-390-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/journal-390-saved-text1-full.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/journal-390-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/journal-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/journal-768-first-text1.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/journal-768-saved-text1.6.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/matrix.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/record-1440.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/webkit/record-390.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/worktree-safety.json",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/index.html",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/qa/browsers.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/qa/focus-reproducer.mjs",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/qa/focus-review.mjs",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/qa/painted-contrast.mjs",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/qa/scope.mjs",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/qa/unfocused-cross-context.mjs",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/qa/unfocused.mjs",
+      "workingBytesEqualApproved": false,
+      "onlyCheckoutLineEndingDifference": true
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/HANDOVER.md",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/after-1440-home.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/after-360-large-text-cta.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/after-390-home.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/after-ci.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/after-commands.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/after-run-build.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/after-run-check.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/after-run-verify.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/audit-after.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/audit-before.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/baseline-ci.log",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/baseline-commands.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/before-1440-home.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/before-390-home.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/dependency-verification.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/linux-libvips-versions.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/linux-native-provenance.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/lock-changes.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/regression.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/resolver-constraints.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/target-metadata.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/tree-after.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "docs/CID-WEB-DEPS-01/evidence/tree-before.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "package-lock.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "package.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "public/CNAME",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "public/app-ads.txt",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "public/assets/google-play-badge.svg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "public/assets/river-lines.svg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "scripts/verify-analytics.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "scripts/verify-dependencies.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/assets/catchid-icon.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/assets/fishing-locations.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/assets/hero/photo-1-patagonia-savage-37096316.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/assets/home-1.2.12.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/assets/identify.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/assets/insights-overview.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/assets/insights.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/assets/journal.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/assets/personal-records.jpg",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/assets/review-only/trout-concept-reference.png",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/CapturedScreen.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/Download.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/FAQ.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/HeroPhoto.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/Identification.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/Insights.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/JournalStory.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/ManualEntry.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/PlayLink.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/ProductCrop.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/ProductScreenshot.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/SiteFooter.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/SiteHeader.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/SiteInteractions.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/Trust.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/components/WebAnalyticsConsent.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/config.ts",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/layouts/SiteLayout.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/pages/fishing-journal-app.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/pages/index.astro",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/pages/robots.txt.ts",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/pages/sitemap.xml.ts",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/product-assets.ts",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "src/styles/global.css",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    },
+    {
+      "path": "tsconfig.json",
+      "workingBytesEqualApproved": true,
+      "onlyCheckoutLineEndingDifference": false
+    }
+  ],
+  "generated": [
+    {
+      "path": "dist/app-ads.txt",
+      "bytes": 60,
+      "sha256": "1e0772af8d3581fecd01bc13bca085d431789bff6122cd89a9e8e2e3e2e668e9",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/assets/google-play-badge.svg",
+      "bytes": 5078,
+      "sha256": "4ffa4c7edd2f10b297ca4de2131eddaa00d03b2278d1e178fe512920d824ca34",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/assets/river-lines.svg",
+      "bytes": 401,
+      "sha256": "c0c5b71aa4e77fb9f487200de05f88b5600621557373ee616d61fffe40e84f73",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/CNAME",
+      "bytes": 13,
+      "sha256": "350a879c1d724ea8f505625c93e29bee09185171a3e6c9e15437e6a640e4f23c",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/fishing-journal-app/index.html",
+      "bytes": 19012,
+      "sha256": "2a6df3cbc9f40ea6bcb6bd6ca466f30d7808b3cc2384ee7b45f5c8aa05563d6e",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 26389,
+      "sha256": "41116f73766ab0ac5a423da16e34d5de6292667ad244a19f21f8771e5601850e",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/robots.txt",
+      "bytes": 64,
+      "sha256": "360551b7e23c2d74edf3c637529e1675006ab9053659f03967c8be9d999bd7b7",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/sitemap.xml",
+      "bytes": 211,
+      "sha256": "8766b8303172b9a641cd7d7180841670027e3a35a897dc23c87a75bf61a6fb27",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_2krz87.webp",
+      "bytes": 59466,
+      "sha256": "b36991170a9008637fef79860e6940f9101a15bc8c41231b589395f64bcbaf1c",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_4bUCF.webp",
+      "bytes": 38656,
+      "sha256": "d98d2f850b7160f7e326f56c45d11db881b5f9bbce94dffdb45307210e4f4871",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+      "bytes": 27386,
+      "sha256": "502ca98cb3e06a694bce3bc4948f432952e3d8d91a5a5661cad34737cf497a53",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_o8szK.webp",
+      "bytes": 16290,
+      "sha256": "5f1170a0f6ad6a7661a4ed553fa6369f524a7db2fdcdb10857f9407d30242698",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_Z2oAI5R.png",
+      "bytes": 15299,
+      "sha256": "8aa407fc86ade3cf6d8a2711ba4e7e0bc2949f6666aa8406db45e0158d006b56",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_Z2wn8na.png",
+      "bytes": 35376,
+      "sha256": "5d519db089f0613d26bed606d505e451c243281d07aa2fb8819e003ab8a87aba",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_Z4dcyh.png",
+      "bytes": 24101,
+      "sha256": "a8c28a8d9fe397dec6dc7a4bca0bb69f0967fed6fb141a1f321a5c47b6469d7d",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_ZfnxAK.png",
+      "bytes": 33940,
+      "sha256": "c99da8fef42c2068c98b5629134b367a1b9f5056a4ff5341bde572dbef082a73",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+      "bytes": 608,
+      "sha256": "0ca86da8fb71f3b71cd0e3259800562d36248f980cb40c421837b1ba17512824",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+      "bytes": 826,
+      "sha256": "4c02f829744c74df501481dfd88b3c47abdbb57dbb4cb3e824c55c2cadef3683",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+      "bytes": 5737,
+      "sha256": "7372b039d41a5d88c45a23614ebb90613b73dbb88bc54f49169e781703221b20",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/FAQ.B4iCblLi.css",
+      "bytes": 26874,
+      "sha256": "806aaf366b8e4e1e01c36c4f722ddc2f8a62e65669b0e77cc3604dfbe76ffcf4",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/home-1.2.12.C6mDn6gx.png",
+      "bytes": 283458,
+      "sha256": "7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/home-1.2.12.C6mDn6gx_1AJTyT.webp",
+      "bytes": 104952,
+      "sha256": "a8e720fd2525ca6fac9eb3df023ade561159668eaaee6c9122e7c472cdd2d853",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/identify.DwSz2tOT.jpg",
+      "bytes": 497255,
+      "sha256": "53a372f4d20e15dcd722544b89c436c7ce251ede0323aef153ea4bc7245d75c0",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+      "bytes": 289070,
+      "sha256": "1bd70c952c5b0238769ab6dbf7140a92f72086e9d3365ad7a9df760e2c600321",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/insights-overview.DpZraCKL.jpg",
+      "bytes": 104186,
+      "sha256": "ac2884c9fa34510b257c2fbcdc40b2eac50316925d89c837a7d4e7707e09ee36",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/insights-overview.DpZraCKL_ZqtixD.webp",
+      "bytes": 82300,
+      "sha256": "5494238b62615b60987c6fd276e273787afe51dbb26324ae9a5c110e8025631c",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/journal.BXx_c0T3.jpg",
+      "bytes": 317462,
+      "sha256": "088899d963d12973db1032df2fd4605cc08c708305b3885702a3e9717cb4bbd9",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/journal.BXx_c0T3_1dla5x.webp",
+      "bytes": 147492,
+      "sha256": "eed579101801d9766d7bc42cefd344d1335fc78551201d382afa7bf4f21c230d",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/personal-records.FMzRFCFP.jpg",
+      "bytes": 118736,
+      "sha256": "4b20cd52cbd4a65718e35f13ac5b2764ece429e64bd92ca8829439a1bb03669c",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+      "bytes": 105280,
+      "sha256": "4fbd3631ea3d3396b4daac57e0610b45e34e1321601cabe0b21c420c11b3011a",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1V0uEo.jpg",
+      "bytes": 282475,
+      "sha256": "282b89a21cb4824f54946d79368aa9c330138e65b06c5cee0abbf11082fff99d",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp",
+      "bytes": 186714,
+      "sha256": "afe713ece9887e0ad35a651df55091253b716dc809f502d7490cd185cda27efe",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2awlcP.webp",
+      "bytes": 60632,
+      "sha256": "a5837f345776dc5d38b1c6c56c8ac752672288e2e5b81fa14172d004d8b0223c",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp",
+      "bytes": 328818,
+      "sha256": "c0441d397bb46a6c75f3457cdd483f2764560abe3c22e9dcc585445042ef1136",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2vXFkg.jpg",
+      "bytes": 134422,
+      "sha256": "6498c9282e796947ffbbf66b77394477cb2d8a7400fccd5f43ddb6fa5e1f9419",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_T0xok.jpg",
+      "bytes": 42249,
+      "sha256": "d564e228531ddb639b3d45126e23dfa9ab0f51ed2f9000dd286ece8d59492368",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+      "bytes": 92718,
+      "sha256": "1d6ea6b92ae8c7c92c3eff8b17c128ead524913fe8632a2adf84a42231e2c491",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1WQH50.jpg",
+      "bytes": 83725,
+      "sha256": "12bd630b0162273186182d2a4be85594f6cb08b1ff086debc02364d76702bf61",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2av7Tc.jpg",
+      "bytes": 505846,
+      "sha256": "374647f37a2012c6ec1e8a27f900f0a71b9633cc0b3fb30fb4cb95a81cefa0ec",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+      "bytes": 32732,
+      "sha256": "32858dc97f6b4097b0356e30ba0d74f1411dfea1c6368d4aeebb681b7a7e674f",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1aRrhW.webp",
+      "bytes": 59416,
+      "sha256": "d3e54c06a095bafc1b337076fa349626bebb367aa3de58f4c588500d28c47746",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1gYU0O.webp",
+      "bytes": 25654,
+      "sha256": "dc129f973bcdd60c3ea00aa5127ef8c17d0a81e6b225871cabaf8e921020fc4c",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+      "bytes": 41704,
+      "sha256": "4fa2fcf6c34315ad4206accb0f114efd77973330dbb28e84035aef197f5463a3",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+      "bytes": 92092,
+      "sha256": "aafe197f0df0b8bf4d7164f84c9ca3901f8074c41c619221541c14c50e23f043",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1N6cb8.png",
+      "bytes": 55873,
+      "sha256": "74d0c2ea770680908a71b29cca0cf4c98c28703a209d0189b7253ff45c32a803",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1uQSta.png",
+      "bytes": 37659,
+      "sha256": "1170e3d09dcb196ea16c6c146a626a8371d8b1f4faf84641fdb843d0cde11e14",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z26008I.png",
+      "bytes": 23549,
+      "sha256": "746d011af6556c5bb683c22276c3f62c6f8a1932073f31f63871bbdddddbcfc6",
+      "approvedOutputEqual": true
+    },
+    {
+      "path": "dist/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z4uSOc.png",
+      "bytes": 53951,
+      "sha256": "660194fbb96c9696f0dc952383a43fbee0dc5a6c5476310e247bafc4f9d0e653",
+      "approvedOutputEqual": true
+    }
+  ],
+  "htmlPages": [
+    "dist/fishing-journal-app/index.html",
+    "dist/index.html"
+  ],
+  "packageLockSha256": "655b46c37bf4708ae9e9181a2da0a921aab54b9db94042e9f0a8784b6fbdd4e1",
+  "productionGitDiff": "",
+  "checks": {
+    "protectedFilesUnchanged": true,
+    "outputUnchanged": true,
+    "scopeOnly": true
+  }
+}

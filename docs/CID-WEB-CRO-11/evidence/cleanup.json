@@ -1,0 +1,8 @@
+{
+  "emulatorQueryExit": 1,
+  "testPortListeners": [],
+  "at": "2026-11-20T18:33:36.2610311Z",
+  "historicalEmulatorsUntouched": true,
+  "emulatorQuery": "error: device 'emulator-5572' not found",
+  "preservedFreshUserdata": true
+}

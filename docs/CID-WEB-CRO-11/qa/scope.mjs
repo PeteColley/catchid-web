@@ -1,0 +1,12 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {execFileSync} from 'node:child_process';
+const repo=path.resolve(import.meta.dirname,'../../..'),prior=path.resolve(repo,'../cid-web-cro-10'),out=path.resolve(import.meta.dirname,'../evidence');process.chdir(repo);
+const baseline='537dbc0945452ed66dbd74ef4400a1d04db31c9c';
+const git=(...a)=>execFileSync('git',a,{encoding:'utf8',windowsHide:true}).trim();
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const files=git('ls-tree','-r','--name-only',baseline).split('\n');
+const changed=git('diff','--name-only',baseline).split('\n').filter(Boolean);
+const protectedFiles=files.filter(p=>p!=='PROJECT_STATUS.md').map(p=>{const a=fs.readFileSync(p),b=fs.readFileSync(path.join(prior,p));return {path:p,workingBytesEqualApproved:a.equals(b),onlyCheckoutLineEndingDifference:!a.equals(b)&&a.toString('utf8').replaceAll('\r\n','\n')===b.toString('utf8').replaceAll('\r\n','\n')};});
+const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(d,e.name)):[path.join(d,e.name)]);
+const generated=walk('dist').map(p=>({path:p.replaceAll('\\','/'),bytes:fs.statSync(p).size,sha256:sha(fs.readFileSync(p)),approvedOutputEqual:fs.readFileSync(p).equals(fs.readFileSync(path.join(prior,p)))}));
+const result={at:new Date().toISOString(),baseline,changedTracked:changed,untracked:git('ls-files','--others','--exclude-standard').split('\n').filter(Boolean),protectedFiles,generated,htmlPages:generated.filter(x=>x.path.endsWith('.html')).map(x=>x.path),packageLockSha256:sha(fs.readFileSync('package-lock.json')),productionGitDiff:git('diff',baseline,'--','src','public','scripts','.github','package.json','package-lock.json','astro.config.mjs','tsconfig.json'),checks:{protectedFilesUnchanged:protectedFiles.every(x=>x.workingBytesEqualApproved||x.onlyCheckoutLineEndingDifference)&&changed.every(x=>x==='PROJECT_STATUS.md'||x.startsWith('docs/CID-WEB-CRO-11/')),outputUnchanged:generated.length===48&&generated.every(x=>x.approvedOutputEqual),scopeOnly:changed.every(x=>x==='PROJECT_STATUS.md'||x.startsWith('docs/CID-WEB-CRO-11/'))}};
+fs.writeFileSync(path.join(out,'scope.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({protectedFiles:protectedFiles.length,outputFiles:generated.length,htmlPages:result.htmlPages,checks:result.checks},null,2));if(Object.values(result.checks).some(x=>!x))process.exitCode=1;

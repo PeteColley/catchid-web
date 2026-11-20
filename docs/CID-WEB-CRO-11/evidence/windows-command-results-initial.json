@@ -1,0 +1,12 @@
+{
+  "platform": "win32",
+  "node": "v24.21.0",
+  "results": [
+    {
+      "name": "npm-ci",
+      "command": "npm ci",
+      "start": "2026-11-20T18:24:32.724Z",
+      "exit": 1
+    }
+  ]
+}

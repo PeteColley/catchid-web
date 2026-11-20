@@ -1,0 +1,268 @@
+[
+  {
+    "file": "android-chrome-final-home-first.png",
+    "width": 1081,
+    "height": 1928,
+    "bytes": 358141,
+    "sha256": "c0513db38703306d56e80591299be6c369fcb75b05590a318ec58f9671867375"
+  },
+  {
+    "file": "android-chrome-final-home-full.png",
+    "width": 1081,
+    "height": 22077,
+    "bytes": 9068492,
+    "sha256": "7be07d9b71a77a01fd517eea0b2080c6c97f53932ecdcffd5160ec57a8aa4576"
+  },
+  {
+    "file": "android-chrome-final-home-saved.png",
+    "width": 1081,
+    "height": 1928,
+    "bytes": 715602,
+    "sha256": "db8c0a98798f86f66b4de7bab1bfe5e81c36ad3dd5721f1cfb35e90862e4be89"
+  },
+  {
+    "file": "android-chrome-final-journal-first.png",
+    "width": 1081,
+    "height": 1928,
+    "bytes": 281189,
+    "sha256": "12bd203de1b0997df39adf7ea2ccef29ab887edee233b086c1e3b3eb2b25def0"
+  },
+  {
+    "file": "android-chrome-final-journal-full.png",
+    "width": 1081,
+    "height": 22077,
+    "bytes": 9068492,
+    "sha256": "7be07d9b71a77a01fd517eea0b2080c6c97f53932ecdcffd5160ec57a8aa4576"
+  },
+  {
+    "file": "android-chrome-final-journal-saved.png",
+    "width": 1081,
+    "height": 1928,
+    "bytes": 427283,
+    "sha256": "3fb589d57ce36e90d662603e205886cd7a419a2962536dd9ce6aded2cbfe46a6"
+  },
+  {
+    "file": "android-chrome-home-first.png",
+    "width": 1081,
+    "height": 1928,
+    "bytes": 369603,
+    "sha256": "0ec41726cd44404af2048ca7d16b9dcdd48f6926558467b57a5b2916e4367b5c"
+  },
+  {
+    "file": "android-chrome-home-full.png",
+    "width": 1081,
+    "height": 22077,
+    "bytes": 9068492,
+    "sha256": "7be07d9b71a77a01fd517eea0b2080c6c97f53932ecdcffd5160ec57a8aa4576"
+  },
+  {
+    "file": "android-chrome-home-saved.png",
+    "width": 1081,
+    "height": 1928,
+    "bytes": 715515,
+    "sha256": "67bf1a81aab96094dfdde2bb13bf453e354605fa0ed64788a9e41ffed3b68a2b"
+  },
+  {
+    "file": "android-chrome-journal-first.png",
+    "width": 1081,
+    "height": 1928,
+    "bytes": 279342,
+    "sha256": "e3e0344f0222a740d00e8e53693436b768c12357f2d5ce51442b6e56bebc098e"
+  },
+  {
+    "file": "android-chrome-journal-full.png",
+    "width": 1081,
+    "height": 22270,
+    "bytes": 8909459,
+    "sha256": "7db7e7be7a5ab71912dfd74d4b42c6350df3c7d9e8ac781c8af0e47ac02fb6b6"
+  },
+  {
+    "file": "android-chrome-journal-saved.png",
+    "width": 1081,
+    "height": 1928,
+    "bytes": 427283,
+    "sha256": "3fb589d57ce36e90d662603e205886cd7a419a2962536dd9ce6aded2cbfe46a6"
+  },
+  {
+    "file": "native400-home-first-final.png",
+    "width": 1784,
+    "height": 985,
+    "bytes": 132291,
+    "sha256": "8798fb183ae7245dc6228de758437df77f25099f684ea0dae5958aad77b1ab43"
+  },
+  {
+    "file": "native400-home-first-viewport.png",
+    "width": 1784,
+    "height": 985,
+    "bytes": 418548,
+    "sha256": "34aa36f1fe07c1e15ed275ba5ebb69cd98b009ec40bc5081505e161c7dd5afad"
+  },
+  {
+    "file": "native400-home-focus-final.png",
+    "width": 1784,
+    "height": 985,
+    "bytes": 137215,
+    "sha256": "ae8ee0391f6e8b5744f6eafdcb92ed5776db2b5446b54792178ee16d8ba09c26"
+  },
+  {
+    "file": "native400-home-saved-final.png",
+    "width": 1784,
+    "height": 985,
+    "bytes": 143342,
+    "sha256": "cb5f9848398ba26febbdb05c0b9c44c292945a7adf5f1391322af76baed26e60"
+  },
+  {
+    "file": "native400-journal-first-final.png",
+    "width": 1784,
+    "height": 985,
+    "bytes": 132896,
+    "sha256": "50a81a2355dba6f08b40bc3f58a3f16a06c26b7758647f5c795ca23e2ff2e906"
+  },
+  {
+    "file": "native400-journal-focus-final.png",
+    "width": 1784,
+    "height": 985,
+    "bytes": 137745,
+    "sha256": "c38e017e4c9ba36270452d430184e8bf41330988867676aab8e4e6b2734adc7f"
+  },
+  {
+    "file": "native400-journal-saved-final.png",
+    "width": 1784,
+    "height": 985,
+    "bytes": 146024,
+    "sha256": "032d645b1b8ba37f108bba77202b42dfd49586a275a265277bd7a3fa0ebeb727"
+  },
+  {
+    "file": "native400-window-saved.png",
+    "width": 7864320,
+    "height": 4292542531,
+    "bytes": 75988,
+    "sha256": "049fe1f2816766cf65f678f188ed482c9c007a73525f0e61488854322468a7a2"
+  },
+  {
+    "file": "zoom200-final-home-first.png",
+    "width": 891,
+    "height": 493,
+    "bytes": 53887,
+    "sha256": "07cae5755e2d4e4de6379312527df2c68a4ce5c4a3e14b878f9b2749214cc6bd"
+  },
+  {
+    "file": "zoom200-final-home-saved.png",
+    "width": 891,
+    "height": 493,
+    "bytes": 53887,
+    "sha256": "07cae5755e2d4e4de6379312527df2c68a4ce5c4a3e14b878f9b2749214cc6bd"
+  },
+  {
+    "file": "zoom200-final-journal-first.png",
+    "width": 891,
+    "height": 493,
+    "bytes": 57605,
+    "sha256": "cfffaf421a2c4b357c4fb6ee4d7875298cd6be21453c14979c27f3bd529be597"
+  },
+  {
+    "file": "zoom200-final-journal-saved.png",
+    "width": 891,
+    "height": 493,
+    "bytes": 57605,
+    "sha256": "cfffaf421a2c4b357c4fb6ee4d7875298cd6be21453c14979c27f3bd529be597"
+  },
+  {
+    "file": "zoom200-home-first.png",
+    "width": 891,
+    "height": 493,
+    "bytes": 53887,
+    "sha256": "07cae5755e2d4e4de6379312527df2c68a4ce5c4a3e14b878f9b2749214cc6bd"
+  },
+  {
+    "file": "zoom200-home-saved.png",
+    "width": 891,
+    "height": 493,
+    "bytes": 53887,
+    "sha256": "07cae5755e2d4e4de6379312527df2c68a4ce5c4a3e14b878f9b2749214cc6bd"
+  },
+  {
+    "file": "zoom400-acceptance-home-first.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37506,
+    "sha256": "4a53c24116fcba0192b61811a89934cb78d487af39ed1d7588ac2f54a27cd102"
+  },
+  {
+    "file": "zoom400-acceptance-home-saved.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37506,
+    "sha256": "4a53c24116fcba0192b61811a89934cb78d487af39ed1d7588ac2f54a27cd102"
+  },
+  {
+    "file": "zoom400-acceptance-journal-first.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37709,
+    "sha256": "8f791d2b0afa7f04fcabdde87a1e66ff874075aa122b1b4aa26ea543191f5113"
+  },
+  {
+    "file": "zoom400-acceptance-journal-saved.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37709,
+    "sha256": "8f791d2b0afa7f04fcabdde87a1e66ff874075aa122b1b4aa26ea543191f5113"
+  },
+  {
+    "file": "zoom400-final-home-first.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37506,
+    "sha256": "4a53c24116fcba0192b61811a89934cb78d487af39ed1d7588ac2f54a27cd102"
+  },
+  {
+    "file": "zoom400-final-home-saved.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37506,
+    "sha256": "4a53c24116fcba0192b61811a89934cb78d487af39ed1d7588ac2f54a27cd102"
+  },
+  {
+    "file": "zoom400-final-journal-first.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37709,
+    "sha256": "8f791d2b0afa7f04fcabdde87a1e66ff874075aa122b1b4aa26ea543191f5113"
+  },
+  {
+    "file": "zoom400-final-journal-saved.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37709,
+    "sha256": "8f791d2b0afa7f04fcabdde87a1e66ff874075aa122b1b4aa26ea543191f5113"
+  },
+  {
+    "file": "zoom400-home-first.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37506,
+    "sha256": "4a53c24116fcba0192b61811a89934cb78d487af39ed1d7588ac2f54a27cd102"
+  },
+  {
+    "file": "zoom400-home-saved.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37506,
+    "sha256": "4a53c24116fcba0192b61811a89934cb78d487af39ed1d7588ac2f54a27cd102"
+  },
+  {
+    "file": "zoom400-journal-first.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37709,
+    "sha256": "8f791d2b0afa7f04fcabdde87a1e66ff874075aa122b1b4aa26ea543191f5113"
+  },
+  {
+    "file": "zoom400-journal-saved.png",
+    "width": 445,
+    "height": 246,
+    "bytes": 37709,
+    "sha256": "8f791d2b0afa7f04fcabdde87a1e66ff874075aa122b1b4aa26ea543191f5113"
+  }
+]

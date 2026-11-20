@@ -1,0 +1,341 @@
+{
+  "at": "2026-11-20T18:15:02.809Z",
+  "inventory": [
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/catchid-web",
+      "head": "42c997c13712a432c8e2384915aaa010a16d068b",
+      "branch": "main",
+      "upstream": {
+        "code": 0,
+        "out": "origin/main",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\n.npm-cache/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-app-ads-01",
+      "head": "42c997c13712a432c8e2384915aaa010a16d068b",
+      "branch": "codex/cid-web-app-ads-01",
+      "upstream": {
+        "code": 0,
+        "out": "origin/main",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\n.npm-cache/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-01",
+      "head": "9fbef55613daded6e0d1c23bc616d8a91dca9f52",
+      "branch": "codex/cid-web-cro-01",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-web-cro-01",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\n.npm-cache/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-02",
+      "head": "1095c41927f2f5eabd6e0ac1996325d780009530",
+      "branch": "codex/cid-web-cro-02-design",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-web-cro-02-design",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\n.npm-cache/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-03",
+      "head": "9c7b0847061a460aa095150a6e2dd1972ba7a436",
+      "branch": "codex/cid-web-cro-03-design",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-web-cro-03-design",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\n.npm-cache/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-04",
+      "head": "651ae58f39a8c2530fb600b35e91455c644351e8",
+      "branch": "codex/cid-web-cro-04-implementation",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-web-cro-04-implementation",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\n.npm-cache/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-05",
+      "head": "e5ccb55f338cd954d38c11b992f0bc48ac0d8a39",
+      "branch": "codex/cid-web-cro-05-hero-photography",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-web-cro-05-hero-photography",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\n.npm-cache/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-06",
+      "head": "8d0731f361b94a81523bfe07f528b7fdb365ccb4",
+      "branch": "codex/cid-web-cro-06-hero-integration",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-web-cro-06-hero-integration",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\n.npm-cache/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-07",
+      "head": "aa818647e3acd7537e92774fb7b2f437388aa7ce",
+      "branch": "codex/cid-web-cro-07-product-captures",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-web-cro-07-product-captures",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ""
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-08",
+      "head": "94a4f5ed343b70e7f992556acb1a037158ebb9c4",
+      "branch": "codex/cid-web-cro-08-product-integration",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-web-cro-08-product-integration",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\n.npm-cache/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-09",
+      "head": "68661d45ab5795d3b904b058d4ad71a9f04ad96d",
+      "branch": "codex/cid-web-cro-09-readiness",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-web-cro-09-readiness",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-10",
+      "head": "537dbc0945452ed66dbd74ef4400a1d04db31c9c",
+      "branch": "codex/cid-web-cro-10-focus-contrast",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-web-cro-10-focus-contrast",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-11",
+      "head": "537dbc0945452ed66dbd74ef4400a1d04db31c9c",
+      "branch": "codex/cid-web-cro-11-final-readiness",
+      "upstream": {
+        "code": 128,
+        "out": "",
+        "error": "fatal: no upstream configured for branch 'codex/cid-web-cro-11-final-readiness'"
+      },
+      "status": "",
+      "ignored": ""
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-deps-01",
+      "head": "341fdc09608c4e38984770e375e0991c2dfe0286",
+      "branch": "codex/cid-web-deps-01",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-web-deps-01",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".astro/\n.npm-cache/\ndist/\nnode_modules/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-main-1.2.12",
+      "head": "b662d238a244ad193315819ecbd1d95651a9c7c6",
+      "branch": "main",
+      "upstream": {
+        "code": 0,
+        "out": "origin/main",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ""
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-cro07-android-source",
+      "head": "9e9b37e9dfdc2554321602bfbada2e18227d34e7",
+      "branch": "",
+      "upstream": {
+        "code": 128,
+        "out": "",
+        "error": "fatal: HEAD does not point to a branch"
+      },
+      "status": "",
+      "ignored": ".gradle/\n.kotlin/\napp/build/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01",
+      "head": "f208a47797b322fae06d82dbfca18e29745f9846",
+      "branch": "codex/cid-free-01",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-free-01",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".gradle/\n.kotlin/\napp/build/\ncandidate-artifacts/\ncandidate-avd/\ngate-01a-focused.log\ngate-01a-full.log\ngate-01a-runtime.log\ngate-01a-verified.log\ngate-01b-acceptance-build.log\ngate-01b-acceptance.log\ngate-01b-accepted.log\ngate-01b-android-accepted.log\ngate-01b-android-final.log\ngate-01b-android-full.log\ngate-01b-build-lint.log\ngate-01b-final-build.log\ngate-01b-final-test-apk.log\ngate-01b-final-verified.log\ngate-01b-focused.log\ngate-01b-full.log\ngate-01b-push-candidate.log\ngate-01b-runtime-focused.log\ngate-01b-verified.log\ngate-01c-acceptance-build.log\ngate-01c-android-acceptance-focused.log\ngate-01c-android-acceptance-full.log\ngate-01c-android-final.log\ngate-01c-android-focused-final.log\ngate-01c-android-focused-hardened.log\ngate-01c-android-focused-pinned.log\ngate-01c-android-focused-retry.log\ngate-01c-android-focused-stable.log\ngate-01c-android-focused-synchronized.log\ngate-01c-android-focused.log\ngate-01c-android-hardware-focused.log\ngate-01c-android-hardware-full.log\ngate-01c-android-manual-save-recheck.log\ngate-01c-build-tests.log\ngate-01c-committed-build.log\ngate-01c-final-build-pinned.log\ngate-01c-final-build.log\ngate-01c-final-synchronization-build.log\ngate-01c-final-unit-rerun.log\ngate-01c-final-variant-build.log\ngate-01c-google-samples.log\ngate-01c-initial-result-diagnostic.log\ngate-01c-initial.log\ngate-01c-input-isolation-diagnostic.log\ngate-01c-pete-emulator-error.log\ngate-01c-pete-emulator.log\ngate-01c-regression-emulator-error.log\ngate-01c-regression-emulator.log\ngate-01c-regression-hardware-error.log\ngate-01c-regression-hardware.log\ngate-01c-test-diagnostic-build.log\ngate-01c-verified-build.log\ngate-ad-measurement-dependency.log\ngate-ad-release-demo.log\ngate-ad-release-missing.log\ngate-ads-build-compatible.log\ngate-ads-build.log\ngate-ads-eea-build.log\ngate-edit-diagnosis.log\ngate-edit-fix.log\ngate-emulator-error.log\ngate-emulator.log"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01d-diagnostic",
+      "head": "baa545e59afaa643394b68fc1c911ad3595801b6",
+      "branch": "",
+      "upstream": {
+        "code": 128,
+        "out": "",
+        "error": "fatal: HEAD does not point to a branch"
+      },
+      "status": "",
+      "ignored": ".gradle/\n.kotlin/\napp/build/\ncandidate-artifacts/\ncandidate-avd/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01l",
+      "head": "30dadf50ba01c5c9fbeafc46ac94e035aa8bd83c",
+      "branch": "codex/cid-free-01l",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-free-01l",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".gradle/\n.kotlin/\napp/build/\ncandidate-artifacts/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01m",
+      "head": "d6822a17b429fdb4246a58b83982bdf0bc10e0fc",
+      "branch": "codex/cid-free-01m-remove-native",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-free-01m-remove-native",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".gradle/\n.idea/\n.kotlin/\napp/build/\ncandidate-artifacts/\nlocal.properties"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02a",
+      "head": "a796f364a27bbcff0fdfaf1efa51e1e3b677c769",
+      "branch": "codex/cid-free-02a",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-free-02a",
+        "error": ""
+      },
+      "status": "M docs/CID-FREE-02A/Start-CatchID-Smart-Locations-Review.ps1\n?? app/src/androidTest/java/com/catchid/app/SmartLocationsLiveReviewTest.kt\n?? docs/CID-FREE-02B/Start-Private-LocationIQ-Handoff.ps1\n?? docs/CID-FREE-02B/checkpoint-20261117.json\n?? docs/CID-FREE-02B/cleanup-20261117.json\n?? docs/CID-FREE-02B/evidence-manifest-20261117.json\n?? docs/CID-FREE-02B/measure-loopback.js",
+      "ignored": ".gradle/\n.kotlin/\napp/build/\ncandidate-artifacts/\ncandidate-avd/\ngate-android-acceptance-04.log\ngate-android-acceptance-05.log\ngate-android-baseline.log\ngate-android-capture-final.log\ngate-android-final.log\ngate-android-focused-02.log\ngate-android-focused.log\ngate-android-journal-capture-03.log\ngate-android-journal-final-02.log\ngate-android-journal-final.log\ngate-android-locations-03.log\ngate-android-permission-06.log\ngate-android-permission-07.log\ngate-android-regression-02.log\ngate-android-regression.log\ngate-android-small-offline.log\ngate-backend-02.log\ngate-backend-existing.log\ngate-baseline-build.log\ngate-build-01.log\ngate-build-02.log\ngate-build-03.log\ngate-build-04.log\ngate-build-05.log\ngate-build-06.log\ngate-build-07.log\ngate-build-08.log\ngate-build-09.log\ngate-build-10.log\ngate-build-11.log\ngate-build-12.log\ngate-build-captures.log\ngate-build-demo-inset.log\ngate-build-evidence.log\ngate-build-final.log\ngate-emulator-error.log\ngate-emulator-retry-error.log\ngate-emulator-retry.log\ngate-emulator.log\ngate-final-diff-check.log\ngate-initial.log\ngate-locationiq-android-broad.log\ngate-locationiq-android-final-focused.log\ngate-locationiq-android-focused.log\ngate-locationiq-android-ime-targeted.log\ngate-locationiq-android-small-offline-02.log\ngate-locationiq-android-small-offline.log\ngate-locationiq-backend-final-02.log\ngate-locationiq-backend-final-03.log\ngate-locationiq-backend-final-04.log\ngate-locationiq-backend-final.log\ngate-locationiq-backend-initial.log\ngate-locationiq-backend.log\ngate-locationiq-build-final.log\ngate-locationiq-build.log\ngate-locationiq-feedback-build.log\ngate-locationiq-focused-feedback-build.log\ngate-locationiq-harness-build-02.log\ngate-locationiq-harness-build-03.log\ngate-locationiq-harness-build-04.log\ngate-locationiq-harness-build.log\ngate-locationiq-lint-final.log\ngate-staged-diff-check.log\ngate-test-apk.log"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02e",
+      "head": "655664c33f25a63fbebe2f7665c8ee15a8197309",
+      "branch": "codex/cid-free-02e-integration",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-free-02e-integration",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".gradle/\n.kotlin/\napp/build/\ncandidate-artifacts/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02f",
+      "head": "1962a48127022847deb6673a3b44e61c457f0535",
+      "branch": "codex/cid-free-02f-cloud-design",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-free-02f-cloud-design",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".gradle/\n.kotlin/\napp/build/\ncandidate-artifacts/"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02g",
+      "head": "4f8a97c89d1e9b2955ef9eb150ef813240304fc6",
+      "branch": "codex/cid-free-02g-feasibility",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-free-02g-feasibility",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ""
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-integrate-free-01",
+      "head": "05391ff71835dfaad162d7699c959238ce1caa8c",
+      "branch": "codex/integrate-cid-free-01",
+      "upstream": {
+        "code": 0,
+        "out": "origin/main",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".gradle/\n.idea/\n.kotlin/\napp/build/\ncandidate-artifacts/\nlocal.properties"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-integrate-free-01l",
+      "head": "d14106fdeed014d35650ee31f1274994e216c824",
+      "branch": "codex/integrate-cid-free-01l",
+      "upstream": {
+        "code": 0,
+        "out": "origin/main",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".gradle/\n.idea/\n.kotlin/\napp/build/\ncandidate-artifacts/\nlocal.properties"
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-integrate-whats-new-01",
+      "head": "1b2ee93f6de49bb2081813ef41395405944a9f4c",
+      "branch": "codex/integrate-whats-new-01",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/integrate-whats-new-01",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ""
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-whats-new-01",
+      "head": "50a3467a617a6ca6f5fc8d0f6d467c4769928547",
+      "branch": "codex/cid-whats-new-01",
+      "upstream": {
+        "code": 0,
+        "out": "origin/codex/cid-whats-new-01",
+        "error": ""
+      },
+      "status": "",
+      "ignored": ".gradle/\n.kotlin/\napp/build/\ncandidate-artifacts/"
+    }
+  ]
+}

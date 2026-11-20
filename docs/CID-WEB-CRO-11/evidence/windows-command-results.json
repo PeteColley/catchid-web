@@ -1,0 +1,42 @@
+{
+  "platform": "win32",
+  "node": "v24.21.0",
+  "results": [
+    {
+      "name": "npm-ci",
+      "command": "npm.cmd ci",
+      "start": "2026-11-20T18:25:20.896Z",
+      "exit": 0
+    },
+    {
+      "name": "npm-check",
+      "command": "npm.cmd run check",
+      "start": "2026-11-20T18:25:32.252Z",
+      "exit": 0
+    },
+    {
+      "name": "npm-build",
+      "command": "npm.cmd run build",
+      "start": "2026-11-20T18:25:44.518Z",
+      "exit": 0
+    },
+    {
+      "name": "npm-verify-plain",
+      "command": "npm.cmd run verify",
+      "start": "2026-11-20T18:25:49.902Z",
+      "exit": 1
+    },
+    {
+      "name": "npm-verify-normalised",
+      "command": "node docs/CID-WEB-CRO-06/qa/verify-baseline.mjs",
+      "start": "2026-11-20T18:25:50.583Z",
+      "exit": 0
+    },
+    {
+      "name": "diff-check",
+      "command": "git diff --check",
+      "start": "2026-11-20T18:25:51.011Z",
+      "exit": 0
+    }
+  ]
+}

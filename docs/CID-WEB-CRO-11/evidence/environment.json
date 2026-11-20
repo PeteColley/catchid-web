@@ -1,0 +1,63 @@
+{
+  "at": "2026-11-20T18:27:02.595Z",
+  "platform": "win32",
+  "node": "v24.21.0",
+  "npm": {
+    "cmd": "powershell.exe",
+    "args": [
+      "-NoProfile",
+      "-Command",
+      "npm.cmd --version"
+    ],
+    "exit": 0,
+    "stdout": "11.19.0",
+    "stderr": ""
+  },
+  "wslStatus": {
+    "cmd": "wsl.exe",
+    "args": [
+      "--status"
+    ],
+    "exit": 50,
+    "stdout": "",
+    "stderr": "The Windows Subsystem for Linux is not installed. You can install by running 'wsl.exe --install'.\r\r\nFor more information please visit https://aka.ms/wslinstall"
+  },
+  "wslDistributions": {
+    "cmd": "wsl.exe",
+    "args": [
+      "--list",
+      "--verbose"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "The Windows Subsystem for Linux is not installed. You can install by running 'wsl.exe --install'.\r\r\nFor more information please visit https://aka.ms/wslinstall"
+  },
+  "docker": {
+    "cmd": "where.exe",
+    "args": [
+      "docker"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "INFO: Could not find files for the given pattern(s)."
+  },
+  "podman": {
+    "cmd": "where.exe",
+    "args": [
+      "podman"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "INFO: Could not find files for the given pattern(s)."
+  },
+  "installedPaths": {
+    "C:/Program Files/Docker": false,
+    "C:/Program Files/RedHat/Podman": false,
+    "C:/Program Files/NVDA": false,
+    "C:/Windows/System32/Narrator.exe": true
+  },
+  "linuxExecuted": false,
+  "spokenReaderTested": false,
+  "physicalDeviceTested": false,
+  "safariTested": false
+}

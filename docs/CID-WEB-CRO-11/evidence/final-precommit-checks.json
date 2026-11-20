@@ -1,0 +1,670 @@
+{
+  "at": "2026-11-20T18:32:33.237Z",
+  "heads": {
+    "main": "42c997c13712a432c8e2384915aaa010a16d068b",
+    "codex/cid-web-cro-08-product-integration": "94a4f5ed343b70e7f992556acb1a037158ebb9c4",
+    "codex/cid-web-cro-09-readiness": "68661d45ab5795d3b904b058d4ad71a9f04ad96d",
+    "codex/cid-web-cro-10-focus-contrast": "537dbc0945452ed66dbd74ef4400a1d04db31c9c"
+  },
+  "androidMain": "35cbf6d562d6f42906e33c5c7be95d0b95800ad7",
+  "privacyMain": "35271b10b50b0de86a9f89652d4ea6f6ee21161d",
+  "pages": {
+    "buildType": "workflow",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "url": "https://catchid.app/"
+  },
+  "actions": {
+    "total": 9,
+    "latest": {
+      "id": 42503395484,
+      "sha": "42c997c13712a432c8e2384915aaa010a16d068b",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  },
+  "recentCommits": "537dbc0945452ed66dbd74ef4400a1d04db31c9c Record CRO-10 review delivery and final verification\n8a65185993895d79f31a703065efb9d838683625 Correct keyboard focus contrast without changing the approved design\n68661d45ab5795d3b904b058d4ad71a9f04ad96d docs: record CRO-09 audit delivery verification\n88322447adeaa98629d1c23341195484d6ff91b9 docs: audit CRO-09 publication readiness\n94a4f5ed343b70e7f992556acb1a037158ebb9c4 Record CRO-08 remote implementation delivery receipt\n7189320d756d934898b13328f8ce8d9fb8614166 Integrate approved authentic product screenshots for CRO-08\naa818647e3acd7537e92774fb7b2f437388aa7ce Record CRO-07A remote capture delivery receipt\na66086c23c14513c778a46262c8a0d41362809ec Capture authentic CRO-07A no-photo catch form and details",
+  "productionDiff": {
+    "exit": 0,
+    "out": "",
+    "error": ""
+  },
+  "diffCheck": {
+    "exit": 0,
+    "out": "",
+    "error": ""
+  },
+  "unrelated": [
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/catchid-web",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-app-ads-01",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-01",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-02",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-03",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-04",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-05",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-06",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-07",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-08",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-09",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-10",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-deps-01",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-main-1.2.12",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-cro07-android-source",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01d-diagnostic",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01l",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-01m",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02a",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02e",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02f",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-free-02g",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-integrate-free-01",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-integrate-free-01l",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-integrate-whats-new-01",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    },
+    {
+      "path": "C:/Users/chen2/Documents/ChatGPT/CatchID/cid-whats-new-01",
+      "headSame": true,
+      "statusSame": true,
+      "ignoredSame": true
+    }
+  ],
+  "linkChecks": [
+    {
+      "file": "DEVICE_ACCESSIBILITY.md",
+      "ref": "evidence/scope.json",
+      "exists": true
+    },
+    {
+      "file": "DEVICE_ACCESSIBILITY.md",
+      "ref": "../CID-WEB-CRO-10/QA.md",
+      "exists": true
+    },
+    {
+      "file": "DEVICE_ACCESSIBILITY.md",
+      "ref": "evidence/android-chrome-final.json",
+      "exists": true
+    },
+    {
+      "file": "DEVICE_ACCESSIBILITY.md",
+      "ref": "evidence/zoom200-final.json",
+      "exists": true
+    },
+    {
+      "file": "DEVICE_ACCESSIBILITY.md",
+      "ref": "evidence/zoom400-acceptance.json",
+      "exists": true
+    },
+    {
+      "file": "DEVICE_ACCESSIBILITY.md",
+      "ref": "evidence/android-environment.json",
+      "exists": true
+    },
+    {
+      "file": "DEVICE_ACCESSIBILITY.md",
+      "ref": "evidence/zoom400.json",
+      "exists": true
+    },
+    {
+      "file": "DEVICE_ACCESSIBILITY.md",
+      "ref": "evidence/android-chrome.json",
+      "exists": true
+    },
+    {
+      "file": "DEVICE_ACCESSIBILITY.md",
+      "ref": "index.html",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "evidence/scope.json",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "evidence/scope.json",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "OWNER_ASSET_ATTESTATION.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "OWNER_ASSET_ATTESTATION.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "../CID-WEB-CRO-09/ASSET_ACCEPTANCE.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "OWNER_ASSET_ATTESTATION.md#third-party-hero",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "../CID-WEB-CRO-07/RECOVERY_07A.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "../CID-WEB-CRO-08/ASSET_PROVENANCE.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "../CID-WEB-CRO-10/QA.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "../CID-WEB-CRO-10/QA.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "evidence/android-chrome-final.json",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "evidence/android-environment.json",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "evidence/zoom200-final.json",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "evidence/zoom400-acceptance.json",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "DEVICE_ACCESSIBILITY.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "DEVICE_ACCESSIBILITY.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "PUBLICATION_DECISION.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "../CID-WEB-CRO-09/SECURITY_PRIVACY.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "LINUX_PREFLIGHT.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "PUBLICATION_DECISION.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "LINUX_PREFLIGHT.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "DEVICE_ACCESSIBILITY.md#smallest-final-manual-acceptance",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "../CID-WEB-CRO-09/PUBLICATION_CHECKLIST.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "OWNER_ASSET_ATTESTATION.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "DEVICE_ACCESSIBILITY.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "LINUX_PREFLIGHT.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "PUBLICATION_DECISION.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "QA.md",
+      "exists": true
+    },
+    {
+      "file": "FINAL_READINESS.md",
+      "ref": "index.html",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "FINAL_READINESS.md",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "OWNER_ASSET_ATTESTATION.md",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "DEVICE_ACCESSIBILITY.md",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "LINUX_PREFLIGHT.md",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "PUBLICATION_DECISION.md",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "QA.md",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/android-chrome-final-home-first.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/android-chrome-final-home-first.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/android-chrome-final-home-saved.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/android-chrome-final-home-saved.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/android-chrome-final-journal-first.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/android-chrome-final-journal-first.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/android-chrome-final-journal-saved.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/android-chrome-final-journal-saved.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/android-chrome-final-home-full.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/android-chrome-final-journal-full.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/android-chrome-final.json",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/native400-home-first-final.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/native400-home-first-final.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/native400-home-focus-final.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/native400-home-focus-final.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/native400-journal-first-final.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/native400-journal-first-final.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/native400-journal-focus-final.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/native400-journal-focus-final.png",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/zoom200-final.json",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "evidence/zoom400-acceptance.json",
+      "exists": true
+    },
+    {
+      "file": "index.html",
+      "ref": "../CID-WEB-CRO-10/index.html",
+      "exists": true
+    },
+    {
+      "file": "LINUX_PREFLIGHT.md",
+      "ref": "evidence/environment.json",
+      "exists": true
+    },
+    {
+      "file": "LINUX_PREFLIGHT.md",
+      "ref": "../CID-WEB-CRO-06/qa/verify-baseline.mjs",
+      "exists": true
+    },
+    {
+      "file": "LINUX_PREFLIGHT.md",
+      "ref": "evidence/windows-command-results.json",
+      "exists": true
+    },
+    {
+      "file": "LINUX_PREFLIGHT.md",
+      "ref": "evidence/scope.json",
+      "exists": true
+    },
+    {
+      "file": "LINUX_PREFLIGHT.md",
+      "ref": "../CID-WEB-CRO-09/SECURITY_PRIVACY.md",
+      "exists": true
+    },
+    {
+      "file": "OWNER_ASSET_ATTESTATION.md",
+      "ref": "../CID-WEB-CRO-09/ASSET_ACCEPTANCE.md",
+      "exists": true
+    },
+    {
+      "file": "OWNER_ASSET_ATTESTATION.md",
+      "ref": "../../src/assets/journal.jpg",
+      "exists": true
+    },
+    {
+      "file": "OWNER_ASSET_ATTESTATION.md",
+      "ref": "../../src/assets/personal-records.jpg",
+      "exists": true
+    },
+    {
+      "file": "OWNER_ASSET_ATTESTATION.md",
+      "ref": "../../src/assets/identify.jpg",
+      "exists": true
+    },
+    {
+      "file": "OWNER_ASSET_ATTESTATION.md",
+      "ref": "../../src/assets/insights-overview.jpg",
+      "exists": true
+    },
+    {
+      "file": "OWNER_ASSET_ATTESTATION.md",
+      "ref": "../CID-WEB-CRO-08/ASSET_PROVENANCE.md",
+      "exists": true
+    },
+    {
+      "file": "OWNER_ASSET_ATTESTATION.md",
+      "ref": "../CID-WEB-CRO-06/ASSET_PROVENANCE.md",
+      "exists": true
+    },
+    {
+      "file": "PUBLICATION_DECISION.md",
+      "ref": "LINUX_PREFLIGHT.md",
+      "exists": true
+    },
+    {
+      "file": "PUBLICATION_DECISION.md",
+      "ref": "DEVICE_ACCESSIBILITY.md#smallest-final-manual-acceptance",
+      "exists": true
+    },
+    {
+      "file": "PUBLICATION_DECISION.md",
+      "ref": "../CID-WEB-CRO-09/PUBLICATION_CHECKLIST.md",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "evidence/worktree-orientation.json",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "evidence/windows-command-results.json",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "evidence/npm-verify-plain.log",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "evidence/npm-verify-normalised.log",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "evidence/scope.json",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "DEVICE_ACCESSIBILITY.md",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "evidence/environment.json",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "evidence/npm-ci-launcher-initial.log",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "evidence/scope-initial-worktree-bytes.json",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "DEVICE_ACCESSIBILITY.md",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "FINAL_READINESS.md",
+      "exists": true
+    },
+    {
+      "file": "QA.md",
+      "ref": "PUBLICATION_DECISION.md",
+      "exists": true
+    }
+  ]
+}
