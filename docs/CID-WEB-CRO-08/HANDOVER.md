@@ -1,8 +1,8 @@
 # CID-WEB-CRO-08 — authentic product screenshots
 
-**20 November 2026 · IMPLEMENTED / IMPLEMENTATION CANDIDATE ONLY / NOT LIVE.**
+**20 November 2026 · IMPLEMENTED / PUSHED / IMPLEMENTATION CANDIDATE ONLY / NOT LIVE.**
 
-Branch: `codex/cid-web-cro-08-product-integration`. Starts at approved CRO-07A capture commit `aa818647e3acd7537e92774fb7b2f437388aa7ce`, with the unchanged CRO-06 website implementation `8d0731f361b94a81523bfe07f528b7fdb365ccb4` underneath. Commit/push verification is recorded in the delivery receipt below when completed.
+Branch: `codex/cid-web-cro-08-product-integration`. Tested implementation **`7189320d756d934898b13328f8ce8d9fb8614166`**. Starts at approved CRO-07A capture commit `aa818647e3acd7537e92774fb7b2f437388aa7ce`, with the unchanged CRO-06 website implementation `8d0731f361b94a81523bfe07f528b7fdb365ccb4` underneath. This subsequent documentation-only commit records remote delivery; the final response gives its final SHA.
 
 ## Result
 
@@ -49,4 +49,6 @@ No merge, deployment, public preview, catchid.app, DNS/Pages, Android applicatio
 
 ## Delivery receipt
 
-Pending the authorized isolated-branch commit, push and remote readback. Implementation evidence above is complete; this line does not claim a release.
+Implementation **`7189320d756d934898b13328f8ce8d9fb8614166`** was committed and pushed normally to the authorized isolated branch. Remote SHA matched, the worktree was clean and upstream ahead/behind was `0 0`. GitHub readback matched exact local blobs for ManualEntry (`bccb0c21137d9623a47f23a23b7f249fc678237d`), JournalStory (`464b36f9b7c7861607d8bf4ab5848f5c98187145`), CapturedScreen (`b6a05f69edb9b52b617e5dcab058e9a3dbe85cd9`), verifier (`6694ae39365cca8cdb29ce3c9a1a0caf2d337366`), gallery (`a963c9a897b93f0b34426da8f9263b92afa23def`) and this handover's pre-receipt version (`dbe69198669a4af4f040fd5768bc0126ebb7354b`). Four key screenshot blob/size readbacks are in [remote evidence](evidence/remote-screenshot-readback.json).
+
+The branch's Actions query returned **zero runs**. Website main remains `42c997c13712a432c8e2384915aaa010a16d068b`, CRO-06/CRO-07A remain at their approved SHAs, and Android main remains `35cbf6d562d6f42906e33c5c7be95d0b95800ad7`. Task-owned loopback servers and QA browser are stopped. No deployment trigger, merge, release or public preview was invoked. This documentation-only receipt update changes no implementation or screenshot.

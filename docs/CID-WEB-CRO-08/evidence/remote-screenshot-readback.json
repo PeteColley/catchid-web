@@ -1,0 +1,26 @@
+[
+  {
+    "path": "docs/CID-WEB-CRO-08/evidence/final/record-1440.png",
+    "sha": "109be4b001692997f372937a264670a1efc70fec",
+    "bytes": 169673,
+    "matchesLocal": true
+  },
+  {
+    "path": "docs/CID-WEB-CRO-08/evidence/final/record-390.png",
+    "sha": "370b4ff848d63601388d7a05e8d717706ba251ae",
+    "bytes": 133426,
+    "matchesLocal": true
+  },
+  {
+    "path": "docs/CID-WEB-CRO-08/evidence/final/journal-1440.png",
+    "sha": "69c056500fb764d23d89104e51c614d5c012c50b",
+    "bytes": 129781,
+    "matchesLocal": true
+  },
+  {
+    "path": "docs/CID-WEB-CRO-08/evidence/final/journal-390.png",
+    "sha": "12e76d0e209931f95f45488348211238027c0fdc",
+    "bytes": 100849,
+    "matchesLocal": true
+  }
+]
