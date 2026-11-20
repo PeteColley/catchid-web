@@ -1,0 +1,56 @@
+name: CatchID isolated Linux Node 24 preflight
+on:
+  push:
+    branches:
+      - codex/cid-web-linux-preflight-20261120
+permissions:
+  contents: read
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout reviewed source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Select Node 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check implementation against approved CRO-10
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(uname -s)" = Linux
+          test "$(node -p 'process.versions.node.split(".")[0]')" = 24
+          git diff --exit-code 537dbc0945452ed66dbd74ef4400a1d04db31c9c HEAD -- . ':(exclude).github/workflows/cid-linux-preflight-20261120.yml'
+          git diff --check
+          git status --short
+      - name: Unpublished Linux preflight
+        shell: bash
+        env:
+          ASTRO_TELEMETRY_DISABLED: '1'
+        run: |
+          set -euo pipefail
+          date -u
+          uname -a
+          node -v
+          npm -v
+          git rev-parse HEAD
+          git rev-parse HEAD:package-lock.json
+          sha256sum package-lock.json
+          npm ci
+          npm run check
+          npm run build
+          npm run verify
+          git diff --check
+          git diff --exit-code -- package-lock.json
+          test -f dist/index.html
+          test -f dist/fishing-journal-app/index.html
+          test "$(find dist -type f -name '*.html' | wc -l)" -eq 2
+          echo '=== ARTIFACT SHA256 ==='
+          find dist -type f -print0 | sort -z | xargs -0 sha256sum
+          echo '=== CLEAN WORKTREE ==='
+          git status --short
+          test -z "$(git status --porcelain)"
