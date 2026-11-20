@@ -1,0 +1,20 @@
+[
+  {
+    "path": "docs/CID-WEB-CRO-09/evidence/chromium/focus-journal-link.png",
+    "sha": "b885a97a5e5388a5611df24309f271705a0027db",
+    "size": 64024,
+    "match": true
+  },
+  {
+    "path": "docs/CID-WEB-CRO-09/evidence/webkit/record-320-viewport-width.png",
+    "sha": "5c554f67c7a78a8a5345e7455d86265cc7ce7252",
+    "size": 110050,
+    "match": true
+  },
+  {
+    "path": "docs/CID-WEB-CRO-09/evidence/firefox/home-390-first-text1.png",
+    "sha": "8e3ad7a4fd35ebc105d57a69f1b8668221d96ccf",
+    "size": 160540,
+    "match": true
+  }
+]

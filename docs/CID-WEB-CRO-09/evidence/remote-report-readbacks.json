@@ -1,0 +1,60 @@
+{
+  "commit": "88322447adeaa98629d1c23341195484d6ff91b9",
+  "method": "GitHub connector read at immutable commit; compared with local Git blobs",
+  "files": [
+    {
+      "path": "docs/CID-WEB-CRO-09/READINESS_REPORT.md",
+      "sha": "85adf8a17cb526801e11310fd0a0dbf77ca1e9fc",
+      "expected": "85adf8a17cb526801e11310fd0a0dbf77ca1e9fc",
+      "match": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/ASSET_ACCEPTANCE.md",
+      "sha": "619fd2166f745b0a52ecf38a54d37c41c5cc8295",
+      "expected": "619fd2166f745b0a52ecf38a54d37c41c5cc8295",
+      "match": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/BROWSER_ACCESSIBILITY.md",
+      "sha": "1c5170581f0b800729dabde91ba0ab5237fde995",
+      "expected": "1c5170581f0b800729dabde91ba0ab5237fde995",
+      "match": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/SECURITY_PRIVACY.md",
+      "sha": "e93cf283732dc88c3041104fb9d767864ebcd5f1",
+      "expected": "e93cf283732dc88c3041104fb9d767864ebcd5f1",
+      "match": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/PLAY_PRODUCTION_EVIDENCE.md",
+      "sha": "5d6d0862c08a08b976c764f11058bf3a701df1dd",
+      "expected": "5d6d0862c08a08b976c764f11058bf3a701df1dd",
+      "match": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/PUBLICATION_CHECKLIST.md",
+      "sha": "558edcf741df699495ae54ea25911947a2bd21fa",
+      "expected": "558edcf741df699495ae54ea25911947a2bd21fa",
+      "match": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/QA.md",
+      "sha": "f6e75da6d3d638751a62bcc48232b28f93e8c3d1",
+      "expected": "f6e75da6d3d638751a62bcc48232b28f93e8c3d1",
+      "match": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-09/index.html",
+      "sha": "e5cd3da7f4dcca49dd45df139b43185c81d4a936",
+      "expected": "e5cd3da7f4dcca49dd45df139b43185c81d4a936",
+      "match": true
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "sha": "1dabb7a324db833d31b7c625ca095444cad197f4",
+      "expected": "1dabb7a324db833d31b7c625ca095444cad197f4",
+      "match": true
+    }
+  ]
+}

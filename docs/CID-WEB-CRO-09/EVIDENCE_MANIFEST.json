@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-20T15:38:38.369Z",
+  "utc": "2026-11-20T15:40:32.129Z",
   "files": [
     {
       "file": "ANDROID_CONTINUITY_PROPOSED.md",
@@ -18,6 +18,12 @@
       "bytes": 10256,
       "representation": "UTF-8 with LF line endings",
       "sha256": "3c9b854cd6f3be0b1a1c004e940a0098b376c73aa1e3b52746c35de129814859"
+    },
+    {
+      "file": "evidence/actions-after-push.json",
+      "bytes": 36,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "a2790a384d7d281e7395679000c35d27768d89dbd7052f725b8f4688beb59915"
     },
     {
       "file": "evidence/actions-before-push.json",
@@ -560,6 +566,12 @@
       "sha256": "2396b96535df0517d3e17ec542c20740b632039efc8aef826f2f6f0cb91db5c5"
     },
     {
+      "file": "evidence/local-services-stopped.json",
+      "bytes": 133,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "a66128c9331b5c36d802254bda9bbc2d641beedf280b552709b5aa1a3fdd489c"
+    },
+    {
       "file": "evidence/node-embedded-undici-advisories.json",
       "bytes": 61435,
       "representation": "UTF-8 with LF line endings",
@@ -636,6 +648,18 @@
       "bytes": 9753,
       "representation": "exact binary",
       "sha256": "48db914d957d349b6d8b3446f86e823395293f2a8073f7e4ec5058804558ce16"
+    },
+    {
+      "file": "evidence/remote-image-readbacks.json",
+      "bytes": 542,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "650ead1a03252542112189bf6e4db992a658e187411220c0ca35d041ec2bbc23"
+    },
+    {
+      "file": "evidence/remote-report-readbacks.json",
+      "bytes": 2018,
+      "representation": "UTF-8 with LF line endings",
+      "sha256": "2faf2594aa91a8eb8e1f11bf32c70de435c9f4ad3a6f2ae234c9e1d86095c53c"
     },
     {
       "file": "evidence/static-audit.json",
@@ -975,9 +999,9 @@
     },
     {
       "file": "QA.md",
-      "bytes": 8265,
+      "bytes": 9462,
       "representation": "UTF-8 with LF line endings",
-      "sha256": "d0de53035b92516e3040985644cc25239ad0612d524847780a4b10497c6e7e38"
+      "sha256": "7b18ac953afbbb7c9649f0a8df7a164946325b766243139b5bbe6cf706bb0bdc"
     },
     {
       "file": "READINESS_REPORT.md",
