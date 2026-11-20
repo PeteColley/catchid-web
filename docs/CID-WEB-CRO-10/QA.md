@@ -14,7 +14,7 @@ Existing tracked worktrees were clean, with prior ignored `.astro/`, `dist/`, `n
 | --- | --- |
 | `npm ci` | PASS, exact lockfile; 263 packages added; one moderate advisory reported; no fixes/upgrades. [Log](evidence/npm-ci.log) |
 | Baseline `npm run build` | PASS before CSS editing; copied only to sibling runtime for comparison. [Log](evidence/baseline-build.log) |
-| `npm run check` | PASS, 0 errors / 0 warnings / 4 hints. [Log](evidence/npm-check.log) |
+| `npm run check` | PASS, 0 errors / 0 warnings; nonblocking historical/audit-script hints retained. [Final log](evidence/npm-check.log) |
 | `npm run build` | PASS, exactly two pages, 48 files. [Log](evidence/npm-build.log) |
 | `npm run verify` | **FAIL**, known Windows CRLF equality defect only. It did not pass. [Unmodified failure](evidence/npm-verify-original.log) |
 | `node docs/CID-WEB-CRO-06/qa/verify-baseline.mjs` | PASS, unchanged original assertions; normalises only the SiteInteractions source read in memory. [Log](evidence/npm-verify-normalised.log) |
@@ -48,4 +48,4 @@ The 18 axe scans are automated assertions, not spoken screen-reader acceptance o
 
 No independent reviewer was used; this is a sceptical self-review. [Visual assessment](REVIEW.md). All screenshot files are actual browser captures, with original failed attempts retained. The historical CRO-09 evidence is unchanged.
 
-The first staged `git diff --check` caught trailing whitespace emitted by Astro in command logs and a blank context line in the saved diff. Raw command logs are preserved byte-for-byte in [raw-command-logs.zip](evidence/raw-command-logs.zip); readable `.log` copies trim trailing whitespace only. The CSS diff uses zero context to remain a valid, whitespace-clean patch. No test result or assertion was altered. Final staged diff validation was rerun before committing.
+The first staged `git diff --check` caught trailing whitespace emitted by Astro in command logs and a blank context line in the saved diff. Raw command logs are preserved byte-for-byte in [raw-command-logs.zip](evidence/raw-command-logs.zip), with the later final check in [npm-check-final.raw.log.gz](evidence/npm-check-final.raw.log.gz); readable `.log` copies trim trailing whitespace only. The CSS diff uses zero context to remain a valid, whitespace-clean patch. No test result or assertion was altered. Final staged diff validation was rerun before committing.

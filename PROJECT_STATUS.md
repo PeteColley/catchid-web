@@ -10,6 +10,8 @@ Journal sage improves from 2.661:1 to 5.027:1; FAQ paper 2.995:1 to 5.658:1. All
 
 **One recommended next action:** Pete and ChatGPT review and accept the CRO-10 correction while retaining the separate publication gates.
 
+**CRO-10 PUSHED:** tested implementation `8a65185993895d79f31a703065efb9d838683625` matched remote branch SHA and eight relevant file/tree readbacks. Zero branch workflow runs; website main and audited baselines unchanged. Final `npm run check`: 0 errors, 0 warnings, 10 nonblocking historical/QA-script hints. Task loopback servers stopped. The subsequent documentation/evidence receipt commit does not alter implementation CSS or authorise publication.
+
 ## CRO-09 — final readiness audit, 20 November 2026
 
 **AUDITED / NO-GO / NOT LIVE.** Pete and ChatGPT have approved CRO-08's visual design and implementation `94a4f5ed343b70e7f992556acb1a037158ebb9c4`. Isolated audit branch `codex/cid-web-cro-09-readiness` changes only audit evidence and this continuity record. All 615 protected baseline files and all 48 generated output files remain unchanged. [Readiness verdict/gates](docs/CID-WEB-CRO-09/READINESS_REPORT.md), [offline evidence index](docs/CID-WEB-CRO-09/index.html), [QA/remote receipt](docs/CID-WEB-CRO-09/QA.md).

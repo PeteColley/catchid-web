@@ -1,0 +1,9 @@
+{
+  "serverPid": 14776,
+  "loopbackOnly": true,
+  "stopped": true,
+  "ports": [
+    4191,
+    4192
+  ]
+}

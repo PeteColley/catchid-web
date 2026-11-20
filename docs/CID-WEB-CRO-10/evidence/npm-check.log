@@ -2,8 +2,8 @@
 > catchid-web@1.0.0 check
 > astro check
 
-16:41:39 [types] Generated 67ms
-16:41:39 [check] Getting diagnostics for Astro files in C:\Users\chen2\Documents\ChatGPT\CatchID\cid-web-cro-10...
+16:53:03 [types] Generated 76ms
+16:53:03 [check] Getting diagnostics for Astro files in C:\Users\chen2\Documents\ChatGPT\CatchID\cid-web-cro-10...
 [96mdocs/CID-WEB-CRO-07/verify-recovery.mjs[0m:[93m30[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
 
 [7m30[0m const require=createRequire(path.join(reference,'package.json')),sharp=require('sharp');
@@ -38,12 +38,22 @@
 [7m13[0m   await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));});
 [7m  [0m [93m                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
 
+[96mdocs/CID-WEB-CRO-10/qa/unfocused-cross-context.mjs[0m:[93m11[0m:[93m126[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m11[0m   const p=await c.newPage();await p.goto(origin+route);await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));await document.fonts.ready;await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));});
+[7m  [0m [93m                                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-10/qa/unfocused.mjs[0m:[93m16[0m:[93m73[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m16[0m   await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));await document.fonts.ready;await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));});
+[7m  [0m [93m                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
 [96mscripts/verify-dependencies.mjs[0m:[93m8[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
 
 [7m8[0m const require = createRequire(import.meta.url);
 [7m [0m [93m      ~~~~~~~[0m
 
-Result (49 files):
+Result (52 files):
 - 0 errors
 - 0 warnings
-- 8 hints
+- 10 hints

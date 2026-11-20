@@ -1,0 +1,57 @@
+{
+  "utc": "2026-11-20T16:54:04.756Z",
+  "implementationCommit": "8a65185993895d79f31a703065efb9d838683625",
+  "truncated": false,
+  "records": [
+    {
+      "path": "src/styles/global.css",
+      "remote": "8c5ed2c75d2f832cb83c77293297f81ae8f2ad2a",
+      "local": "8c5ed2c75d2f832cb83c77293297f81ae8f2ad2a",
+      "matches": true
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "remote": "7bee73dd2c3d78c0169248996ca2d42073a4bc2f",
+      "local": "7bee73dd2c3d78c0169248996ca2d42073a4bc2f",
+      "matches": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/HANDOVER.md",
+      "remote": "ef3c16c0f96febae1139e1712296cb6e85097d41",
+      "local": "ef3c16c0f96febae1139e1712296cb6e85097d41",
+      "matches": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/QA.md",
+      "remote": "083f5a60da08bcc783d17059a9a0f6329debe6dd",
+      "local": "083f5a60da08bcc783d17059a9a0f6329debe6dd",
+      "matches": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/index.html",
+      "remote": "e9b09abe545c547f167b53291ff9949c09ae0c97",
+      "local": "e9b09abe545c547f167b53291ff9949c09ae0c97",
+      "matches": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-journal-sage.png",
+      "remote": "d45e300a1f381b11bab80708745c43a123368298",
+      "local": "d45e300a1f381b11bab80708745c43a123368298",
+      "matches": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/after-header-photo-text160.png",
+      "remote": "3d8812196e2fb19a1f246ff794c5488fa73fb1ef",
+      "local": "3d8812196e2fb19a1f246ff794c5488fa73fb1ef",
+      "matches": true
+    },
+    {
+      "path": "docs/CID-WEB-CRO-10/evidence/contrast-summary.json",
+      "remote": "954f4b308f6bd81500c240b6b63cfce3c1b3b86e",
+      "local": "954f4b308f6bd81500c240b6b63cfce3c1b3b86e",
+      "matches": true
+    }
+  ],
+  "branchWorkflowRuns": 0,
+  "main": "42c997c13712a432c8e2384915aaa010a16d068b"
+}

@@ -39,7 +39,7 @@ The [WCAG non-text contrast guidance](https://www.w3.org/WAI/WCAG22/Understandin
 
 ## Preservation and verification
 
-Install, check and build pass; exactly two pages. `npm run check` reports zero errors, zero warnings and four existing hints. The plain Windows verifier fails at the documented unchanged SiteInteractions CRLF comparison. The existing in-memory wrapper passes every unchanged assertion. `git diff --check` passes. No dependency upgrades or lockfile changes; `npm ci` still reports one moderate vulnerability, already part of the separate maintenance review.
+Install, check and build pass; exactly two pages. `npm run check` reports zero errors and zero warnings, with nonblocking historical/audit-script hints retained in its log. The plain Windows verifier fails at the documented unchanged SiteInteractions CRLF comparison. The existing in-memory wrapper passes every unchanged assertion. `git diff --check` passes. No dependency upgrades or lockfile changes; `npm ci` still reports one moderate vulnerability, already part of the separate maintenance review.
 
 All 41 other production source/public/script/workflow files are byte-identical to the audit worktree. Of 48 generated files, 45 are byte-identical; only the CSS bundle and the two HTML stylesheet references change. Both pages' complete non-style HTML, including inline scripts, remain byte-identical. Two official Play badges per route, attribution, consent behaviour, image provenance and page structure are preserved. [Scope evidence](evidence/scope.json).
 
@@ -59,4 +59,6 @@ No main push, merge, deployment, public preview, catchid.app, Android/Play, Fire
 
 ## Delivery receipt
 
-The final remote verification is recorded after the review-only push. Implementation and documentation remain on the isolated branch.
+**IMPLEMENTED / PUSHED / NOT LIVE.** Tested implementation commit **`8a65185993895d79f31a703065efb9d838683625`** was pushed normally to the isolated review branch. Remote SHA and eight relevant tree/blob readbacks matched, including CSS, continuity, reports, gallery, contrast data and screenshots. [Readback receipt](evidence/implementation-readback.json).
+
+Remote main remains `42c997c13712a432c8e2384915aaa010a16d068b`; the branch has zero workflow runs. No deployment occurred. The task's loopback servers were identified and stopped; all browser contexts were closed. The following evidence/receipt commit records delivery and final check diagnostics; production CSS is unchanged from the tested implementation. Final branch SHA is provided in the delivery response and verified against GitHub.
