@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-20T13:41:09.8552675Z",
+  "stoppedServerPids": [
+    3692,
+    13988,
+    13892
+  ],
+  "qaPortsAbsent": true,
+  "browserClosedByHarness": true
+}

@@ -1,0 +1,18 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Entire Fishing Journal rendering unchanged within rasterisation tolerance fishing-journal-app-1440x1000-first
+
+261 !== 0
+
+    at file:///C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-08/docs/CID-WEB-CRO-08/qa/audit.mjs:60:10 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 261,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.21.0

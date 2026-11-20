@@ -1,0 +1,10 @@
+{
+  "mode": "sections-text160",
+  "browser": "Chrome/157.0.8103.79",
+  "cases": 10,
+  "interactions": 0,
+  "analyticsLoads": 0,
+  "failures": [],
+  "externalRequests": [],
+  "exceptions": []
+}

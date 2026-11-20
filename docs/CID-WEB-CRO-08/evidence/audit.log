@@ -1,0 +1,184 @@
+{
+  "baseline": "aa818647e3acd7537e92774fb7b2f437388aa7ce",
+  "protectedFiles": 426,
+  "unchangedUserFiles": 7,
+  "consentOutputSha256": "05eac5412cbbabef7533580d70d6721af6806983a5c7fc43fa4ccd18199bea8f",
+  "landingHtmlSha256": "1f49c8f20776909c1271f28d5af0fd2879c10d2bd263bc105b7ea9b210bd5882",
+  "images": [
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_1aRrhW.webp",
+      "width": 720,
+      "format": "webp",
+      "bytes": 59416
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_1gYU0O.webp",
+      "width": 360,
+      "format": "webp",
+      "bytes": 25654
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+      "width": 540,
+      "format": "webp",
+      "bytes": 41704
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+      "width": 1080,
+      "format": "webp",
+      "bytes": 92092
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1N6cb8.png",
+      "width": 720,
+      "format": "png",
+      "bytes": 55873
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1uQSta.png",
+      "width": 540,
+      "format": "png",
+      "bytes": 37659
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z26008I.png",
+      "width": 360,
+      "format": "png",
+      "bytes": 23549
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z4uSOc.png",
+      "width": 1080,
+      "format": "png",
+      "bytes": 53951
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_2krz87.webp",
+      "width": 1080,
+      "format": "webp",
+      "bytes": 59466
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_4bUCF.webp",
+      "width": 720,
+      "format": "webp",
+      "bytes": 38656
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+      "width": 540,
+      "format": "webp",
+      "bytes": 27386
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_o8szK.webp",
+      "width": 360,
+      "format": "webp",
+      "bytes": 16290
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_Z2oAI5R.png",
+      "width": 360,
+      "format": "png",
+      "bytes": 15299
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_Z2wn8na.png",
+      "width": 1080,
+      "format": "png",
+      "bytes": 35376
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_Z4dcyh.png",
+      "width": 540,
+      "format": "png",
+      "bytes": 24101
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_ZfnxAK.png",
+      "width": 720,
+      "format": "png",
+      "bytes": 33940
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "home-390x844-first",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "home-390x844-saved",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "home-1440x1000-first",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 47,
+      "maxChannelDelta": 4
+    },
+    {
+      "name": "home-1440x1000-saved",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "fishing-journal-app-390x844-first",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0,
+      "fullPage": {
+        "pixelsOverFour": 0,
+        "maxChannelDelta": 0,
+        "maximumChangedFraction": 0.0001
+      }
+    },
+    {
+      "name": "fishing-journal-app-390x844-saved",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0,
+      "fullPage": {
+        "pixelsOverFour": 0,
+        "maxChannelDelta": 0,
+        "maximumChangedFraction": 0.0001
+      }
+    },
+    {
+      "name": "fishing-journal-app-1440x1000-first",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0,
+      "fullPage": {
+        "pixelsOverFour": 254,
+        "maxChannelDelta": 13,
+        "maximumChangedFraction": 0.0001
+      }
+    },
+    {
+      "name": "fishing-journal-app-1440x1000-saved",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0,
+      "fullPage": {
+        "pixelsOverFour": 0,
+        "maxChannelDelta": 0,
+        "maximumChangedFraction": 0.0001
+      }
+    }
+  ],
+  "conclusion": "PASS: scoped source; exact original and derivative provenance; protected consent/landing; hero and landing within recorded rasterisation variance"
+}

@@ -1,0 +1,10 @@
+{
+  "mode": "matrix",
+  "browser": "Chrome/157.0.8103.79",
+  "cases": 56,
+  "interactions": 0,
+  "analyticsLoads": 0,
+  "failures": [],
+  "externalRequests": [],
+  "exceptions": []
+}

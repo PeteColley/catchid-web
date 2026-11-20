@@ -1,0 +1,12 @@
+{
+  "mode": "interactions",
+  "browser": "Chrome/157.0.8103.79",
+  "cases": 0,
+  "interactions": 20,
+  "analyticsLoads": 6,
+  "failures": [],
+  "externalRequests": [],
+  "exceptions": [
+    "browser log: Failed to load resource: the server responded with a status of 404 (Not Found) http://127.0.0.1:4188/favicon.ico"
+  ]
+}

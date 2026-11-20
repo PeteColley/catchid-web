@@ -1,0 +1,18 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Unchanged first viewport home-1440x1000-first
+
+47 !== 0
+
+    at file:///C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-08/docs/CID-WEB-CRO-08/qa/audit.mjs:52:9 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 47,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.21.0

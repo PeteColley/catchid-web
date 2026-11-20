@@ -1,0 +1,17 @@
+{
+  "mode": "images",
+  "browser": "Chrome/157.0.8103.79",
+  "cases": 8,
+  "interactions": 0,
+  "analyticsLoads": 0,
+  "failures": [
+    "two genuine responsive screenshot requests 390/1",
+    "two genuine responsive screenshot requests 390/2",
+    "two genuine responsive screenshot requests 390/3",
+    "two genuine responsive screenshot requests 1440/1",
+    "two genuine responsive screenshot requests 1440/2",
+    "two genuine responsive screenshot requests 1440/3"
+  ],
+  "externalRequests": [],
+  "exceptions": []
+}

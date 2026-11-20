@@ -1,0 +1,10 @@
+{
+  "mode": "interactions",
+  "browser": "Chrome/157.0.8103.79",
+  "cases": 0,
+  "interactions": 20,
+  "analyticsLoads": 6,
+  "failures": [],
+  "externalRequests": [],
+  "exceptions": []
+}

@@ -1,0 +1,20 @@
+PASS: / — generated consent runtime: default off, exact GA ID, accept/reject/reopen, persistence, deduplication, cookies, storage failures, consent-gated Play handoff, cross-tab and back navigation.
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Responsive WebP screenshot renditions
+    at file:///C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-08/scripts/verify.mjs:205:14
+    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+    at async node:internal/modules/esm/loader:647:26
+    at async file:///C:/Users/chen2/Documents/ChatGPT/CatchID/cid-web-cro-08/docs/CID-WEB-CRO-06/qa/verify-baseline.mjs:12:1 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: '<section class="record-section wrap" id="record" data-astro-cid-kkptmi4d><div class="record-copy" data-astro-cid-kkptmi4d><p class="eyebrow" data-astro-cid-kkptmi4d>01 / RECORD EVERY CATCH</p><h2 data-astro-cid-kkptmi4d>A photo is optional.<br data-astro-cid-kkptmi4d><em data-astro-cid-kkptmi4d>The memory isn’t.</em></h2><p data-astro-cid-kkptmi4d>Add a catch yourself, with or without a photo. Keep the details you want to remember.</p><dl class="field-list" data-astro-cid-kkptmi4d><div data-astro-cid-kkptmi4d><dt data-astro-cid-kkptmi4d>The fish</dt><dd data-astro-cid-kkptmi4d>Species &amp; weight</dd></div><div data-astro-cid-kkptmi4d><dt data-astro-cid-kkptmi4d>The moment</dt><dd data-astro-cid-kkptmi4d>Date, time &amp; location</dd></div><div data-astro-cid-kkptmi4d><dt data-astro-cid-kkptmi4d>The details</dt><dd data-astro-cid-kkptmi4d>Method, bait, lure or fly</dd></div></dl></div><figure class="entry-proof" data-astro-cid-kkptmi4d><span class="figure-heading" data-astro-cid-kkptmi4d>Save catch · upper form</span><!-- Honest viewport crop: x=40, y=148, width=1000, height=2110 in the\n' +
+    '     untouched 1080x2340 original. Only system bars and outer margins removed. --><div class="captured-screen" data-capture-crop="40 148 1000 2110" data-astro-cid-sm5jrgje><picture data-astro-cid-sm5jrgje="true"><source srcset="/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1gYU0O.webp 360w, /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp 540w, /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1aRrhW.webp 720w, /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp 1080w" type="image/webp" sizes="(max-width: 414px) calc(108vw - 25.92px), 422px"><img src="/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1uQSta.png" srcset="/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z26008I.png 360w, /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1uQSta.png 540w, /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1N6cb8.png 720w, /_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z4uSOc.png 1080w" alt="Actual Save catch upper form excerpt: no photo recorded, Brown Trout, date and time, optional Riverside location and Fly method. The form continues below; the Save button is not shown." sizes="(max-width: 414px) calc(108vw - 25.92px), 422px" loading="lazy" decoding="async" data-astro-cid-sm5jrgje="true" width="540" height="1170"></picture></div><figcaption data-astro-cid-kkptmi4d>Actual CatchID UI · Controlled demonstration data · No photo required<br data-astro-cid-kkptmi4d><span data-astro-cid-kkptmi4d>Upper form excerpt · continues below</span></figcaption></figure></section>',
+  expected: /type="image\/webp"[^>]*srcset="[^"]+"/,
+  operator: 'match',
+  diff: 'simple'
+}
+
+Node.js v24.21.0

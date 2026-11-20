@@ -1,0 +1,114 @@
+{
+  "label": "IMPLEMENTATION CANDIDATE — NOT LIVE",
+  "mode": "gallery",
+  "browser": "Chrome/157.0.8103.79",
+  "method": "Desktop Chromium responsive CSS-pixel emulation, DPR 1; not a physical device",
+  "cases": [
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "images": [
+        {
+          "src": "evidence/before/record-1440.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/record-1440.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/before/record-390.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/record-390.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/pass1/record-768.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/record-768.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/record-390-text160.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/record-320.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/before/journal-1440.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/journal-1440.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/before/journal-390.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/journal-390.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/pass1/journal-768.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/journal-768.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/journal-390-text160.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/journal-320.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/matrix-home-1440x1000-first.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/matrix-home-1440x1000-saved-full.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/matrix-home-390x844-first.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/matrix-home-390x844-saved.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/matrix-home-390x844-saved-full.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/matrix-fishing-journal-app-1440x1000-saved-full.png",
+          "loaded": true
+        },
+        {
+          "src": "evidence/final/matrix-fishing-journal-app-390x844-saved-full.png",
+          "loaded": true
+        }
+      ],
+      "scripts": 0
+    }
+  ],
+  "interactions": [],
+  "analyticsLoads": [],
+  "externalRequests": [],
+  "exceptions": [
+    "browser log: Failed to load resource: the server responded with a status of 404 (Not Found) http://127.0.0.1:4190/favicon.ico"
+  ],
+  "failures": []
+}

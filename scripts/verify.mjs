@@ -24,6 +24,16 @@ const pages = [
 const pageFile = (path) => resolve(dist, `.${path}`, "index.html");
 assert.deepEqual(files.filter((file) => file.endsWith(".html")).sort(), pages.map(({ path }) => pageFile(path)).sort(), "Exactly the two intended HTML pages");
 const documents = new Map(pages.map(({ path }) => [path, readFileSync(pageFile(path), "utf8")]));
+// CRO-07A originals are the only permitted sources for the two new examples.
+const approvedCaptures = [
+  ['save-catch-no-photo-upper-1080x2340', '9a9f9671158643fc1ac8499a24177eac6fae40ffbf2cc74d71b8b50957dd6291', 'ManualEntry'],
+  ['catch-details-no-photo-1080x2340', '8467825c56f0796c15fe67ab76400945837631da90019dc7b9c0a333b6093fd5', 'JournalStory'],
+];
+for (const [name, hash, component] of approvedCaptures) {
+  const source = `docs/CID-WEB-CRO-07/captures/${name}.png`;
+  assert.equal(createHash('sha256').update(readFileSync(source)).digest('hex'), hash, 'Approved untouched capture: '+name);
+  assert.ok(readFileSync(`src/components/${component}.astro`, 'utf8').includes(`from '../../${source}'`), 'Production example imports the genuine original');
+}
 const consentSource = readFileSync("src/components/WebAnalyticsConsent.astro", "utf8").replaceAll('\r\n', '\n').match(/<script\b[^>]*>([\s\S]*?)<\/script>/)[1].trim();
 assert.equal(createHash('sha256').update(consentSource).digest('hex'), '34836c83600fbfc1aa0464a0f1e29342189c6b50066d593411e41aa5bb6eb891', 'Production consent logic remains unchanged from the verified baseline');
 const presentationSource = readFileSync('src/components/SiteInteractions.astro', 'utf8').match(/<script\b[^>]*>([\s\S]*?)<\/script>/)[1].trim();
@@ -186,7 +196,26 @@ for (const page of pages) {
   const claims=text.replace(/They (?:do not|don[’']t) measure (?:catch rates or fishing effort|fishing effort or catch rates)\./gi,'');
   assert.doesNotMatch(claims,/\b(?:success(?:ful|\s+rates?)?|productiv\w*|best\s+(?:bait|venue|location|water|method)|catch\s+rates?)\b/i);
   const screenshotUrls=[...tags(html,'img'),...tags(html,'image')].map(attrs).map(x=>x.src||x.href);
-  for(const asset of ['journal.','personal-records.','insights-overview.','identify.','home-1.2.12.']) assert.ok(screenshotUrls.some(src=>src.includes(asset)), 'Authentic product evidence: '+asset);
+  for(const asset of ['journal.','personal-records.','insights-overview.','identify.', ...(homepage ? approvedCaptures.map(([name])=>name+'.') : ['home-1.2.12.'])]) assert.ok(screenshotUrls.some(src=>src.includes(asset)), 'Authentic product evidence: '+asset);
+  if (homepage) {
+    for (const [section, name] of [['record', approvedCaptures[0][0]], ['journal', approvedCaptures[1][0]]]) {
+      const markup=html.match(new RegExp(`<section\\b[^>]*id="${section}"[\\s\\S]*?<\\/section>`))?.[0];
+      assert.ok(markup, 'Authentic example section exists: '+section);
+      assert.ok(tags(markup,'img').map(attrs).some(i=>i.src.startsWith('/_astro/'+name+'.')&&i.loading==='lazy'), 'Local optimised derivative in correct section');
+      const webp=tags(markup,'source').map(attrs).find(s=>s.type==='image/webp');
+      assert.ok(webp?.srcset, 'Responsive WebP screenshot renditions');
+      for (const candidate of webp.srcset.split(',')) {
+        const [url,width]=candidate.trim().split(/\s+/);
+        assert.ok(url.startsWith('/_astro/'+name+'.')&&url.endsWith('.webp'), 'Derivative of the selected genuine capture');
+        assert.ok(['360w','540w','720w','1080w'].includes(width), 'Bounded screenshot rendition width');
+        checkLocal(url, page.path, true);
+      }
+      const caption=visibleText(markup.match(/<figcaption\b[^>]*>([\s\S]*?)<\/figcaption>/)?.[1]||'');
+      assert.match(caption, /Actual CatchID UI · Controlled demonstration data · No photo required/, 'Adjacent visible demonstration-data disclosure');
+      assert.match(caption, /excerpt/, 'Crop is honestly labelled');
+    }
+    assert.doesNotMatch(html, /save-catch-no-photo-lower|Three ways to begin|The place\. The photograph\.|Original photograph and recorded details/, 'No supporting lower capture or obsolete nearby copy');
+  }
   assert.doesNotMatch(html,/static\.metricool\.com/i);
   const protectionBlocks=[...html.matchAll(/<(article|details)\b[^>]*\bdata-journal-protection(?:="[^"]*")?[^>]*>[\s\S]*?<\/\1>/gi)].map(([markup])=>markup);
   assert.equal(protectionBlocks.length,2,'Bounded trust and account FAQ protection copy');

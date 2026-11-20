@@ -1,0 +1,133 @@
+{
+  "label": "IMPLEMENTATION CANDIDATE — NOT LIVE",
+  "mode": "sections",
+  "browser": "Chrome/157.0.8103.79",
+  "method": "Desktop Chromium responsive CSS-pixel emulation, DPR 1; not a physical device",
+  "cases": [
+    {
+      "section": "record",
+      "width": 320,
+      "file": "record-320.png",
+      "image": {
+        "currentSrc": "http://127.0.0.1:4188/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1gYU0O.webp",
+        "width": 317.515625,
+        "height": 687.9375,
+        "alt": "Actual Save catch upper form excerpt: no photo recorded, Brown Trout, date and time, optional Riverside location and Fly method. The form continues below; the Save button is not shown."
+      },
+      "caption": "Actual CatchID UI · Controlled demonstration data · No photo requiredUpper form excerpt · continues below"
+    },
+    {
+      "section": "journal",
+      "width": 320,
+      "file": "journal-320.png",
+      "image": {
+        "currentSrc": "http://127.0.0.1:4188/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_o8szK.webp",
+        "width": 317.515625,
+        "height": 687.9375,
+        "alt": "Actual read-only Catch details excerpt for a controlled Brown Trout record without a photo: User entered, Riverside, Dry fly, 0.75 kg, 34 cm, personal notes and Edit catch."
+      },
+      "caption": "Actual CatchID UI · Controlled demonstration data · No photo requiredCatch details · saved record excerpt"
+    },
+    {
+      "section": "record",
+      "width": 390,
+      "file": "record-390.png",
+      "image": {
+        "currentSrc": "http://127.0.0.1:4188/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+        "width": 393.109375,
+        "height": 851.734375,
+        "alt": "Actual Save catch upper form excerpt: no photo recorded, Brown Trout, date and time, optional Riverside location and Fly method. The form continues below; the Save button is not shown."
+      },
+      "caption": "Actual CatchID UI · Controlled demonstration data · No photo requiredUpper form excerpt · continues below"
+    },
+    {
+      "section": "journal",
+      "width": 390,
+      "file": "journal-390.png",
+      "image": {
+        "currentSrc": "http://127.0.0.1:4188/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+        "width": 393.109375,
+        "height": 851.734375,
+        "alt": "Actual read-only Catch details excerpt for a controlled Brown Trout record without a photo: User entered, Riverside, Dry fly, 0.75 kg, 34 cm, personal notes and Edit catch."
+      },
+      "caption": "Actual CatchID UI · Controlled demonstration data · No photo requiredCatch details · saved record excerpt"
+    },
+    {
+      "section": "record",
+      "width": 768,
+      "file": "record-768.png",
+      "image": {
+        "currentSrc": "http://127.0.0.1:4188/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+        "width": 421.1875,
+        "height": 912.5625,
+        "alt": "Actual Save catch upper form excerpt: no photo recorded, Brown Trout, date and time, optional Riverside location and Fly method. The form continues below; the Save button is not shown."
+      },
+      "caption": "Actual CatchID UI · Controlled demonstration data · No photo requiredUpper form excerpt · continues below"
+    },
+    {
+      "section": "journal",
+      "width": 768,
+      "file": "journal-768.png",
+      "image": {
+        "currentSrc": "http://127.0.0.1:4188/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+        "width": 419.03125,
+        "height": 907.890625,
+        "alt": "Actual read-only Catch details excerpt for a controlled Brown Trout record without a photo: User entered, Riverside, Dry fly, 0.75 kg, 34 cm, personal notes and Edit catch."
+      },
+      "caption": "Actual CatchID UI · Controlled demonstration data · No photo requiredCatch details · saved record excerpt"
+    },
+    {
+      "section": "record",
+      "width": 1024,
+      "file": "record-1024.png",
+      "image": {
+        "currentSrc": "http://127.0.0.1:4188/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+        "width": 414,
+        "height": 897,
+        "alt": "Actual Save catch upper form excerpt: no photo recorded, Brown Trout, date and time, optional Riverside location and Fly method. The form continues below; the Save button is not shown."
+      },
+      "caption": "Actual CatchID UI · Controlled demonstration data · No photo requiredUpper form excerpt · continues below"
+    },
+    {
+      "section": "journal",
+      "width": 1024,
+      "file": "journal-1024.png",
+      "image": {
+        "currentSrc": "http://127.0.0.1:4188/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+        "width": 419.03125,
+        "height": 907.890625,
+        "alt": "Actual read-only Catch details excerpt for a controlled Brown Trout record without a photo: User entered, Riverside, Dry fly, 0.75 kg, 34 cm, personal notes and Edit catch."
+      },
+      "caption": "Actual CatchID UI · Controlled demonstration data · No photo requiredCatch details · saved record excerpt"
+    },
+    {
+      "section": "record",
+      "width": 1440,
+      "file": "record-1440.png",
+      "image": {
+        "currentSrc": "http://127.0.0.1:4188/_astro/save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+        "width": 421.1875,
+        "height": 912.5625,
+        "alt": "Actual Save catch upper form excerpt: no photo recorded, Brown Trout, date and time, optional Riverside location and Fly method. The form continues below; the Save button is not shown."
+      },
+      "caption": "Actual CatchID UI · Controlled demonstration data · No photo requiredUpper form excerpt · continues below"
+    },
+    {
+      "section": "journal",
+      "width": 1440,
+      "file": "journal-1440.png",
+      "image": {
+        "currentSrc": "http://127.0.0.1:4188/_astro/catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+        "width": 419.03125,
+        "height": 907.890625,
+        "alt": "Actual read-only Catch details excerpt for a controlled Brown Trout record without a photo: User entered, Riverside, Dry fly, 0.75 kg, 34 cm, personal notes and Edit catch."
+      },
+      "caption": "Actual CatchID UI · Controlled demonstration data · No photo requiredCatch details · saved record excerpt"
+    }
+  ],
+  "interactions": [],
+  "analyticsLoads": [],
+  "externalRequests": [],
+  "exceptions": [],
+  "failures": []
+}

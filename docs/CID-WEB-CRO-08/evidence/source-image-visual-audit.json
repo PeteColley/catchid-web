@@ -1,0 +1,216 @@
+{
+  "baseline": "aa818647e3acd7537e92774fb7b2f437388aa7ce",
+  "protectedFiles": 426,
+  "unchangedUserFiles": 7,
+  "consentOutputSha256": "05eac5412cbbabef7533580d70d6721af6806983a5c7fc43fa4ccd18199bea8f",
+  "landingHtmlSha256": "1f49c8f20776909c1271f28d5af0fd2879c10d2bd263bc105b7ea9b210bd5882",
+  "images": [
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_1aRrhW.webp",
+      "width": 720,
+      "height": 1560,
+      "format": "webp",
+      "bytes": 59416,
+      "sha256": "d3e54c06a095bafc1b337076fa349626bebb367aa3de58f4c588500d28c47746"
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_1gYU0O.webp",
+      "width": 360,
+      "height": 780,
+      "format": "webp",
+      "bytes": 25654,
+      "sha256": "dc129f973bcdd60c3ea00aa5127ef8c17d0a81e6b225871cabaf8e921020fc4c"
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_1t6JYU.webp",
+      "width": 540,
+      "height": 1170,
+      "format": "webp",
+      "bytes": 41704,
+      "sha256": "4fa2fcf6c34315ad4206accb0f114efd77973330dbb28e84035aef197f5463a3"
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_Rdydw.webp",
+      "width": 1080,
+      "height": 2340,
+      "format": "webp",
+      "bytes": 92092,
+      "sha256": "aafe197f0df0b8bf4d7164f84c9ca3901f8074c41c619221541c14c50e23f043"
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1N6cb8.png",
+      "width": 720,
+      "height": 1560,
+      "format": "png",
+      "bytes": 55873,
+      "sha256": "74d0c2ea770680908a71b29cca0cf4c98c28703a209d0189b7253ff45c32a803"
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z1uQSta.png",
+      "width": 540,
+      "height": 1170,
+      "format": "png",
+      "bytes": 37659,
+      "sha256": "1170e3d09dcb196ea16c6c146a626a8371d8b1f4faf84641fdb843d0cde11e14"
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z26008I.png",
+      "width": 360,
+      "height": 780,
+      "format": "png",
+      "bytes": 23549,
+      "sha256": "746d011af6556c5bb683c22276c3f62c6f8a1932073f31f63871bbdddddbcfc6"
+    },
+    {
+      "file": "save-catch-no-photo-upper-1080x2340.CWY6PsGs_Z4uSOc.png",
+      "width": 1080,
+      "height": 2340,
+      "format": "png",
+      "bytes": 53951,
+      "sha256": "660194fbb96c9696f0dc952383a43fbee0dc5a6c5476310e247bafc4f9d0e653"
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_2krz87.webp",
+      "width": 1080,
+      "height": 2340,
+      "format": "webp",
+      "bytes": 59466,
+      "sha256": "b36991170a9008637fef79860e6940f9101a15bc8c41231b589395f64bcbaf1c"
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_4bUCF.webp",
+      "width": 720,
+      "height": 1560,
+      "format": "webp",
+      "bytes": 38656,
+      "sha256": "d98d2f850b7160f7e326f56c45d11db881b5f9bbce94dffdb45307210e4f4871"
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_fmgF9.webp",
+      "width": 540,
+      "height": 1170,
+      "format": "webp",
+      "bytes": 27386,
+      "sha256": "502ca98cb3e06a694bce3bc4948f432952e3d8d91a5a5661cad34737cf497a53"
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_o8szK.webp",
+      "width": 360,
+      "height": 780,
+      "format": "webp",
+      "bytes": 16290,
+      "sha256": "5f1170a0f6ad6a7661a4ed553fa6369f524a7db2fdcdb10857f9407d30242698"
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_Z2oAI5R.png",
+      "width": 360,
+      "height": 780,
+      "format": "png",
+      "bytes": 15299,
+      "sha256": "8aa407fc86ade3cf6d8a2711ba4e7e0bc2949f6666aa8406db45e0158d006b56"
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_Z2wn8na.png",
+      "width": 1080,
+      "height": 2340,
+      "format": "png",
+      "bytes": 35376,
+      "sha256": "5d519db089f0613d26bed606d505e451c243281d07aa2fb8819e003ab8a87aba"
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_Z4dcyh.png",
+      "width": 540,
+      "height": 1170,
+      "format": "png",
+      "bytes": 24101,
+      "sha256": "a8c28a8d9fe397dec6dc7a4bca0bb69f0967fed6fb141a1f321a5c47b6469d7d"
+    },
+    {
+      "file": "catch-details-no-photo-1080x2340.Cd0CbmAf_ZfnxAK.png",
+      "width": 720,
+      "height": 1560,
+      "format": "png",
+      "bytes": 33940,
+      "sha256": "c99da8fef42c2068c98b5629134b367a1b9f5056a4ff5341bde572dbef082a73"
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "home-390x844-first",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "home-390x844-saved",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "home-1440x1000-first",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 47,
+      "maxChannelDelta": 4
+    },
+    {
+      "name": "home-1440x1000-saved",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0
+    },
+    {
+      "name": "fishing-journal-app-390x844-first",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0,
+      "fullPage": {
+        "pixelsOverFour": 0,
+        "maxChannelDelta": 0,
+        "maximumChangedFraction": 0.0001
+      }
+    },
+    {
+      "name": "fishing-journal-app-390x844-saved",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0,
+      "fullPage": {
+        "pixelsOverFour": 0,
+        "maxChannelDelta": 0,
+        "maximumChangedFraction": 0.0001
+      }
+    },
+    {
+      "name": "fishing-journal-app-1440x1000-first",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0,
+      "fullPage": {
+        "pixelsOverFour": 254,
+        "maxChannelDelta": 13,
+        "maximumChangedFraction": 0.0001
+      }
+    },
+    {
+      "name": "fishing-journal-app-1440x1000-saved",
+      "changedPixels": 0,
+      "tolerance": 4,
+      "pixelsOverTwo": 0,
+      "maxChannelDelta": 0,
+      "fullPage": {
+        "pixelsOverFour": 0,
+        "maxChannelDelta": 0,
+        "maximumChangedFraction": 0.0001
+      }
+    }
+  ],
+  "conclusion": "PASS: scoped source; exact original and derivative provenance; protected consent/landing; hero and landing within recorded rasterisation variance"
+}

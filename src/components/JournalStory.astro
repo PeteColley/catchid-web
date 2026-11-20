@@ -1,30 +1,41 @@
 ---
-import ProductCrop from './ProductCrop.astro';
+import CapturedScreen from './CapturedScreen.astro';
+import catchDetails from '../../docs/CID-WEB-CRO-07/captures/catch-details-no-photo-1080x2340.png';
 
 ---
 <section class="journal-section" id="journal">
 <div class="wrap journal-layout">
 <figure class="journal-record">
 <span class="figure-heading">ONE CATCH, REMEMBERED</span>
-<div class="record-excerpt">
-<ProductCrop name="personal-records.jpg" box="32 434 645 704" width={709} height={1536} alt="Unaltered excerpt of a saved Brown Trout record from published Personal Records: photo, weight, date and location." class="" />
-</div>
-<figcaption>A saved catch in Personal Records · published example excerpt</figcaption>
+<CapturedScreen src={catchDetails} alt="Actual read-only Catch details excerpt for a controlled Brown Trout record without a photo: User entered, Riverside, Dry fly, 0.75 kg, 34 cm, personal notes and Edit catch." />
+<figcaption>Actual CatchID UI · Controlled demonstration data · No photo required<br><span>Catch details · saved record excerpt</span></figcaption>
 </figure>
 <div class="section-copy">
 <p class="eyebrow">02 / YOUR CATCH JOURNAL</p>
 <h2>Not just a fish.<br>
 <em>A day remembered.</em>
 </h2>
-<p>The place. The photograph. The details that would otherwise slip away.</p>
+<p>The place. The moment. The details that would otherwise slip away.</p>
 <p>Bring your catches together in a personal history you can return to, catch after catch.</p>
 <div class="journal-caption">
 <span class="small-rule">
 </span>
-<p>Original photograph and recorded details.<br>An existing published example, unchanged.</p>
+<p>A place, a method and a note to remember.<br>A saved catch, with no photo required.</p>
 </div>
 <a class="text-link" href="/fishing-journal-app/">Explore the fishing journal <span aria-hidden="true">↗</span>
 </a>
 </div>
 </div>
 </section>
+<style>
+  .journal-record { max-width: 390px; }
+  .journal-record > figcaption { font-size: 12px; line-height: 1.6; margin-top: 16px; }
+  .journal-record > figcaption span { display: inline-block; margin-top: 4px; }
+  @media (min-width: 761px) and (max-width: 900px) {
+    .journal-layout { display: flex; flex-direction: column-reverse; gap: 34px; }
+    .section-copy { width: 100%; max-width: 560px; }
+  }
+  @media (max-width: 760px) {
+    .journal-record { width: calc(100% + 16px); align-self: center; margin-inline: 0; }
+  }
+</style>
