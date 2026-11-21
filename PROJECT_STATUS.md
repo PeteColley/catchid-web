@@ -1,3 +1,17 @@
+## CRO-13 — placeholder-image correction published, 21 November 2026
+
+**LIVE / PUBLIC PAGES INDEPENDENTLY VERIFIED.** Pete authorised the limited correction and publication after rejecting the two no-photo screenshots on the homepage. Tested implementation `ff1b25db518177784465ec389f756102f689c641` replaces the Save Catch no-photo illustration with the previously approved genuine Home entry-controls crop, and the Catch Details no-photo illustration with the previously approved photo-populated Personal Records crop, accurately labelled. Internal review captions are removed. Original source artwork and historical evidence remain intact.
+
+**Publication:** [GitHub Pages run 44910120104](https://github.com/PeteColley/catchid-web/actions/runs/44910120104) built and deployed successfully at 13:42 UTC. At 13:42:37 UTC, independent HTTP checks confirmed that both public routes and the relevant product images returned 200 and matched the tested build byte-for-byte. Live Chrome inspection confirmed the corrected homepage imagery. This supersedes CRO-12's direct-public-readback limitation for the current website candidate; it does not turn unperformed device/accessibility tests into passes.
+
+**Verification:** Linux Node 24.22.3 locked install, check, build, verifier and diff checks passed; independent source review passed. All 64 framed Chrome responsive/text cases passed across both routes, eight widths, first-visit/saved-rejection consent and normal/1.6× effective text. Mobile and desktop compositions were visually inspected. Negative tests confirmed the verifier rejects the removed no-photo assets, review captions and incorrect crop coordinates. Fishing Journal HTML and all other retained output files are unchanged; only homepage HTML changed, with 16 now-unused no-photo derivatives omitted from output.
+
+**Scope/limitations:** No header CTA was added; two official Play badges per page, consent, attribution, analytics logic, global design, dependencies and deployment configuration are preserved. No Android, Play, Firebase, privacy-site, ad-spend or outreach changes. Artwork remains approved historical UI, not newly certified current Play UI. No new physical-device, Safari, Firefox or spoken-screen-reader acceptance was performed. No conversion uplift is claimed. See [CRO-13 handover](docs/CID-WEB-CRO-13/HANDOVER.md).
+
+**Current next action:** Pete can refresh the public homepage to review the corrected imagery. Fresh current product captures, if desired, are a separate task, not a blocker to this published correction.
+
+---
+
 ## CRO-12 — website publication, 20 November 2026
 
 **GITHUB PAGES DEPLOYMENT VERIFIED SUCCESSFUL / PUBLISHED TO `https://catchid.app/`; DIRECT PUBLIC-HTML READBACK NOT AVAILABLE.** Pete explicitly authorised immediate publication and accepted the untested physical-device, actual Safari and spoken-screen-reader scenarios, the older Android emulator Chrome and the documented extreme-zoom scrolling qualification. Approved production implementation is CRO-10 at `537dbc0945452ed66dbd74ef4400a1d04db31c9c`; approved CRO-11 documentation/acceptance is `f04659a68574cd98ad55b5735d9436e09cfa166e`, fast-forwarded safely to website `main` from prior production `42c997c13712a432c8e2384915aaa010a16d068b`.
