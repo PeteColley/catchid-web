@@ -1,6 +1,5 @@
 ---
-import CapturedScreen from './CapturedScreen.astro';
-import saveCatch from '../../docs/CID-WEB-CRO-07/captures/save-catch-no-photo-upper-1080x2340.png';
+import ProductCrop from './ProductCrop.astro';
 
 ---
 <section class="record-section wrap" id="record">
@@ -26,20 +25,14 @@ import saveCatch from '../../docs/CID-WEB-CRO-07/captures/save-catch-no-photo-up
 </dl>
 </div>
 <figure class="entry-proof">
-<span class="figure-heading">Save catch · upper form</span>
-<CapturedScreen src={saveCatch} alt="Actual Save catch upper form excerpt: no photo recorded, Brown Trout, date and time, optional Riverside location and Fly method. The form continues below; the Save button is not shown." />
-<figcaption>Actual CatchID UI · Controlled demonstration data · No photo required<br><span>Upper form excerpt · continues below</span></figcaption>
+<span class="figure-heading">Three ways to begin</span>
+<ProductCrop name="home-1.2.12.png" box="38 232 705 458" width={780} height={1688} alt="CatchID Home entry controls: Take a photo, Choose a photo and Add without a photo." />
+<figcaption>Add a catch with or without a photo.</figcaption>
 </figure>
 </section>
 <style>
-  .entry-proof { width: 100%; max-width: 440px; justify-self: center; padding: 24px; }
-  .entry-proof figcaption { font-size: 12px; line-height: 1.6; }
-  .entry-proof figcaption span { display: inline-block; margin-top: 4px; }
   @media (min-width: 761px) and (max-width: 900px) {
     .record-section { display: flex; flex-direction: column; gap: 34px; }
     .record-copy { width: 100%; max-width: 560px; }
-  }
-  @media (max-width: 760px) {
-    .entry-proof { width: calc(100% + 16px); max-width: 390px; align-self: center; margin-inline: 0; padding: 0; background: transparent; }
   }
 </style>
