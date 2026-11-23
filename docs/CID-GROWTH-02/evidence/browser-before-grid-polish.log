@@ -1,0 +1,18 @@
+Checked 24/144 responsive cases
+Checked 48/144 responsive cases
+Checked 72/144 responsive cases
+Checked 96/144 responsive cases
+Checked 120/144 responsive cases
+Checked 144/144 responsive cases
+{
+  "browser": "157.0.8103.79",
+  "cases": 144,
+  "interactions": [
+    "home: keyboard, menu, consent persistence/withdrawal/focus, all badges/referrers passed",
+    "journal: keyboard, menu, consent persistence/withdrawal/focus, all badges/referrers passed",
+    "guide: keyboard, menu, consent persistence/withdrawal/focus, all badges/referrers passed"
+  ],
+  "failures": [],
+  "pageErrors": [],
+  "blocked": []
+}

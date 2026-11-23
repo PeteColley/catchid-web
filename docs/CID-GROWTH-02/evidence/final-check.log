@@ -1,0 +1,64 @@
+
+> catchid-web@1.0.0 check
+> astro check
+
+23:20:58 [types] Generated 90ms
+23:20:58 [check] Getting diagnostics for Astro files in C:\Users\chen2\Documents\ChatGPT\CatchID\cid-growth-02-journal-guide...
+[96mdocs/CID-GROWTH-02/qa/browser.mjs[0m:[93m63[0m:[93m48[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m63[0m     await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));
+[7m  [0m [93m                                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-07/verify-recovery.mjs[0m:[93m30[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m30[0m const require=createRequire(path.join(reference,'package.json')),sharp=require('sharp');
+[7m  [0m [93m      ~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-07/verify-review.mjs[0m:[93m35[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m35[0m const require=createRequire(path.join(reference,'package.json'));
+[7m  [0m [93m      ~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-09/qa/browsers.mjs[0m:[93m30[0m:[93m146[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m30[0m async function navigate(p,url){await p.goto(origin+url,{waitUntil:'load'});await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.dataset.auditLoading=i.loading;i.loading='eager';return i.decode().catch(()=>{});}));});}
+[7m  [0m [93m                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-10/qa/browsers.mjs[0m:[93m30[0m:[93m146[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m30[0m async function navigate(p,url){await p.goto(origin+url,{waitUntil:'load'});await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.dataset.auditLoading=i.loading;i.loading='eager';return i.decode().catch(()=>{});}));});}
+[7m  [0m [93m                                                                                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-10/qa/focus-review.mjs[0m:[93m28[0m:[93m22[0m - [93mwarning[0m[90m ts(6133): [0m'page' is declared but its value is never read.
+
+[7m28[0m async function focus(page,locator){
+[7m  [0m [93m                     ~~~~[0m
+[96mdocs/CID-WEB-CRO-10/qa/focus-review.mjs[0m:[93m24[0m:[93m75[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m24[0m  await page.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));});
+[7m  [0m [93m                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-10/qa/painted-contrast.mjs[0m:[93m13[0m:[93m73[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m13[0m   await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));});
+[7m  [0m [93m                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-10/qa/unfocused-cross-context.mjs[0m:[93m11[0m:[93m126[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m11[0m   const p=await c.newPage();await p.goto(origin+route);await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));await document.fonts.ready;await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));});
+[7m  [0m [93m                                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mdocs/CID-WEB-CRO-10/qa/unfocused.mjs[0m:[93m16[0m:[93m73[0m - [93mwarning[0m[90m ts(80006): [0mThis may be converted to an async function.
+
+[7m16[0m   await p.evaluate(async()=>{await Promise.all([...document.images].map(i=>{i.loading='eager';return i.decode().catch(()=>{});}));await document.fonts.ready;await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));});
+[7m  [0m [93m                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96mscripts/verify-dependencies.mjs[0m:[93m8[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'require' is declared but its value is never read.
+
+[7m8[0m const require = createRequire(import.meta.url);
+[7m [0m [93m      ~~~~~~~[0m
+
+Result (57 files):
+- 0 errors
+- 0 warnings
+- 11 hints

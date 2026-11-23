@@ -20,9 +20,10 @@ const files = walk(dist);
 const pages = [
   { path: "/", title: "CatchID – Fishing Journal & Fish Identification App for Android", medium: "referral", campaign: "website_launch" },
   { path: "/fishing-journal-app/", title: "Fishing Journal App for Android | CatchID", medium: "organic", campaign: "fishing_journal_app" },
+  { path: "/guides/how-to-keep-a-fishing-journal/", title: "How to Keep a Fishing Journal: A Simple Catch Log + Free Template", medium: "organic", campaign: "fishing_journal_guide" },
 ];
 const pageFile = (path) => resolve(dist, `.${path}`, "index.html");
-assert.deepEqual(files.filter((file) => file.endsWith(".html")).sort(), pages.map(({ path }) => pageFile(path)).sort(), "Exactly the two intended HTML pages");
+assert.deepEqual(files.filter((file) => file.endsWith(".html")).sort(), pages.map(({ path }) => pageFile(path)).sort(), "Exactly the three intended HTML pages");
 const documents = new Map(pages.map(({ path }) => [path, readFileSync(pageFile(path), "utf8")]));
 // CRO-13 restores the approved, non-placeholder product illustrations.
 // Historical no-photo captures remain evidence, never visitor-facing assets.
@@ -72,6 +73,7 @@ function checkLocal(value, from, requireLocal = false) {
 
 let totalPlay = 0;
 for (const page of pages) {
+  const guide = page.campaign === 'fishing_journal_guide';
   const html = documents.get(page.path);
   const text = visibleText(html);
   const ids = idsIn(html);
@@ -106,12 +108,12 @@ for (const page of pages) {
   assert.deepEqual(attrs(scripts[1][1]), { script: "", id: "catchid-site-presentation" });
   assert.equal(scripts[1][2].trim(), presentationSource);
   assert.deepEqual(attrs(scripts[0][1]), { script: "", id: "catchid-web-analytics" }, "One inline script, with no static src or other script attributes");
-  assert.equal(scripts[0][2].trim(), consentSource, "Both pages contain the exact shared implementation");
+  assert.equal(scripts[0][2].trim(), consentSource, "All pages contain the exact shared implementation");
   assert.deepEqual([...new Set(html.match(/G-[A-Z0-9]{10}\b/g))], ["G-LPXGL5VTB1"], "Exact website measurement ID only");
   assert.doesNotMatch(html, /<\s*(?:iframe|object|embed)\b|\bGTM-[A-Z0-9]+\b/i, "No other tag manager/tracker embedding");
   assert.doesNotMatch(html, /<link\b[^>]*rel="(?:preconnect|dns-prefetch|preload|modulepreload)"/i, "No speculative third-party connections");
   const controls = tags(html, "button").map(attrs);
-  assert.deepEqual(controls.map(({ id }) => id).sort(), ["analytics-accept", "analytics-choices", "analytics-reject"]);
+  assert.deepEqual(controls.map(({ id }) => id).sort(), ["analytics-accept", "analytics-choices", "analytics-reject", ...(guide ? ['print-worksheet'] : [])]);
   assert.ok(controls.every(({ type }) => type === "button"), "Native keyboard-accessible buttons");
   const opener = controls.find(({ id }) => id === "analytics-choices");
   assert.equal(opener["aria-controls"], "analytics-consent");
@@ -128,8 +130,8 @@ for (const page of pages) {
 
   const play = links.filter(({ href }) => new URL(href, origin).hostname === "play.google.com");
   const homepage = page.path === "/";
-  const badgeCount = 2;
-  assert.equal(play.length, 2, `${page.path}: exactly the hero and final official badges`);
+  const badgeCount = guide ? 1 : 2;
+  assert.equal(play.length, badgeCount, `${page.path}: exactly the intended official badges`);
   const header = html.match(/<header\b[^>]*>[\s\S]*?<\/header>/)[0];
   assert.doesNotMatch(header, /play\.google\.com|play-badge|header-cta|<button/, 'No header download CTA or replacement badge');
   assert.doesNotMatch(html, /play-link compact|data-preview|preview-dialog|opens no store|Local demo/, 'No prototype store/consent simulation');
@@ -147,14 +149,19 @@ for (const page of pages) {
     assert.equal(images[0].alt, "Get CatchID on Google Play", "Badge link has an accessible name");
     assert.equal(images[0].width, "239");
     assert.equal(images[0].height, "71");
-    assert.equal(images[0].loading, index === 0 ? "eager" : "lazy", "Only the above-fold badge loads eagerly");
-    assert.equal(images[0].fetchpriority, index === 0 ? "high" : undefined);
+    assert.equal(images[0].loading, !guide && index === 0 ? "eager" : "lazy", "Only the above-fold badge loads eagerly");
+    assert.equal(images[0].fetchpriority, !guide && index === 0 ? "high" : undefined);
     assert.equal(visibleText(markup), "", "No custom text or artwork added inside the badge link");
   }
+  if (guide) {
+    const conclusion = html.match(/<section\b[^>]*id="download"[\s\S]*?<\/section>/)?.[0];
+    assert.ok(conclusion?.includes(badges[0]), 'Guide has its only badge in the concluding CatchID section');
+  } else {
   const hero = [...html.matchAll(/<section\b[^>]*>[\s\S]*?<\/section>/gi)].map(([markup])=>markup).find(markup=>/class="(?:hero|landing-hero) wrap"/.test(markup));
   assert.ok(hero?.includes(badges[0]), 'Hero contains the first official badge');
   const final = html.slice(html.indexOf('class="final-invite wrap"'));
   assert.ok(final.includes(badges[1]), 'Final conversion section contains the second official badge');
+  }
   assert.equal(tags(html, "img").map(attrs).filter(({ src }) => src === badgePath).length, badgeCount, "No extra store badges in navigation");
   assert.equal((text.match(/Google Play and the Google Play logo are trademarks of Google LLC\./g) || []).length, 1, "One narrow Google trademark attribution");
   for (const { href } of play) {
@@ -187,6 +194,10 @@ for (const page of pages) {
     assert.ok(svg['aria-label']?.length > 20, 'Descriptive crop accessible name');
   }
 
+  assert.doesNotMatch(html, /(?:save-catch|catch-details)-no-photo|No photo recorded|Save catch · upper form|Upper form excerpt|Controlled demonstration data|Catch details · saved record excerpt/i, 'No rejected no-photo screenshots or internal review captions');
+  assert.doesNotMatch(html, /static\.metricool\.com/i);
+  assert.ok(links.some(({href})=>href==='/guides/how-to-keep-a-fishing-journal/'), 'Shared footer links to the guide');
+  if (!guide) {
   assert.match(text, /manual(?:ly)? (?:entry|record)|log manually|add a catch yourself/i, 'Manual recording remains explicit');
   assert.match(text, /without a photo/i);
   assert.match(text, /likely species suggestion/i);
@@ -246,6 +257,54 @@ for (const page of pages) {
   assert.ok(ids.includes('questions'));
   assert.equal(tags(html.match(/<div class="questions">([\s\S]*?)<\/div>/)[1], 'details').length,5);
   assert.equal(createHash('sha256').update(readFileSync('src/assets/home-1.2.12.png')).digest('hex'),'7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349');
+  } else {
+    assert.equal(description, 'Start a fishing journal without turning fishing into paperwork. Learn what to record, how to review catches and use a free printable catch log.');
+    assert.equal(visibleText(html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)[1]), 'How to keep a fishing journal: a simple catch log.');
+    assert.match(text, /Illustrative example\s*[—–-]\s*not a real catch/i);
+    for (const phrase of ['15 October', '10:30 am', 'Common carp', 'Example lake', 'Float fishing', 'Sweetcorn', '4 lb 8 oz', 'Not measured', 'Caught close to the bank after moving swims.']) assert.ok(text.includes(phrase), 'Approved illustrative catch: '+phrase);
+    assert.match(text, /A photograph is optional\./);
+    assert.match(text, /Never make up a measurement to fill a box\./);
+    assert.match(text, /A blank session belongs in a trip record too\./);
+    assert.match(text, /ten carp records: six list sweetcorn, three list maggots and one has no bait recorded/);
+    assert.match(text, /That does not prove it[’']s the most effective bait/);
+    assert.match(text, /To compare success rates fairly you also need information about time spent fishing, attempts and blank sessions\./);
+    assert.match(text, /CatchID is a free, ad-supported Android fishing journal\./);
+    assert.match(text, /save a catch with or without a photograph/);
+    assert.match(text, /optional photo identification can suggest a likely species and alternatives; it is not a guarantee\./);
+    assert.match(text, /CatchID Insights describe recorded catches, not fishing effort or proven catch rates\./);
+    assert.match(text, /They do not mean that CatchID logs trips, fishing effort or weather automatically\./);
+    assert.match(text, /No account, email address or payment needed\./);
+    const worksheetDisclaimer = 'This is a standalone printable resource, not a CatchID import/export feature.';
+    assert.ok(text.includes(worksheetDisclaimer));
+    assert.doesNotMatch(text.replace(worksheetDisclaimer, ''), /\b(?:cloud|backups?|sync(?:ing|hronisation)?|multi[ -]device|imports?|exports?|CatchID Pro|Smart Locations|Fishing Sessions|ML|machine learning|Ask My Journal|Evidence Engine|journal protection)\b/i);
+    assert.doesNotMatch(text, /no adverts|no ads\b|ad[- ]free|free forever|private by default|guaranteed identification|guaranteed fishing/i);
+    assert.equal(tags(html, 'form').length, 0);
+    assert.equal(tags(html, 'input').length, 0, 'The worksheet collects no personal data');
+    assert.equal(tags(html, 'textarea').length, 0);
+    assert.equal(tags(html, 'details').length, 1, 'Only the shared mobile menu; no speculative FAQ');
+    assert.deepEqual(tags(html, 'h2').map(tag => attrs(tag).id).filter(Boolean), ['analytics-title', 'worksheet-heading']);
+    const worksheet = html.match(/<table\b[^>]*class="catch-log"[\s\S]*?<\/table>/)?.[0];
+    assert.ok(worksheet, 'The actual semantic worksheet exists');
+    assert.deepEqual([...worksheet.matchAll(/<th\b[^>]*>(.*?)<\/th>/gs)].map(([,content])=>visibleText(content)), ['Date and time', 'Species', 'Venue', 'Method', 'Bait, lure or fly', 'Weight and unit', 'Length and unit', 'Notes or photo reference']);
+    assert.ok(tags(worksheet, 'th').map(attrs).every(x=>x.scope==='col'));
+    const rows = [...worksheet.matchAll(/<tr\b[^>]*>[\s\S]*?<\/tr>/g)].slice(1).map(([markup])=>markup);
+    assert.equal(rows.length, 5, 'Five usable blank catch rows');
+    for (const row of rows) {
+      assert.equal(tags(row, 'td').length, 8);
+      assert.equal(visibleText(row.replace(/<span\b[^>]*>[\s\S]*?<\/span>/g,'')), '', 'Writing areas are blank, not seeded records');
+    }
+    assert.match(text, /Optional separate trip notes/);
+    for (const field of ['Hours fished', 'Conditions', 'Methods tried', 'Number of fish caught (including zero)', 'Observations']) assert.ok(text.includes(field));
+    assert.equal(controls.find(x=>x.id==='print-worksheet').hidden, '');
+    assert.match(presentationSource, /printWorksheet\.addEventListener\('click', \(\) => window\.print\(\)\)/);
+    assert.ok(links.some(({href})=>href==='/fishing-journal-app/'));
+    assert.ok(links.some(({href})=>href==='/'));
+    assert.ok(links.some(({href})=>href==='https://petecolley.github.io/catchid-privacy/'));
+    assert.ok(links.some(({href})=>href==='mailto:colley.apps@gmail.com'));
+    assert.ok(tags(html, 'image').map(attrs).some(x=>x.href.includes('personal-records.') && x.width==='709' && x.height==='1536'), 'Guide reuses approved genuine product artwork');
+    const headingLevels = [...html.matchAll(/<h([1-6])\b[^>]*>/g)].map(([,level])=>Number(level));
+    assert.ok(headingLevels.every((level,index)=>index===0 || level<=headingLevels[index-1]+1), 'No skipped heading levels');
+  }
 
   console.log(`PASS: ${page.path} — metadata, semantics, links, images, honest copy; ${play.length} Play CTAs (${page.medium}/${page.campaign}), including ${badges.length} accessible official badges.`);
 }

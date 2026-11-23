@@ -1,0 +1,154 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import WebAnalyticsConsent from '../../components/WebAnalyticsConsent.astro';
+import ProductCrop from '../../components/ProductCrop.astro';
+import PlayLink from '../../components/PlayLink.astro';
+import '../../styles/fishing-journal-guide.css';
+
+const fields = ['Date and time', 'Species', 'Venue', 'Method', 'Bait, lure or fly', 'Weight and unit', 'Length and unit', 'Notes or photo reference'];
+const details = [
+  ['Date and approximate time', 'Remember when you caught the fish and compare records across the year.'],
+  ['Species', 'Build a record of the different fish you’ve caught. If you’re unsure, mark it as uncertain.'],
+  ['Water or venue', 'Remember where you fished. A private nickname is fine if you prefer not to record a precise spot.'],
+  ['Method and bait, lure or fly', 'Recall the approach you used for that catch.'],
+  ['Weight or length, if measured', 'Compare like-for-like personal records. Write the unit and leave unknown measurements blank.'],
+  ['Photo or short note', 'Capture a memory or a useful detail that you might otherwise forget.'],
+];
+---
+<SiteLayout title="How to Keep a Fishing Journal: A Simple Catch Log + Free Template" description="Start a fishing journal without turning fishing into paperwork. Learn what to record, how to review catches and use a free printable catch log." path="/guides/how-to-keep-a-fishing-journal/" pageClass="resource-page">
+  <div class="hero-shell"><SiteHeader guide /></div>
+  <main id="main" tabindex="-1">
+    <article>
+      <header class="guide-intro wrap">
+        <p class="eyebrow">FIELD NOTES / A PRACTICAL FISHING GUIDE</p>
+        <h1>How to keep<br class="guide-title-break" /> a fishing journal:<br /><em>a simple catch log.</em></h1>
+        <div class="guide-intro-bottom">
+          <p class="guide-deck">Keep the details.<br />Remember the day.<br />Start with what matters to you.</p>
+          <a class="worksheet-jump" href="#worksheet">Free printable catch log <span aria-hidden="true">↓</span><small>Five catch rows · No sign-up</small></a>
+        </div>
+      </header>
+      <div class="consent-wrap wrap"><WebAnalyticsConsent /></div>
+      <div class="guide-reading wrap">
+        <nav class="guide-contents" aria-label="In this guide">
+          <p class="eyebrow">IN THIS GUIDE</p>
+          <ol>
+            <li><a href="#what-to-record">What to record</a></li>
+            <li><a href="#example-record">An example catch</a></li>
+            <li><a href="#make-it-easy">Make the habit easy</a></li>
+            <li><a href="#read-your-records">Read your records</a></li>
+            <li><a href="#worksheet">The free worksheet</a></li>
+            <li><a href="#download">Paper or phone?</a></li>
+          </ol>
+        </nav>
+        <div class="guide-prose">
+          <div class="guide-opening">
+            <p>A great day’s fishing is easy to remember. The details are harder: which bait you used, what time you landed that fish, or how much it weighed. A fishing journal keeps those memories together and gives you something useful to look back on before your next trip.</p>
+            <p>You don’t need to record everything. Start with the information you are likely to want again, and build a habit that fits around your fishing.</p>
+          </div>
+          <section id="what-to-record" class="guide-section">
+            <p class="eyebrow">01 / THE USEFUL DETAILS</p>
+            <h2>What should you record?</h2>
+            <p>Start with a short entry for each catch:</p>
+            <dl class="record-details">
+              {details.map(([detail, reason]) => <div><dt>{detail}</dt><dd>{reason}</dd></div>)}
+            </dl>
+            <aside class="guide-note-box" aria-label="Keep it simple">
+              <p><strong>A photograph is optional.</strong> An entry can be valuable even if you didn’t weigh the fish, didn’t take a photo or can’t remember its exact length. Never make up a measurement to fill a box.</p>
+            </aside>
+          </section>
+          <section id="example-record" class="guide-section">
+            <p class="eyebrow">02 / ONE CATCH, REMEMBERED</p>
+            <h2>An example catch record</h2>
+            <div class="example-catch">
+              <p class="example-label">ILLUSTRATIVE EXAMPLE — NOT A REAL CATCH</p>
+              <h3>Common carp</h3>
+              <p class="example-date">15 October · About 10:30 am</p>
+              <dl>
+                <div><dt>Venue</dt><dd>Example lake</dd></div>
+                <div><dt>Method</dt><dd>Float fishing</dd></div>
+                <div><dt>Bait</dt><dd>Sweetcorn</dd></div>
+                <div><dt>Weight</dt><dd>4 lb 8 oz</dd></div>
+                <div><dt>Length</dt><dd>Not measured</dd></div>
+              </dl>
+              <p class="example-note"><strong>A note for next time</strong>Caught close to the bank after moving swims.</p>
+            </div>
+            <p>That’s enough to remember the catch and what you were doing. The next time you revisit the venue, you’ll have a record to refer to rather than trying to reconstruct the day from memory.</p>
+          </section>
+          <section id="make-it-easy" class="guide-section">
+            <p class="eyebrow">03 / A HABIT THAT FITS YOUR FISHING</p>
+            <h2>Make the habit easy</h2>
+            <p>At the water’s edge, your priority is the fish and safe fishing, not completing a form. Record a short entry when it’s appropriate, or make a quick note and complete it later. Add extra context only if you know you’ll want it.</p>
+            <p>If your goal is to understand your fishing trips as well as remember individual catches, keep a separate trip record. Note the date, venue, approximate duration, methods tried, conditions and whether you caught anything. A blank session belongs in a trip record too.</p>
+          </section>
+          <section id="read-your-records" class="guide-section">
+            <p class="eyebrow">04 / LOOKING BACK</p>
+            <h2>What can your fishing journal tell you?</h2>
+            <p>A journal can remind you of your favourite catches, the species you’ve recorded, your heaviest measured fish of a particular species and the places you’ve fished. It can also give you useful questions for your next trip.</p>
+            <div class="record-pattern">
+              <h3>Most recorded doesn’t mean most effective</h3>
+              <p>Imagine your journal contains ten carp records: six list sweetcorn, three list maggots and one has no bait recorded. Sweetcorn is the most recorded bait for those catches.</p>
+              <p>That does not prove it’s the most effective bait: perhaps you used sweetcorn much more often. To compare success rates fairly you also need information about time spent fishing, attempts and blank sessions.</p>
+            </div>
+            <p>Use your catch records to remember and explore, rather than treating every apparent pattern as a prediction.</p>
+          </section>
+        </div>
+      </div>
+      <section id="worksheet" class="worksheet-section" aria-labelledby="worksheet-heading">
+        <div class="wrap">
+          <div class="worksheet-intro">
+            <div>
+              <p class="eyebrow">05 / YOUR NEXT DAY AT THE WATER</p>
+              <h2 id="worksheet-heading">Free catch-log worksheet</h2>
+              <p>Record one fish per row. Copy the fields into a notebook or spreadsheet, or print this sheet and fill it in by hand. Keep separate trip notes for sessions with no catches.</p>
+            </div>
+            <div class="worksheet-action">
+              <button type="button" id="print-worksheet" hidden>Print the catch log <span aria-hidden="true">↗</span></button>
+              <p>A4 landscape · Five blank catch rows</p>
+              <p>Only the worksheet prints. In your print settings, turn off headers and footers.</p>
+              <noscript><p>Use your browser’s Print menu to print the worksheet.</p></noscript>
+            </div>
+          </div>
+          <p class="worksheet-mobile-note">First catch row shown below. All five blank rows are included when you print.</p>
+          <div class="worksheet-sheet">
+            <div class="sheet-heading"><h3>Fishing catch log</h3><p>One fish per row. Include units; leave unknown measurements blank.</p></div>
+            <table class="catch-log" role="table" aria-label="Blank fishing catch log with five catch rows">
+              <colgroup><col /><col /><col /><col /><col /><col /><col /><col /></colgroup>
+              <thead role="rowgroup"><tr role="row">{fields.map(field => <th scope="col" role="columnheader">{field}</th>)}</tr></thead>
+              <tbody role="rowgroup">
+                {Array.from({length: 5}, (_, index) => <tr role="row" aria-label={`Catch ${index + 1}`}>{fields.map(field => <td role="cell"><span class="mobile-field-label" aria-hidden="true">{field}</span></td>)}</tr>)}
+              </tbody>
+            </table>
+            <div class="trip-notes">
+              <h3>Optional separate trip notes</h3>
+              <p>Date · Venue · Hours fished · Conditions · Methods tried · Number of fish caught (including zero) · Observations</p>
+              <div class="writing-lines" aria-hidden="true"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+          <div class="worksheet-context">
+            <p>No account, email address or payment needed. This is a standalone printable resource, not a CatchID import/export feature.</p>
+            <p>Trip notes are separate manual worksheet fields. They do not mean that CatchID logs trips, fishing effort or weather automatically.</p>
+          </div>
+        </div>
+      </section>
+      <section id="download" class="guide-conclusion wrap">
+        <div class="guide-phone-copy">
+          <p class="eyebrow">06 / KEEP IT YOUR WAY</p>
+          <h2>Paper or phone?</h2>
+          <p>A paper notebook works well if you prefer to write things down. A phone journal lets you keep catch photos and details together and revisit records without carrying a separate notebook.</p>
+          <p>CatchID is a free, ad-supported Android fishing journal. You can save a catch with or without a photograph, record optional details such as location, method, bait and measured size, and explore personal Insights as your recorded history grows.</p>
+          <p>If you don’t recognise the fish, optional photo identification can suggest a likely species and alternatives; it is not a guarantee. CatchID Insights describe recorded catches, not fishing effort or proven catch rates.</p>
+          <a class="text-link" href="/fishing-journal-app/">Learn more about the CatchID fishing journal <span aria-hidden="true">↗</span></a>
+          <PlayLink campaign="fishing_journal_guide" />
+          <p class="guide-app-note">Free on Android · Contains advertising</p>
+        </div>
+        <figure class="guide-product">
+          <div class="guide-product-frame"><ProductCrop name="personal-records.jpg" box="32 434 645 704" width={709} height={1536} alt="Previously published CatchID Personal Records example showing a Brown Trout photograph with its recorded weight, date and location." /></div>
+          <figcaption>A saved catch in Personal Records.<br />Existing published CatchID artwork.</figcaption>
+        </figure>
+      </section>
+    </article>
+  </main>
+  <SiteFooter />
+</SiteLayout>

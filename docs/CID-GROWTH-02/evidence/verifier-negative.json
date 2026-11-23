@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Missing catch row",
+    "result": "correctly rejected",
+    "assertion": "Five usable blank catch rows"
+  },
+  {
+    "name": "Wrong guide campaign",
+    "result": "correctly rejected",
+    "assertion": "exact Play attribution"
+  },
+  {
+    "name": "Broken nested navigation",
+    "result": "correctly rejected",
+    "assertion": "Anchor exists"
+  },
+  {
+    "name": "Changed consent runtime",
+    "result": "correctly rejected",
+    "assertion": "exact shared implementation"
+  },
+  {
+    "name": "Extra guide badge",
+    "result": "correctly rejected",
+    "assertion": "intended official badges"
+  },
+  {
+    "name": "Rejected no-photo artwork",
+    "result": "correctly rejected",
+    "assertion": "No rejected no-photo"
+  }
+]

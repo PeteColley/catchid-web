@@ -1,6 +1,7 @@
 const PLAY_CAMPAIGNS = {
   website_launch: "referral",
   fishing_journal_app: "organic",
+  fishing_journal_guide: "organic",
 } as const;
 
 export type PlayCampaign = keyof typeof PLAY_CAMPAIGNS;

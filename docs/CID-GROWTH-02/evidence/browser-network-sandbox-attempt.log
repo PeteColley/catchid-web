@@ -1,0 +1,17 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:54187/fishing-journal-app/
+Call log:
+  - navigating to "http://127.0.0.1:54187/fishing-journal-app/", waiting until "networkidle"
+
+    at ready (C:\Users\chen2\Documents\ChatGPT\CatchID\cid-growth-02-journal-guide\docs\CID-GROWTH-02\qa\browser.mjs:60:14)
+    at C:\Users\chen2\Documents\ChatGPT\CatchID\cid-growth-02-journal-guide\docs\CID-GROWTH-02\qa\browser.mjs:81:11 {
+  log: [
+    '  - navigating to "http://127.0.0.1:54187/fishing-journal-app/", waiting until "networkidle"'
+  ],
+  name: 'Error'
+}
+
+Node.js v24.21.0

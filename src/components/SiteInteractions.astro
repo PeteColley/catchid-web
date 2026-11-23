@@ -20,5 +20,10 @@
     document.querySelectorAll('.mobile-menu a').forEach(link => {
       link.addEventListener('click', () => { link.closest('details').open = false; });
     });
+    const printWorksheet = document.getElementById('print-worksheet');
+    if (printWorksheet) {
+      printWorksheet.hidden = false;
+      printWorksheet.addEventListener('click', () => window.print());
+    }
   }, { once: true });
 </script>

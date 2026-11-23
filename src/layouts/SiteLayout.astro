@@ -3,7 +3,7 @@ import { getImage } from 'astro:assets';
 import icon from '../assets/catchid-icon.png';
 import SiteInteractions from '../components/SiteInteractions.astro';
 import '../styles/global.css';
-interface Props { title: string; description: string; path: '/' | '/fishing-journal-app/'; pageClass: string }
+interface Props { title: string; description: string; path: '/' | '/fishing-journal-app/' | '/guides/how-to-keep-a-fishing-journal/'; pageClass: string }
 const { title, description, path, pageClass }=Astro.props;
 const canonical=new URL(path, Astro.site);
 const favicon=await getImage({src:icon,width:48,height:48,format:'png'});

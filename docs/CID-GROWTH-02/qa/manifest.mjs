@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+const walk=dir=>fs.readdirSync(dir).flatMap(name=>{const p=path.join(dir,name);return fs.statSync(p).isDirectory()?walk(p):[p];});
+const hash=value=>createHash('sha256').update(value).digest('hex');
+const sources=[...walk('src').filter(p=>/\.(astro|ts|css)$/.test(p)),'scripts/verify.mjs','scripts/verify-analytics.mjs','package.json','package-lock.json','astro.config.mjs','.github/workflows/deploy.yml'];
+const unchanged=['src/components/WebAnalyticsConsent.astro','scripts/verify-analytics.mjs','src/styles/global.css','src/assets','package.json','package-lock.json','astro.config.mjs','.github/workflows/deploy.yml'];
+const drift=execFileSync('git',['diff','--name-only','c5a2a9ea6dee8c3b2c0457552ed789605e46f687','--',...unchanged],{encoding:'utf8'}).trim();
+if(drift)throw Error('Protected source changed: '+drift);
+const manifest={baseline:'c5a2a9ea6dee8c3b2c0457552ed789605e46f687',protectedPathsUnchanged:unchanged,sourceHashConvention:'UTF-8 text normalized to LF; original approved binary images checked by existing verifier',sources:Object.fromEntries(sources.sort().map(p=>[p.replaceAll('\\','/'),hash(fs.readFileSync(p,'utf8').replaceAll('\r\n','\n'))])),output:Object.fromEntries(walk('dist').sort().map(p=>[p.replaceAll('\\','/'),hash(fs.readFileSync(p))]))};
+fs.writeFileSync('docs/CID-GROWTH-02/evidence/source-output-manifest.json',JSON.stringify(manifest,null,2)+'\n');
+console.log(`PASS: protected source unchanged; ${sources.length} source and ${Object.keys(manifest.output).length} output hashes recorded.`);

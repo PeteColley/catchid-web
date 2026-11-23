@@ -1,0 +1,163 @@
+/* The practical guide uses the existing paper, ink and teal editorial palette. */
+.resource-page .guide-intro { padding-block: 64px 50px; border-bottom: 1px solid var(--line); background: url('/assets/river-lines.svg') right 30px top 100px / 250px auto no-repeat; }
+.resource-page .guide-intro h1 { font-size: clamp(2.75rem, 5.2vw, 4.65rem); max-width: 970px; line-height: 1.08; }
+.resource-page .guide-intro-bottom { display: flex; justify-content: space-between; align-items: end; gap: 32px; margin-top: 35px; }
+.resource-page .guide-deck { font: 1.3rem/1.5 Georgia, serif; color: var(--muted); }
+.resource-page .worksheet-jump { padding: 18px 24px; background: var(--pale); border: 1px solid var(--line); border-radius: 4px; font-weight: 700; text-decoration: none; }
+.resource-page .worksheet-jump span { margin-left: 22px; }
+.resource-page .worksheet-jump small { display: block; font-size: .82rem; font-weight: 400; margin-top: 4px; }
+.resource-page .worksheet-jump:hover { background: #d3e6de; }
+.resource-page .consent-wrap { margin-top: 25px; }
+.resource-page .guide-reading { display: grid; grid-template-columns: minmax(180px, 1fr) minmax(0, 760px); gap: 70px; padding-block: 40px 80px; }
+.resource-page .guide-contents { align-self: start; position: sticky; top: 35px; padding-top: 6px; }
+.resource-page .guide-contents ol { padding: 0; margin: 0; list-style: none; counter-reset: guide; }
+.resource-page .guide-contents li { counter-increment: guide; border-bottom: 1px solid var(--line); }
+.resource-page .guide-contents a { display: flex; align-items: baseline; gap: 13px; padding: 12px 0; font-size: .9rem; text-decoration: none; }
+.resource-page .guide-contents a:before { content: '0' counter(guide); color: var(--teal); font-size: .75rem; }
+.resource-page .guide-contents a:hover { text-decoration: underline; }
+.resource-page .guide-prose { min-width: 0; font-size: 1.125rem; }
+.resource-page .guide-opening { font-size: 1.2rem; }
+.resource-page .guide-section { margin-top: 60px; }
+.resource-page .guide-section .eyebrow { margin-bottom: 16px; }
+.resource-page .guide-section h2, .resource-page .worksheet-intro h2, .resource-page .guide-conclusion h2 { font-size: clamp(2rem, 3.25vw, 3rem); line-height: 1.13; margin-bottom: 24px; }
+.resource-page .record-details { margin: 30px 0; }
+.resource-page .record-details > div { display: grid; grid-template-columns: 185px 1fr; gap: 28px; padding: 20px 0; border-top: 1px solid var(--line); }
+.resource-page .record-details > div:last-child { border-bottom: 1px solid var(--line); }
+.resource-page dt { font-weight: 700; }
+.resource-page dd { margin: 0; }
+.resource-page .record-details dt { font-size: 1rem; }
+.resource-page .record-details dd { color: var(--muted); font-size: 1rem; }
+.resource-page .guide-note-box { border-left: 3px solid var(--teal); padding: 8px 0 8px 24px; font-size: 1rem; }
+.resource-page .example-catch { background: var(--white); border: 1px solid var(--line); border-top: 4px solid var(--teal); border-radius: 4px; padding: 32px 36px; margin-bottom: 28px; box-shadow: 0 12px 30px #16372808; }
+.resource-page .example-label { font-size: .7rem; font-weight: 700; letter-spacing: .1em; color: var(--muted); margin-bottom: 24px; }
+.resource-page .example-catch h3 { font: 2.4rem/1.2 Georgia, serif; letter-spacing: -.035em; }
+.resource-page .example-date { margin-top: 6px; color: var(--muted); font-size: 1rem; }
+.resource-page .example-catch dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin-block: 28px; }
+.resource-page .example-catch dt { color: var(--muted); font-size: .75rem; font-weight: 400; margin-bottom: 4px; }
+.resource-page .example-catch dd { font-size: 1rem; }
+.resource-page .example-note { padding-top: 20px; border-top: 1px solid var(--line); font: italic 1.15rem/1.6 Georgia, serif; }
+.resource-page .example-note strong { display: block; font: 700 .75rem/1.6 Arial, sans-serif; color: var(--teal); margin-bottom: 6px; }
+.resource-page .record-pattern { padding: 28px 32px; background: var(--pale); border-radius: 4px; margin-block: 28px; }
+.resource-page .record-pattern h3 { margin-bottom: 18px; font-size: 1.2rem; }
+.resource-page .worksheet-section { background: #e6eee8; border-block: 1px solid var(--line); padding-block: 65px; }
+.resource-page .worksheet-intro { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 65px; align-items: center; margin-bottom: 35px; }
+.resource-page .worksheet-intro p { max-width: 680px; }
+.resource-page .worksheet-action button { background: var(--ink); color: var(--white); border: 1px solid var(--ink); border-radius: 4px; font-size: 1rem; font-weight: 700; padding: 15px 20px; min-height: 50px; width: 100%; text-align: left; }
+.resource-page .worksheet-action button span { float: right; margin-left: 10px; }
+.resource-page .worksheet-action button:hover { background: #123d48; }
+.resource-page .worksheet-action p { font-size: .82rem; margin-top: 12px; }
+.resource-page .worksheet-sheet { background: #fff; border: 1px solid #a0b2a8; border-radius: 4px; padding: 28px; box-shadow: 0 12px 28px #16372809; }
+.resource-page .sheet-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; margin-bottom: 22px; }
+.resource-page .sheet-heading h3 { font: 1.8rem/1.2 Georgia, serif; }
+.resource-page .sheet-heading p { font-size: .8rem; color: var(--muted); }
+.resource-page .catch-log { border-collapse: collapse; table-layout: fixed; width: 100%; font-size: .75rem; }
+.resource-page .catch-log col:nth-child(1) { width: 12%; }
+.resource-page .catch-log col:nth-child(2) { width: 11%; }
+.resource-page .catch-log col:nth-child(3) { width: 12%; }
+.resource-page .catch-log col:nth-child(4) { width: 11%; }
+.resource-page .catch-log col:nth-child(5) { width: 13%; }
+.resource-page .catch-log col:nth-child(6), .resource-page .catch-log col:nth-child(7) { width: 9%; }
+.resource-page .catch-log col:nth-child(8) { width: 23%; }
+.resource-page .catch-log th, .resource-page .catch-log td { border: 1px solid #93a59b; padding: 10px; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+.resource-page .catch-log th { background: #f0f4f0; font-weight: 700; line-height: 1.5; }
+.resource-page .catch-log td { height: 75px; }
+.resource-page .mobile-field-label, .resource-page .worksheet-mobile-note { display: none; }
+.resource-page .trip-notes { margin-top: 26px; }
+.resource-page .trip-notes h3 { font-size: 1rem; margin-bottom: 5px; }
+.resource-page .trip-notes p { font-size: .78rem; line-height: 1.6; }
+.resource-page .writing-lines span { display: block; height: 28px; border-bottom: 1px solid #a0b2a8; }
+.resource-page .worksheet-context { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 24px; font-size: .85rem; color: var(--muted); }
+.resource-page .worksheet-context p { margin: 0; }
+.resource-page .guide-conclusion { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 90px; padding-block: 80px; align-items: center; }
+.resource-page .guide-phone-copy { max-width: 680px; }
+.resource-page .guide-phone-copy > .text-link { margin-top: 24px; display: inline-block; }
+.resource-page .guide-phone-copy .play-badge { margin-top: 14px; }
+.resource-page .guide-app-note { font-size: .85rem; margin-top: 0; color: var(--muted); }
+.resource-page .guide-product { padding: 30px; background: #e9eee4 url('/assets/river-lines.svg') right bottom / 350px auto no-repeat; border-radius: 5px; }
+.resource-page .guide-product-frame { overflow: hidden; border-radius: 22px; background: #f7f6f1; box-shadow: 0 16px 35px #16372816; }
+.resource-page .guide-product figcaption { margin-top: 22px; font-size: .78rem; line-height: 1.6; }
+@media (max-width: 1100px) {
+  .resource-page .guide-reading { gap: 40px; grid-template-columns: 170px minmax(0, 1fr); }
+  .resource-page .record-details > div { grid-template-columns: 1fr; gap: 6px; }
+  .resource-page .worksheet-intro { gap: 35px; }
+  .resource-page .guide-conclusion { gap: 40px; }
+  .resource-page .worksheet-sheet { padding: 20px; }
+}
+@media screen and (max-width: 900px) {
+  .resource-page .guide-reading { display: block; }
+  .resource-page .guide-contents { position: static; margin-bottom: 40px; }
+  .resource-page .guide-contents ol { display: grid; grid-template-columns: 1fr 1fr; column-gap: 30px; }
+  .resource-page .guide-prose { max-width: 760px; margin-inline: auto; }
+  .resource-page .worksheet-intro { display: block; }
+  .resource-page .worksheet-action { margin-top: 28px; max-width: 370px; }
+  .resource-page .worksheet-mobile-note { display: block; font-size: .85rem; margin-bottom: 16px; }
+  .resource-page .sheet-heading { display: block; }
+  .resource-page .sheet-heading p { margin-top: 10px; }
+  .resource-page .catch-log, .resource-page .catch-log tbody { display: block; }
+  .resource-page .catch-log colgroup { display: none; }
+  .resource-page .catch-log thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .resource-page .catch-log tr { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid #93a59b; border-left: 1px solid #93a59b; }
+  .resource-page .catch-log td { display: block; height: auto; min-height: 85px; border: 0; border-bottom: 1px solid #93a59b; border-right: 1px solid #93a59b; font-size: .85rem; }
+  .resource-page .catch-log td:nth-child(5), .resource-page .catch-log td:last-child { grid-column: 1 / -1; }
+  .resource-page .catch-log tbody tr:not(:first-child) { display: none; }
+  .resource-page .mobile-field-label { display: block; font-weight: 700; }
+  .resource-page .worksheet-context { display: block; }
+  .resource-page .worksheet-context p + p { margin-top: 14px; }
+}
+@media (max-width: 760px) {
+  .resource-page .guide-intro { padding-block: 35px; background-size: 180px; background-position: right -70px top 75px; }
+  .resource-page .guide-intro h1 { font-size: 2.9rem; }
+  .resource-page .guide-title-break { display: none; }
+  .resource-page .guide-intro-bottom { display: block; margin-top: 24px; }
+  .resource-page .guide-deck { font-size: 1.2rem; }
+  .resource-page .worksheet-jump { display: block; margin-top: 24px; padding: 16px 18px; }
+  .resource-page .worksheet-jump span { float: right; margin-left: 10px; }
+  .resource-page .consent-wrap { margin-top: 0; }
+  .resource-page .guide-reading { padding-block: 32px 48px; }
+  .resource-page .guide-contents ol { display: block; }
+  .resource-page .guide-contents { margin-bottom: 32px; }
+  .resource-page .guide-contents .eyebrow { margin-bottom: 10px; }
+  .resource-page .guide-contents a { padding-block: 10px; }
+  .resource-page .guide-prose, .resource-page .guide-opening { font-size: 1.0625rem; }
+  .resource-page .guide-section { margin-top: 42px; }
+  .resource-page .guide-section h2, .resource-page .worksheet-intro h2, .resource-page .guide-conclusion h2 { font-size: 2.15rem; margin-bottom: 22px; }
+  .resource-page .record-details > div { padding-block: 16px; }
+  .resource-page .example-catch { padding: 23px; }
+  .resource-page .example-catch dl { grid-template-columns: 1fr 1fr; }
+  .resource-page .example-catch h3 { font-size: 2rem; }
+  .resource-page .example-label { font-size: .7rem; line-height: 1.6; }
+  .resource-page .record-pattern { padding: 24px; }
+  .resource-page .worksheet-section { padding-block: 42px; }
+  .resource-page .worksheet-sheet { padding: 18px; }
+  .resource-page .worksheet-action { max-width: none; }
+  .resource-page .worksheet-context { font-size: .85rem; }
+  .resource-page .guide-conclusion { display: flex; flex-direction: column; align-items: stretch; gap: 32px; padding-block: 48px; }
+  .resource-page .guide-product { max-width: 380px; padding: 24px; }
+}
+@media (max-width: 359px) {
+  .resource-page .guide-intro h1 { font-size: 2.5rem; }
+  .resource-page .worksheet-sheet { padding: 14px; }
+  .resource-page .catch-log td { padding: 8px; }
+}
+/* Native browser printing produces only the usable worksheet, even from mobile. */
+@media print {
+  @page { size: A4 landscape; margin: 12mm; }
+  html { scroll-behavior: auto; }
+  body.resource-page { background: #fff; color: #000; padding: 0; font: 10pt/1.4 Arial, sans-serif; }
+  .resource-page > :not(main), .resource-page article > :not(#worksheet) { display: none !important; }
+  .resource-page #worksheet { padding: 0; margin: 0; background: #fff; border: 0; }
+  .resource-page #worksheet > .wrap { width: 100%; margin: 0; }
+  .resource-page #worksheet > .wrap > :not(.worksheet-sheet) { display: none !important; }
+  .resource-page .worksheet-sheet { padding: 0; border: 0; box-shadow: none; border-radius: 0; break-inside: avoid; }
+  .resource-page .sheet-heading { display: block; margin-bottom: 5mm; }
+  .resource-page .sheet-heading h3 { font: 20pt/1.2 Georgia, serif; }
+  .resource-page .sheet-heading p { font-size: 9pt; color: #000; margin-top: 2mm; }
+  .resource-page .catch-log { display: table; width: 100%; font-size: 9pt; }
+  .resource-page .catch-log th { background: #fff; }
+  .resource-page .catch-log th, .resource-page .catch-log td { padding: 2.5mm; border-color: #555; }
+  .resource-page .catch-log td { height: 17mm; }
+  .resource-page .trip-notes { margin-top: 6mm; }
+  .resource-page .trip-notes h3 { font-size: 11pt; margin-bottom: 1.5mm; }
+  .resource-page .trip-notes p { font-size: 9pt; }
+  .resource-page .writing-lines span { height: 7mm; border-color: #777; }
+}

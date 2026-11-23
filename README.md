@@ -18,10 +18,11 @@ The preview binds to the local computer. The site has one shared inline analytic
 
 - `src/pages/index.astro`: homepage and SEO metadata.
 - `src/pages/fishing-journal-app.astro`: fishing journal acquisition page and its metadata.
+- `src/pages/guides/how-to-keep-a-fishing-journal.astro`: practical fishing-journal guide and standalone printable catch log.
 - `src/layouts/SiteLayout.astro`: shared metadata and static document structure.
-- `src/components/PlayLink.astro`: official Google Play badge link, used only in the hero and final section.
+- `src/components/PlayLink.astro`: official Google Play badge link, used in acquisition-page heroes and final sections, and only in the guide's concluding section.
 - `src/components/SiteHeader.astro`, `SiteFooter.astro`, and section components: the approved journal-first presentation.
-- `src/components/SiteInteractions.astro`: mobile menu closing and focus/space handling for the fixed consent panel; no analytics or storage.
+- `src/components/SiteInteractions.astro`: mobile menu closing, focus/space handling for the fixed consent panel, and native worksheet printing; no analytics or storage.
 - `src/product-assets.ts`: local build-time image encoding, with untouched original screenshot sources.
 - `src/components/WebAnalyticsConsent.astro`: shared optional website analytics and consent control.
 - `src/config.ts`: typed Play Store campaigns, privacy, and support destinations.
@@ -31,9 +32,11 @@ The preview binds to the local computer. The site has one shared inline analytic
 - `scripts/verify.mjs`: generated-output checks.
 - `scripts/verify-analytics.mjs`: deterministic behaviour checks against the generated consent script, run by `npm run verify`.
 
-The homepage uses the `website_launch` Play campaign (`referral`); the fishing journal page uses `fishing_journal_app` (`organic`). Both use `catchid_website` as the source. Play destinations include the same values inside Google's `referrer` parameter for install attribution. Pass the campaign to `PlayLink`. Every direct Play action must use its unaltered official badge; each page has exactly two (hero and final section). Navigation may link to the final section.
+The homepage uses the `website_launch` Play campaign (`referral`); the fishing journal page uses `fishing_journal_app` (`organic`); the practical guide uses `fishing_journal_guide` (`organic`). All use `catchid_website` as the source. Play destinations include the same values inside Google's `referrer` parameter for install attribution. Pass the campaign to `PlayLink`. Every direct Play action must use its unaltered official badge. The homepage and journal acquisition page each retain exactly two (hero and final section); the guide has one in its concluding CatchID section. Navigation may link to the final section.
 
-Verification covers both pages, their metadata and internal links, Play attribution, image assets, content guardrails, and the static output contract. For visual review, run `npm run preview` and inspect `/` and `/fishing-journal-app/` at 360, 390, 430, 768, 1024 and 1440 px. Confirm early access to the Play CTA, readable screenshots and FAQs, and no horizontal overflow.
+Verification covers all three pages, their metadata and internal links, Play attribution, image assets, content guardrails, and the static output contract. For visual review, run `npm run preview` and inspect `/`, `/fishing-journal-app/`, and `/guides/how-to-keep-a-fishing-journal/` at 320, 360, 390, 430, 768, 1024 and 1440 px. Confirm early access to the acquisition-page Play CTA, readable screenshots and content, working nested navigation, and no horizontal overflow.
+
+The guide's **Print the catch log** button uses native browser printing. The print stylesheet selects only the worksheet: five blank catch rows and optional separate trip notes on A4 landscape. Browser-added headers and footers should be switched off in the print dialog. Mobile shows a labelled first-row preview; all five rows print. With JavaScript disabled, use the browser Print menu. There are no form fields, submissions, saved worksheet data, generated-document dependencies or app import/export integration. The actual print PDF and screenshots are in [the CID-GROWTH-02 review pack](docs/CID-GROWTH-02/REVIEW.md).
 
 ## Optional website analytics
 
