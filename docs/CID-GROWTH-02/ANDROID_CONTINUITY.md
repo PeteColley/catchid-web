@@ -1,0 +1,25 @@
+# Prepared Android continuity entry
+
+**PREPARED ONLY — NOT APPLIED TO ANDROID PROJECT_STATUS.md.**
+
+The direct GitHub update was rejected by automatic approval review. Its stated reason was that changing the separate Android default `main` branch was outside the website-only implementation authority. The brief explicitly permits providing a prepared continuity entry when the update cannot be performed safely; this file is that fallback. No retry through another tool or indirect Android mutation was performed. Android main remains at the previously verified `55c0cc6a9ac85e03fb88e55589f74f3f6bc91b57`.
+
+The verified website delivery checkpoint below is immutable; subsequent website commits only document this fallback. The existing Android status/history remains unchanged. This entry is ready for a later authorised documentation update, not an additional recommended next action for this task.
+
+---
+
+## CID-GROWTH-02 — fishing journal guide implemented and pushed — 23 November 2026
+
+**IMPLEMENTED AND PUSHED — NOT LIVE — AWAITING VISUAL AND PUBLICATION APPROVAL.** Pete authorised the first organic-acquisition website candidate. Website branch `codex/cid-growth-02-journal-guide` contains exact tested implementation `829beb5b7141e4fbadded37be9e6ece64fe21b47`, with verified documentation-only delivery receipt `7edade587e504f6df7446ffe6bdfcbb3d162f4ee`. Separate GitHub readback verified the remote ref, source and 110 relevant file blobs, including the complete screenshots and actual print PDF. Website main remains `c5a2a9ea6dee8c3b2c0457552ed789605e46f687`; no merge, production Pages workflow, public preview or publication occurred.
+
+The single guide preserves the approved CID-GROWTH-01 advice, labelled catch example, optional-photo recording and distinction between recorded catches and success rates. It includes an actual free standalone catch-log worksheet: eight fields, five blank catch rows and separate manual trip notes. Native printing produces one A4 landscape sheet, without site navigation, analytics controls or app promotion; mobile has a clearly explained first-row preview. The guide has one official Play badge using `catchid_website / organic / fishing_journal_guide` and the existing nested install referrer. Both existing pages retain their two badges and acquisition purpose; only a restrained journal-page link and shared footer link were added. Approved historical product imagery reused. Consent runtime/measurement ID, inbound attribution, dependencies, global styles and deployment workflow are unchanged.
+
+**Verification:** baseline and final Node 24 locked install/check/build/verify and complete diff checks pass; final check 0 errors/0 warnings/11 informational hints. All 144 Chromium width/text/consent cases (320–1440 px, normal/1.6× effective text, first/denied/granted consent), keyboard/navigation/withdrawal/all-five-Play-link checks and six deliberate verifier rejection probes pass. Analytics and external traffic were controlled/mocked; no production acquisition statistics were generated. Actual JS/no-JS print PDFs each have one A4 landscape page, five approximately 17 mm blank rows, all eight fields and separate notes; rendered with Poppler and visually inspected. **Sceptical SELF-REVIEW**, not independent code/design review; the mobile worksheet grid gap found visually was corrected and the matrix rerun. No unresolved implementation defect identified in performed checks. No physical-device, Safari/Firefox, spoken-reader, native browser-zoom or physical-printer acceptance is claimed. One moderate affected Astro package/two existing audit advisories remain; no matching dynamic untrusted-tag or on-demand Node image-server path was found, dependencies unchanged. No ranking/traffic/retention claim.
+
+[Exact delivery receipt](https://github.com/PeteColley/catchid-web/blob/7edade587e504f6df7446ffe6bdfcbb3d162f4ee/docs/CID-GROWTH-02/DELIVERY.md) · [Complete visual review pack](https://github.com/PeteColley/catchid-web/blob/7edade587e504f6df7446ffe6bdfcbb3d162f4ee/docs/CID-GROWTH-02/REVIEW.md) · [Technical handover and limitations](https://github.com/PeteColley/catchid-web/blob/7edade587e504f6df7446ffe6bdfcbb3d162f4ee/docs/CID-GROWTH-02/HANDOVER.md) · [Actual A4 worksheet PDF](https://github.com/PeteColley/catchid-web/blob/7edade587e504f6df7446ffe6bdfcbb3d162f4ee/docs/CID-GROWTH-02/evidence/catch-log-a4-landscape.pdf).
+
+When applied, this continuity entry changes documentation only. Android runtime, version/identity, Play/Firebase, existing catches/cloud data, parked Smart Locations, growth/outreach automation, social publication and paid budgets are untouched. Existing unrelated local worktrees and ignored artifacts are preserved. Android production remains owner-confirmed 1.2.15/code 35 with the previous direct-verification qualifications unchanged. CID-GROWTH-01's former next implementation decision is superseded by this authorised candidate; publication is still separate.
+
+**Only recommended next action: Pete and ChatGPT review the completed resource.**
+
+---

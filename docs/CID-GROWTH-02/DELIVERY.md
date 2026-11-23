@@ -35,4 +35,6 @@ No new physical-device, Safari/Firefox, spoken-reader, native browser-zoom or ph
 
 No main merge, Pages dispatch, public preview, Android runtime/version, Play/Firebase, advertising budget, social publication or outreach-automation change occurred.
 
+**Android continuity fallback:** automatic approval review rejected writing directly to the separate Android `main` branch, stating that it was outside the website-only authority. No Android file was changed and no alternate mutation was attempted. The brief's permitted fallback is provided as [the prepared PROJECT_STATUS entry](ANDROID_CONTINUITY.md). The website candidate remains fully implemented and pushed.
+
 **Only recommended next action: Pete and ChatGPT review the completed resource.**
