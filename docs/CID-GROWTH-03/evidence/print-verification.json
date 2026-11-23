@@ -1,0 +1,21 @@
+[
+  {
+    "file": "live-catch-log-a4-landscape.pdf",
+    "pages": 1,
+    "widthPt": 841.91998,
+    "heightPt": 594.95996,
+    "catchRows": 5,
+    "columns": 8,
+    "rowHeightsMm": [
+      16.89,
+      17.2,
+      16.93,
+      16.93,
+      16.93
+    ],
+    "blankRows": true,
+    "excludedSiteChrome": true,
+    "textWithinMargins": true,
+    "text": "Fishing catch log One fish per row. Include units; leave unknown measurements blank. Date and time Species Venue Method Bait, lure or fly Weight and unit Length and unit Notes or photo reference Optional separate trip notes Date \u00b7 Venue \u00b7 Hours fished \u00b7 Conditions \u00b7 Methods tried \u00b7 Number of fish caught (including zero) \u00b7 Observations"
+  }
+]

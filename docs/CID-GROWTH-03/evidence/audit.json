@@ -1,0 +1,70 @@
+{
+  "auditReportVersion": 2,
+  "vulnerabilities": {
+    "astro": {
+      "name": "astro",
+      "severity": "moderate",
+      "isDirect": true,
+      "via": [
+        {
+          "source": 1246685,
+          "name": "astro",
+          "dependency": "astro",
+          "title": "Astro: XSS via attribute injection in dynamic tag names",
+          "url": "https://github.com/advisories/GHSA-mh32-jxcr-mh9f",
+          "severity": "low",
+          "cwe": [
+            "CWE-79",
+            "CWE-184"
+          ],
+          "cvss": {
+            "score": 0,
+            "vectorString": null
+          },
+          "range": "<=7.4.4"
+        },
+        {
+          "source": 1246686,
+          "name": "astro",
+          "dependency": "astro",
+          "title": "Astro: Image endpoint in @astrojs/node can read files from a case-variant sibling of the output directory on case-sensitive filesystems",
+          "url": "https://github.com/advisories/GHSA-r3h5-4585-7x3w",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-22",
+            "CWE-178"
+          ],
+          "cvss": {
+            "score": 0,
+            "vectorString": null
+          },
+          "range": ">=5.14.3 <=7.4.6"
+        }
+      ],
+      "effects": [],
+      "range": "<=7.4.6",
+      "nodes": [
+        "node_modules/astro"
+      ],
+      "fixAvailable": true
+    }
+  },
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 1,
+      "high": 0,
+      "critical": 0,
+      "total": 1
+    },
+    "dependencies": {
+      "prod": 256,
+      "dev": 0,
+      "optional": 108,
+      "peer": 2,
+      "peerOptional": 0,
+      "total": 363
+    }
+  }
+}

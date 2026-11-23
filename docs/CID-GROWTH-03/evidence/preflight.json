@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-11-23T23:40:10.295Z",
+  "approved": "871ebbeb8e72f0222427002c1ac58f696c328e0d",
+  "testedImplementation": "829beb5b7141e4fbadded37be9e6ece64fe21b47",
+  "protectedPaths": [
+    "src/components/WebAnalyticsConsent.astro",
+    "scripts/verify-analytics.mjs",
+    "src/styles/global.css",
+    "src/assets",
+    "package.json",
+    "package-lock.json",
+    "astro.config.mjs",
+    ".github/workflows/deploy.yml"
+  ],
+  "postImplementation": [
+    "docs/CID-GROWTH-02/ANDROID_CONTINUITY.md",
+    "docs/CID-GROWTH-02/DELIVERY.md"
+  ],
+  "sourceHashesMatched": 32,
+  "outputHashesMatched": 31,
+  "outputDifferences": [
+    "dist/CNAME",
+    "dist/app-ads.txt",
+    "dist/assets/river-lines.svg"
+  ],
+  "outputDifferenceReason": "Three copied public text assets use LF in this checkout versus CRLF in the earlier Windows checkout. Re-encoding LF to CRLF reproduces every prior hash exactly; all HTML, CSS and binary assets match byte-for-byte. Initial strict all-byte comparison caught and exposed this expected checkout difference.",
+  "linuxPreflight": "No installed WSL distribution, Docker or Podman; unchanged Ubuntu Pages build gates deployment.",
+  "searchConsole": "Unavailable: existing GSC Wizard connection reports payment_required/subscription_required. No tool or subscription changes. No indexing claim."
+}

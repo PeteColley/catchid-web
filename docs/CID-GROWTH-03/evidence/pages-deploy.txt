@@ -1,0 +1,59 @@
+2026-11-23T23:41:18.1827799Z Current runner version: '2.338.2'
+2026-11-23T23:41:18.1849198Z ##[group]Runner Image Provisioner
+2026-11-23T23:41:18.1849958Z Hosted Compute Agent
+2026-11-23T23:41:18.1850528Z Version: 20261111.635
+2026-11-23T23:41:18.1851056Z Commit: b8a594ea514ff44cadb5342986c68b1eac6e22ed
+2026-11-23T23:41:18.1851709Z Build Date: 2026-11-11T01:49:01Z
+2026-11-23T23:41:18.1852276Z Worker ID: {e08a549a-708d-46a2-96f9-d255860e1926}
+2026-11-23T23:41:18.1852850Z Region: westus3
+2026-11-23T23:41:18.1853347Z Cloud: Azure
+2026-11-23T23:41:18.1853791Z ##[endgroup]
+2026-11-23T23:41:18.1854903Z ##[group]Operating System
+2026-11-23T23:41:18.1855662Z Ubuntu
+2026-11-23T23:41:18.1856095Z 26.04.1
+2026-11-23T23:41:18.1856561Z LTS
+2026-11-23T23:41:18.1856994Z ##[endgroup]
+2026-11-23T23:41:18.1857461Z ##[group]Runner Image
+2026-11-23T23:41:18.1858007Z Image: ubuntu-26.04
+2026-11-23T23:41:18.1858525Z Version: 20261116.202.1
+2026-11-23T23:41:18.1859936Z Included Software: https://github.com/actions/runner-images/blob/ubuntu26/20261116.202/images/ubuntu/Ubuntu2604-Readme.md
+2026-11-23T23:41:18.1861211Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu26%2F20261116.202
+2026-11-23T23:41:18.1861999Z ##[endgroup]
+2026-11-23T23:41:18.1862923Z ##[group]GITHUB_TOKEN Permissions
+2026-11-23T23:41:18.1864644Z Metadata: read
+2026-11-23T23:41:18.1865296Z Pages: write
+2026-11-23T23:41:18.1865812Z ##[endgroup]
+2026-11-23T23:41:18.1867574Z Secret source: Actions
+2026-11-23T23:41:18.1868382Z Cache mode: write
+2026-11-23T23:41:18.1869016Z Prepare workflow directory
+2026-11-23T23:41:18.2186428Z Prepare all required actions
+2026-11-23T23:41:18.2225704Z Getting action download info
+2026-11-23T23:41:18.5123746Z Download action repository 'actions/deploy-pages@v5' (SHA:368f82528645a54fb793d4d04e342629a3f51346)
+2026-11-23T23:41:19.2754008Z Complete job name: deploy
+2026-11-23T23:41:19.3520062Z ##[group]Run actions/deploy-pages@v5
+2026-11-23T23:41:19.3520864Z with:
+2026-11-23T23:41:19.3524280Z   token: ***
+2026-11-23T23:41:19.3524671Z   timeout: 600000
+2026-11-23T23:41:19.3525364Z   error_count: 10
+2026-11-23T23:41:19.3525791Z   reporting_interval: 5000
+2026-11-23T23:41:19.3526254Z   artifact_name: github-pages
+2026-11-23T23:41:19.3526706Z   preview: false
+2026-11-23T23:41:19.3527351Z env:
+2026-11-23T23:41:19.3527724Z   ASTRO_TELEMETRY_DISABLED: 1
+2026-11-23T23:41:19.3528181Z ##[endgroup]
+2026-11-23T23:41:19.6760229Z (node:2080) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-23T23:41:19.6761434Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-23T23:41:19.9249918Z Fetching artifact metadata for "github-pages" in this workflow run
+2026-11-23T23:41:20.1262910Z Found 1 artifact(s)
+2026-11-23T23:41:20.1318173Z Creating Pages deployment with payload:
+2026-11-23T23:41:20.1319196Z {
+2026-11-23T23:41:20.1319734Z 	"artifact_id": 14873742177,
+2026-11-23T23:41:20.1320594Z 	"pages_build_version": "871ebbeb8e72f0222427002c1ac58f696c328e0d",
+2026-11-23T23:41:20.1419662Z 	"oidc_token": "***"
+2026-11-23T23:41:20.1420826Z }
+2026-11-23T23:41:21.0088470Z Created deployment for 871ebbeb8e72f0222427002c1ac58f696c328e0d, ID: 871ebbeb8e72f0222427002c1ac58f696c328e0d
+2026-11-23T23:41:25.5061003Z Getting Pages deployment status...
+2026-11-23T23:41:25.8008285Z Reported success!
+2026-11-23T23:41:25.8299278Z Evaluate and set environment url
+2026-11-23T23:41:25.8303489Z Evaluated environment url: https://catchid.app/
+2026-11-23T23:41:25.8304255Z Cleaning up orphan processes

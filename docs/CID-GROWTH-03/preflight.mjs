@@ -1,0 +1,22 @@
+// Publication evidence only; no production dependencies or files are modified.
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+import assert from 'node:assert/strict';
+const approved='871ebbeb8e72f0222427002c1ac58f696c328e0d';
+const git=(...a)=>execFileSync('git',a,{encoding:'utf8'}).trim();
+const sha=b=>createHash('sha256').update(b).digest('hex');
+assert.equal(git('rev-parse','HEAD'),approved);
+assert.equal(git('diff','--name-only','HEAD','--','src','scripts','public','package.json','package-lock.json','astro.config.mjs','.github'),'');
+const protectedPaths=['src/components/WebAnalyticsConsent.astro','scripts/verify-analytics.mjs','src/styles/global.css','src/assets','package.json','package-lock.json','astro.config.mjs','.github/workflows/deploy.yml'];
+assert.equal(git('diff','--name-only','c5a2a9ea6dee8c3b2c0457552ed789605e46f687','HEAD','--',...protectedPaths),'');
+const postImplementation=git('diff','--name-only','829beb5b7141e4fbadded37be9e6ece64fe21b47','HEAD').split('\n');
+assert(postImplementation.every(p=>p.startsWith('docs/')));
+const prior=JSON.parse(fs.readFileSync('docs/CID-GROWTH-02/evidence/source-output-manifest.json'));
+for(const [p,h] of Object.entries(prior.sources))assert.equal(sha(fs.readFileSync(p,'utf8').replaceAll('\r\n','\n')),h,p);
+const outputDifferences=Object.entries(prior.output).filter(([p,h])=>sha(fs.readFileSync(p))!==h).map(([p])=>p);
+assert.deepEqual(outputDifferences,['dist/CNAME','dist/app-ads.txt','dist/assets/river-lines.svg']);
+for(const p of outputDifferences)assert.equal(sha(fs.readFileSync(p,'utf8').replaceAll('\n','\r\n')),prior.output[p],p+' differs only by LF checkout vs earlier CRLF');
+const report={checkedAt:new Date().toISOString(),approved,testedImplementation:'829beb5b7141e4fbadded37be9e6ece64fe21b47',protectedPaths,postImplementation,sourceHashesMatched:Object.keys(prior.sources).length,outputHashesMatched:Object.keys(prior.output).length-outputDifferences.length,outputDifferences,outputDifferenceReason:'Three copied public text assets use LF in this checkout versus CRLF in the earlier Windows checkout. Re-encoding LF to CRLF reproduces every prior hash exactly; all HTML, CSS and binary assets match byte-for-byte. Initial strict all-byte comparison caught and exposed this expected checkout difference.',linuxPreflight:'No installed WSL distribution, Docker or Podman; unchanged Ubuntu Pages build gates deployment.',searchConsole:'Unavailable: existing GSC Wizard connection reports payment_required/subscription_required. No tool or subscription changes. No indexing claim.'};
+fs.writeFileSync('docs/CID-GROWTH-03/evidence/preflight.json',JSON.stringify(report,null,2)+'\n');
+console.log(report);

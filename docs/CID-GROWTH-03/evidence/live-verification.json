@@ -1,0 +1,466 @@
+{
+  "started": "2026-11-23T23:43:18.501Z",
+  "method": "Public HTTPS readback; Chromium with all external traffic intercepted, inert GA loader and prevented Play navigation. No real acquisition/analytics submissions.",
+  "files": [
+    {
+      "route": "/app-ads.txt",
+      "status": 200,
+      "bytes": 59,
+      "sha256": "88173f8ebd83f562421668a2cf4ddf1b731d174dbf97037b7f6ee00b6649e851",
+      "expected": "88173f8ebd83f562421668a2cf4ddf1b731d174dbf97037b7f6ee00b6649e851",
+      "match": true,
+      "contentType": "text/plain; charset=utf-8",
+      "robotsHeader": null
+    },
+    {
+      "route": "/assets/google-play-badge.svg",
+      "status": 200,
+      "bytes": 5078,
+      "sha256": "4ffa4c7edd2f10b297ca4de2131eddaa00d03b2278d1e178fe512920d824ca34",
+      "expected": "4ffa4c7edd2f10b297ca4de2131eddaa00d03b2278d1e178fe512920d824ca34",
+      "match": true,
+      "contentType": "image/svg+xml",
+      "robotsHeader": null
+    },
+    {
+      "route": "/assets/river-lines.svg",
+      "status": 200,
+      "bytes": 400,
+      "sha256": "ee82c5cfffb762300f756dca79ef8449f8ede61728f30df509dbef0d821f1eb6",
+      "expected": "ee82c5cfffb762300f756dca79ef8449f8ede61728f30df509dbef0d821f1eb6",
+      "match": true,
+      "contentType": "image/svg+xml",
+      "robotsHeader": null
+    },
+    {
+      "route": "/CNAME",
+      "status": 200,
+      "bytes": 12,
+      "sha256": "1044cdd2b8a8555ff5ac175cc03d62a84994727fd5ad853b744b15485af2e849",
+      "expected": "1044cdd2b8a8555ff5ac175cc03d62a84994727fd5ad853b744b15485af2e849",
+      "match": true,
+      "contentType": "application/octet-stream",
+      "robotsHeader": null
+    },
+    {
+      "route": "/fishing-journal-app/",
+      "status": 200,
+      "bytes": 19456,
+      "sha256": "f2a30e26cb88db759e1b76d69a29d898a623a9d2ca19f2b233e45173313bf415",
+      "expected": "f2a30e26cb88db759e1b76d69a29d898a623a9d2ca19f2b233e45173313bf415",
+      "match": true,
+      "contentType": "text/html; charset=utf-8",
+      "robotsHeader": null
+    },
+    {
+      "route": "/guides/how-to-keep-a-fishing-journal/",
+      "status": 200,
+      "bytes": 24774,
+      "sha256": "63a957c7dc77a97bba884a9159aca70dfd88b1cb973e9035e739464d3f899647",
+      "expected": "63a957c7dc77a97bba884a9159aca70dfd88b1cb973e9035e739464d3f899647",
+      "match": true,
+      "contentType": "text/html; charset=utf-8",
+      "robotsHeader": null
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 23017,
+      "sha256": "021f0b8feaf233376a0254f1a6d176bb11e93a1fc4f81b33d70777386be0ac99",
+      "expected": "021f0b8feaf233376a0254f1a6d176bb11e93a1fc4f81b33d70777386be0ac99",
+      "match": true,
+      "contentType": "text/html; charset=utf-8",
+      "robotsHeader": null
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "bytes": 64,
+      "sha256": "360551b7e23c2d74edf3c637529e1675006ab9053659f03967c8be9d999bd7b7",
+      "expected": "360551b7e23c2d74edf3c637529e1675006ab9053659f03967c8be9d999bd7b7",
+      "match": true,
+      "contentType": "text/plain; charset=utf-8",
+      "robotsHeader": null
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "bytes": 290,
+      "sha256": "36d1da80c52e93e38851a073bb61acc9181041329b3bcc11514d075b055681ad",
+      "expected": "36d1da80c52e93e38851a073bb61acc9181041329b3bcc11514d075b055681ad",
+      "match": true,
+      "contentType": "application/xml",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/catchid-icon.CDgxPLyC_13nBPw.webp",
+      "status": 200,
+      "bytes": 608,
+      "sha256": "0ca86da8fb71f3b71cd0e3259800562d36248f980cb40c421837b1ba17512824",
+      "expected": "0ca86da8fb71f3b71cd0e3259800562d36248f980cb40c421837b1ba17512824",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/catchid-icon.CDgxPLyC_16wfwd.webp",
+      "status": 200,
+      "bytes": 826,
+      "sha256": "4c02f829744c74df501481dfd88b3c47abdbb57dbb4cb3e824c55c2cadef3683",
+      "expected": "4c02f829744c74df501481dfd88b3c47abdbb57dbb4cb3e824c55c2cadef3683",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/catchid-icon.CDgxPLyC_Z9VQHn.png",
+      "status": 200,
+      "bytes": 5737,
+      "sha256": "7372b039d41a5d88c45a23614ebb90613b73dbb88bc54f49169e781703221b20",
+      "expected": "7372b039d41a5d88c45a23614ebb90613b73dbb88bc54f49169e781703221b20",
+      "match": true,
+      "contentType": "image/png",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/home-1.2.12.C6mDn6gx.png",
+      "status": 200,
+      "bytes": 283458,
+      "sha256": "7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349",
+      "expected": "7e228e3c048f27aa5e3f40b604a9528ad6e81ef264328cda8ce7cdecfb69e349",
+      "match": true,
+      "contentType": "image/png",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/home-1.2.12.C6mDn6gx_1AJTyT.webp",
+      "status": 200,
+      "bytes": 104952,
+      "sha256": "a8e720fd2525ca6fac9eb3df023ade561159668eaaee6c9122e7c472cdd2d853",
+      "expected": "a8e720fd2525ca6fac9eb3df023ade561159668eaaee6c9122e7c472cdd2d853",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/how-to-keep-a-fishing-journal.8frfiBy2.css",
+      "status": 200,
+      "bytes": 11692,
+      "sha256": "baac4612a7be1b8150d1e148aeb92a96d94d012478f1d2edb11cb137a4077e3c",
+      "expected": "baac4612a7be1b8150d1e148aeb92a96d94d012478f1d2edb11cb137a4077e3c",
+      "match": true,
+      "contentType": "text/css; charset=utf-8",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/identify.DwSz2tOT.jpg",
+      "status": 200,
+      "bytes": 497255,
+      "sha256": "53a372f4d20e15dcd722544b89c436c7ce251ede0323aef153ea4bc7245d75c0",
+      "expected": "53a372f4d20e15dcd722544b89c436c7ce251ede0323aef153ea4bc7245d75c0",
+      "match": true,
+      "contentType": "image/jpeg",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/identify.DwSz2tOT_ZhwjW6.webp",
+      "status": 200,
+      "bytes": 289070,
+      "sha256": "1bd70c952c5b0238769ab6dbf7140a92f72086e9d3365ad7a9df760e2c600321",
+      "expected": "1bd70c952c5b0238769ab6dbf7140a92f72086e9d3365ad7a9df760e2c600321",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/insights-overview.DpZraCKL.jpg",
+      "status": 200,
+      "bytes": 104186,
+      "sha256": "ac2884c9fa34510b257c2fbcdc40b2eac50316925d89c837a7d4e7707e09ee36",
+      "expected": "ac2884c9fa34510b257c2fbcdc40b2eac50316925d89c837a7d4e7707e09ee36",
+      "match": true,
+      "contentType": "image/jpeg",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/insights-overview.DpZraCKL_ZqtixD.webp",
+      "status": 200,
+      "bytes": 82300,
+      "sha256": "5494238b62615b60987c6fd276e273787afe51dbb26324ae9a5c110e8025631c",
+      "expected": "5494238b62615b60987c6fd276e273787afe51dbb26324ae9a5c110e8025631c",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/journal.BXx_c0T3.jpg",
+      "status": 200,
+      "bytes": 317462,
+      "sha256": "088899d963d12973db1032df2fd4605cc08c708305b3885702a3e9717cb4bbd9",
+      "expected": "088899d963d12973db1032df2fd4605cc08c708305b3885702a3e9717cb4bbd9",
+      "match": true,
+      "contentType": "image/jpeg",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/journal.BXx_c0T3_1dla5x.webp",
+      "status": 200,
+      "bytes": 147492,
+      "sha256": "eed579101801d9766d7bc42cefd344d1335fc78551201d382afa7bf4f21c230d",
+      "expected": "eed579101801d9766d7bc42cefd344d1335fc78551201d382afa7bf4f21c230d",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/personal-records.FMzRFCFP.jpg",
+      "status": 200,
+      "bytes": 118736,
+      "sha256": "4b20cd52cbd4a65718e35f13ac5b2764ece429e64bd92ca8829439a1bb03669c",
+      "expected": "4b20cd52cbd4a65718e35f13ac5b2764ece429e64bd92ca8829439a1bb03669c",
+      "match": true,
+      "contentType": "image/jpeg",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/personal-records.FMzRFCFP_DXVGt.webp",
+      "status": 200,
+      "bytes": 105280,
+      "sha256": "4fbd3631ea3d3396b4daac57e0610b45e34e1321601cabe0b21c420c11b3011a",
+      "expected": "4fbd3631ea3d3396b4daac57e0610b45e34e1321601cabe0b21c420c11b3011a",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1V0uEo.jpg",
+      "status": 200,
+      "bytes": 282475,
+      "sha256": "282b89a21cb4824f54946d79368aa9c330138e65b06c5cee0abbf11082fff99d",
+      "expected": "282b89a21cb4824f54946d79368aa9c330138e65b06c5cee0abbf11082fff99d",
+      "match": true,
+      "contentType": "image/jpeg",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_1wgjv8.webp",
+      "status": 200,
+      "bytes": 186714,
+      "sha256": "afe713ece9887e0ad35a651df55091253b716dc809f502d7490cd185cda27efe",
+      "expected": "afe713ece9887e0ad35a651df55091253b716dc809f502d7490cd185cda27efe",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2awlcP.webp",
+      "status": 200,
+      "bytes": 60632,
+      "sha256": "a5837f345776dc5d38b1c6c56c8ac752672288e2e5b81fa14172d004d8b0223c",
+      "expected": "a5837f345776dc5d38b1c6c56c8ac752672288e2e5b81fa14172d004d8b0223c",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2uVOKt.webp",
+      "status": 200,
+      "bytes": 328818,
+      "sha256": "c0441d397bb46a6c75f3457cdd483f2764560abe3c22e9dcc585445042ef1136",
+      "expected": "c0441d397bb46a6c75f3457cdd483f2764560abe3c22e9dcc585445042ef1136",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_2vXFkg.jpg",
+      "status": 200,
+      "bytes": 134422,
+      "sha256": "6498c9282e796947ffbbf66b77394477cb2d8a7400fccd5f43ddb6fa5e1f9419",
+      "expected": "6498c9282e796947ffbbf66b77394477cb2d8a7400fccd5f43ddb6fa5e1f9419",
+      "match": true,
+      "contentType": "image/jpeg",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_T0xok.jpg",
+      "status": 200,
+      "bytes": 42249,
+      "sha256": "d564e228531ddb639b3d45126e23dfa9ab0f51ed2f9000dd286ece8d59492368",
+      "expected": "d564e228531ddb639b3d45126e23dfa9ab0f51ed2f9000dd286ece8d59492368",
+      "match": true,
+      "contentType": "image/jpeg",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1pXoS7.webp",
+      "status": 200,
+      "bytes": 92718,
+      "sha256": "1d6ea6b92ae8c7c92c3eff8b17c128ead524913fe8632a2adf84a42231e2c491",
+      "expected": "1d6ea6b92ae8c7c92c3eff8b17c128ead524913fe8632a2adf84a42231e2c491",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z1WQH50.jpg",
+      "status": 200,
+      "bytes": 83725,
+      "sha256": "12bd630b0162273186182d2a4be85594f6cb08b1ff086debc02364d76702bf61",
+      "expected": "12bd630b0162273186182d2a4be85594f6cb08b1ff086debc02364d76702bf61",
+      "match": true,
+      "contentType": "image/jpeg",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2av7Tc.jpg",
+      "status": 200,
+      "bytes": 505846,
+      "sha256": "374647f37a2012c6ec1e8a27f900f0a71b9633cc0b3fb30fb4cb95a81cefa0ec",
+      "expected": "374647f37a2012c6ec1e8a27f900f0a71b9633cc0b3fb30fb4cb95a81cefa0ec",
+      "match": true,
+      "contentType": "image/jpeg",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/photo-1-patagonia-savage-37096316.BTwCUI1U_Z2Mx7L.webp",
+      "status": 200,
+      "bytes": 32732,
+      "sha256": "32858dc97f6b4097b0356e30ba0d74f1411dfea1c6368d4aeebb681b7a7e674f",
+      "expected": "32858dc97f6b4097b0356e30ba0d74f1411dfea1c6368d4aeebb681b7a7e674f",
+      "match": true,
+      "contentType": "image/webp",
+      "robotsHeader": null
+    },
+    {
+      "route": "/_astro/ProductCrop.B4iCblLi.css",
+      "status": 200,
+      "bytes": 26874,
+      "sha256": "806aaf366b8e4e1e01c36c4f722ddc2f8a62e65669b0e77cc3604dfbe76ffcf4",
+      "expected": "806aaf366b8e4e1e01c36c4f722ddc2f8a62e65669b0e77cc3604dfbe76ffcf4",
+      "match": true,
+      "contentType": "text/css; charset=utf-8",
+      "robotsHeader": null
+    }
+  ],
+  "routes": [
+    {
+      "name": "home",
+      "route": "/",
+      "badges": 2,
+      "campaign": "website_launch",
+      "medium": "referral"
+    },
+    {
+      "name": "journal",
+      "route": "/fishing-journal-app/",
+      "badges": 2,
+      "campaign": "fishing_journal_app",
+      "medium": "organic"
+    },
+    {
+      "name": "guide",
+      "route": "/guides/how-to-keep-a-fishing-journal/",
+      "badges": 1,
+      "campaign": "fishing_journal_guide",
+      "medium": "organic"
+    }
+  ],
+  "browserCases": [
+    {
+      "name": "home",
+      "width": 390,
+      "title": "CatchID – Fishing Journal & Fish Identification App for Android",
+      "canonical": "https://catchid.app/",
+      "noindex": false,
+      "badges": 2,
+      "badImages": [],
+      "overflow": false,
+      "consentVisible": true,
+      "loaders": 0,
+      "badAnchors": []
+    },
+    {
+      "name": "home",
+      "width": 1440,
+      "title": "CatchID – Fishing Journal & Fish Identification App for Android",
+      "canonical": "https://catchid.app/",
+      "noindex": false,
+      "badges": 2,
+      "badImages": [],
+      "overflow": false,
+      "consentVisible": true,
+      "loaders": 0,
+      "badAnchors": []
+    },
+    {
+      "name": "journal",
+      "width": 390,
+      "title": "Fishing Journal App for Android | CatchID",
+      "canonical": "https://catchid.app/fishing-journal-app/",
+      "noindex": false,
+      "badges": 2,
+      "badImages": [],
+      "overflow": false,
+      "consentVisible": true,
+      "loaders": 0,
+      "badAnchors": []
+    },
+    {
+      "name": "journal",
+      "width": 1440,
+      "title": "Fishing Journal App for Android | CatchID",
+      "canonical": "https://catchid.app/fishing-journal-app/",
+      "noindex": false,
+      "badges": 2,
+      "badImages": [],
+      "overflow": false,
+      "consentVisible": true,
+      "loaders": 0,
+      "badAnchors": []
+    },
+    {
+      "name": "guide",
+      "width": 390,
+      "title": "How to Keep a Fishing Journal: A Simple Catch Log + Free Template",
+      "canonical": "https://catchid.app/guides/how-to-keep-a-fishing-journal/",
+      "noindex": false,
+      "badges": 1,
+      "badImages": [],
+      "overflow": false,
+      "consentVisible": true,
+      "loaders": 0,
+      "badAnchors": []
+    },
+    {
+      "name": "guide",
+      "width": 1440,
+      "title": "How to Keep a Fishing Journal: A Simple Catch Log + Free Template",
+      "canonical": "https://catchid.app/guides/how-to-keep-a-fishing-journal/",
+      "noindex": false,
+      "badges": 1,
+      "badImages": [],
+      "overflow": false,
+      "consentVisible": true,
+      "loaders": 0,
+      "badAnchors": []
+    }
+  ],
+  "interactions": [
+    "home: consent default-off, deny/accept persistence, keyboard focus, inert loader, all Play clicks locally captured, withdrawal/cookie cleanup and crawlable guide links passed",
+    "journal: consent default-off, deny/accept persistence, keyboard focus, inert loader, all Play clicks locally captured, withdrawal/cookie cleanup and crawlable guide links passed",
+    "guide: consent default-off, deny/accept persistence, keyboard focus, inert loader, all Play clicks locally captured, withdrawal/cookie cleanup and crawlable guide links passed"
+  ],
+  "errors": [],
+  "blocked": [],
+  "mockedGa": 6,
+  "browser": "157.0.8103.79",
+  "print": {
+    "visibleRows": 5,
+    "consentVisible": false,
+    "footerVisible": false,
+    "badgeVisible": false
+  },
+  "completed": "2026-11-23T23:43:52.856Z",
+  "result": "PASS"
+}
